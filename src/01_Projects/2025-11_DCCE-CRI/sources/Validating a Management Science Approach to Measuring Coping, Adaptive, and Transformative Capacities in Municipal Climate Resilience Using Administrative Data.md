@@ -60,7 +60,6 @@ Recent studies demonstrate the use of secondary administrative datasets as quant
     - In-year budget amendment frequency initiated by executive branch.
 
 #### Innovation
-
 - **Diversity of Budget Codes**: Number/diversity of functional budget codes used annually indicates flexibility/adaptiveness in resource allocation.
 - **Plan Revision Frequency**: Number/frequency of formal updates to strategic plans or SOPs logged in official records (Lowe et al., 2024; Suárez et al., 2024).
 - **After-action Review Compliance**: Proportion of major events with completed after-action reports within a set timeframe.

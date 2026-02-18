@@ -3,9 +3,9 @@ type:
   - Artifact
 status:
   - current
-version: 2
+version: 3
 created: 2026-01-21
-last_updated: 2026-02-03
+last_updated: 2026-02-18
 project:
   - DCCE_CRI
 related_hypothesis: "[[CRI pivoting to social-ecological system and context focused]]"
@@ -15,6 +15,9 @@ related_hypothesis: "[[CRI pivoting to social-ecological system and context focu
 >[!note] Change Log
 >- v1: project kick-off - Readiness and Resilience
 >- v2: After pivoting the project's strategy [[CRI pivoting to social-ecological system and context focused]]
+>- v3: update after TEI meeting
+
+
 
 # 1. Strategic Context: Balancing Rigor and Reality
 
@@ -40,6 +43,9 @@ To transition DCCE from a "Disaster Management" mindset to a "Resilience" mindse
 >[!important] 
 >Unlike asset‑based vulnerability indices, these capacity tiers are **process‑ and governance‑oriented**: they prioritise mechanisms such as planning, coordination, information flows and institutional agency over static stocks of infrastructure or capital.
 
+Need to be revised by
+[[Execution Checklist - 18 Feb Afternoon session 1]]
+
 ## 2.1 Coping Capacity 
 
 - **Concept:** The ability to withstand immediate shocks using _existing_ resources without changing the system.
@@ -58,13 +64,9 @@ To transition DCCE from a "Disaster Management" mindset to a "Resilience" mindse
 - **Bureaucratic Translation:** Development Planning & Resource Allocation.
     
 - **Key Metrics (Existing Data):**
-    
     - Existence of Provincial Development Plans (แผนพัฒนาจังหวัด) integrating climate.
-        
     - Education levels and technical training programs.
-        
     - Healthcare system reach and flexibility.
-        
     - Agricultural diversification rates.
         
 
@@ -75,11 +77,8 @@ To transition DCCE from a "Disaster Management" mindset to a "Resilience" mindse
 - **Bureaucratic Translation:** Structural Reform & Long-term Strategy.
     
 - **Key Metrics (Existing Data):**
-    
-    - Land Use Planning enforcement (ผังเมือง) - e.g., restricting build zones.
-        
+    - Land Use Planning enforcement (ผังเมือง) - e.g., restricting build zones. <!--note: be careful of pervert incentive-->
     - Innovation budgets or "Smart City" pilot participation.
-        
     - Cross-jurisdictional governance mechanisms (Are agencies working together?).
         
 
@@ -99,13 +98,13 @@ We will compile datasets from all relevant line agencies. Key sources include:
 - **Interior Ministry:** Budgetary and planning records.
 - **TEI CRI Pilot and Phase 1 Impact Index:** Use the pilot and refined Fiscal Relief datasets as **context layers** to interpret capacity scores (e.g. provinces with high impact but weak adaptive or transformative capacity), not as capacity indicators themselves.
 
+<!--note: We to to review more datasets such as [[ข้อมูลความจำเป็นพื้นฐาน (จปฐ.) ]], SDG indicators, and other social research-->
+
 
 ## Step 2: The "Capacity Tagging" Process
 
 We will filter and "tag" each indicator based on its functional role in the SES framework:
-
 - _Example 1:_ "Does the province have an emergency broadcast tower?" $\rightarrow$ Tag: **Coping Capacity**.
-    
 - _Example 2:_ "Does the local development plan mention 'Climate Change'?" $\rightarrow$ Tag: **Adaptive Capacity**.
     
 - _Example 3:_ "Has the province revised its zoning map in the last 5 years?" $\rightarrow$ Tag: **Transformative Capacity**.

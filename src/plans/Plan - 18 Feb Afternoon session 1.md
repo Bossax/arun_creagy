@@ -1,6 +1,7 @@
 ---
 created: 2026-02-18
 project:
+  - DCCE_CRI
 tags:
 status: current
 type: "plan "

@@ -1,0 +1,32 @@
+# RECAP
+
+🕐 17:54 | Feb 18, 2026
+
+---
+
+## 📅 TODAY
+No schedule
+
+## 📊 GIT: master (+0 ahead)
+Last: start working on CRI Phase 2, fix recap and rrr
+
+**Modified** (5):
+  src/.space/context.mdb
+  "src/01_Projects/2025-11_DCCE-CRDB/output/Interview questions/Interview_Questions_กรุงเทพมหานคร.md"
+  "src/01_Projects/2025-11_DCCE-CRI/notes/Critique of CRI Phase 2.md"
+  "src/01_Projects/2025-11_DCCE-CRI/output/CRI Phase 2 Methodology.md"
+  "src/01_Projects/2025-11_DCCE-CRI/sources/Validating a Management Science Approach to Measuring Coping, Adaptive, and Transformative Capacities in Municipal Climate Resilience Using Administrative Data.md"
+
+**Untracked** (5):
+  nul
+  psi/memory/retrospectives/2026-02/18/11.09_data-governance-strategy-refinement.md
+  "src/plans/Execution Checklist - 18 Feb Afternoon session 1.md"
+  "src/plans/Plan - 18 Feb Afternoon session 1.md"
+  tools/recap_src/
+
+---
+
+## 📝 LAST SESSION
+Retro (authoritative): 2026-02-18 15:40 — 15.40_rrr-recap-rrr-workflow-session.md
+Handoffs (last 3; optional; can be older):
+- 2026-02-13_15-11_interview-question-refinement-and-recap-fix.md

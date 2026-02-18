@@ -37,7 +37,11 @@ You define **Adaptive Capacity** as "the ability to learn and adjust." Yet, your
     - _Not_ "Is there a plan?" $\rightarrow$ _But_ "What is the plan revision frequency?" (Learning Loop).
         
 - **Verdict:** Your current methodology fails to capture the "time" dimension. You cannot measure "adaptation" without measuring "rate of change."
-    
+
+>[!comment]
+>I understand this limitation. but we have to do something with the resources we have in hands now. That is why I suggest we also come up with data collection improvement roadmap
+
+
 
 ### Risk 2: The "Tagging" Protocol is a Political Suicide Vest
 
@@ -51,11 +55,11 @@ You propose a "Systematic Categorization" where you (the consultant) decide that
     
 - **Verdict:** The "Tagging" process is the weakest link in your defense. It relies on _interpretation_, not _observation_.
     
-
+>[!comment] 
+>This is why that tagging needs to be backed by case studies and literature
 ### Risk 3: Actionability Failure (The "Radar Chart" Trap)
 
 **The Flaw:**
-
 You claim to solve the "Ranking Trap" with "Radar Charts" and profiles like _"High Coping / Low Transformative -> Invest in Land Use Planning."_
 
 - **The Risk:** This advice is **too high-level to be actionable**. "Invest in Land Use Planning" is a multi-year, multi-million baht abstract goal. It does not tell the Governor _what_ is broken.
@@ -64,6 +68,10 @@ You claim to solve the "Ranking Trap" with "Radar Charts" and profiles like _"Hi
     
 - **Verdict:** You are giving them a compass that points "North" (Better Planning), when they need a map that shows "Bridge Out" (Procurement Bottleneck).
     
+>[!comment]
+>OK. I am not too attached with the Radar Chart idea. Other formats of communication is welcome at this stage.
+>Benchmarking with some target numbers is a good idea. However, how to get the target numbers is not a trivial task
+
 
 ### Risk 4: The "Transformative" Delusion
 
@@ -77,6 +85,11 @@ You define **Transformative Capacity** as "Structural Reform," measured by metri
     
 - **Verdict:** Your "Transformative" axis will likely reward the provinces with the most entrenched bureaucracies, which is the exact opposite of the "agility" the literature promotes.
     
+>[!comment]
+>I acknowledge that
+
+
+
 
 ---
 
@@ -85,16 +98,12 @@ You define **Transformative Capacity** as "Structural Reform," measured by metri
 To save this from being just another report on a shelf, you must inject **Process Metrics** into your "Middle Path," even if data is scarce.
 
 **1. Swap "Existence" for "Frequency" (Where possible)**
-
 - Don't just ask if a plan exists. Look at the **Date of Last Update**.
-    
     - _Metric:_ Time elapsed since last Development Plan update. (Short time = High Adaptive).
-        
     - _Why:_ It uses existing data (timestamps) but proxies _agility_.
         
 
 **2. Measure "Friction" not just "Funds"**
-
 - Don't just measure "Emergency Budget Reserves" (Stock). Measure **Disbursement Rate**.
     
     - _Metric:_ % of Emergency Budget disbursed within Q3/Q4. (Low % = Low Coping/High Friction).

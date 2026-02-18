@@ -1,0 +1,46 @@
+# RECAP (Rich)
+
+17:38 | 18 Feb 2026
+
+---
+
+## RECENT WORK (Last 3 retrospectives)
+
+### 2026-02-18 15:40 — 15.40_rrr-recap-rrr-workflow-session.md
+- (No 'Session Summary' section found)
+
+### 2026-02-18 13:34 — 13.34_cri-data-lineage.md
+- (No 'Session Summary' section found)
+
+### 2026-02-18 11:38 — 11.38_rrr-recap-rrr-workflow-fix.md
+- (No 'Session Summary' section found)
+
+## HANDOFFS (Last 3)
+_Handoffs update only when you explicitly create them. They can be older than retrospectives._
+
+### 2026-02-13_15-11_interview-question-refinement-and-recap-fix.md
+# Handoff: Interview Question Refinement and Recap Fix
+**Date**: 2026-02-13 15:11
+**Context**: [Medium]
+## What We Did
+- Refined interview questions for key stakeholders (Department of Disaster Prevention and Mitigation, Federation of Thai Industries, and Thai Bankers' Association) for the DCCE-CRDB project.
+- Updated existing interview question files by integrating specific details and insights from their respective detailed context markdown files.
+
+---
+
+## CONTEXT
+
+## master...origin/master
+ D psi/memory/retrospectives/2026-02/18/11.13_failure-in-update-file.md
+ M src/.space/context.mdb
+ M "src/01_Projects/2025-11_DCCE-CRI/notes/Critique of CRI Phase 2.md"
+ M "src/01_Projects/2025-11_DCCE-CRI/output/CRI Phase 2 Methodology.md"
+ M "src/01_Projects/2025-11_DCCE-CRI/sources/Validating a Management Science Approach to Measuring Coping, Adaptive, and Transformative Capacities in Municipal Climate Resilience Using Administrative Data.md"
+ D "src/Plan - 18 Feb Afternoon session 1.md"
+?? nul
+?? psi/memory/retrospectives/2026-02/18/11.09_data-governance-strategy-refinement.md
+?? "src/plans/Execution Checklist - 18 Feb Afternoon session 1.md"
+?? "src/plans/Plan - 18 Feb Afternoon session 1.md"
+?? tools/recap_src/
+
+⚡ Session #26 | Streak: 3 days | Week: +0% msgs

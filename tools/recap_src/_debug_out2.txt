@@ -1,0 +1,48 @@
+# RECAP (Rich)
+
+17:46 | 18 Feb 2026
+
+---
+
+## RECENT WORK (Last 3 retrospectives)
+
+### 2026-02-18 15:40 — 15.40_rrr-recap-rrr-workflow-session.md
+- Session #26 of 26 in this project (3-day streak). This short wrap-up session focused on closing the loop on the recap and `/rrr` workflow repairs. We verified that pulse data now reflects reality: total sessions are derived directly from retrospective files, `streak.days` correctly reports 3 consecutive days with retros, and per-branch activity for `master` is aligned with that total. We confirmed that `/recap` now clearly distinguishes between the latest retrospective and the latest handoff, eliminating the earlier confusion where the handoff date appeared to contradict recent work. Finally, we validated the Git Bash wrapper and `rrr_gather` script, ensuring that the SKILL-defined bash steps for `/rrr` can be executed reliably from this Windows-hosted environment without tripping over shell or path issues.
+
+### 2026-02-18 13:34 — 13.34_cri-data-lineage.md
+- This session focused on aligning the Climate Risk Index (CRI) documentation with the clarified data lineage from TEI. I updated the Working Status Brief and Implementation Plan to reflect the SES-based pivot and the Fiscal Relief framing, then corrected the Phase 1 and Pilot methodologies so they no longer imply the use of DDPM monetary damage data or agricultural-only GPP. The economic pillar is now consistently described as a Fiscal Relief Index using OAE compensation data and total provincial GPP, with explicit acknowledgement of bias and data gaps.
+
+### 2026-02-18 11:38 — 11.38_rrr-recap-rrr-workflow-fix.md
+- Inspecting the existing tooling under `tools/` and the RRR skill documentation.
+- Updating the pulse utility script so that it maintains the schema that `/rrr` expects in `psi/data/pulse/project.json` and `psi/data/pulse/heartbeat.json`.
+- Confirming that per-branch statistics are tracked so the RRR summaries can reference branch activity.
+
+## HANDOFFS (Last 3)
+_Handoffs update only when you explicitly create them. They can be older than retrospectives._
+
+### 2026-02-13_15-11_interview-question-refinement-and-recap-fix.md
+# Handoff: Interview Question Refinement and Recap Fix
+**Date**: 2026-02-13 15:11
+**Context**: [Medium]
+## What We Did
+- Refined interview questions for key stakeholders (Department of Disaster Prevention and Mitigation, Federation of Thai Industries, and Thai Bankers' Association) for the DCCE-CRDB project.
+- Updated existing interview question files by integrating specific details and insights from their respective detailed context markdown files.
+
+---
+
+## CONTEXT
+
+## master...origin/master
+ D psi/memory/retrospectives/2026-02/18/11.13_failure-in-update-file.md
+ M src/.space/context.mdb
+ M "src/01_Projects/2025-11_DCCE-CRI/notes/Critique of CRI Phase 2.md"
+ M "src/01_Projects/2025-11_DCCE-CRI/output/CRI Phase 2 Methodology.md"
+ M "src/01_Projects/2025-11_DCCE-CRI/sources/Validating a Management Science Approach to Measuring Coping, Adaptive, and Transformative Capacities in Municipal Climate Resilience Using Administrative Data.md"
+ D "src/Plan - 18 Feb Afternoon session 1.md"
+?? nul
+?? psi/memory/retrospectives/2026-02/18/11.09_data-governance-strategy-refinement.md
+?? "src/plans/Execution Checklist - 18 Feb Afternoon session 1.md"
+?? "src/plans/Plan - 18 Feb Afternoon session 1.md"
+?? tools/recap_src/
+
+⚡ Session #26 | Streak: 3 days | Week: +0% msgs
