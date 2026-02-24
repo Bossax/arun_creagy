@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "oracle-v2": {
+      "command": "bun",
+      "args": [
+        "run",
+        "src/index.ts"
+      ],
+      "cwd": "c:/Users/sitth/ghq/github.com/Soul-Brews-Studio/oracle-v2",
+      "env": {}
+    }
+  }
+}

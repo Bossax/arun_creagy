@@ -8,6 +8,7 @@ AI_output: true
 project:
   - DMCR_Soundscape2026
 type: artifact
+color: ""
 ---
 # "What does the text say about acoustic boundary layers, seabed reflections, or vertical differences in sound? I am looking for any hints on how high off the seabed we should place the hydrophone to get clean data."
 

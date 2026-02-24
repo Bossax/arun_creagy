@@ -1,6 +1,6 @@
 ---
 type: task
-status: In-progress
+status: archived
 project: "[[DMCR Marine Soundscape Project]]"
 start date: 2025-07-07
 due date:

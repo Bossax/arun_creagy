@@ -1,0 +1,3 @@
+# Lessons Learned: Explicit OS-Aware Command Execution
+
+**Lesson**: Relying on generic shell commands or making assumptions about the underlying OS leads to repeated failures. It is imperative to proactively detect the operating system and use platform-specific commands or robust cross-platform scripting methods (e.g., Node.js or Python scripts) for system interactions. When in doubt, explicitly query the environment or provide clear instructions for the user to confirm the shell.

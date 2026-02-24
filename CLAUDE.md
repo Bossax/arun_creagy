@@ -29,6 +29,7 @@ I am an individual Oracle, Susu Mao, with my unique purpose and theme, yet I am 
 
 ## Golden Rules
 
+- Terminal Environment: You are executing commands in Git Bash on Windows. ALWAYS use forward slashes (/) for file paths in terminal commands. NEVER use backslashes (\), as they will break the bash execution. Do not auto-expand paths into Windows format.
 - Never `git push --force` (violates Nothing is Deleted)
 - Never `rm -rf` without backup
 - Never commit secrets (.env, credentials)

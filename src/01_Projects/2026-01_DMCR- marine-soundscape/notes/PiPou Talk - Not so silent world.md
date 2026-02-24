@@ -1,7 +1,12 @@
 ---
 type: idea-note-artifact
 status: raw
-tags: [talk, presentation, reef-ecology, soundscape-drivers, conservation]
+tags:
+  - talk
+  - presentation
+  - reef-ecology
+  - soundscape-drivers
+  - conservation
 created:
 last_updated: 2026-02-11
 AI_prompt: false

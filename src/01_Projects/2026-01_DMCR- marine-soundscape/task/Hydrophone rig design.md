@@ -1,12 +1,35 @@
 ---
-type: task
-status:
-  - In-progress
+type: methodology
+status: draft
+title: Hydrophone rig design and deployment methodology (Reef-Sentry tripod/lander)
+created: 2026-02-01
+last_updated: 2026-02-24
 project:
-start date: 2026-02-01
-due date: 2026-03-01
+  - DMCR_Soundscape2026
+tags:
+  - hydrophone
+  - subsea-deployment
+  - rig-design
+  - PAM
 ---
-# Overview: Mooring vs Tripod
+
+# Hydrophone rig design and deployment methodology (Reef-Sentry tripod/lander)
+
+## Strategic context / objective
+
+This methodology defines a bottom-mounted hydrophone rig architecture and field-deployment rules for shallow reef passive acoustic monitoring (PAM) under **DMCR_Soundscape2026**.
+
+This document **consumes KO&I artifacts** produced from literature-derived notes:
+
+- Synthesis: [[../output/Deployment configuration factors.md|Deployment configuration factors]]
+- Evidence traceability: [[../output/DMCR_Hydrophone_Evidence_Index.md|DMCR_Hydrophone_Evidence_Index]]
+- Field SOP: [[../output/Deployment location selection SOP EN-TH.md|Deployment location selection SOP EN-TH]]
+
+## Conceptual framework: Mooring vs Tripod
+
+We are choosing between a mooring-style “stealth tube” and a bottom-mounted tripod/lander. The core trade-off is: **operational convenience vs scientific stability + acoustic fidelity**.
+
+### Summary comparison
 
 |**Feature**|**Current "Stealth Tube" (Mooring)**|**Proposed "Stealth Tripod" (Lander)**|
 |---|---|---|
@@ -18,7 +41,14 @@ due date: 2026-03-01
 
 ---
 
-# Decision Log (Accepted from [[01_Projects/2026-01_DMCR- marine-soundscape/source/Comprehensive Engineering Report - Multi-Criteria Analysis and Design Specification for Shallow Water Hydrophone Rigs in Coral Reef Ecosystems.md|MCA Report]])
+## Design choices and rationale
+
+Primary design evidence trail:
+
+- Literature factor synthesis: [[../output/Deployment configuration factors.md|Deployment configuration factors]]
+- Evidence mapping: [[../output/DMCR_Hydrophone_Evidence_Index.md|DMCR_Hydrophone_Evidence_Index]]
+
+### Decision log (accepted from [[../source/Comprehensive Engineering Report - Multi-Criteria Analysis and Design Specification for Shallow Water Hydrophone Rigs in Coral Reef Ecosystems.md|MCA Report]])
 
 ## Design Architecture Decision
 
@@ -40,7 +70,11 @@ due date: 2026-03-01
 - **Flow-noise risk:** Turbulent boundary layer causes pseudo-sound below 100 Hz. Sensor must be elevated and/or shielded.
 - **Benthic protection:** No chain scour. Point-contact only; avoid smothering live coral.
 
-# Design Specification Snapshot (Reef-Sentry)
+## Operational methodology
+
+This section specifies the rig and how it is configured on a site, tying decisions back to the factor synthesis.
+
+### Design specification snapshot (Reef-Sentry)
 
 ## Geometry
 
@@ -74,7 +108,9 @@ due date: 2026-03-01
 - **Diver Deployment:** Use **lift bag** for recovery; avoid manual heavy lifting.
 - **Optional Diver-Less Recovery:** Acoustic release + pop-up buoy (future upgrade).
 
-# Specific mechanical adjustments that are likely need to perform on-site
+### Field configuration rules (site-specific adjustments)
+
+These are the **controllable** configuration factors that must be set at the site (see also [[../output/Deployment configuration factors.md|Deployment configuration factors]]).
 
 comparing how the **Mooring (Stealth Tube)** and the **Tripod (Lander)** handle them.
 
@@ -89,6 +125,12 @@ comparing how the **Mooring (Stealth Tube)** and the **Tripod (Lander)** handle 
 |**Precision**|**Low.** Even if you set the rope to 1.5m, currents will push the buoy over, reducing effective height (Pythagorean theorem). The sensor "bobs" in the current.|**High.** The sensor stays exactly where you pin it (e.g., 1.5m). It does not dip or sway.|
 |**Winner**|**Tripod.** For scientific data, fixed geometry is superior. You can design a central PVC mast with pre-drilled holes every 10cm for rapid height selection on the boat.||
 
+**Methodology rule (height):**
+
+- Use selectable height increments (do not hard-code one height across all sites).
+- Default working band: **~0.6–1.0 m above seabed**, adjusted for coral head height and wave zone.
+- If edge effects or directivity bias is suspected, combine a height change with an orientation change (horizontal/reef-facing) rather than changing only one parameter.
+
 ### 2. Footprint & Leveling (Seabed Interaction)
 
 - **The Goal:** Ensure the rig sits flat and stable on an uneven reef or sand patch without tipping over.
@@ -100,6 +142,11 @@ comparing how the **Mooring (Stealth Tube)** and the **Tripod (Lander)** handle 
 |**Risk**|**Dragging.** If the anchor isn't heavy enough or the footprint is too small, the whole system slides.|**Toppling.** If not leveled, a current can tip the tripod over.|
 |**Winner**|**Mooring.** It is "set and forget" regarding the seabed angle. A tripod requires careful placement by a diver.||
 
+**Methodology rule (environmental protection):**
+
+- Point-contact feet only; avoid contact with live coral.
+- Prefer stable sand/rubble patches when possible; document substrate and slope.
+
 ### 3. Ballast Tuning (Weight Adjustment)
 
 - **The Goal:** Adding enough weight to resist drag forces (currents/waves) without making it too heavy to lift.
@@ -109,3 +156,24 @@ comparing how the **Mooring (Stealth Tube)** and the **Tripod (Lander)** handle 
 | **Adjustment Mechanism** | **Anchor Size.** You must cast the concrete block _before_ you get on the boat. Changing weight on-spot means adding loose weights (danger of clanking). | **Hollow Legs.** You can bring empty PVC legs and fill them with sand, lead shot, or chain _on the boat_ or even underwater. |
 | **Field Difficulty**     | **Hard.** You are committed to the 40-50kg block you made. If it's too light, you're in trouble.                                                         | **Easy.** You can fine-tune stability by adding/removing weight inside the tubes.                                            |
 | **Winner**               | **Tripod.** Hollow PVC structures allow you to transport a light frame and "ballast down" on site using local sand or lead diving weights.               |                                                                                                                              |
+
+**Methodology rule (noise + stability):**
+
+- Avoid loose weights that can clank; secure ballast internally or with constrained mounts.
+- Design for stability under fouled conditions (biofouling increases drag), targeting SF ≥ 1.5 as baseline.
+
+## Outputs and interpretation
+
+This rig + deployment methodology is intended to produce:
+
+- Stationary shallow-reef PAM recordings suited to comparing habitats and conditions, with explicit control of height/orientation/proximity.
+
+Interpretation caveats:
+
+- A single station is not automatically “reef-representative” in heterogeneous mosaics; representativeness depends on explicit placement intent and (when needed) replication.
+
+## Limitations and future extensions
+
+- Site-specific phase-cancellation / null patterns are not predictable from first principles; incorporate short test recordings where feasible.
+- Quantitative treatment of “sediment noise” is not yet strong in the current evidence set; track as an evidence gap.
+- Future upgrades may include acoustic release recovery or alternative mast geometries for faster field adjustment.

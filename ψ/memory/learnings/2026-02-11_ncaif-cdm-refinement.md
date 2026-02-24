@@ -1,0 +1,3 @@
+# NCAIF Sitemap and CDM Refinement
+
+**Lesson Learned:** Iterative refinement of architectural documents (sitemaps, CDMs) is crucial, especially when integrating new requirements or addressing stakeholder feedback. Directly linking front-end sitemap elements to back-end CDM entities helps ensure consistency and technical feasibility. It is also important to clearly articulate the value proposition of data sections, particularly when existing external data sources might seem to overlap. Distinguishing between a 

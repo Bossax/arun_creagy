@@ -1,0 +1,11 @@
+{
+  "projectName": "Knowledge_System",
+  "createdAt": "2026-02-09T18:15:00+07:00",
+  "totalSessions": 30,
+  "avgMessagesPerSession": 0,
+  "sizes": {},
+  "branches": {
+    "master": 30
+  },
+  "updatedAt": "2026-02-24T21:39:00+07:00"
+}

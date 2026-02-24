@@ -27,7 +27,7 @@ what we have to figure out in the field before deployment
 - the exact spot that is a good representativeness of the habitat
 ## Tasks
 
-  - [ ] extracting findings from various papers (I will do manually using NotebookLM)
+  - [x] extracting findings from various papers (I will do manually using NotebookLM)
   - [ ] summarize the habitat factors that influence the recording quality (both acoustic quality and scientific quality)
   - [ ] scope down to the factors that are controllable under the deployment and hydrophone rig designs
   - [ ] draft the location selection plan for at-sea deployment such as taking data samples, analyzing them, and making decisions. This is a field reminder to me, the researcher, and an SOP for divers, who will work under my guidance.  

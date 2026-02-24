@@ -1,0 +1,2 @@
+- Proactively verify command compatibility with the operating system before execution to avoid minor errors.
+- Implement a more robust check for the existence of pulse data files before attempting to read them to prevent command execution errors.

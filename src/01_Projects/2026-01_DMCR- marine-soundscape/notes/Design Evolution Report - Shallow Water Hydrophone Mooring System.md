@@ -1,6 +1,11 @@
 ---
 status: evergreen
-tags: [hydrophone-mooring, engineering-design, stealth-deployment, acoustic-silence, theft-deterrence]
+tags:
+  - hydrophone-mooring
+  - engineering-design
+  - stealth-deployment
+  - acoustic-silence
+  - theft-deterrence
 created: 2026-02-08
 last_updated: 2026-02-11
 AI_prompt: false

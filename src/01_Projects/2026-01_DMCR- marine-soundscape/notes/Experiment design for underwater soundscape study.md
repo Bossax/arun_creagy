@@ -1,6 +1,5 @@
 ---
-status:
-  - archived
+status: archived
 tags:
   - experiment-design
   - literature-review
