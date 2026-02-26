@@ -1,0 +1,19 @@
+---
+created: 2026-02-27
+type: learning
+tags:
+  - notebooklm
+  - literature-review
+  - extraction
+  - koi
+---
+
+# NotebookLM extraction works best when atomic-note format is designed backward from the next synthesis task
+
+When using NotebookLM to extract “atomic notes”, the note format should be **fixed and derived from the session plan’s subsequent tasks** (e.g., framework curation fields, data requirements, methods, use-of-results, and chronological context). If the format is left open-ended, extraction outputs become inconsistent and hard to recombine into comparative tables, timelines, and KO&I evidence indices.
+
+In practice:
+
+- Start from the target report sections (what you will write later).
+- Define the atomic-note schema to directly populate those sections.
+- Require citations/quotes for definitions and “applied to real cities” evidence.
