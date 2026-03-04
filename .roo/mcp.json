@@ -1,19 +1,33 @@
 {
-  "mcpServers": {
-    "oracle-v2": {
-      "command": "bun",
-      "args": [
-        "run",
-        "src/index.ts"
-      ],
-      "cwd": "c:/Users/sitth/ghq/github.com/Soul-Brews-Studio/oracle-v2",
-      "env": {}
-    },
-    "notebooklm": {
-      "command": "npx",
-      "args": ["-y", "notebooklm-mcp@latest"]
-    }
-    
-
-  }
+	"mcpServers": {
+		"oracle-v2": {
+			"command": "bun",
+			"args": [
+				"run",
+				"src/index.ts"
+			],
+			"cwd": "c:/Users/sitth/ghq/github.com/Soul-Brews-Studio/oracle-v2",
+			"env": {},
+			"alwaysAllow": [
+				"oracle_learn"
+			]
+		},
+		"notebooklm": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"notebooklm-mcp@latest"
+			],
+			"env": {
+				"BROWSER_TIMEOUT": "180000",
+				"STEALTH_ENABLED": "false",
+				"TYPING_WPM_MIN": "400"
+			},
+			"alwaysAllow": [
+				"ask_question",
+				"get_health",
+				"cleanup_data"
+			]
+		}
+	}
 }
