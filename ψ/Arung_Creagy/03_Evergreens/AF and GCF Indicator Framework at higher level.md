@@ -1,0 +1,31 @@
+---
+type: evergreen
+status: current
+tags:
+  - GCF
+  - AF
+  - indicator
+  - Monitoring_and_Evaluation
+parent: "[["
+last_updated:
+---
+
+# Green Climate Fund (GCF)
+
+- **Program-Level Evaluation:** The GCF conducts evaluations like the "Evaluation of the Outcomes and Impact-Level Results of the Readiness and Preparatory Support Programme (RPSP)". This specific evaluation, the first Secretariat-led evaluation guided by the GCF Evaluation Policy, assesses the "outcomes and impact-level results of the RPSP portfolio". This clearly signifies an M&E focus beyond individual projects, looking at the collective performance of a portfolio of grants.
+- **Purpose of Higher-Level M&E:** Such evaluations aim to "provide a credible assessment of the outcome and impact results of the RPSP portfolio against the Readiness Results Management Framework (RRMF) outcome and impact-level indicators to ensure accountability of GCF to the RPSP results and to continue informing the programming of the RPSP". This demonstrates a clear intent to use aggregated project data for strategic program-level decision-making and accountability.
+- **Readiness Results Management Framework (RRMF):** The RRMF, introduced in 2022, serves as a tool for measuring the results of the RPSP. It defines indicators for capturing how readiness grants contribute to five overarching readiness objectives: capacity building, strategic frameworks, national adaptation plans, pipeline development, and knowledge sharing. Even grants approved before the RRMF were retrofitted with indicators that comply with this framework. This indicates a structured approach to aggregate and assess performance across multiple projects against predefined program objectives.
+- **Broad Evaluation Criteria:** The evaluation of the RPSP adhered to GCF evaluation criteria and standards, emphasizing assessments of **relevance, effectiveness, coherence, impact, and sustainability**. These criteria are applied at the program level, examining how the RPSP as a whole is achieving its objectives, contributing to climate finance flows, and ensuring the lasting nature of its interventions. For instance, the RPSP's overall goal is to "facilitate climate action finance for the countries at scale", which is an impact-level objective that extends beyond the scope of single projects.
+
+# Adaptation Fund (AF)
+
+- **Results-Based Management (RBM) Framework:** The AF employs a comprehensive Results-Based Management (RBM) framework. This framework defines a **clear causal relationship from project activities to outputs, outcomes, and ultimately, impact over time**.
+- **Adaptation Fund Strategic Results Framework:** This is a key component of the AF's higher-level M&E. It includes the **long-term goal, outcomes, outputs, and a set of indicators for the Fund as a whole**. All projects and programs funded by the AF are required to align with this overarching framework and directly contribute to its overall objective and outcomes. The AF's objective is to "Reduce vulnerability and increase adaptive capacity to respond to the impacts of climate change, including variability at local and national levels".
+- **Aggregation of Project Data:** The AF's menu of standard performance indicators is designed to enable "comparable data to be aggregated across similar types of projects to the Fund-wide level". This means that while project proponents use documents like the "Methodologies for Reporting Adaptation Fund Core Impact Indicators" to define and measure core indicators at the _project level_, these project-level indicators are part of a system that allows for their aggregation to assess the Fund's overall performance.
+- **Fund-Level Measurement:** The AF Framework "will enable the AF Board to achieve... measurement of results at the AF level, not project level". This explicitly states the intention to move beyond individual project performance to understand the collective impact of the fund's investments.
+- **Knowledge Management at Fund Level:** The Adaptation Fund has integrated knowledge management (KM) into its RBM Framework at the Fund level. This is considered critical for enriching "global knowledge on climate change adaptation" and accelerating "understanding about what kinds of interventions work" from the collective experience of its projects.
+
+In summary, both the GCF and the AF utilize robust M&E systems that begin with detailed project-level data but extend significantly to assess program and fund-level performance and impact. This is achieved through strategic results frameworks, specific program evaluations, and the aggregation of project data to inform broader accountability and learning.
+
+> [!idea] 
+> Think of it like building a national statistical system: individual surveys (project-level M&E) collect specific data points from households or businesses. This granular data is then aggregated and analyzed to generate national-level statistics (fund-level M&E) on unemployment rates, GDP growth, or public health trends, which in turn inform national policy and assess the overall health and progress of the country. The individual data points are vital, but their true power lies in how they contribute to understanding the larger system.

@@ -119,7 +119,7 @@ The success of this ecosystem relies on three critical handshakes:
     - **Risk:** The CRDB "Enterprise Data Model" could become too academic/abstract if it ignores the field realities found by Advantage Consulting.
     - **Mitigation:** CRDB uses "Seed Use Cases" and the "Gap Analysis" from other projects to ground its data model in reality.
         
-![[pic/Data Value Chain.png]]
+![[incubate/_shared_assets/pic/Data Value Chain.png]]
 
 
 

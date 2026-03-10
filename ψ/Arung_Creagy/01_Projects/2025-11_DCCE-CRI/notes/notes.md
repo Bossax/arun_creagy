@@ -1,0 +1,1 @@
+![![01_Projects/2025-11_DCCE-CRI/notes/#*Table]]
