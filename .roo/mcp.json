@@ -11,7 +11,9 @@
 			"alwaysAllow": [
 				"oracle_learn",
 				"oracle_handoff",
-				"oracle_search"
+				"oracle_search",
+				"oracle_reflect",
+				"oracle_concepts"
 			]
 		},
 		"notebooklm": {

@@ -13,15 +13,15 @@
 
 ### CRDB project inbox (3)
 - [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/Data System Artifact Guide.md`](../incubate/DCCE/CRDB/inbox/writing_notes/Data%20System%20Artifact%20Guide.md:1)
-- [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/Steering MVP directions.md`](../incubate/DCCE/CRDB/inbox/writing_notes/Steering%20MVP%20directions.md:1)
+- [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/Steering MVP directions.md`](../incubate/DCCE/CRDB/inbox/writing_notes/Steering%20MVP%20directions.md)
 - [`ψ/incubate/DCCE/CRDB/inbox/active/dcce-crdb_knowledge_digest.md`](../incubate/DCCE/CRDB/inbox/active/dcce-crdb_knowledge_digest.md:1)
 
 ### CRI project inbox (2)
-- [`ψ/incubate/DCCE/CRI/inbox/writing_notes/Critique of CRI Phase 2.md`](../incubate/DCCE/CRI/inbox/writing_notes/Critique%20of%20CRI%20Phase%202.md:1)
-- [`ψ/incubate/DCCE/CRI/inbox/active/Process-based indicators for urban resilience - consensus.ai.md`](../incubate/DCCE/CRI/inbox/active/Process-based%20indicators%20for%20urban%20resilience%20-%20consensus.ai.md:1)
+- [`ψ/incubate/DCCE/CRI/inbox/writing_notes/Critique of CRI Phase 2.md`](../incubate/DCCE/CRI/inbox/writing_notes/Critique%20of%20CRI%20Phase%202.md)
+- [`ψ/incubate/DCCE/CRI/inbox/active/Process-based indicators for urban resilience - consensus.ai.md`](../incubate/DCCE/CRI/inbox/active/Process-based%20indicators%20for%20urban%20resilience%20-%20consensus.ai.md)
 
 ### BTR project inbox (1)
-- [`ψ/incubate/UNDP/BTR/inbox/writing_notes/Data Reference Sheet dependency on ADPC database schema.md`](../incubate/UNDP/BTR/inbox/writing_notes/Data%20Reference%20Sheet%20dependency%20on%20ADPC%20database%20schema.md:1)
+- [`ψ/incubate/UNDP/BTR/inbox/writing_notes/Data Reference Sheet dependency on ADPC database schema.md`](../incubate/UNDP/BTR/inbox/writing_notes/Data%20Reference%20Sheet%20dependency%20on%20ADPC%20database%20schema.md)
 
 ---
 
@@ -84,7 +84,7 @@ Two implementation implications:
 - **Don’t over-index on tooling before defining minimum governance fields.** Tooling should automate the already-defined model.
 - **Start with a policy-relevant subset**, then expand to active signals.
 
-Anchors: [`ψ/inbox/What is Metadata Management Importance & Benefits 2025.md`](../inbox/What%20is%20Metadata%20Management%20Importance%20&%20Benefits%202025.md:63)
+Anchors: [`ψ/inbox/What is Metadata Management Importance & Benefits 2025.md`](../inbox/What%20is%20Metadata%20Management%20Importance%20&%20Benefits%202025.md)
 
 ---
 
