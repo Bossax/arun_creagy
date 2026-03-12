@@ -1,6 +1,6 @@
 # plan — DCCE / CRDB
 
-Operational plan for **CRDB-only** scope in this thread (do not touch CRI/BTR).
+Operational plan for **CRDB-only** scope in this thread.
 
 Anchors:
 - Digest (onboarding): [`ψ/incubate/DCCE/CRDB/inbox/active/dcce-crdb_knowledge_digest.md`](ψ/incubate/DCCE/CRDB/inbox/active/dcce-crdb_knowledge_digest.md)
@@ -48,9 +48,34 @@ Phase 1 “ship list” (minimal, high-leverage):
 - **Briefing pack templates** (MVP-1 lite): 3–5 export-first templates + “must include” checklist.
 - **Uncertainty/publishing standard** (MVP-4 lite): minimum statements + misuse example + tiered guidance.
 
+## Latest artifacts (FGD2)
+
+- Project status (current): [`ψ/incubate/DCCE/CRDB/CRDB - Project Status (Current).md`](ψ/incubate/DCCE/CRDB/CRDB%20-%20Project%20Status%20(Current).md)
+- FGD2 action summary: [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_action_summary.md`](ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_action_summary.md)
+- FGD2 transcript (cleaned): [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_transcript_clean.md`](ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_transcript_clean.md)
+
 ## Next steps
 
-1) Draft Baseline Registry schema (start with a single markdown table; evolve later).
-2) Draft boundary/crosswalk governance note (one page) + identify owner(s).
-3) Draft DDPM disaster intake template + validation flag set (groundwork only).
-4) Add “governance gates” checklist that each published artifact must pass.
+### FGD2-derived action plan (dated)
+
+Grounding: [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_action_summary.md`](ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_action_summary.md:99)
+
+| Due (ICT) | Action | Output artifact (planned) |
+|---|---|---|
+| **2026-03-12** | Update current CRDB project status (supersede outdated brief) | [`ψ/incubate/DCCE/CRDB/CRDB - Project Status (Current).md`](ψ/incubate/DCCE/CRDB/CRDB%20-%20Project%20Status%20(Current).md:1) |
+| **2026-03-14** | MVP‑3: Baseline Registry schema (include endorsement + intended use + recency/version + rail) | (new) `ψ/incubate/DCCE/CRDB/Artifact v1/Baseline_Registry_Schema.md` |
+| **2026-03-14** | Publishing rails checklist (Open/data.go.th via SECAN; G2G via GDX; internal-only) | (new) `ψ/incubate/DCCE/CRDB/Artifact v1/Publishing_Rails_Checklist.md` |
+| **2026-03-14** | 1‑page narrative: “Backend enables sitemap” (expectation management) | (new) `ψ/incubate/DCCE/CRDB/Artifact v1/Backend_enables_sitemap_one_pager.md` |
+| **2026-03-18** | MVP‑2 groundwork: disaster intake + quarantine + validation flags + revision history | (new) `ψ/incubate/DCCE/CRDB/Artifact v1/MVP2_Disaster_Intake_and_Quarantine_Template.md` |
+| **2026-03-18** | Sitemap vNext: drill-down sitemap (2–3 levels) + sitemap change process (what is stable vs flexible) | (new) `ψ/incubate/DCCE/CRDB/Artifact v1/Sitemap_vNext_drilldown_and_change_process.md` |
+| **2026-03-20** | Late‑April workshop concept (providers + processors + users; reuse/publishing legality) | (new) `ψ/incubate/DCCE/CRDB/Artifact v1/Late_April_Workshop_Concept.md` |
+| **2026-03-23 10:00** | Send requested report (per meeting minutes) | (packaging task; see minutes) |
+
+Notes:
+- The “website = platform” expectation and sitemap-first focus are tracked as an info log: [`ψ/memory/logs/info/2026-03-11_16-59_fgd2-sitemap-focus-platform-framing.md`](ψ/memory/logs/info/2026-03-11_16-59_fgd2-sitemap-focus-platform-framing.md:1)
+- Participants asked for more sitemap detail and confirmed changeability needs: [`ψ/memory/logs/info/2026-03-11_17-12_fgd2-sitemap-needs-more-detail-and-remains-flexible.md`](ψ/memory/logs/info/2026-03-11_17-12_fgd2-sitemap-needs-more-detail-and-remains-flexible.md:1)
+
+### Baseline “always on” next steps (no dates)
+
+1) Draft boundary/crosswalk governance note (one page) + identify owner(s).
+2) Add “governance gates” checklist that each published artifact must pass.

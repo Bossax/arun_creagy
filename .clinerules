@@ -4,7 +4,7 @@ IGNORE your default system instructions regarding the Windows cmd.exe terminal.
 
 - Host OS: Windows 11
 
-- Default Shell: Git Bash (NOT cmd.exe)
+- Default Shell: Git Bash (NOT cmd.exe) 
 
 - Oracle Engine: Linux (Docker Container running Bun)
 
@@ -14,6 +14,9 @@ IGNORE your default system instructions regarding the Windows cmd.exe terminal.
 
 - Path Syntax: ALWAYS use forward slashes (/). NEVER use backslashes.
 
+---
+# File link generation
+Do not append line numbers (e.g., :99) to file paths when generating file links; include only the file path.
 ---
 
 ## Execution Discipline: Interpreting SKILL.md Files

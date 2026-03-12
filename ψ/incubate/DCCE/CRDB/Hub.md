@@ -6,8 +6,14 @@
 - Establish **governance rails** and the **minimum gates** needed to publish and recommend baselines safely.
 
 ## Current status
-- Scope guard: **CRDB only** in this thread (do **not** touch CRI/BTR).
 - CRDB onboarding pack + Phase 1 decision log have been triaged into CRDB incubate inbox.
+
+## Latest (FGD2)
+
+- Project status (current): [`ψ/incubate/DCCE/CRDB/CRDB - Project Status (Current).md`](ψ/incubate/DCCE/CRDB/CRDB%20-%20Project%20Status%20(Current).md)
+- FGD2 action summary: [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_action_summary.md`](ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_action_summary.md)
+- FGD2 transcript (cleaned): [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_transcript_clean.md`](ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_transcript_clean.md)
+- FGD2 transcript (raw): [`ψ/inbox/(External Onsite) DCCE Focus Group Discussion 2 on National Climate Adaptation Information Framework-20260311_093601.vtt`](ψ/inbox/(External%20Onsite)%20DCCE%20Focus%20Group%20Discussion%202%20on%20National%20Climate%20Adaptation%20Information%20Framework-20260311_093601.vtt)
 
 ## Key docs
 - Plan: [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)

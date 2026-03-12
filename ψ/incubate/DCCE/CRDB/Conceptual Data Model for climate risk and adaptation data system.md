@@ -126,7 +126,7 @@ erDiagram
 Additional context was given, including
 
 >[!Document]
->1. [[Development of National Climate Risk Index]]
+>1. [[Development of National Climate Risk Index - Thailand]]
 >2. [[Process-Based and Governance-Oriented Frameworks for Measuring Climate Resilience - Consensus.AI]]
 >3. [[Data Model - CLIMADA]]
 >4. [[Spatial climate risk map DCCE v1]]

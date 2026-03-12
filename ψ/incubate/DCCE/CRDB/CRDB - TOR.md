@@ -157,11 +157,8 @@ The consultant must perform the following tasks:
 5.3.1 Review and synthesize current baseline data and information products related to climate risk assessment, impacts, and loss & damage from DCCE and relevant agencies.
 
 5.3.2 Assess data status and demand via In-Depth Interviews with Key Stakeholders (at least 10 times, min. 3 people per time).
-
 - Understand Use Cases, pain points, and needs for support tools.
-    
 - Collect data on datasets held by agencies (acquisition process, format, update frequency, GIS-readiness).
-    
 - Consultant covers expenses (materials, respondent compensation).
     
 
