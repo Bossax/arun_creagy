@@ -91,12 +91,12 @@ Deliver the interim report by **23 Mar 10:00** (billing constraint), aligned to 
 | Subsection | Core claim to establish | Main evidence | Link to Chapter 1 |
 |---|---|---|---|
 | **2.1 TOR intent recap** | TOR 5.3.1-5.3.2 requires a review of the current product and data landscape, not merely a technical list | [`ψ/incubate/DCCE/CRDB/inbox_source/CRDB - TOR.md`](ψ/incubate/DCCE/CRDB/inbox_source/CRDB%20-%20TOR.md), [`ψ/incubate/DCCE/CRDB/output/CRDB - Implementation Plan.md`](ψ/incubate/DCCE/CRDB/output/CRDB%20-%20Implementation%20Plan.md) | Keeps Section 2 grounded in TOR rather than repeating Section 1 architecture logic |
-| **2.2 Current data product landscape** | DCCE and partner agencies already have multiple products, portals, dashboards, reports, and systems, but they are fragmented | [`ψ/incubate/DCCE/CRDB/output/FGD 1 result.md`](ψ/incubate/DCCE/CRDB/output/FGD%201%20result.md), interview summaries in [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes) | Absorbs the descriptive current-state material that would otherwise overload Section 1.6-1.7 |
-| **2.3 Stakeholder-generated data and collection practice** | Agencies generate or manage different kinds of data through different mechanisms such as surveys, reporting chains, registries, modeling, and external data integration | interview summaries in [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes) | Extends Section 1.2 interview evidence into operational data practice rather than design criteria |
-| **2.4 Update frequency, scale, and operational constraints** | Data usefulness depends on update cadence, spatial granularity, quality controls, and access constraints | DDPM, NSO, MSDHS, OTP, DLA, DGA, TBA, NESDC summaries in [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes) | Prevents Section 1 from carrying too much descriptive operational detail |
-| **2.5 Expressed dataset needs** | Stakeholders consistently report unmet needs around projections, baselines, metadata, granularity, economic loss data, vulnerability data, and safe access pathways | interview summaries in [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes), [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md) | Supplies the concrete demand-side evidence that later supports prioritization, without repeating Section 1 MVP framing |
-| **2.6 Use cases of climate risk and impact information** | Climate risk and impact information is used across emergency response, local planning, budgeting, social protection, macroeconomic planning, infrastructure resilience, and financial risk analysis | [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md), interview summaries in [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes) | Connects the product landscape to why the architecture matters, without replacing Section 1.10 |
-| **2.7 Synthesis and progress implications** | The current landscape shows both existing assets and major coordination gaps; the project's immediate value lies in organizing and clarifying this landscape | all Section 2 evidence above, plus [`ψ/incubate/DCCE/CRDB/output/CRDB - Project Status (Current).md`](ψ/incubate/DCCE/CRDB/output/CRDB%20-%20Project%20Status%20(Current).md) | Hands the argument back to later report sections while avoiding a second architecture chapter |
+| **2.2 Current data product landscape** | DCCE and partner agencies already have multiple products, portals, dashboards, reports, and systems, but they are fragmented | [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-current-data-product-landscape-table.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-current-data-product-landscape-table.md), [`ψ/incubate/DCCE/CRDB/output/FGD 1 result.md`](ψ/incubate/DCCE/CRDB/output/FGD%201%20result.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md), and Pack A evidence in [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md) | Absorbs the descriptive current-state material that would otherwise overload Section 1.6-1.7 |
+| **2.3 Stakeholder-generated data and collection practice** | Agencies generate or manage different kinds of data through different mechanisms such as surveys, reporting chains, registries, modeling, and external data integration | [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md) plus supporting interview summaries in [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes) | Extends Section 1.2 interview evidence into operational data practice rather than design criteria |
+| **2.4 Update frequency, scale, and operational constraints** | Data usefulness depends on update cadence, spatial granularity, quality controls, and access constraints | [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md), with operational detail anchored in DDPM, NSO, MSDHS, OTP, DLA, DGA, TBA, and NESDC interview summaries | Prevents Section 1 from carrying too much descriptive operational detail |
+| **2.5 Expressed dataset needs** | Stakeholders consistently report unmet needs around projections, baselines, metadata, granularity, economic loss data, vulnerability data, and safe access pathways | [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-stakeholder-needs-synthesis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-stakeholder-needs-synthesis.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md), and [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md) | Supplies the concrete demand-side evidence that later supports prioritization, without repeating Section 1 MVP framing |
+| **2.6 Use cases of climate risk and impact information** | Climate risk and impact information is used across emergency response, local planning, budgeting, social protection, macroeconomic planning, infrastructure resilience, and financial risk analysis | [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-use-case-clustering.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-use-case-clustering.md), [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md), and the interview summaries in [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes) | Connects the product landscape to why the architecture matters, without replacing Section 1.10 |
+| **2.7 Synthesis and progress implications** | The current landscape shows both existing assets and major coordination gaps; the project's immediate value lies in organizing and clarifying this landscape | the full evidence package above, especially [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-to-Chapter2-handoff-analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-to-Chapter2-handoff-analysis.md), plus [`ψ/incubate/DCCE/CRDB/output/CRDB - Project Status (Current).md`](ψ/incubate/DCCE/CRDB/output/CRDB%20-%20Project%20Status%20(Current).md) | Hands the argument back to later report sections while avoiding a second architecture chapter |
 
 ## Pre-drafting analysis tasks for Section 2 (not report content)
 
@@ -112,6 +112,54 @@ These should be completed **before** drafting Section 2 and should **not** appea
    - grouped by emergency response, local planning and budgeting, social protection, macroeconomic planning, infrastructure resilience, and financial risk analysis
 5. Chapter 1 to Chapter 2 handoff note
    - what descriptive material moves to Section 2 and what analytical conclusions remain in Section 1
+
+## Section 2 source-to-artifact mapping and reuse rules
+
+This mapping should remain embedded in the anchor writing plan rather than split into a separate note.
+
+### Reuse rules
+
+1. **Descriptive current-state material** belongs in the Section 2 analysis artifacts and later Chapter 2 prose.
+2. **Architectural interpretation** remains in Chapter 1, except where a short bridge sentence is needed.
+3. When evidence is uneven, record it as `explicit`, `implied`, or `not yet specified` rather than forcing false precision.
+4. The current data product landscape must combine:
+   - DCCE website-content findings from [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md)
+   - Pack A risk-map product evidence from [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md)
+   - agency product and system references from [`ψ/incubate/DCCE/CRDB/output/FGD 1 result.md`](ψ/incubate/DCCE/CRDB/output/FGD%201%20result.md) and [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes)
+5. The Chapter 1 to Chapter 2 handoff analysis must compare [`ψ/incubate/DCCE/CRDB/output/2026-03-13-CRDB-Interim-Report-Section-1.6-1.12-Draft-th-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-13-CRDB-Interim-Report-Section-1.6-1.12-Draft-th-v2.md) against [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3.md), guided by [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-Chapter2-restructuring-decision-note.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-Chapter2-restructuring-decision-note.md).
+
+### Source-to-artifact mapping
+
+| Artifact | Direct purpose | Main sources | Extraction focus | Feeds Chapter 2 subsections |
+|---|---|---|---|---|
+| Interview comparison matrix | Create one normalized comparison view across agencies | interview summaries in [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes) | agency role, products/systems, data managed, collection/update practice, spatial scale, constraints, unmet needs, use cases | 2.3, 2.4, 2.5, 2.6 |
+| Current data product landscape table | Consolidate what products, systems, and content assets already exist | [`ψ/incubate/DCCE/CRDB/output/FGD 1 result.md`](ψ/incubate/DCCE/CRDB/output/FGD%201%20result.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md), Pack A extraction in [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md), interview product mentions | website asset groups, risk-map product structure, current system status, intended audiences, scope, limitations | 2.2, 2.7 |
+| Stakeholder-needs synthesis note | Group recurring unmet-data requests into report-ready themes | interview summaries, [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md), FGD1 comments in [`ψ/incubate/DCCE/CRDB/output/FGD 1 result.md`](ψ/incubate/DCCE/CRDB/output/FGD%201%20result.md) | projections, baselines, metadata, granularity, economic loss, vulnerability, governance/access | 2.5, 2.7 |
+| Use-case clustering note | Cluster scattered use cases into a small set of practical groups | [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md), interview summaries | emergency response, local planning/budgeting, social protection, macro planning, infrastructure resilience, financial risk analysis | 2.6, 2.7 |
+| Chapter 1 to Chapter 2 handoff analysis note | Separate what stays analytical in Chapter 1 from what moves as descriptive landscape material into Chapter 2 | [`ψ/incubate/DCCE/CRDB/output/2026-03-13-CRDB-Interim-Report-Section-1.6-1.12-Draft-th-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-13-CRDB-Interim-Report-Section-1.6-1.12-Draft-th-v2.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-Chapter2-restructuring-decision-note.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-Chapter2-restructuring-decision-note.md), Pack A extraction, website gap summary | keep/move/bridge decisions, especially for website-description and risk-map-description material | 2.2, 2.7 and Chapter 1/2 consistency |
+
+### Normalization conventions for the Section 2 evidence package
+
+- **Update frequency**
+  - `continuous/system-driven`
+  - `event-driven`
+  - `monthly`
+  - `annual or periodic`
+  - `project-based / ad hoc`
+  - `not explicitly stated`
+
+- **Spatial scale**
+  - `national`
+  - `provincial`
+  - `district`
+  - `sub-district / municipality / LAO`
+  - `asset-level / point-level`
+  - `mixed-scale`
+
+- **Evidence confidence**
+  - `explicit in source`
+  - `inferred from workflow description`
+  - `not yet specified`
 
 ## Required TOR coverage (Interim Report)
 
@@ -190,3 +238,249 @@ These should be completed **before** drafting Section 2 and should **not** appea
 - [ ] Insert: Task 5.5 scope + progress
 - [ ] Insert: Section 1 evidence synthesis (website + Pack A + Pack C through CDM/MVP lens)
 - [ ] Appendices (risk‑map evidence, gap summary, interview signals)
+
+## Thai appendix outline — CDM, use cases, and sitemap
+
+Purpose:
+- prepare three stand-alone appendix sections that carry the full supporting detail which would be too heavy for the main report body
+- keep the main report readable while preserving the technical and structural basis behind the draft
+
+Drafting mode:
+- Thai formal report prose
+- appendix style: more detailed than the main chapters, but still readable as a report section rather than as raw notes
+
+### Appendix Section A — Detailed Conceptual Data Model (CDM)
+
+Objective:
+- explain the full CDM in enough detail for review, future system design, and traceability back to the project logic
+
+Proposed structure:
+
+1. **วัตถุประสงค์ของภาคผนวกส่วนนี้**
+   - อธิบายว่าเหตุใดจึงต้องแสดงรายละเอียดของ CDM แยกจากเนื้อหาหลัก
+   - เชื่อมว่า CDM เป็นโครงสร้างกลางของการจัดระเบียบข้อมูลสำหรับ NCAIF
+
+2. **ภาพรวมของขอบเขตข้อมูลหลักของ CDM**
+   - ขอบเขตข้อมูลด้านสภาพภูมิอากาศและตัวขับการเปลี่ยนแปลง
+   - ขอบเขตข้อมูลด้านการประเมินความเสี่ยงและผลกระทบ
+   - ขอบเขตข้อมูลด้านการประเมินความยืดหยุ่น
+   - ขอบเขตข้อมูลด้านการวางแผนและดำเนินการปรับตัว
+
+3. **รายละเอียดของแต่ละ subject area**
+   - subject area 1: physical climate
+   - subject area 2: risk and impact assessment
+   - subject area 3: resilience assessment
+   - subject area 4: adaptation planning
+
+4. **รายละเอียดของ sub-domains / entities ภายใน subject area 2**
+   - hazard modeling
+   - vulnerability and exposure
+   - risk assessment outputs
+   - impact / loss and damage
+
+5. **ตรรกะการเชื่อมโยงข้อมูลระหว่าง subject areas**
+   - การเชื่อมจาก climate drivers ไปสู่ hazard map
+   - การเชื่อมจาก exposed assets / vulnerability ไปสู่ risk assessment
+   - การเชื่อมจาก risk outputs ไปสู่ adaptation planning และ intervention results
+
+6. **หลักการออกแบบสำคัญของ CDM**
+   - determinant neutrality
+   - recursive aggregation
+   - attribution logic
+   - polymorphic vulnerability
+   - spatial multi-tenancy
+   - model agnosticism
+   - projections as first-class citizens
+   - intervention feedback loop
+
+7. **ความหมายเชิงการใช้งานของ CDM ต่อ NCAIF และการพัฒนาระบบในระยะต่อไป**
+
+Primary sources:
+- [`ψ/incubate/DCCE/CRDB/output/2026-02-26-Detailed_CDM_Design.md`](ψ/incubate/DCCE/CRDB/output/2026-02-26-Detailed_CDM_Design.md)
+- [`ψ/incubate/DCCE/CRDB/output/Conceptual Data Model for climate risk and adaptation data system.md`](ψ/incubate/DCCE/CRDB/output/Conceptual%20Data%20Model%20for%20climate%20risk%20and%20adaptation%20data%20system.md)
+
+### Appendix Section B — Detailed Use Cases and User Journeys
+
+Objective:
+- document the full set of use cases, user journeys, and governance implications that informed the platform and product decisions
+
+Proposed structure:
+
+1. **วัตถุประสงค์ของภาคผนวกส่วนนี้**
+   - อธิบายว่า use cases เป็นฐานของการออกแบบบริการและผลิตภัณฑ์ขั้นต่ำ
+
+2. **วิธีสังเคราะห์กรณีการใช้งาน**
+   - มาจากการสัมภาษณ์ stakeholder และ workshop signals อย่างไร
+
+3. **การจัดกลุ่ม use cases หลัก**
+   - post-event impact and loss/damage assessment
+   - risk context for preparedness
+   - provincial risk profile
+   - municipality / LAO budget justification pack
+   - vulnerable group mapping
+   - heat-health roadmap
+   - cascading impacts explainer
+   - infrastructure disruption and corridor exposure
+   - statistical baselines and tagging
+   - true economic loss and damage estimation
+   - baseline verification / single source of truth
+   - financial-sector physical risk analysis
+
+4. **รายละเอียดราย use case**
+   - primary user
+   - trigger / policy question
+   - user journey
+   - minimum data needs
+   - governance needs
+   - Phase 1 stance
+
+5. **ข้อสังเกตข้าม use cases**
+   - granularity needs
+   - metadata needs
+   - publishing constraints
+   - uncertainty handling
+   - printable / exportable products
+
+6. **ความเชื่อมโยงจาก use cases ไปสู่ MVPs และโครงสร้างข้อมูล**
+
+Primary sources:
+- [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md)
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-use-case-clustering.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-use-case-clustering.md)
+
+### Appendix Section C — Detailed Sitemap and Information Architecture
+
+Objective:
+- place the full sitemap and the detailed navigation logic in an appendix so the main report can explain structure without becoming a menu inventory
+
+Proposed structure:
+
+1. **วัตถุประสงค์ของภาคผนวกส่วนนี้**
+   - อธิบายว่าเนื้อหานี้แสดงรายละเอียดเชิงโครงสร้างของแพลตฟอร์มที่ถูกย่อไว้ในบทหลัก
+
+2. **หลักการออกแบบ sitemap**
+   - adaptation-cycle backbone
+   - Policy Maker Center
+   - hybrid access model
+   - separation between narrative surface and technical support layer
+   - shallow top-level navigation
+   - progressive disclosure
+
+3. **sitemap ระดับบนทั้งหมด**
+   - top-level sections
+   - entry routes
+   - stable backbone elements
+
+4. **รายละเอียดระดับรองของแต่ละหมวด**
+   - climate conditions
+   - risks and impacts
+   - loss and damage
+   - adaptation planning
+   - adaptation implementation
+   - results and monitoring
+   - Policy Maker Center
+   - risk and area profiles
+   - knowledge, tools, and data services
+
+5. **รายละเอียดของ key page types / products**
+   - briefing packs
+   - area profiles
+   - dashboards
+   - catalogs and download pages
+   - methods / standards / glossary pages
+
+6. **องค์ประกอบที่คงเสถียรภาพ กับองค์ประกอบที่ปรับเปลี่ยนได้**
+
+7. **ข้อกำกับในการเปลี่ยนแปลง sitemap ในระยะต่อไป**
+
+Primary sources:
+- [`ψ/incubate/DCCE/CRDB/output/National Climate Adaptation Information Framework.md`](ψ/incubate/DCCE/CRDB/output/National%20Climate%20Adaptation%20Information%20Framework.md)
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-12 - NCAIF_Pack_ABC_Decision_Matrix.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12%20-%20NCAIF_Pack_ABC_Decision_Matrix.md)
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-12 - NCAIF_Pack_C_UI_Analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12%20-%20NCAIF_Pack_C_UI_Analysis.md)
+
+Drafting rule for all three appendix sections:
+- include every detail necessary for technical and managerial review
+- keep the prose report-like, not bullet-dump only
+- allow lists and tables where detail density is high
+
+## Thai drafting outline for Chapter 2 draft
+
+Mode: `--report`
+
+Target length:
+- fuller Chapter 2 draft
+- approximately 7–9 pages in Thai report prose
+
+Drafting objective:
+- produce a sponsor-facing Thai draft of Chapter 2 that follows the anchor plan
+- keep the chapter descriptive and evidence-led
+- synthesize current products, data practices, unmet needs, and practical use cases without repeating the Chapter 1 architecture argument
+
+Primary drafting sources:
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-current-data-product-landscape-table.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-current-data-product-landscape-table.md)
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md)
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-stakeholder-needs-synthesis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-stakeholder-needs-synthesis.md)
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-use-case-clustering.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-use-case-clustering.md)
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-to-Chapter2-handoff-analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-to-Chapter2-handoff-analysis.md)
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md)
+- [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md)
+
+Numbered outline:
+
+1. **บทนำของหมวด 2**
+   - เปิดด้วยเจตนารมณ์ของ TOR 5.3.1–5.3.2 ในฐานะการทบทวนภูมิทัศน์ผลิตภัณฑ์ข้อมูลและฐานข้อมูลในระยะปัจจุบัน
+   - วางกรอบว่าเนื้อหาในหมวดนี้มุ่งอธิบายสิ่งที่มีอยู่จริง วิธีที่หน่วยงานต่าง ๆ ใช้และจัดการข้อมูล สิ่งที่ยังขาด และกรณีการใช้งานหลัก
+   - ย้ำว่าเป็นการทบทวนเชิงสังเคราะห์สำหรับรายงานความก้าวหน้า ไม่ใช่การอ้างว่าการจัดทำ baseline inventory เสร็จสมบูรณ์แล้ว
+
+2. **2.1 เจตนารมณ์ของ TOR และวัตถุประสงค์ของการทบทวนภูมิทัศน์ผลิตภัณฑ์ข้อมูลในระยะปัจจุบัน**
+   - อธิบายว่าเหตุผลของหมวดนี้คือทำให้เห็นสถานะปัจจุบันของผลิตภัณฑ์ข้อมูลและระบบข้อมูลที่มีอยู่
+   - เชื่อมว่าหมวดนี้รองรับงานตาม TOR 5.3 โดยไม่ซ้ำกับบทสถาปัตยกรรมใน Chapter 1
+
+3. **2.2 ภาพรวมของผลิตภัณฑ์ข้อมูลและระบบข้อมูลที่มีอยู่ในปัจจุบัน**
+   - เริ่มจากภูมิทัศน์ของ DCCE website และระบบที่เกี่ยวข้อง ว่ามีทรัพย์สินข้อมูลจริงจำนวนมาก แต่กระจัดกระจายตามภารกิจและโครงการ
+   - อธิบายระบบแผนที่ความเสี่ยงเชิงพื้นที่ในฐานะผลิตภัณฑ์ข้อมูลที่ก้าวหน้าที่สุดในปัจจุบัน โดยแจกแจง 3 ชั้นของผลิตภัณฑ์
+   - ขยายไปยังผลิตภัณฑ์และระบบของหน่วยงานคู่สนทนา เช่น พอร์ทัลข้อมูลภัยพิบัติ ระบบสถิติ ศูนย์ข้อมูลเปิด ระบบข้อมูลภาคขนส่ง และเครื่องมือวิเคราะห์ของภาคการเงิน
+   - ปิดด้วยข้อสังเกตว่าภูมิทัศน์ปัจจุบันมีสินทรัพย์จริงจำนวนมาก แต่ยังไม่เชื่อมเป็นภาพรวมเดียว
+
+4. **2.3 ลักษณะข้อมูลที่ผู้มีส่วนเกี่ยวข้องเป็นผู้ผลิตหรือดูแล และวิธีการได้มาของข้อมูล**
+   - จัดกลุ่มหน่วยงานตามลักษณะการทำงาน ไม่เรียงรายหน่วยงานแบบรายตัว
+   - กลุ่มผู้ผลิตข้อมูลปฐมภูมิและข้อมูลธุรการ
+   - กลุ่มผู้ประสานข้อมูลและโครงสร้างพื้นฐานข้อมูล
+   - กลุ่มผู้ใช้ข้อมูลเชิงนโยบายและเชิงวิเคราะห์
+   - อธิบายความแตกต่างของวิธีได้มาของข้อมูล เช่น สำรวจ รายงานตามสายงาน ทะเบียน การเชื่อม API การวิเคราะห์เชิงแบบจำลอง และการดึงจากแหล่งภายนอก
+
+5. **2.4 ความถี่การปรับปรุงข้อมูล ระดับพื้นที่ และข้อจำกัดในการใช้งานจริง**
+   - สังเคราะห์เรื่อง cadence การอัปเดตว่าบางระบบเป็น event-driven บางระบบเป็น periodic survey บางระบบเป็นโครงการเฉพาะกิจ
+   - อธิบายความต่างด้านระดับพื้นที่ ตั้งแต่ระดับประเทศ จังหวัด อำเภอ ตำบล เทศบาล ไปจนถึงระดับทรัพย์สินหรือจุดเฉพาะ
+   - ชี้ข้อจำกัดหลัก เช่น ความไม่ครบถ้วน ความล่าช้า การไม่มี metadata ความไม่สอดคล้องของนิยาม การจำกัดสิทธิ์เข้าถึง และความเสี่ยงในการตีความผิดเกินขอบเขตข้อมูล
+
+6. **2.5 ความต้องการข้อมูลที่หน่วยงานต่าง ๆ ยังขาดอยู่**
+   - จัดความต้องการออกเป็นกลุ่มหลักตาม synthesis note
+   - ข้อมูลคาดการณ์ระยะยาวและ scenario ที่เชื่อถือได้
+   - baseline และตัวชี้วัดมาตรฐานกลาง
+   - metadata และ data dictionary
+   - ข้อมูลที่ละเอียดสอดคล้องกับระดับการตัดสินใจ
+   - ข้อมูลความสูญเสียและความเสียหายทางเศรษฐกิจที่แท้จริง
+   - ข้อมูลความเปราะบางและขีดความสามารถในการปรับตัว
+   - เส้นทางการเข้าถึงและการเผยแพร่ข้อมูลที่ปลอดภัยและชัดเจน
+
+7. **2.6 กรณีการใช้งานของข้อมูลความเสี่ยงและผลกระทบจากการเปลี่ยนแปลงสภาพภูมิอากาศ**
+   - จัด use cases เป็นกลุ่มสังเคราะห์ ไม่เล่าแบบหน่วยงานต่อหน่วยงาน
+   - การตอบสนองภัยพิบัติและการประเมินหลังเหตุการณ์
+   - การวางแผนท้องถิ่นและการของบประมาณ
+   - การคุ้มครองกลุ่มเปราะบางและการจัดบริการสังคม
+   - การวางแผนเศรษฐกิจมหภาคและการประเมินระดับชาติ
+   - การวางแผนความยืดหยุ่นของโครงสร้างพื้นฐาน
+   - การวิเคราะห์ความเสี่ยงของภาคการเงิน
+   - ปิดด้วยข้อสังเกตว่า use cases เหล่านี้สะท้อนว่าความต้องการข้อมูลไม่ได้มีเพียงเพื่อการสื่อสาร แต่เพื่อการตัดสินใจจริงในหลายบริบท
+
+8. **2.7 ข้อสังเกตเชิงสังเคราะห์จากการทบทวนภูมิทัศน์ผลิตภัณฑ์ข้อมูลและผลการสัมภาษณ์**
+   - สรุปว่าไทยมีผลิตภัณฑ์ข้อมูลและระบบข้อมูลอยู่แล้วจำนวนมาก
+   - แต่ข้อมูลและระบบเหล่านี้ยังแยกส่วนกันทั้งในเชิงสถาบัน มาตรฐาน คำอธิบาย และการค้นพบ
+   - ชี้ว่าความท้าทายสำคัญไม่ใช่การเริ่มจากศูนย์ แต่คือการจัดระเบียบ เชื่อมโยง อธิบายข้อจำกัด และทำให้ผู้ใช้เลือกใช้ได้อย่างมั่นใจ
+   - ส่งต่อเหตุผลอย่างนุ่มนวลไปสู่หมวดถัดไปของรายงานโดยไม่ย้อนกลับไปแบกภาระเชิงสถาปัตยกรรมของ Chapter 1
+
+9. **หลักการเขียนตลอดทั้งหมวด**
+   - ใช้ภาษารายงานทางการ อ่านเป็นฉบับส่งผู้ว่าจ้าง
+   - เปิดแต่ละหัวข้อด้วยข้อค้นพบเชิงปฏิบัติ ไม่เปิดด้วยกระบวนการวิเคราะห์ภายใน
+   - รักษาแนวเขียนแบบสังเคราะห์ ไม่ทำให้เนื้อหาแตกเป็นบันทึกสัมภาษณ์รายหน่วยงาน
+   - กล่าวถึงข้อจำกัดของข้อมูลอย่างตรงไปตรงมา แต่ไม่ทำให้น้ำเสียงกลายเป็นบันทึกปัญหาภายในทีม
