@@ -13,7 +13,13 @@
 				"oracle_handoff",
 				"oracle_search",
 				"oracle_reflect",
-				"oracle_concepts"
+				"oracle_concepts",
+				"____IMPORTANT",
+				"oracle_list",
+				"oracle_stats",
+				"oracle_trace",
+				"oracle_supersede",
+				"oracle_inbox"
 			]
 		},
 		"notebooklm": {

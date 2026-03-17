@@ -149,11 +149,11 @@ Aligned to governance v3:
 Reference: [`Feature-Driven Data Governance Strategy v3 (2026-03-05).md`](src/01_Projects/2025-11_DCCE-CRDB/output/Feature-Driven%20Data%20Governance%20Strategy%20v3%20(2026-03-05).md:1)
 
 ---
+
+# Draft Data Structure (Sitemap) -superseded
 2026-03-11 Sitemap presented in FGD2 (seed to preserve)
 
-# Draft Data Structure (Sitemap)
-
-### Option 1: Thematic-based (ทางเลือกที่ 1: อิงตามหมวดหมู่ข้อมูล)
+## Option 1: Thematic-based (ทางเลือกที่ 1: อิงตามหมวดหมู่ข้อมูล)
 
 - **Data repository by content category (คลังข้อมูลตามหมวดหมู่เนื้อหา)**
   - Science and Climate Conditions (วิทยาศาสตร์และสภาวะภูมิอากาศ)
@@ -163,7 +163,7 @@ Reference: [`Feature-Driven Data Governance Strategy v3 (2026-03-05).md`](src/01
 
 ---
 
-### Option 2: User-journey-based (ทางเลือกที่ 2: อิงตามกลุ่มผู้ใช้งาน)
+## Option 2: User-journey-based (ทางเลือกที่ 2: อิงตามกลุ่มผู้ใช้งาน)
 
 - **Data Management Center for Policy Makers (ศูนย์บริหารจัดการข้อมูลสำหรับผู้กำหนดนโยบาย)**
   - Summary of risks by area and sector (สรุปภาพรวมความเสี่ยงรายพื้นที่และภาคส่วน) — **MVP-1**
@@ -177,17 +177,17 @@ Reference: [`Feature-Driven Data Governance Strategy v3 (2026-03-05).md`](src/01
     - Data methodology and standards (ระเบียบวิธีและมาตรฐานข้อมูล) — **MVP-4**
 
 ---
-2026-03-12 10:50
-# Sitemap vNext (interim report refinement)
 
-### Design rules
+# Sitemap vNext (interim report refinement) - superseded 2026-03-12 10:50
+
+## 1. Design rules
 
 - Preserve the **Option 1 topics** as the visible content taxonomy.
 - Keep the **Policy Maker block** intact because it is the anchor expected by leadership.
 - Use the **adaptation cycle as the backbone** of the user-journey map.
 - Embed technical assets (recommended baselines, spatial references, standards) **inside relevant pages** rather than placing them at the top level.
 
-### Top-level navigation
+## 2. Top-level navigation
 
 1) Home
 2) Data Management Center for Policy Makers
@@ -197,8 +197,7 @@ Reference: [`Feature-Driven Data Governance Strategy v3 (2026-03-05).md`](src/01
 6) Knowledge, Tools, and Data Services
 7) News, Updates, and About
 
-### Drill-down sitemap (2–3 levels)
-
+## Drill-down sitemap (2–3 levels)
 #### 1) Home
 - National climate adaptation overview
 - Key climate risks and adaptation priorities
@@ -314,23 +313,81 @@ Technical support is present but embedded rather than the platform’s identity.
 
 ---
 
-## Stable vs flexible sitemap rules
+##  3. Assessment of the NCAIF navigation structure
 
-### Stable backbone (do not change without leadership review)
+### Strengths
+- **Usable for non‑technical decision‑makers** through the Policy Maker Center.
+- **Clear adaptation‑cycle storyline** that aligns with IPCC, UNFCCC, and ISO logic.
+- **Balanced public‑facing structure** that is not just a data catalog.
+- **Extensible backbone** with flexible subtopics to grow over time without redesign.
+- **Phase 1 pragmatism**: technical functions are embedded within user pages rather than dominating navigation.
 
+### Limitations and risks
+- **Duplication risk** across policy‑maker pages, cycle pages, and risk‑area profiles if editorial governance is weak.
+- **Overlap in implementation content** between the cycle branch and the dedicated implementation section.
+- **Loss and damage may dominate** if not consistently framed as part of the broader risk chain.
+- **Analytical concepts remain implicit** (exposure, vulnerability, adaptive capacity, residual risk).
+- **Support/enabling conditions** are under‑surfaced relative to assessment and planning content.
+
+
+
+## 4. Alternative sitemap designs (same core, different emphasis)
+
+### Alternative A — Policy and program cycle‑first
+**Idea**: Present the same content as a public‑sector program cycle (diagnose → plan → finance → implement → evaluate). This keeps the adaptation‑cycle logic in the background while foregrounding planning and implementation decisions.
+
+**Top‑level navigation (illustrative)**
+1) Home
+2) Policy Maker Center
+3) Diagnose and Assess
+4) Plan and Prioritize
+5) Finance and Enable
+6) Implement and Coordinate
+7) Evaluate and Report
+8) Knowledge, Tools, and Data Services
+9) News and About
+
+**Trade‑offs vs vNext**
+- **Better** when the primary audience is senior planners and program managers.
+- **More legible** for UNFCCC reporting logic and ISO management cycles.
+- **Less visible** as a climate‑risk architecture unless strong cross‑links remain.
+
+### Alternative B — User‑group‑first
+**Idea**: Present the platform by user groups (policy, technical analysts, local implementers), with adaptation‑cycle tags in the background. This emphasizes service usability and audience‑specific navigation.
+
+**Top‑level navigation (illustrative)**
+1) Home
+2) For Policy Makers
+3) For Technical Analysts
+4) For Local Implementers
+5) National Adaptation Cycle
+6) Knowledge, Tools, and Data Services
+7) News and About
+
+**Trade‑offs vs vNext**
+- **Better** when usability for multiple audiences is the dominant goal.
+- **Aligned** with WMO climate services thinking (service delivery by user community).
+- **Less explicit** as an adaptation‑cycle storyline, requiring strong taxonomy/metadata to preserve standards alignment.
+
+---
+
+
+# Locked decision 2026-03-13
+## a) Stable vs flexible sitemap rules
+
+### a-1) Stable backbone (do not change without leadership review)
 - adaptation cycle structure
 - policy maker block
 - core topic families
-  - climate conditions
-  - risks and impacts
-  - loss and damage
-  - adaptation planning
-  - adaptation implementation
-  - results and monitoring
+	- climate conditions
+	- risks and impacts
+	- loss and damage
+	- adaptation planning
+	- adaptation implementation
+	- results and monitoring
 - existence of data services, methodology, glossary, and updates sections
 
-### Flexible elements (can evolve by section owners)
-
+### a-2) Flexible elements (can evolve by section owners)
 - specific sectors
 - hazard subtopics
 - named tools and dashboards
@@ -338,10 +395,8 @@ Technical support is present but embedded rather than the platform’s identity.
 - agency collections
 - indicator sets
 
----
-
-## Standards alignment of the NCAIF sitemap vNext
-
+## b) Standards alignment of the NCAIF sitemap 
+2026-03-12 15:50
 
 >[!key] Sitemap change process (short form)
 >1) **Minor content change** (new subpage, label revision, case study) → section owner approval
@@ -424,66 +479,7 @@ This section verifies whether the proposed sitemap structure aligns with major i
 
 - ISO traceability depends on page‑level metadata and governance practices, not the sitemap alone.
 
----
-## Assessment of the NCAIF navigation structure
-
-### Strengths
-- **Usable for non‑technical decision‑makers** through the Policy Maker Center.
-- **Clear adaptation‑cycle storyline** that aligns with IPCC, UNFCCC, and ISO logic.
-- **Balanced public‑facing structure** that is not just a data catalog.
-- **Extensible backbone** with flexible subtopics to grow over time without redesign.
-- **Phase 1 pragmatism**: technical functions are embedded within user pages rather than dominating navigation.
-
-### Limitations and risks
-
-- **Duplication risk** across policy‑maker pages, cycle pages, and risk‑area profiles if editorial governance is weak.
-- **Overlap in implementation content** between the cycle branch and the dedicated implementation section.
-- **Loss and damage may dominate** if not consistently framed as part of the broader risk chain.
-- **Analytical concepts remain implicit** (exposure, vulnerability, adaptive capacity, residual risk).
-- **Support/enabling conditions** are under‑surfaced relative to assessment and planning content.
-
----
-
-## Alternative sitemap designs (same core, different emphasis)
-
-### Alternative A — Policy and program cycle‑first
-**Idea**: Present the same content as a public‑sector program cycle (diagnose → plan → finance → implement → evaluate). This keeps the adaptation‑cycle logic in the background while foregrounding planning and implementation decisions.
-
-**Top‑level navigation (illustrative)**
-1) Home
-2) Policy Maker Center
-3) Diagnose and Assess
-4) Plan and Prioritize
-5) Finance and Enable
-6) Implement and Coordinate
-7) Evaluate and Report
-8) Knowledge, Tools, and Data Services
-9) News and About
-
-**Trade‑offs vs vNext**
-- **Better** when the primary audience is senior planners and program managers.
-- **More legible** for UNFCCC reporting logic and ISO management cycles.
-- **Less visible** as a climate‑risk architecture unless strong cross‑links remain.
-
-### Alternative B — User‑group‑first
-**Idea**: Present the platform by user groups (policy, technical analysts, local implementers), with adaptation‑cycle tags in the background. This emphasizes service usability and audience‑specific navigation.
-
-**Top‑level navigation (illustrative)**
-1) Home
-2) For Policy Makers
-3) For Technical Analysts
-4) For Local Implementers
-5) National Adaptation Cycle
-6) Knowledge, Tools, and Data Services
-7) News and About
-
-**Trade‑offs vs vNext**
-- **Better** when usability for multiple audiences is the dominant goal.
-- **Aligned** with WMO climate services thinking (service delivery by user community).
-- **Less explicit** as an adaptation‑cycle storyline, requiring strong taxonomy/metadata to preserve standards alignment.
-
----
-## Landing page access model (Policy Maker Center placement + main entry paths)
+## c) Landing page access model (Policy Maker Center placement + main entry paths)
 
 This section explains how the **Center for Policy Makers** should appear on the landing page and how users access each main section from the homepage.
 
@@ -493,8 +489,8 @@ This section explains how the **Center for Policy Makers** should appear on the 
 - **Included as the primary call‑to‑action button** in the hero banner.
 
 This ensures leadership sees their entry point immediately, without scrolling or searching.
-### Suggested landing page layout
 
+### Suggested landing page layout
 #### 1) Top navigation bar (global)
 - Home
 - Data Management Center for Policy Makers
@@ -505,7 +501,6 @@ This ensures leadership sees their entry point immediately, without scrolling or
 - News, Updates, and About
 
 #### 2) Hero band (top of the page)
-
 **Title + short explanation + 2–3 primary buttons**
 
 - **[Go to Policy Maker Center]** → Data Management Center for Policy Makers
@@ -513,7 +508,6 @@ This ensures leadership sees their entry point immediately, without scrolling or
 - [Find My Area Profile] → Risk and Area Profiles
 
 #### 3) Primary entry cards (largest visual block)
-
 1) **Policy Maker Center** (highlighted, first position)
 2) **Adaptation Information by Cycle**
 3) **Risk and Area Profiles**
@@ -522,14 +516,12 @@ This ensures leadership sees their entry point immediately, without scrolling or
 Each card links directly to the corresponding main page.
 
 #### 4) Secondary discovery rows
-
 - **Adaptation cycle band** (visual flow with clickable steps)
 - **Explore by area band** (map selector + provincial profiles)
 - **Measures and practice band** (options library, case studies, implementation support)
 - **Tools and data band** (catalog, maps/overlays, methods/standards)
 
 ### Access map (conceptual)
-
 - **Policy Maker Center** is reachable via:
   - top nav
   - hero button
@@ -554,12 +546,12 @@ Each card links directly to the corresponding main page.
 
 ---
 
-## Refined NCAIF sitemap — March 2026 (Pack A/B/C aligned)
+## d) Refined NCAIF sitemap — March 2026 (Pack A/B/C aligned)
+**2026-03-12 17: 50**
 
 This section updates the NCAIF structure to reflect the Pack A/B/C decision matrix and the latest scope constraints. It preserves the adaptation-cycle backbone and the Policy Maker Center, while reframing tools and catalog access to match Phase 1 reality and Pack C usability guidance.
 
 ### 1. Top-level navigation
-
 The top-level list stays shallow, with narrative and decision-ready entry points. Items marked as “tools” or “catalog” are separated in the second level to avoid mixed-mode confusion.
 
 1) **Home**

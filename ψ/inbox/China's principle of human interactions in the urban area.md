@@ -1,0 +1,4 @@
+- constant negotiation
+- not governed entirely my law, but negotiations are always happening 
+- flexible and resilient
+- environments are design to reduce the impacts of human errors
