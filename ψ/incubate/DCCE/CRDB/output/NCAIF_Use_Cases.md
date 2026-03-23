@@ -4,12 +4,13 @@ tags:
   - NCAIF
   - use-cases
 created: 2026-02-26
-last_updated: 2026-03-04
+  last_updated: 2026-03-23
 project:
   - DCCE_CRDB
 type:
   - artifact
 ---
+
 # NCAIF Use Cases (Draft) — consultation + stakeholder interviews
 
 ## Purpose
@@ -32,6 +33,10 @@ Translate interview/workshop observations into **concrete NCAIF user journeys** 
   - NESDC: [`src/01_Projects/2025-11_DCCE-CRDB/sources/Interview result/Interview Summary - NESDC.md`](src/01_Projects/2025-11_DCCE-CRDB/sources/Interview%20result/Interview%20Summary%20-%20NESDC.md:1)
   - NXPO: [`src/01_Projects/2025-11_DCCE-CRDB/sources/Interview result/Interview Summary - NXPO.md`](src/01_Projects/2025-11_DCCE-CRDB/sources/Interview%20result/Interview%20Summary%20-%20NXPO.md:1)
   - Thai Bankers' Association (TBA): [`src/01_Projects/2025-11_DCCE-CRDB/sources/Interview result/Interview Summary - Thai Bankers' Association.md`](src/01_Projects/2025-11_DCCE-CRDB/sources/Interview%20result/Interview%20Summary%20-%20Thai%20Bankers'%20Association.md:1)
+  - FTI: [Interview Summary - FTI.md](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes/Interview%20Summary%20-%20FTI.md)
+  - UDDC: [Interview Summary - UDDC.md](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes/Interview%20Summary%20-%20UDDC.md)
+  - BMA: [Interview Summary - BMA.md](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes/Interview%20Summary%20-%20BMA.md)
+  - DPT: [Interview Summary - DPT.md](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes/Interview%20Summary%20-%20DPT.md)
 
 Additional internal requirements signal:
 
@@ -125,6 +130,19 @@ Additional internal (FGD1) requirements for the catalog experience:
 
 - **Preview** before connecting/downloading (schema/snippet + owner/contact + update cadence)
 - **Audience tiering**: policy vs practitioners vs public
+
+### Service trust, contactability, and machine-readable access
+
+- **FTI** strongly criticizes broken government websites, unanswered contacts, and knowledge loss from staff turnover.
+- **BMA** still manually checks upstream websites for some operational data instead of receiving structured feeds.
+- **UDDC** explicitly asks for both **raw processable data** and simplified dashboards for executives.
+- **DPT** reports that some agencies still provide paper/PDF-like outputs instead of GIS-ready spatial datasets.
+
+Implications:
+
+- Phase 1 catalog/service design must treat **owner pathways, contactability, and update responsibility** as part of the product, not as extra documentation.
+- Phase 1 should support **tiered delivery**: machine-readable data for analysts/operators and simplified decision products for executives and policy users.
+- Governance should define a minimum **technical usability standard** for datasets that are meant to be reused downstream.
 
 ### Budgeting and policy constraints
 
@@ -327,6 +345,28 @@ Additional internal (FGD1) requirement:
 - Use: Plan; Fund
 - Information: Detailed data & results; Data improvement & guidance
 
+### UC-07b — Urban operations and planning-grade local adaptation design (BMA + UDDC + DPT)
+
+**Primary user**: City operator / urban planner / planning engineer / local resilience consortium
+**Goal**: Use machine-readable hazard, infrastructure, and local planning data to support both short-term urban operations and medium-term adaptation design.
+
+**Interview-driven details**
+- **BMA** needs API-based upstream exchange, localized extreme-rainfall forecasting, heat analytics, and operator-ready views for flood and heat response.
+- **UDDC** needs raw data plus executive dashboards, city-scale downscaled flood models, and project-scale data for NbS design and “double vulnerability” analysis.
+- **DPT** needs climate-adjusted rainfall, GIS-ready spatial data, road/drainage geometry, and planning-grade datasets for zoning and engineering decisions.
+
+**Phase 1 stance**
+- Start with a **catalog + endorsed baseline + service-tier pattern** for city/planning users; do not over-claim a full urban digital twin or fully integrated operations platform.
+
+**Governance needs**
+- Boundary/crosswalk rules across province, municipality, district, neighborhood, and project/intervention scales
+- Minimum machine-readable/GIS-ready requirements for datasets intended for planning reuse
+- Clear distinction between operator feeds, analyst data, and executive-facing dashboards
+
+**Typology tags (actionable climate information)**
+- Use: Plan; Take action; Fund
+- Information: Detailed data & results; Data improvement & guidance
+
 ### UC-08 — Statistical baselines and thematic tagging (NSO)
 
 **Primary user**: Data cataloger / national statistics integrator
@@ -394,6 +434,7 @@ Additional internal (FGD1) requirement:
 **Notes from interviews**
 - Verification is the core missing function: multiple agencies produce different numbers; nobody wants liability (NXPO).
 - Suggests a Climate-ADAPT-style clearinghouse and locked/automated publishing to reduce personal liability (NXPO).
+- FTI adds a user-side version of the same problem: the private sector needs DCCE to verify which hazard datasets are trustworthy enough for financial planning and business continuity decisions.
 
 **Data needs**
 - Metadata + provenance + versioning for endorsed baselines
@@ -454,6 +495,8 @@ Additional “must decide” items (added from March 2026 interviews):
 - “Clearinghouse vs repository” stance for Phase 1 (link-first vs host-first)
 - Who (role/title) can endorse a “recommended baseline” and publish it with accountability protections
 - Uncertainty interpretation standard for probabilistic layers (to avoid deterministic misuse)
+- Minimum service design for **owner/contact pathways** so the catalog does not repeat the broken-website problem described by users
+- Incentive/community stance for **private-sector data sharing** beyond legal mandate alone
 
 Additional cross-cutting items (pulled from FGD1 internal feedback):
 

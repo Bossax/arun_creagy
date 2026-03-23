@@ -1,0 +1,9 @@
+# CRDB interview-ingestion traceability and MVP discipline
+
+When new stakeholder interview summaries are added to the CRDB evidence base, the most important downstream action is not merely adding more prose. The higher-value step is restoring explicit traceability across the full evidence pipeline: transcript or raw note -> structured interview summary -> consolidated narrative -> comparison matrix -> stakeholder-needs synthesis -> report-facing chapter -> NCAIF or CDM design artifact.
+
+The session confirmed that late-added summaries such as [FTI](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes/Interview%20Summary%20-%20FTI.md), [UDDC](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes/Interview%20Summary%20-%20UDDC.md), [BMA](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes/Interview%20Summary%20-%20BMA.md), and [DPT](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes/Interview%20Summary%20-%20DPT.md) can materially improve downstream analysis, but only if they are made first-class in the comparison and synthesis layers. Otherwise their evidence remains trapped in agency-specific notes and weakens during abstraction.
+
+The other key lesson is product discipline: broader stakeholder evidence does not automatically mean the Phase 1 MVP should expand. In this CRDB/NCAIF case, the newer interviews strengthened the need for trusted baseline endorsement, tiered service design, machine-readable and GIS-ready usability signaling, owner/contact pathways, and budget-defense packaging. But they did not justify turning Phase 1 into a real-time operational platform, engineering-grade analytics stack, or full private-sector ecosystem. Stronger evidence should sharpen the MVP boundary, not dissolve it.
+
+Suggested concepts: crdb, ncaif, interviews, traceability, mvp, workflow, stakeholder-synthesis

@@ -13,6 +13,11 @@
   - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-draft-edited.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-draft-edited.md)
   - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-review-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-review-v2.md)
   - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Appendices-draft.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Appendices-draft.md)
+- Interview-ingestion successor set for FTI/UDDC/BMA/DPT:
+  - [2026-03-23-CRDB-Interview-Ingestion-Traceability-Note.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-CRDB-Interview-Ingestion-Traceability-Note.md)
+  - [2026-03-23-Chapter2-interview-comparison-matrix-v2.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-interview-comparison-matrix-v2.md)
+  - [2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md)
+  - [NCAIF_Use_Cases.md](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md)
 - Next-session writing focus captured in: [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Next-Session-Plan-CRDB-Interim-Report.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Next-Session-Plan-CRDB-Interim-Report.md)
 
 ## Latest (FGD2)

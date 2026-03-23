@@ -10,6 +10,7 @@ Anchors:
 - Interim report outline (working): [`ψ/incubate/DCCE/CRDB/inbox_note/CRDB interim report.md`](ψ/incubate/DCCE/CRDB/inbox_note/CRDB%20interim%20report.md)
 - Section 1 synthesis analysis: [`ψ/incubate/DCCE/CRDB/output/2026-03-12_crdb-section1-cdm-mvp-evidence-analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12_crdb-section1-cdm-mvp-evidence-analysis.md)
 - Task 5.5 scope (NCAIF knowledge sets): [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Task 5.5 Scope.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Task%205.5%20Scope.md)
+- Interview ingestion traceability (FTI/UDDC/BMA/DPT): [2026-03-23-CRDB-Interview-Ingestion-Traceability-Note.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-CRDB-Interview-Ingestion-Traceability-Note.md)
 
 ## Objectives
 
@@ -63,6 +64,10 @@ Phase 1 “ship list” (minimal, high-leverage):
 - Project status (current): [`ψ/incubate/DCCE/CRDB/CRDB - Project Status (Current).md`](CRDB%20-%20Project%20Status%20(Current).md)
 - FGD2 action summary: [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_action_summary.md`](2026-03-11_FGD2_action_summary.md)
 - FGD2 transcript (cleaned): [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_transcript_clean.md`](2026-03-11_FGD2_transcript_clean.md)
+- 2026-03-23 interview-ingestion update:
+  - [2026-03-23-Chapter2-interview-comparison-matrix-v2.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-interview-comparison-matrix-v2.md)
+  - [2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md)
+  - [NCAIF_Use_Cases.md](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md)
 
 ## Next steps
 
