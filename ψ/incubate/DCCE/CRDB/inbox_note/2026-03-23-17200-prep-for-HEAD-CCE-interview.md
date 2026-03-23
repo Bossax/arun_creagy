@@ -1,0 +1,5 @@
+- based on the current project status, what gaps  we should close to bring the NCAIF，CDM, and data governance into execution?
+- what is the role of CCE center? Are they data custodians? or data stewards? 
+	- additional resource  https://www.cpomagazine.com/cyber-security/data-owners-vs-data-stewards-vs-data-custodians-the-3-types-of-data-masters-and-why-you-should-employ-them/
+- to fulfill the proposed data governance and preparation of data catalog development, what topics should we ask the Head of CCE?
+	- what are specific questions per topic?
