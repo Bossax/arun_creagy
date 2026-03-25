@@ -443,6 +443,7 @@ Refinement on 16 Feb
 ---
 
 # E) Refined IVRA Domain (Feb 25)
+https://drive.google.com/file/d/1Cd_kXXw6aAXdgwXn_zeu92frXam8LsHC/view?usp=sharing
 ### Subject Area 1: Physical Climate (The Cause)
 _Focus: From raw observations to drivers._
 - **`CLIMATE_DRIVER` (Stressors):** Based on IPCC CID and GCOS ECVs. Attributes include domain (Atmosphere/Land/Ocean), spatial/temporal resolution, and uncertainty estimates.
