@@ -1,0 +1,3 @@
+- Always treat `oracle-skills install` as scope-sensitive; running it from a repo root can populate `.roo/skills` inside the project.
+- For this hybrid Windows/Git Bash/Bun environment, wrap `ls -t` with `bash -lc` to get deterministic “latest retrospective” ordering.
+- Keep local skill overrides minimal: a small local `SKILL.md` that points to the local script is safer than duplicating upstream logic.
