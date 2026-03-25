@@ -9,7 +9,6 @@
 			"cwd": "c:/Users/sitth/ghq/github.com/Soul-Brews-Studio/oracle-v2",
 			"env": {},
 			"alwaysAllow": [
-				"oracle_learn",
 				"oracle_handoff",
 				"oracle_search",
 				"oracle_reflect",
@@ -20,7 +19,8 @@
 				"oracle_trace",
 				"oracle_supersede",
 				"oracle_inbox",
-				"oracle_trace_get"
+				"oracle_trace_get",
+				"oracle_learn"
 			]
 		},
 		"notebooklm": {

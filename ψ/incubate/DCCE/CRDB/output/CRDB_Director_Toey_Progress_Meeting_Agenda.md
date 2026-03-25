@@ -32,9 +32,9 @@ Use this as a **working agenda**, not a slide deck. For each segment the intent 
 ### Asks for Director Toey
 - Confirm that this **evidence-based framing** and the four gap lenses are the right way to structure the discussion.
 - Confirm that the meeting should aim to:
-  - **Inform** on where evidence is already **strong**.
-  - Take **decisions or directional guidance** where evidence is **moderate** or **moderate to weak**.
-  - **Frame workshop validation** for items explicitly marked as needing late-April confirmation.
+	- **Inform** on where evidence is already **strong**.
+	- Take **decisions or directional guidance** where evidence is **moderate** or **moderate to weak**.
+	- **Frame workshop validation** for items explicitly marked as needing late-April confirmation.
 
 ---
 

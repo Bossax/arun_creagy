@@ -1,12 +1,15 @@
 ---
 type: strategy
-status: current
+status: archived
 version: 4
 created: 2026-02-03T08:13:47.000Z
 last_updated: 2026-02-18
 project:
   - DCCE_CRI
 related_hypothesis: "[[CRI pivoting to social-ecological system and context focused]]"
+superseded_by:
+  - ψ/incubate/DCCE/CRI/plan.md
+  - ψ/incubate/DCCE/CRI/Hub.md
 ---
 >[!note] Change Log
 >v1: after planning for data gap review

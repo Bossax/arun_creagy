@@ -18,9 +18,15 @@ Operational plan for CRI: what we are producing, what we depend on, and what to 
    - Anchor: [CRI Phase 2 Methodology.md](CRI Phase 2 Methodology.md)
    - Dictionary: [CRI_Capacity_Tagging_Dictionary.md](CRI_Capacity_Tagging_Dictionary.md)
 3) **Gap diagnostics + confidence overlay:** “0 vs missing” treatment for impact data + “data richness/confidence (0–3)” for capacity proxies.
-   - Anchor: [CRI_Working Status Brief.md](CRI_Working Status Brief.md)
+   - Anchor: [output/CRI-Evidence-Registry.md](output/CRI-Evidence-Registry.md) and [output/CRI-Evidence-Coverage-Map.md](output/CRI-Evidence-Coverage-Map.md)
 4) **Consultation storyline & visuals:** profile-first communication; avoid “ranking trap”.
    - Anchor: [CRI_Urban_Resilience_Frameworks_Analysis.md](CRI_Urban_Resilience_Frameworks_Analysis.md)
+
+### Evidence governance for key outputs
+
+- All key outputs above must be backed by entries in [`output/CRI-Evidence-Registry.md`](output/CRI-Evidence-Registry.md).
+- The strength and distribution of evidence across dimensions (impact, capacity, SES, governance, data_richness, etc.) should be reflected in [`output/CRI-Evidence-Coverage-Map.md`](output/CRI-Evidence-Coverage-Map.md).
+- Decisions in this section should be traceable via **E-CRI-###** identifiers shared between the plan, the registry, and the coverage map.
 
 ## Dependencies (inputs we must have or confirm)
 ### Data dependencies
@@ -52,6 +58,8 @@ Based on current CRI docs, treat these as the default baseline unless we explici
 - Writing notes / drafts: [inbox/writing_notes/](inbox/writing_notes/)
 
 ## Immediate priorities (next 1–2 weeks)
+
+> Decisions and tasking under this section should be backed by entries in `output/CRI-Evidence-Registry.md` and reflected in `output/CRI-Evidence-Coverage-Map.md` as evidence is locked in.
 1) **Operationalize the gap-flag protocol**
    - Define the rule precisely: hazard observed AND admin relief=0 ⇒ “Administrative Gap” (not low risk).
    - Implement + document in a short “Data Quality Flag” note inside the Phase 1 pipeline.
@@ -79,7 +87,7 @@ Based on current CRI docs, treat these as the default baseline unless we explici
      - Fiscal Relief ≠ Total Loss
      - “0” may be missing ⇒ Administrative Gap
      - Capacity profiles drive action better than a single rank
-   - Anchor: [CRI_Working Status Brief.md](CRI_Working Status Brief.md)
+   - Anchor: [output/CRI_Phase2_Public_Hearing1_decisions_and_signals.md](output/CRI_Phase2_Public_Hearing1_decisions_and_signals.md)
 
 ## Open confirmations (capture in this plan)
 - Confirm the final naming: “Fiscal Relief Index” vs alternative phrasing in Thai/English.

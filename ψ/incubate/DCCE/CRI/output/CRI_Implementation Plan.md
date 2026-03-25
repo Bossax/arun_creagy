@@ -1,11 +1,12 @@
 ---
 type: strategy
-status: current
+status: archived
 version: 5
 last_updated: 2026-02-18
 project:
   - DCCE_CRI
 related_hypothesis: "[[ ]]"
+superseded_by: ψ/incubate/DCCE/CRI/plan.md
 ---
 >[!note] Change Log
 >- v1: project proposal submission
