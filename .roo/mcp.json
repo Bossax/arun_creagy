@@ -19,7 +19,8 @@
 				"oracle_stats",
 				"oracle_trace",
 				"oracle_supersede",
-				"oracle_inbox"
+				"oracle_inbox",
+				"oracle_trace_get"
 			]
 		},
 		"notebooklm": {

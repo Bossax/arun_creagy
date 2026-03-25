@@ -4,7 +4,7 @@
 Capture **Phase 1 decisions** (MVPs, sitemap, governance gates) with recommended choices, rationale, and anchors.
 
 Confirmation: user confirmed Phase 1 decisions on **2026-03-10 14:03 ICT (07:03Z)**.
-
+Last Updated: **2026-03-24 16:03 GMT+7**
 ## Inputs (anchors)
 - [`CRDB - Implementation Plan.md`](ψ/writing/2025-11_DCCE-CRDB/output/CRDB%20-%20Implementation%20Plan.md:24)
 - [`National Climate Adaptation Information Framework.md`](ψ/writing/2025-11_DCCE-CRDB/output/National%20Climate%20Adaptation%20Information%20Framework.md:36)
@@ -42,3 +42,29 @@ Confirmation: user confirmed Phase 1 decisions on **2026-03-10 14:03 ICT (07:03Z
 ## Notes
 - If MVP‑1 or MVP‑4 are excluded from Phase 1 scope, keep them as **documentation‑only** deliverables to avoid scope creep while preserving continuity with the workflow patterns.
 - MVP‑2 should be explicitly positioned as **groundwork** for DDPM data ingestion and Loss & Damage governance (not a fully automated pipeline in Phase 1).
+
+---
+
+## Superseded or Historical Decisions
+
+- **Planned Head-of-CCE interview dropped** — The previously planned interview with the Head of CCE, and its use as a governance-clarification step feeding directly into the interim-report narrative, was **not carried out**. Any interview-dependent assumptions in earlier notes should be treated as *non-binding history*, not as live commitments.
+- **Historical artifacts for this branch (non-binding):**
+  - Thai interview-prep draft: [`2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md)
+  - Thai interview-prep draft (edited): [`2026-03-23-TH-prep-for-HEAD-CCE-interview-draft-edited.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft-edited.md)
+  - Project-wide execution gaps note used during planning: [`2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
+  - Handoff capturing the planned interview linkage: [`2026-03-23_22-15_cce-interview-prep-and-progress-report.md`](ψ/inbox/handoff/2026-03-23_22-15_cce-interview-prep-and-progress-report.md)
+
+These artifacts remain valid as historical context on governance assumptions, NFCS-aligned roles, and execution gaps, but **do not represent confirmed Phase 1 decisions**.
+
+### Canonical interim-report structure references
+
+For the **CRDB interim report**, the canonical structural and content-logic references are:
+
+- Authoritative writing plan: [`2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md)
+- Latest working chapter drafts:
+  - Chapter 1: [`2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md)
+  - Chapter 2: [`2026-03-23-CRDB-Interim-Report-Chapter-2-review-v3.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-CRDB-Interim-Report-Chapter-2-review-v3.md)
+  - Chapter 3: [`2026-03-17-CRDB-Interim-Report-Chapter-3-draft.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-3-draft.md)
+  - Executive summary: [`2026-03-18-CRDB-Interim-Report-Executive-Summary-draft.md`](ψ/incubate/DCCE/CRDB/output/2026-03-18-CRDB-Interim-Report-Executive-Summary-draft.md)
+
+Head-of-CCE-interview-dependent narratives should **not** be treated as required inputs for Phase 1 decisions or for locking the interim-report structure.

@@ -1,82 +1,66 @@
 # Hub — DCCE / CRDB
 
 ## Goal
-- Deliver **CRDB Phase 1 conceptual + logical architecture** (not a software build) for Thailand’s climate adaptation data ecosystem.
-- Define **NCAIF as the Enterprise Data Model (EDM)** (taxonomy + glossary + logical blueprint) and connect it to **workflow patterns → MVPs**.
-- Establish **governance rails** and the **minimum gates** needed to publish and recommend baselines safely.
+- Deliver **CRDB Phase 1 conceptual + logical architecture** for Thailand’s climate adaptation data ecosystem.
+- Keep Phase 1 **catalog-first and link-first**, not a standalone platform build.
+- Turn existing synthesis, interview, and governance work into an evidence-backed package for reporting, meetings, and workshop preparation.
 
-## Current status
-- CRDB onboarding pack + Phase 1 decision log have been triaged into CRDB incubate inbox.
-- Interim report drafting in progress — latest working drafts:
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3 edited.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3%20edited.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-draft-edited.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-draft-edited.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-review-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-review-v2.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Appendices-draft.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Appendices-draft.md)
-- Interview-ingestion successor set for FTI/UDDC/BMA/DPT:
-  - [2026-03-23-CRDB-Interview-Ingestion-Traceability-Note.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-CRDB-Interview-Ingestion-Traceability-Note.md)
-  - [2026-03-23-Chapter2-interview-comparison-matrix-v2.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-interview-comparison-matrix-v2.md)
-  - [2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md)
-  - [NCAIF_Use_Cases.md](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md)
-- Next-session writing focus captured in: [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Next-Session-Plan-CRDB-Interim-Report.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Next-Session-Plan-CRDB-Interim-Report.md)
-
-## Latest (FGD2)
-
-- Project status (current): [`ψ/incubate/DCCE/CRDB/output/CRDB - Project Status (Current).md`](ψ/incubate/DCCE/CRDB/output/CRDB%20-%20Project%20Status%20(Current).md)
-- FGD2 action summary: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11_FGD2_action_summary.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11_FGD2_action_summary.md)
-- FGD2 transcript (cleaned): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11-FGD2-Meeting-Minute.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11-FGD2-Meeting-Minute.md)
-- FGD2 transcript (raw): [`ψ/inbox/(External Onsite) DCCE Focus Group Discussion 2 on National Climate Adaptation Information Framework-20260311_093601.vtt`](ψ/inbox/(External%20Onsite)%20DCCE%20Focus%20Group%20Discussion%202%20on%20National%20Climate%20Adaptation%20Information%20Framework-20260311_093601.vtt)
-- Pack A evidence (risk‑map product + limitations): [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md)
-
-## Key docs
+## Core navigation
 - Plan: [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
-- Knowledge digest (onboarding): [`ψ/incubate/DCCE/CRDB/inbox_source/dcce-crdb_knowledge_digest.md`](ψ/incubate/DCCE/CRDB/inbox_source/dcce-crdb_knowledge_digest.md)
-- Phase 1 decision log (confirmed): [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
-- MVP/workflow anchor (current): [`ψ/incubate/DCCE/CRDB/output/NCAIF — Workflow patterns + MVP v3.md`](ψ/incubate/DCCE/CRDB/output/NCAIF%20%E2%80%94%20Workflow%20patterns%20%2B%20MVP%20v3.md)
-- Governance rails (v3): [`ψ/incubate/DCCE/CRDB/Feature-Driven Data Governance Strategy v3 (2026-03-05).md`](ψ/incubate/DCCE/CRDB/output/2026-03-05-Feature-Driven%20Data%20Governance%20Strategy%20v3.md)
+- Current evidence registry: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md)
+- Evidence coverage map: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
+- Interim report writing anchor: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md)
+
+## Active architecture and synthesis anchors
+- NCAIF anchor: [`ψ/incubate/DCCE/CRDB/output/National Climate Adaptation Information Framework.md`](ψ/incubate/DCCE/CRDB/output/National%20Climate%20Adaptation%20Information%20Framework.md)
+- Workflow patterns and MVP stance: [`ψ/incubate/DCCE/CRDB/output/NCAIF — Workflow patterns + MVP v3.md`](ψ/incubate/DCCE/CRDB/output/NCAIF%20%E2%80%94%20Workflow%20patterns%20%2B%20MVP%20v3.md)
 - CDM anchor: [`ψ/incubate/DCCE/CRDB/output/Conceptual Data Model for climate risk and adaptation data system.md`](ψ/incubate/DCCE/CRDB/output/Conceptual%20Data%20Model%20for%20climate%20risk%20and%20adaptation%20data%20system.md)
-- National Climate Adaptation Information Framework anchor [[National Climate Adaptation Information Framework]]
-- Interim report writing plan: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md)
-- Interim report outline (working): [`ψ/incubate/DCCE/CRDB/inbox_note/CRDB interim report.md`](ψ/incubate/DCCE/CRDB/inbox_note/CRDB%20interim%20report.md)
-- Interim report chapter drafts (latest):
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3 edited.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3%20edited.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-draft-edited.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-draft-edited.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-review-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-2-review-v2.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Appendices-draft.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Appendices-draft.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Next-Session-Plan-CRDB-Interim-Report.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Next-Session-Plan-CRDB-Interim-Report.md)
-  - Section 1 synthesis analysis: [`ψ/incubate/DCCE/CRDB/output/2026-03-12_crdb-section1-cdm-mvp-evidence-analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12_crdb-section1-cdm-mvp-evidence-analysis.md)
-  - Task 5.5 scope note: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Task 5.5 Scope.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Task%205.5%20Scope.md)
+- Section 1 evidence synthesis: [`ψ/incubate/DCCE/CRDB/output/2026-03-12_crdb-section1-cdm-mvp-evidence-analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12_crdb-section1-cdm-mvp-evidence-analysis.md)
+- UX evidence base for navigation and interface architecture: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-12 - User Experience Design Principles for National Climate Change Adaptation Information Services.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-12%20-%20User%20Experience%20Design%20Principles%20for%20National%20Climate%20Change%20Adaptation%20Information%20Services.md)
 
-## Scope + roles (operating model)
+## Evidence system
 
-- CRDB role: **Architect/Librarian** — catalog + governance + conceptual/logical modeling (link-first, not re-host-first).
-- ADPC role (dependency interface): **Builder/Curator** for UNDP-BTR Task 2 risk platform + visualization (physical implementation elsewhere).
-- DGA alignment: publish via rails (Open → data.go.th; non-open → GDX; sensitive → internal), avoid redundant infrastructure.
+Use the evidence system below as the working entry point for non-archived CRDB evidence.
 
-## Deliverables (migrated)
-- **NCAIF (EDM)**: taxonomy + glossary + sitemap stance; connects user needs to data products.
-- **Workflow patterns (P1–P4) + MVP shortlist** (Phase 1) with tiering (Tier 1 export-first vs Tier 2 advanced).
-- **Governance rails + Phase 1 minimum gates (G1–G5)** for safe publishing and endorsement.
-- **CDM (IVRA-first)** with explicit handling of drivers vs events, attribution links, and vulnerability strategy pattern.
-- **Task 5.5 knowledge sets**: articles + infographics + roll‑ups mapped to NCAIF explainers and sector pages (Phase‑1 content layer).
+- Registry of active evidence artifacts: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md)
+- Synthesis of strengths, gaps, and missing information: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
+- Cross-cutting execution-gap note: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
 
-## MVP decisions (confirmed stance)
+### Current gap lenses
+- **Product and content gaps** — where the current public-facing information architecture, explainers, and service surfaces do not yet match user demand or workflow needs.
+- **Data and method gaps** — where the evidence base still lacks agreed baselines, implementation-ready data structures, methodological rules, or translation from concept to operational use.
+- **Governance and operating-model gaps** — where ownership, stewardship, endorsement, review, and publishing decision rights are still under-defined.
+- **Evidence-pack and translation gaps** — where the project still needs tighter packaging of evidence into meeting-ready narratives, workshop materials, and decision-support briefs.
 
-Anchor: [`ψ/incubate/DCCE/CRDB/inbox/active/phase1_decision_log.md`](phase1_decision_log.md)
+## Current preparation focus
 
-- Phase 1 core: **MVP-3 Recommended Baseline Registry** + **MVP-2 Disaster data ingestion + Loss & Damage groundwork**.
-- Keep **MVP-1** (briefing pack templates) and **MVP-4** (uncertainty/publishing standard) as **lightweight documentation + templates** to avoid scope creep.
-- Sitemap stance: **Option 3 (Hybrid / workflow-pattern-first)** (confirmed).
-- Architecture stance: **Catalog-first (link-first)** (confirmed).
-- Confirmation note: user confirmed Phase 1 decisions on **2026-03-10 14:03 ICT (07:03Z)**.
+### Director Toey progress meeting
+- Use the evidence registry to show that CRDB already has active evidence across architecture, stakeholder demand, product gaps, and governance questions.
+- Use the coverage map to show which gap lenses are already well supported and which issues still need explicit management decisions.
+- Keep the meeting narrative focused on execution readiness, especially ownership, baseline endorsement, and practical packaging of evidence.
 
-## Inbox triage pointers
-- Active triage queue (moved): [`ψ/incubate/DCCE/CRDB/inbox/active/`](ψ/incubate/DCCE/CRDB/inbox/active/)
-- Writing-notes triage queue (moved): [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/`](ψ/incubate/DCCE/CRDB/inbox/writing_notes/)
+### Late-April workshop preparation
+- Frame the workshop as a convergence point for **providers, processors, and users**, consistent with the workshop direction already noted in [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md).
+- Use stakeholder evidence from [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md), and [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes) to identify which actors should validate baselines, access rules, and priority use cases.
+- Keep the workshop preparation centered on unresolved operating-model questions rather than reopening the whole conceptual design.
 
-## Immediate priorities (next 1–2 sessions)
+## Key current artifacts
+- Project plan: [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
+- Phase 1 decision log: [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
+- Website content gap inventory: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Inventory.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Inventory.md)
+- Website content gap matrix: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Matrix.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Matrix.md)
+- Website content gap summary: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md)
+- Stakeholder use cases: [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md)
+- Stakeholder needs synthesis v2: [`ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md)
+- Execution-gap note: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
 
-1) Draft **Recommended Baseline Registry** schema (owner, purpose, scale, limitations, versioning, access path).
-2) Define **canonical boundary + crosswalk governance** (ownership, versioning, publishing rules).
-3) Define minimal **metadata + preview** template and publishing gate checklist.
+### Interim report baseline
+
+- Anchor writing plan (authoritative interim-report structure): [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md)
+- Latest chapter-level drafts (current working versions):
+  - Chapter 1 v4: [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md)
+  - Chapter 2 v3: [`ψ/incubate/DCCE/CRDB/output/2026-03-23-CRDB-Interim-Report-Chapter-2-review-v3.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-CRDB-Interim-Report-Chapter-2-review-v3.md)
+  - Chapter 3 draft: [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-3-draft.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-3-draft.md)
+  - Executive summary draft: [`ψ/incubate/DCCE/CRDB/output/2026-03-18-CRDB-Interim-Report-Executive-Summary-draft.md`](ψ/incubate/DCCE/CRDB/output/2026-03-18-CRDB-Interim-Report-Executive-Summary-draft.md)
+
+Status: The **23-Mar interim submission** recorded in [`ψ/inbox/handoff/2026-03-18_02-03_crdb-interim-report-23mar-submission-wrap.md`](ψ/inbox/handoff/2026-03-18_02-03_crdb-interim-report-23mar-submission-wrap.md) is a historical milestone, and the **planned Head-of-CCE interview pathway noted in late-March 2026 was dropped**; interview-dependent plans should now be treated as historical reference only.

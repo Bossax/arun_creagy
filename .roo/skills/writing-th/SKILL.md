@@ -55,12 +55,34 @@ If no external formatting is needed, skip the runner entirely.
 4) Ask for the user to review and edit by copying the draft and replace `draft` with `edited`
 ## Step 5: Evolution (learn-back)
 
+> Goal: keep **writing execution** and **style learning** conceptually separate, so learning can also be triggered later (for example from `/rrr`).
+
 After the user provides the edited version or approves the draft:
-1) If the users approves the draft without providing an edited version. It could mean the user will provide it later or you do a good job. Leaning will not take place in this session.
-2) Compare the `draft` version with the `edited` version. Identify changes made by the users. Call `oracle_learn` to save the changes learned from the user  to `ψ/memory/learnings/`. End the file name with `writing-th` and the mode (`report` or `article`).
-3) If the session updated stable voice/citation rules, append them (append-only) to:
+
+1) If the user approves the draft without providing an edited version:
+   - Treat this as "no learning yet" for this session (the user may still edit later).
+   - Do **not** write a learning file in this step.
+
+2) If the user provides an edited version:
+   - Ensure there is a clear `draft` vs `edited` pair for this piece (same base name, different suffixes):
+     - `...-draft.md`
+     - `...-edited.md`
+   - Compare the `draft` and `edited` versions focusing on:
+     - **Word choice changes** — specific Thai word preferences, recurring replacements, register shifts.
+     - **Semantic arrangement changes** — how concepts are reordered or rephrased to sound more natural for the human; reason about why the human rearranged the structure.
+   - Summarize what changed into a short, human-readable note (no diff dump), grouped by:
+     - "Word choice and phrasing"
+     - "Semantic/structure changes"
+   - Call `oracle_learn` with these distilled patterns and save them into `ψ/memory/learnings/` using a discoverable naming convention:
+     - `ψ/memory/learnings/YYYY-MM-DD_writing-th-<mode>-learn.md` where `<mode>` is `report` or `article`.
+
+3) If the session updated **stable** voice/citation rules (not just one-off edits), append them (append-only) to:
    - `ψ/memory/resonance/writing-style-th.md`
    - `ψ/memory/resonance/citation-style-th.md`
+
+4) When a separate learning skill such as `/writing-th-learn` is available, prefer to:
+   - Use `/writing-th` for planning, outlining, and drafting.
+   - Use `/writing-th-learn` (potentially triggered from `/rrr`) to run the detailed draft-vs-edited comparison and write the learning files described above.
 
 ---
 

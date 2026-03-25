@@ -31,7 +31,6 @@ Without this layer, CDM and MVPs look like design preferences. With this layer, 
 The strongest evidence is in [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md).
 
 That document shows that user demand was not guessed. It was synthesized from:
-
 - stakeholder interviews
 - workshop notes
 - FGD1 signals on usability, language, workflow, QA/QC, preview needs, review workflows, and audience tiering

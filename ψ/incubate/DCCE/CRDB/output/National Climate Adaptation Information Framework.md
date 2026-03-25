@@ -551,6 +551,8 @@ Each card links directly to the corresponding main page.
 
 This section updates the NCAIF structure to reflect the Pack A/B/C decision matrix and the latest scope constraints. It preserves the adaptation-cycle backbone and the Policy Maker Center, while reframing tools and catalog access to match Phase 1 reality and Pack C usability guidance.
 
+The Pack C usability basis here is explicitly grounded in [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-12 - User Experience Design Principles for National Climate Change Adaptation Information Services.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-12%20-%20User%20Experience%20Design%20Principles%20for%20National%20Climate%20Change%20Adaptation%20Information%20Services.md), especially its arguments on information scent, matrix entry routes, progressive disclosure, and the front-end separation of tools from data catalogs.
+
 ### 1. Top-level navigation
 The top-level list stays shallow, with narrative and decision-ready entry points. Items marked as “tools” or “catalog” are separated in the second level to avoid mixed-mode confusion.
 
