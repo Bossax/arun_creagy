@@ -1,0 +1,180 @@
+# CRDB Interim Report Evidence Gathering Plan (Refined)
+
+## 1. Purpose, Scope, and Working Principles
+
+This plan is the **single anchor for all data and analysis work** that must be completed **before drafting the second interim report**. It is **not** a writing outline; it is a **work plan for generating report-ready supporting material**.
+
+Working principles:
+
+- **Writing time is assembly, not discovery.** All analysis, counting, and mapping happen here; the interim report will draw on the finished artifacts listed below.
+- **Submitted interim report = canonical v1 text.** Use the first submitted interim report PDFs as the structural and wording baseline for all rewrites: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf) and [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf).
+- **Section- and TOR-aligned.** Evidence tasks are keyed to the v2 writing plan [`ψ/incubate/DCCE/CRDB/output/2026-03-25-CRDB-Interim-Report-Writing-Plan-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-25-CRDB-Interim-Report-Writing-Plan-v2.md) and to TOR clauses 5.2, 5.3, 5.5.
+- **Analysis lives outside the report.** This plan produces **intermediate artifacts** (tables, matrices, short synth notes) that will be cited or summarized in the report, but not duplicated verbatim.
+
+### Task-type tags
+
+Each row below uses one or more task-type tags:
+
+- `evidence-extraction` – pulling structured facts from existing internal material (reports, interviews, notes, MD artifacts, v1 report PDFs).
+- `re-synthesis` – re-grouping or reframing existing internal evidence into a new table or short note **without** adding external literature.
+- `deep-research` – targeted external literature or web research, executed later via `/deep-research` (used primarily for 5.5.1–5.5.2 source discovery).
+
+**Ready-for-writing rule:** a row is complete only when the **report-ready outputs** exist in the filesystem and meet the stated **ready-for-writing criterion**.
+
+### Source anchors from interim report v1
+
+Canonical wording for all sections comes from the submitted interim report PDFs:
+
+- v1 main report PDF: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf)
+- v1 appendices PDF: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf)
+
+For operations, this plan also uses the Markdown companion file as a quick-reading index to v1:
+
+- v1 structured outline and synthesized content: [`ψ/incubate/DCCE/CRDB/output/2026-03-23_interim-report-1st-submission.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23_interim-report-1st-submission.md)
+
+All explicit references below follow these patterns:
+
+- `v1 main report: Ch.X §x.y` – for a specific chapter and sub-section (for example, `v1 main report: Ch.1 §§1.5–1.6`).
+- `v1 appendix: Appendix <Thai letter> (<short label>)` – for appendices (for example, `v1 appendix: Appendix ก (CDM conceptual model)`).
+
+Every TOR 5.2.x, 5.3.x, and 5.5.x task below includes at least one such **source anchor** so that evidence work can be traced back to concrete locations in the v1 submission.
+
+---
+
+## 2. Global Pre-Step – v1 PDF Section Map
+
+Before any TOR-specific task, create a single mapping note:
+
+| Target report subsection              | Report-ready outputs to produce                                                                                                           | Input sources                                                                                                                                                                                                                                                                        | Task type                             | Ready-for-writing criterion                                                                                                       |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Global map for all sections (v1 PDFs) | `2026-03-25-CRDB-Interim-Report-v1-Section-Map.md` – table listing for each v1 heading: TOR clause, page range, and link to v2 subsection Submitted interim report PDFs; TOR file [`ψ/incubate/DCCE/CRDB/inbox_source/CRDB - TOR.md`](ψ/incubate/DCCE/CRDB/inbox_source/CRDB%20-%20TOR.md)<br><br>Heading names [[ψ/incubate/DCCE/CRDB/inbox_note/2026-03-25-Interim-report-feedback_ความเห็นคณะกรรมการตรวจรับ-งวดที่ 2.pdf]] s  | `evidence-extraction`, `re-synthesis` | For every v1 heading, there is a row with: v1 section label, page range, TOR clause tag, and pointer to the v2 target subsection. |
+
+This note functions as the **bridge between v1 text and the v2 structure** and is the first artifact writing will rely on when assembling revised sections.
+
+---
+
+## 3. Section 1 – Results of TOR 5.2.1–5.2.5 (NCAIF + Management Structure)
+
+### 3.1 TOR 5.2.1 – Benchmark Platforms (Inception Carry-over)
+
+| Target report subsection | Report-ready outputs | Input sources | Task type | Ready-for-writing criterion |
+| --- | --- | --- | --- | --- |
+| Section 1 – 5.2.1 Benchmark platforms | `2026-03-25-5.2.1-Benchmark-Extract-Note.md` – 1–2 page synth note; `2026-03-25-5.2.1-Benchmark-Table.md` – table with platform, owner, scope, relevance to NCAIF | Inception report PDF [`ψ/incubate/DCCE/CRDB/inbox_source/260106_DCCE_Climate risk database_inception report_vfinal.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/260106_DCCE_Climate%20risk%20database_inception%20report_vfinal.pdf); v1 main report: Ch.1 §1.5 (benchmark platforms) | `evidence-extraction`, `re-synthesis` | Both note and table exist; each required platform row has fields: name, country/region, purpose, key features, limitations, and explicit sentence on how it informs NCAIF.
+
+**Source anchors:** v1 main report: Ch.1 §1.5 (benchmark platforms), with supporting framing from Ch.1 §§1.1–1.4 where relevant.
+
+### 3.2 TOR 5.2.2 – DCCE Current Structure Review
+
+| Target report subsection | Report-ready outputs | Input sources | Task type | Ready-for-writing criterion |
+| --- | --- | --- | --- | --- |
+| Section 1 – 5.2.2 DCCE current structure | `2026-03-25-5.2.2-DCCE-Structure-Note.md` – concise explanation of DCCE’s current data/product structure and governance; `2026-03-25-5.2.2-Structure-Snapshot-Table.md` – table with units, roles, systems | Inception report; v1 main report: Ch.1 §§1.1, 1.6–1.7; internal planning notes [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md); website gap summary [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md) | `evidence-extraction`, `re-synthesis` | Note clearly describes how DCCE currently manages climate-risk information; table covers all key units/systems referenced in the report, with no “TBD” cells.
+
+**Source anchors:** v1 main report: Ch.1 §§1.1, 1.6–1.7 (TOR interpretation and implications of the current landscape for DCCE structure).
+
+### 3.3 TOR 5.2.3 – Draft NCAIF Structure
+
+| Target report subsection                | Report-ready outputs                                                                                                                                                                                                                                                                                                                          | Input sources                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Task type                             | Ready-for-writing criterion                                                                                                                              |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Section 1 – 5.2.3 Draft NCAIF structure | `2026-03-25-5.2.3-NCAIF-Structure-Narrative.md` – 2–3 page narrative explaining layers, entities, relationships; `2026-03-25-5.2.3-NCAIF-Structure-Table.md` – table summarizing the four minimum content categories and key entities; `2026-03-25-5.2.3-NCAIF-Use-Case-Mapping.md` – short matrix mapping NCAIF components to CRDB use cases | NCAIF structure note [`ψ/incubate/DCCE/CRDB/output/National Climate Adaptation Information Framework.md`](ψ/incubate/DCCE/CRDB/output/National%20Climate%20Adaptation%20Information%20Framework.md); Pack A/B/C decision artifacts [`ψ/incubate/DCCE/CRDB/output/2026-03-12 - NCAIF_Pack_ABC_Decision_Matrix.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12%20-%20NCAIF_Pack_ABC_Decision_Matrix.md); [`ψ/incubate/DCCE/CRDB/output/2026-03-12 - NCAIF_Pack_C_UI_Analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12%20-%20NCAIF_Pack_C_UI_Analysis.md); use case note [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md); v1 main report: Ch.1 §§1.8–1.9; v1 appendices PDF (NCAIF sitemap): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf) – Appendix ข | `evidence-extraction`, `re-synthesis` | Narrative, table, and mapping matrix exist; the narrative can be dropped into Section 1 with minimal adjustment (no new analysis needed while drafting). |
+
+**Source anchors:** v1 main report: Ch.1 §§1.8–1.9 (architectural interpretation and draft NCAIF structure), with linkage to §1.10 for governance hooks.
+
+### 3.4 TOR 5.2.4 – FGD and Consultation Summary
+
+| Target report subsection                         | Report-ready outputs                                                                                                                                                                                                                    | Input sources                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Task type                             | Ready-for-writing criterion                                                                                                                                                                    |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Section 1 – 5.2.4 Focus groups and consultations | `2026-03-25-5.2.4-FGD-Consultation-Summary.md` – 1–2 page synth note with objectives, participant profile, key signals, implications; `2026-03-25-5.2.4-FGD-Coverage-Table.md` – table with event, date, location, participants, topics | FGD1/FGD2 synthesis [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-FGD1-FGD2-summary-th-draft.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-FGD1-FGD2-summary-th-draft.md); FGD action summary [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11_FGD2_action_summary.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11_FGD2_action_summary.md); public hearing/consultation minutes where relevant; v1 main report: Ch.1 §§1.2, 1.7; v1 appendices PDF (FGD + participation evidence): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf) – Appendix จ, Appendix ฉ | `evidence-extraction`, `re-synthesis` | Synth note includes: purpose per event, key decisions or shifts, and explicit bullet on how they affected NCAIF/CDM; coverage table lists each event used in the report with non-empty fields. |
+
+**Source anchors:** v1 main report: Ch.1 §§1.2, 1.7 (role of consultations and UX/IA work); v1 appendices: Appendix ง (stakeholder interview summaries), Appendix จ (FGD summaries), Appendix ฉ (photos and attendance sheets).
+
+### 3.5 TOR 5.2.5 – Revision Summary and Data Management Structure
+
+| Target report subsection | Report-ready outputs | Input sources | Task type | Ready-for-writing criterion |
+| --- | --- | --- | --- | --- |
+| Section 1 – 5.2.5 Revisions and data management structure | `2026-03-25-5.2.5-Revision-Log.md` – structured log of changes since inception (content, scope, structure); `2026-03-25-5.2.5-Data-Management-Structure-Note.md` – 2–3 page note describing sources → CDM → NCAIF → products; `2026-03-25-5.2.5-Data-Management-Table.md` – table with tiers, ownership, update cadence, access model | Data governance strategy [`ψ/incubate/DCCE/CRDB/output/2026-03-05-Feature-Driven Data Governance Strategy v3.md`](ψ/incubate/DCCE/CRDB/output/2026-03-05-Feature-Driven%20Data%20Governance%20Strategy%20v3.md); project plan [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md); Chapter 1 review [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md); CDM design notes [`ψ/incubate/DCCE/CRDB/output/2026-02-26-Detailed_CDM_Design.md`](ψ/incubate/DCCE/CRDB/output/2026-02-26-Detailed_CDM_Design.md); v1 main report: Ch.1 §1.10; v1 appendices PDF (CDM + draft structure detail): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf) – Appendix ก, Appendix ข | `evidence-extraction`, `re-synthesis` | Revision log has dated entries linked to TOR clauses; data management note and table can be referenced in-body without reconstructing the logic during drafting.
+
+**Source anchors:** v1 main report: Ch.1 §1.10 (draft data management structure) with cross-references to §§1.8–1.9; v1 appendices: Appendix ก (CDM conceptual model), Appendix ข (draft NCAIF data structure).
+
+---
+
+## 4. Section 2 – Results of TOR 5.3.1–5.3.2 (Products, Baseline Data, Interview-based Demand)
+
+### 4.1 TOR 5.3.1 – Baseline Data and Information Products
+
+| Target report subsection | Report-ready outputs | Input sources | Task type | Ready-for-writing criterion |
+| --- | --- | --- | --- | --- |
+| Section 2 – 5.3.1 Baseline product and data landscape | `2026-03-25-5.3.1-Product-Landscape-Table.md` – consolidated table of current products/systems; `2026-03-25-5.3.1-Status-and-Gaps-Note.md` – short note summarizing status and main gaps | Product landscape table [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-current-data-product-landscape-table.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-current-data-product-landscape-table.md); website gap summary [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md); Pack A extraction [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md); v1 main report: Ch.2 §§2.2, 2.7; v1 appendices PDF (NCAIF draft structure context): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf) – Appendix ข | `evidence-extraction`, `re-synthesis` | Landscape table is complete for all products referenced in Chapter 2; status/gaps note lists 3–5 headline findings that can be lifted into the report.
+
+**Source anchors:** v1 main report: Ch.2 §§2.2, 2.7 (current product/system landscape and synthesized observations); v1 appendices: Appendix ข (draft NCAIF data structure) where it provides supporting detail for baseline datasets.
+
+### 4.2 TOR 5.3.2 – Interviews and Demand Synthesis
+
+| Target report subsection | Report-ready outputs | Input sources | Task type | Ready-for-writing criterion |
+| --- | --- | --- | --- | --- |
+| Section 2 – 5.3.2 Interview coverage and demand | `2026-03-25-5.3.2-Interview-Coverage-Table.md` – table of interviews (agency, role, date, topic, sector); `2026-03-25-5.3.2-Needs-and-Use-Cases-Note.md` – 2–3 page synth of expressed needs and use cases; `2026-03-25-5.3.2-Update-Scale-Constraints-Table.md` – table for update frequency, spatial scale, constraints | Interview comparison matrix [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-interview-comparison-matrix.md); stakeholder-needs synthesis [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-stakeholder-needs-synthesis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-stakeholder-needs-synthesis.md); use-case clustering [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-use-case-clustering.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-use-case-clustering.md); interview summary notes [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes); v1 main report: Ch.2 §§2.3–2.6; v1 appendices PDF (interview + use-case details): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf) – Appendix ง, Appendix ค | `evidence-extraction`, `re-synthesis` | Coverage table has one row per interview and a computed total; synth note groups needs and use cases into clear themes; update/scale/constraints table uses the normalization conventions from the 2026-03-12 Interim Report Writing Plan.
+
+**Source anchors:** v1 main report: Ch.2 §§2.3–2.6 (data producer roles, update frequency/constraints, data needs, and use cases); v1 appendices: Appendix ง (interview summaries), Appendix ค (use cases).
+
+---
+
+## 5. Section 3 – Progress on TOR 5.5.1–5.5.2 (Knowledge Sets)
+
+This section intentionally separates **internal evidence work** from the future sponsor-facing narrative. All tasks below generate **tables and matrices**, not prose paragraphs.
+
+### 5.1 Task 5.5.1 – Knowledge Set Review (List A)
+
+| Target report subsection                    | Report-ready outputs                                                                                                                                                                                                                                          | Input sources                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Task type                                              | Ready-for-writing criterion                                                                                                                                                         |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Section 3 – 5.5.1 Source inventory (List A) | `2026-03-25-5.5.1-Source-Inventory-Table.md` – ≥10-row table with fields: title, year, sector (NAP 6), hazard focus, geography, study type, owner/issuer, link/citation; `2026-03-25-5.5.1-Evidence-Review-Matrix.md` – matrix applying Task 5.5 scope fields | Task 5.5 scope note [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Task 5.5 Scope.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Task%205.5%20Scope.md); existing internal lists or notes; future `/deep-research` results; v1 main report: Ch.3 §§3.1–3.2; v1 appendices PDF (knowledge-set context as compiled): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf) – Appendix ค, Appendix ง | `evidence-extraction`, `re-synthesis`, `deep-research` | Source inventory table contains ≥10 entries with no missing core fields; evidence-review matrix is filled for each List A item using the fields defined in the Task 5.5 scope note. |
+
+**Source anchors:** v1 main report: Ch.3 §§3.1–3.2 (interpretation of TOR 5.5 and framing of the evidence-to-content pipeline); v1 appendices: evidence lists and background materials as they are developed for List A.
+
+Suggested deep research prompt (to be used later, not now):
+
+> `/deep-research list authoritative Thailand-focused climate-risk studies and data sources from the past 10 years for each of the 6 NAP sectors in Thailand. For each item, provide title, year, sector, hazard focus, geography within Thailand, study type, owner/issuer, and link or citation.`
+
+### 5.2 Task 5.5.2 – Significant Studies (List B)
+
+| Target report subsection                       | Report-ready outputs                                                                                                                                                                                                                                                                                | Input sources                                                                                                                                                                                                                                                                                                                    | Task type                       | Ready-for-writing criterion                                                                                                                                                                                         |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Section 3 – 5.5.2 Significant studies (List B) | `2026-03-25-5.5.2-Selection-Criteria-Note.md` – 1-page criteria note; `2026-03-25-5.5.2-Significant-Studies-Table.md` – ≥10-row table with fields: title, year, sector, rationale, unique contribution, NCAIF content slot; `2026-03-25-5.5.2-Coverage-Gaps-Note.md` – short note on remaining gaps | Task 5.5 scope note; any internal shortlists; List A inventory table; future `/deep-research` results; v1 main report: Ch.3 §§3.2–3.4; v1 appendices PDF (use-case linkage context): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf) – Appendix ค | `re-synthesis`, `deep-research` | Selection criteria note exists and is stable; significant-studies table has ≥10 entries with non-empty rationale and content-slot mapping; coverage-gaps note explicitly names missing sectors/hazards/geographies. |
+
+**Source anchors:** v1 main report: Ch.3 §§3.2–3.4 (shaping TOR 5.5 outputs into NCAIF minimum content and report inserts); v1 appendices: future narrative and visual materials produced from List B for NCAIF.
+
+Suggested deep research prompt (to be used later, not now):
+
+> `/deep-research identify at least 10 significant Thailand-related studies relevant to national climate risk and adaptation assessment that should be highlighted in an interim report. For each, provide a short rationale, NAP sector mapping, and what unique contribution it makes for Thailand.`
+
+### 5.3 Task 5.5 – Mapping to NCAIF Minimum Content and Report Inserts
+
+| Target report subsection | Report-ready outputs | Input sources | Task type | Ready-for-writing criterion |
+| --- | --- | --- | --- | --- |
+| Section 3 – Task 5.5 → NCAIF minimum content | `2026-03-25-5.5-NCAIF-Content-Mapping-Table.md` – table mapping each List A/B item to NCAIF content slots (climate foundations, sector risk & adaptation, risk-map explainers, decision-maker briefs); `2026-03-25-5.5-Report-Insert-Table.md` – compact table for direct insertion into Section 3 with List A and List B totals and sector coverage | Source inventory table; significant-studies table; NCAIF structure note [`ψ/incubate/DCCE/CRDB/output/National Climate Adaptation Information Framework.md`](ψ/incubate/DCCE/CRDB/output/National%20Climate%20Adaptation%20Information%20Framework.md); Task 5.5 scope note; v1 main report: Ch.3 §§3.2–3.4; v1 appendices PDF (NCAIF structure anchor for content slots): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf) – Appendix ข | `re-synthesis` | Content mapping table has at least one NCAIF slot per study; report-insert table aggregates counts by sector and content slot and can be pasted into the report without additional calculations.
+
+**Source anchors:** v1 main report: Ch.3 §§3.2–3.4 (from TOR 5.5 products to NCAIF content and report-ready inserts); cross-link to Ch.1 §§1.8–1.9 for NCAIF structural slots.
+
+---
+
+## 6. Cross-cutting Ready-for-Writing Criteria
+
+The interim report drafting phase can begin once **all** of the following are true:
+
+1. **Global section map complete** – the v1-to-v2 section map note is finished and referenced in the writing plan.
+2. **Section 1 artifacts complete** – all outputs listed in Section 3 tables exist and have no critical "TBD" fields.
+3. **Section 2 artifacts complete** – product landscape, interview coverage, needs/use-case synth, and update/scale/constraints tables are complete.
+4. **Section 3 artifacts complete** – List A, List B, evidence matrix, NCAIF content mapping, and report-insert table exist and satisfy ≥10/≥10 requirements and sector coverage expectations.
+5. **File naming discipline** – all artifacts follow the `2026-03-25-<TOR>-<short-name>.md` or `.xlsx/.csv` pattern so that cross-references from the writing plan remain stable.
+
+Once these conditions are met, **report drafting should only require selecting and lightly editing sentences from the synth notes, plus inserting the prepared tables**, not performing additional analysis or counting.
+
+---
+
+## 7. Implementation Checklist (Evidence Work Only)
+
+- [ ] Create `2026-03-25-CRDB-Interim-Report-v1-Section-Map.md` linking v1 headings to TOR clauses and v2 subsections.
+- [ ] Complete all TOR 5.2.1–5.2.5 artifacts (benchmark extract, DCCE structure snapshot, NCAIF structure narrative and tables, FGD/consultation summary, revision log and data management structure).
+- [ ] Complete all TOR 5.3.1–5.3.2 artifacts (product landscape table, status/gaps note, interview coverage table, needs/use-case synthesis, update/scale/constraints table).
+- [ ] Build Task 5.5 List A source inventory and evidence review matrix (with any required deep research executed separately).
+- [ ] Build Task 5.5 List B significant studies table and coverage-gaps note (with any required deep research executed separately).
+- [ ] Produce NCAIF content mapping table and Section 3 report-insert table.
+- [ ] Confirm that every row in Sections 3–5 tables has a corresponding file in the project tree and passes its ready-for-writing criterion.
