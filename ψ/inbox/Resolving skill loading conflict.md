@@ -1,0 +1,3 @@
+
+
+I've got a skill list that includes writing-th, but I’m hesitant to load it due to the guardrail. However, the mandatory skill check insists that I must load exactly one applicable skill. This conflicts with the user’s instruction to avoid calling the writing-th skill again. I need to interpret that perhaps it was already loaded previously. But, we don’t have those instructions in this session, so I’ve got to reconcile the developer's instructions with the user's requests.

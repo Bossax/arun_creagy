@@ -69,16 +69,6 @@ Phase 1 “ship list” (minimal, high-leverage):
   - [2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md)
   - [NCAIF_Use_Cases.md](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md)
 
-## CCE governance stance and interview prep
-- Overall execution gaps for NCAIF, CDM, and data governance are summarized in: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md).
-- Working stance for CCE in Phase 1:
-  - CCE is a **domain owner** for climate/adaptation information products that CCE produces or sponsors.
-  - CCE is a **data-steward sponsor** for climate/adaptation topics that require curated datasets, metadata, and safe-use guidance.
-  - CCE is a **partial custodian only for data products or web services physically operated by CCE**; platform/catalog infrastructure remains with central/digital teams.
-- Head-of-CCE interview prep anchors:
-  - English prep note: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-17200-prep-for-HEAD-CCE-interview.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-17200-prep-for-HEAD-CCE-interview.md)
-  - Thai prep note (draft): [`ψ/incubate/DCCE/CRDB/output/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md)
-- After the interview, create a **CCE interview results** note that maps answers to: role map (owner / steward / custodian / reviewer), baseline priorities, access rules, and priority implementation package; then update both the execution-gaps note and interim-report narrative accordingly.
 
 ## Next steps
 

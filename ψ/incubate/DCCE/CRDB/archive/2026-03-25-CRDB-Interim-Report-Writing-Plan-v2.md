@@ -6,7 +6,7 @@
 - Make the draft NCAIF + data management structure explicit and visible early (per feedback), then show the iterative revisions and focus-group results after the draft is presented.
 - Pull interview and inventory evidence forward into the main body (not only appendices), with appendices used for full detail and evidence packets.
 - Treat Task 5.5 progress as an explicit list-based output (>=10 sources and >=10 selected studies), not narrative intent, to satisfy checklist-style feedback.
-- **Canonical v1 base text:** Rewrite from the submitted interim report PDFs (main body + appendix) as the authoritative v1 text: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf) and [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf). The MD artifacts are evidence scaffolding behind these texts.
+- **Canonical v1 base text:** Rewrite from the submitted interim report PDFs (main body + appendix) as the authoritative v1 text: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf`](ψ/incubate/DCCE/CRDB/archive/2026-03-23_interim-report-1st-submission.pdf) and [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/archive/2026-03-23_interim-report-1st-appendix.pdf). The MD artifacts are evidence scaffolding behind these texts.
 
 ## TOR Expectations (Interim Report / TOR 7.2)
 **Deliverable scope (must be included):**
@@ -59,7 +59,7 @@
 
 **Dependency on available sources:**
 - Use TOR file as authoritative clause wording: [`ψ/incubate/DCCE/CRDB/inbox_source/CRDB - TOR.md`](ψ/incubate/DCCE/CRDB/inbox_source/CRDB%20-%20TOR.md)
-- Use submitted interim report PDFs as the **canonical v1 section structure and base text** for all rewrites: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf); [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf)
+- Use submitted interim report PDFs as the **canonical v1 section structure and base text** for all rewrites: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-submission.pdf`](ψ/incubate/DCCE/CRDB/archive/2026-03-23_interim-report-1st-submission.pdf); [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-23_interim-report-1st-appendix.pdf`](ψ/incubate/DCCE/CRDB/archive/2026-03-23_interim-report-1st-appendix.pdf)
 - Use interim report working outline and chapter drafts as structure anchors: [`ψ/incubate/DCCE/CRDB/inbox_note/CRDB interim report.md`](ψ/incubate/DCCE/CRDB/inbox_note/CRDB%20interim%20report.md)
 - Use Task 5.5 scope note for progress framing but add explicit list outputs: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Task 5.5 Scope.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Task%205.5%20Scope.md)
 
