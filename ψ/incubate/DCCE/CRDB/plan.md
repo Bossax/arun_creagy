@@ -27,6 +27,8 @@ Anchors:
 Recent (keep current):
 - Progress-meeting decisions (team synthesis, 2026-03-24): [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md)
 - Progress-meeting summary (human notes, Dir Toey, 2026-03-27): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md)
+- Workshop stream continuation plan (save-point): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
+- Workstreams index (orientation): [`ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md)
 - Interim report submission status note (edited version submitted; compare later): [`ψ/memory/logs/info/2026-03-27_10-17_submitted-edited-interim-report-compare-with-draft.md`](ψ/memory/logs/info/2026-03-27_10-17_submitted-edited-interim-report-compare-with-draft.md)
 - Edited/submitted interim report snapshot (2026-03-27): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md)
 - DCCE org restructure context for CDM + data governance alignment: [`ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md`](ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md)
@@ -136,3 +138,24 @@ Notes:
 
 1) Draft boundary/crosswalk governance note (one page) + identify owner(s).
 2) Add “governance gates” checklist that each published artifact must pass.
+
+### Project management anchors (Option B — Controlled facade)
+
+To keep project management **CRDB-first and artifact-centered**, and to prepare for an optional controlled facade, the following canonical ledgers and specs are now part of the project anchor set:
+
+- Trigger ledger: [`ψ/incubate/DCCE/CRDB/output/CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md)
+- Deliverable map: [`ψ/incubate/DCCE/CRDB/output/CRDB-Deliverable-Map.md`](ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md)
+- Claim register: [`ψ/incubate/DCCE/CRDB/output/CRDB-Claim-Register.md`](ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md)
+- Submission log: [`ψ/incubate/DCCE/CRDB/output/CRDB-Submission-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Submission-Log.md)
+- Change log: [`ψ/incubate/DCCE/CRDB/output/CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md)
+- Module specs: [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-Management-Modules.md`](ψ/incubate/DCCE/CRDB/CRDB-Project-Management-Modules.md)
+- Facade contract (dry-run only): [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-Manager-Facade-Contract.md`](ψ/incubate/DCCE/CRDB/CRDB-Project-Manager-Facade-Contract.md)
+
+These artifacts **anchor the project work cycle** described in [`plans/2026-03-27-crdb-oracle-project-work-cycle-architecture-plan.md`](plans/2026-03-27-crdb-oracle-project-work-cycle-architecture-plan.md) by:
+
+- making triggers and direction changes explicit (trigger and change logs),
+- mapping deliverables to their upstream basis (deliverable map, submission log),
+- capturing reusable reasoning units (claim register), and
+- defining how any future "project-manager" helper must behave (modules + facade contract).
+
+Any new automation or skill implementation for CRDB project management should **read from and write to these ledgers**, honoring the low-agency guardrails in the facade contract.

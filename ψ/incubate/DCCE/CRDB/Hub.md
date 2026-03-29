@@ -10,6 +10,8 @@
 - Current evidence registry: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md)
 - Evidence coverage map: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
 - Interim report writing anchor: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md)
+- Workshop stream continuation plan (save-point): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
+- Workstreams index (NCAIF/CDM/Governance/MVP/Workshop/Report/PM ecosystem): [`ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md)
 
 ## Recent decision / meeting anchors (keep current)
 
