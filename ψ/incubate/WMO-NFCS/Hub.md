@@ -12,6 +12,9 @@ Create an NFCS action plan / roadmap for **TMD climate services** targeted at th
 ## Project navigation
 - Project plan (operating surface): [`ψ/incubate/WMO-NFCS/plan.md`](ψ/incubate/WMO-NFCS/plan.md)
 
+### WMO-aligned wording (quote bank)
+- Quote bank for governance + UIP (incl. website) + MEL/accountability: [`ψ/incubate/WMO-NFCS/output/WMO-NFCS_quote-bank_governance-uip-mel.md`](ψ/incubate/WMO-NFCS/output/WMO-NFCS_quote-bank_governance-uip-mel.md)
+
 ### Canonical PM ledgers (why/what/when changed)
 - Trigger Log: [`ψ/incubate/WMO-NFCS/WMO-NFCS-Trigger-Log.md`](ψ/incubate/WMO-NFCS/WMO-NFCS-Trigger-Log.md)
 - Deliverable Map: [`ψ/incubate/WMO-NFCS/WMO-NFCS-Deliverable-Map.md`](ψ/incubate/WMO-NFCS/WMO-NFCS-Deliverable-Map.md)
@@ -30,4 +33,3 @@ Primary source folder (CRDB-style) now used as intake:
 - [`ψ/incubate/WMO-NFCS/inbox_source/`](ψ/incubate/WMO-NFCS/inbox_source/)
 
 Rule: treat `inbox_source/` as the project’s local source intake folder. Keep files append-only (prefer new versions over overwriting), and use the PM ledgers to reference sources rather than duplicating content.
-

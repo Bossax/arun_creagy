@@ -35,6 +35,10 @@ Optional but recommended: mirror events into the neutral spine [`ψ/incubate/WMO
 - Intake artifacts exist under [`ψ/incubate/WMO-NFCS/inbox_source/`](ψ/incubate/WMO-NFCS/inbox_source/)
 - Canonical execution surfaces are being created under [`ψ/incubate/WMO-NFCS/`](ψ/incubate/WMO-NFCS/)
 
+## WMO-aligned wording (quote bank)
+Use this when drafting steering-facing text (governance/ownership, UIP incl. website, MEL/accountability):
+- [`ψ/incubate/WMO-NFCS/output/WMO-NFCS_quote-bank_governance-uip-mel.md`](ψ/incubate/WMO-NFCS/output/WMO-NFCS_quote-bank_governance-uip-mel.md)
+
 ## Next working session (starter)
 Create a session plan file under `plans/` and execute:
 1) Triage inbox artifacts and decide the minimal deliverable set.
