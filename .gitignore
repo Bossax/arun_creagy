@@ -28,3 +28,6 @@ Icon?
 *.mp3
 *.wav
 *.pptx
+
+# Exceptions (tracked project intake)
+!ψ/incubate/WMO-NFCS/inbox_source/251120_WMO-GIZ-TMD-NFCS-Human.pptx
