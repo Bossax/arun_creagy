@@ -11,6 +11,7 @@
 - Evidence coverage map: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
 - Interim report writing anchor: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md)
 - Workshop stream continuation plan (save-point): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
+- Workshop invite + logistics package (D-006, v0): [`ψ/incubate/DCCE/CRDB/output/2026-03-30_CRDB-D-006_Workshop-Invite-and-Logistics-Package_v0.md`](ψ/incubate/DCCE/CRDB/output/2026-03-30_CRDB-D-006_Workshop-Invite-and-Logistics-Package_v0.md)
 - Workstreams index (NCAIF/CDM/Governance/MVP/Workshop/Report/PM ecosystem): [`ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md)
 
 ## Recent decision / meeting anchors (keep current)
