@@ -28,18 +28,60 @@ Invite targets should be structured into the following role groups (so headcount
 1) **Host / sponsor / organizers (DCCE)**
    - Sponsor-facing leadership presence (opening / closing)
    - CRDB coordination team (facilitation, registration, timekeeping)
-
-2) **Providers (data originators)**
+%% 
+- 5 people from Risk assessment group
+ - aim at 20 more people from other groups
+ %%
+ 
+1) **Providers (data originators)**
    - Agencies that own hazard / exposure / vulnerability / impact datasets relevant to the CRDB service surfaces
+%% 
+1. **TMD** — Thai Meteorological Department
+2. **GISTDA** — Geo-Informatics and Space Technology Development Agency
+3. **DDPM** — Department of Disaster Prevention and Mitigation
+4. **LDD** — Land Development Department
+5. **RID** — Royal Irrigation Department
+6. **MSDHS** — Ministry of Social Development and Human Security
+7. **HII** — Hydro and Agro Informatics Institute
+8. **ONWR** — Office of the National Water Resources
+9. **DMR** - Department of Mineral Resources
+%%
 
-3) **Processors / integrators (analysis, synthesis, and publication)**
+===
+2) **Processors / integrators (analysis, synthesis, and publication)**
    - Units responsible for processing/deriving indicators, baselines, models, or summaries (including those who publish)
+%% 
+1. **NSO** - National Statistics Office
+2.  **OTP** — Office of Transport and Traffic Policy and Planning
+3. **DPT** — Department of Public Works and Town & Country Planning
+4. **MOAC** — Ministry of Agriculture and Cooperatives
+5. **MoH** — Ministry of Public Health
+6. **MD** — Marine Department
+7. **DMCR** - Department of Marine and Coastal Resources
+%%
 
-4) **Users (decision / operations / planning)**
+===
+3) **Users (decision / operations / planning)**
    - Practitioners who consume CRDB outputs for planning, response, budgeting, or adaptation project design
+%% 
 
-5) **Governance / rails stakeholders**
+1. **ONEP** — Office of Natural Resources and Environmental Policy and Planning
+2. **LAO** — Local Administration Organization
+3. **BMA** — Bangkok Metropolitan Administration
+4. **FTI** — Federation of Thai Industries
+5. **TBA** — Thai Bankers’ Association
+6. **BOT** — Bank of Thailand
+7. **NESDC** — National Economic and Social Development Council
+8. **NXPO** — National Higher Education, Science, Research and Innovation Policy Council Office
+9. **DOPA** — Department of Provincial Administration
+%%
+
+===
+4) Governance / rails stakeholders**
    - Those who can validate baseline endorsement rules, access rails (open/GDX/internal), and operating rhythm
+%% 
+1. Digital Government Agency
+%%
 
 ### 1.2 Invite letter “inputs” checklist (what the letter needs)
 
