@@ -1,0 +1,8 @@
+# Learning: Anchor CRI in v1 concepts and treat CBI as an asymmetric Baseline layer
+
+In the CRI Phase 2 / CBI integration work, I learned that the safest way to combine an internal, SES- and governance-oriented framework with an external indicator package is to keep a **single conceptual anchor** and make all other views asymmetric to it. For CRI, the v1 tagging dictionary and Phase 2 methodology define the capacity categories, governance functions, and two-speed measurement stance. The CBI package, by contrast, is a provincial capacity index built from administrative indicators with equal weights and a strong focus on assets.
+
+If I allowed CBI’s dimensions and weights to become the new top-level structure, I would lose the carefully designed CRI stance and quietly adopt a different theory of resilience. Instead, I treat CBI as a **Baseline administrative-capacity layer** that feeds into the CRI evidence spine and capacity profiles. The CBI → v1 crosswalk and the v2 dictionary are both designed to be implementation views: each CBI indicator is mapped to v1 concepts (Type A), grouped as a new SES-relevant concept (Type B), or marked as context-only (Type C). This preserves traceability and makes it explicit where CRI is borrowing from CBI and where it is deliberately not.
+
+This pattern is transferable: when integrating any external index or scoring system into an existing project, I should (1) lock a conceptual anchor, (2) build a one-way crosswalk from the external system into that anchor, and (3) keep the external scores as Baseline evidence rather than the primary product.
+
