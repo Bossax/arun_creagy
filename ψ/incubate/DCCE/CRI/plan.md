@@ -68,6 +68,28 @@ Based on current CRI docs, treat these as the default baseline unless we explici
 - Source intake (local project inbox for CRI): [inbox_source/](inbox_source/)
 - Inbox note (local scratchpad / guidance note for this project): [inbox_note/](inbox_note/)
 
+## Current execution focus (as of 2026-04-08)
+
+- **Capacity tagging v2 + CBI bridge (Track B)**
+  - Working pack:
+    - v1.1 baseline dictionary: [output/CRI_Capacity_Tagging_Dictionary.md](output/CRI_Capacity_Tagging_Dictionary.md)
+    - v2 canonical dictionary: [output/CRI_Capacity_Tagging_Dictionary_v2.md](output/CRI_Capacity_Tagging_Dictionary_v2.md)
+    - CBI-integrated v2 variant: [output/CRI_Capacity_Tagging_Dictionary_v2_CBI.md](output/CRI_Capacity_Tagging_Dictionary_v2_CBI.md)
+    - CRI–CBI crosswalk: [output/CRI_CBI_indicator_crosswalk.md](output/CRI_CBI_indicator_crosswalk.md)
+    - CBI bridging notes: [output/CRI_CBI_Bridging_Method_Note.md](output/CRI_CBI_Bridging_Method_Note.md), [output/CRI_CBI_method_reconstruction.md](output/CRI_CBI_method_reconstruction.md)
+    - NotebookLM v2 pipeline (plan + packet + concept register):
+      - [output/notebooklm_capacity_dictionary_v2/00_query_plan.md](output/notebooklm_capacity_dictionary_v2/00_query_plan.md)
+      - [output/notebooklm_capacity_dictionary_v2/02_pilot_execution_packet.md](output/notebooklm_capacity_dictionary_v2/02_pilot_execution_packet.md)
+      - [output/notebooklm_capacity_dictionary_v2/synthesis/indicator_concept_register.md](output/notebooklm_capacity_dictionary_v2/synthesis/indicator_concept_register.md)
+  - Handoff + reflection for this track:
+    - Handoff: [ψ/inbox/handoff/2026-04-08_16-22_cri-capacity-v2-cbi-trackB.md](ψ/inbox/handoff/2026-04-08_16-22_cri-capacity-v2-cbi-trackB.md)
+    - Retro: [ψ/memory/retrospectives/2026-04/08/16.19_rrr_cri-capacity-v2-cbi-crosswalk.md](ψ/memory/retrospectives/2026-04/08/16.19_rrr_cri-capacity-v2-cbi-crosswalk.md)
+    - Learning: [ψ/memory/learnings/2026-04-08_cri-capacity-v2-cbi-crosswalk-subtasking.md](ψ/memory/learnings/2026-04-08_cri-capacity-v2-cbi-crosswalk-subtasking.md)
+  - Near-term Track B priorities (see also [output/2026-04-07_cri-phase2-next-steps.md](output/2026-04-07_cri-phase2-next-steps.md)):
+    - Implement Track B8 evidence wiring for the v2 dictionary + CBI bridge (update AI sources index, evidence registry, and coverage map).
+    - Extend the CRI–CBI crosswalk and CBI-integrated dictionary to cover more v2 concepts, including CBI-only constructs that remain narrative/adjacency-only.
+    - Sketch and then prototype at least one **profile-first provincial demonstrator** using the v2 dictionary + CBI bridge.
+
 ## Immediate priorities (next 1–2 weeks)
 
 > Decisions and tasking under this section should be backed by entries in `output/CRI-Evidence-Registry.md` and reflected in `output/CRI-Evidence-Coverage-Map.md` as evidence is locked in. Where a decision changes scope, outputs, or commitments, also append a corresponding row in the CRI Change Log and/or Trigger Log.
@@ -79,6 +101,9 @@ Based on current CRI docs, treat these as the default baseline unless we explici
 2) **Finalize Phase 1 data lineage + denominators**
    - Confirm numerator definition(s) for fiscal relief using the **best proxy for all sectors** (central emergency funds may be preferred even if incomplete), and note exclusions.
    - Confirm denominator choice (total GPP vs sectoral) and document bias/mitigation.
+   - Incorporate **new DDPM impact and fiscal relief Excel extracts**:
+     - Current: review structure and fields in the raw Excel files received from DDPM (impact series and fiscal relief streams), noting column meanings, codes, and any anomalies.
+     - Next (planned 2026-04-09): tabulate the DDPM Excel files into standard intake tables (e.g. province × year, with clear IDs and units) as part of Stage 1 inventory / ingest, so they can flow into the Phase 1 pipeline in [output/2026-04-02_cri-phase1-data-pipeline-plan.md](output/2026-04-02_cri-phase1-data-pipeline-plan.md).
    - Anchor: [CRI Phase 1 Methodology.md](CRI Phase 1 Methodology.md)
 
 3) **Capacity tagging: lock v1 of the dictionary + scoring approach**
