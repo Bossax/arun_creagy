@@ -1,67 +1,78 @@
-# CBI Indicator Crosswalk (CA1–TP3)
+type: technical_mapping
+status: partial_mapping
+version: 0.2-draft
+created: 2026-04-08
+last_updated: 2026-04-08
+project:
+  - DCCE_CRI
+title: CRI–CBI Indicator Crosswalk (Schema Stub)
+tags:
+  - cri
+  - cbi
+  - indicator_crosswalk
+  - mapping_table
+---
 
-Purpose: provide a clear mapping from CBI indicators (CA1–TP3) into the CRI Phase 2 capacity framework and the v1 conceptual dictionary in [`CRI_Capacity_Tagging_Dictionary.md`](ψ/incubate/DCCE/CRI/output/CRI_Capacity_Tagging_Dictionary.md).
+# CRI–CBI Indicator Crosswalk (Schema Stub)
 
-This file is an implementation bridge, not a new conceptual schema. It shows, for each CBI indicator:
-- which **capacity category** and **capacity dimension** it belongs to in CRI terms, and
-- which **v1 indicator concept(s)** it supports (if any),
-- or whether it constitutes a **new CBI-only concept group**.
+## Purpose
 
-## Legend
+This file defines the **technical mapping table** between:
 
-- **CBI capacity category** – Coping / Adaptive / Transformative (CBI pillars, mapped to CRI capacity categories).
-- **CBI capacity dimension** – Asset / Process (CBI dimensions, mapped to CRI capacity dimensions).
-- **v1 concept(s)** – names of indicator concepts from v1 in [`CRI_Capacity_Tagging_Dictionary.md`](ψ/incubate/DCCE/CRI/output/CRI_Capacity_Tagging_Dictionary.md).
-- **v1 capacity category** – capacity category of the mapped v1 concept(s).
-- **Governance function** – primary governance role in the CRI lens.
-- **Integration type**:
-  - **A** – CBI indicator serves as a Baseline proxy for an existing v1 concept.
-  - **B** – CBI indicator belongs to a new concept group (no direct v1 concept); to be handled via new v2-only rows.
-  - **C** – CBI indicator is contextual only (not part of the core capacity index).
+- canonical v2 indicator concepts in `CRI_Capacity_Tagging_Dictionary_v2.md`, and
+- CBI indicator codes and dimensions used in CRI–CBI integration work.
 
-## 1. CBI → v1 mapping table
+In this subtask (B2–B3), the crosswalk is a **schema-only stub**. It establishes the header and field definitions so that later subtasks (B4–B8) can populate mappings in a structured, traceable way.
 
-| CBI code | CBI indicator (short)                               | CBI capacity category | CBI capacity dimension | v1 concept(s)                            | v1 capacity category | Governance function                            | Integration type | Notes                                                                                                           |
-| -------- | --------------------------------------------------- | --------------------- | ---------------------- | ---------------------------------------- | -------------------- | ---------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------- |
-| CA1      | Emergency shelters per tambon                       | Coping                | Asset                  | —                                        | —                    | Emergency management / DRM infrastructure      | B                | CBI-only coping asset concept; no explicit v1 indicator concept.                                                |
-| CA2      | Emergency disaster fund per 10k pop                 | Coping                | Asset                  | Emergency budget disbursement timeliness | Coping               | Public finance / contingency budgeting         | A                | CA2 provides magnitude Baseline for v1 finance concept; v1 Target remains timeliness and coverage.              |
-| CA3      | Rescue equipment sets per tambon                    | Coping                | Asset                  | —                                        | —                    | Operational readiness / equipment provisioning | B                | CBI-only coping asset; complements governance-side readiness concepts.                                          |
-| CA4      | Emergency medical personnel per 10k pop             | Coping                | Asset                  | —                                        | —                    | Health system surge capacity                   | B                | CBI-only health surge capacity concept; no direct v1 concept row.                                               |
-| CP1      | Disaster response / evacuation plan exists          | Coping                | Process                | Plan revision cycle                      | Adaptive             | Planning / preparedness                        | A                | CP1 confirms existence of plans; v1 Target covers revision cadence.                                             |
-| CP2      | Drill frequency (times/year)                        | Coping                | Process                | After-action review completion rate      | Adaptive             | Training / learning / preparedness             | A                | CP2 provides Baseline evidence of drills; v1 Target remains AAR quality.                                        |
-| CP3      | Warning response time (hours)                       | Coping                | Process                | Service delivery timeliness              | Adaptive             | Early warning operations                       | A                | Treated as a timeliness-style Baseline aligned with v1 “Service delivery timeliness” concept.                   |
-| CP4      | Risk communication channels (count)                 | Coping                | Process                | Community engagement frequency           | Transformative       | Public communication / outreach                | A                | CP4 quantifies communication capacity; v1 Target remains frequency + feedback loops.                            |
-| AA1      | Early warning systems per district                  | Adaptive              | Asset                  | —                                        | —                    | Early warning infrastructure                   | B                | CBI-only coverage indicator; no direct v1 analogue.                                                             |
-| AA2      | Recovery budget per 10k pop                         | Adaptive              | Asset                  | Emergency budget disbursement timeliness | Coping               | Public finance / recovery planning             | A                | AA2 adds recovery-budget magnitude to v1 finance concept.                                                       |
-| AA3      | Disaster insurance coverage (%)                     | Adaptive              | Asset                  | —                                        | —                    | Risk transfer / financial protection           | C                | Context-only indicator; excluded from core capacity index to avoid conflating resilience with wealth.           |
-| AA4      | Protective infrastructure (km per risk area)        | Adaptive              | Asset                  | —                                        | —                    | Structural risk reduction / DRR                | B                | CBI-only structural protection measure; no v1 row.                                                              |
-| AP1      | Climate adaptation plan exists                      | Adaptive              | Process                | Plan revision cycle                      | Adaptive             | Strategic planning                             | A                | AP1 gives adaptation-specific plan existence; v1 covers revision/implementation.                                |
-| AP2      | Climate data integration (1–5 scale)                | Adaptive              | Process                | Policy integration score                 | Adaptive             | Knowledge integration / policy integration     | A                | AP2 operationalizes v1 policy-integration concept with a 1–5 score.                                             |
-| AP3      | Community participation in planning (1–5 scale)     | Adaptive              | Process                | Community engagement frequency           | Transformative       | Participation / co-production                  | A                | AP3 refines v1 engagement concept with qualitative participation scoring.                                       |
-| AP4      | Public climate literacy (%)                         | Adaptive              | Process                | —                                        | —                    | Awareness / capacity building                  | B                | New awareness-focused concept; no explicit v1 row name.                                                         |
-| TA1      | Green buffer areas (% of land area)                 | Transformative        | Asset                  | —                                        | —                    | Land-use / ecosystem-based measures            | B                | Ecosystem buffer concept; no v1 indicator row.                                                                  |
-| TA2      | Climate resilience investment per 10k pop           | Transformative        | Asset                  | —                                        | —                    | Capital investment / development strategy      | B                | New concept on orientation of public investment toward resilience.                                              |
-| TA3      | Climate-resilient infrastructure (% of stock)       | Transformative        | Asset                  | —                                        | —                    | Infrastructure standards / retrofitting        | B                | New concept on resilience of infrastructure stock; no v1 analogue.                                              |
-| TP1      | Climate-informed zoning (binary)                    | Transformative        | Process                | —                                        | —                    | Land-use governance / regulation               | B                | Transformative governance concept; v1 has related governance rows but no direct zoning concept; treated as new. |
-| TP2      | Local economic transition plan (binary)             | Transformative        | Process                | —                                        | —                    | Economic restructuring / just transition       | B                | New concept; economic transition plan is not encoded as a separate v1 indicator.                                |
-| TP3      | Climate innovation adoption (projects per province) | Transformative        | Process                | —                                        | —                    | Innovation / experimentation                   | B                | New concept; innovation system strength not explicitly present in v1 rows.                                      |
+## Relationship to other artifacts
 
-## 2. Integration type summary
+- `CRI_Capacity_Tagging_Dictionary_v2.md` – source of canonical indicator concepts and capacity/governance tags.
+- `CRI_Capacity_Tagging_Dictionary_v2_CBI.md` – integrated dictionary that combines CRI v2 fields with CBI-specific fields for day-to-day use.
+- `CRI_Capacity_Tagging_Dictionary.md` – v1.1 dictionary; remains an upstream reference for how indicators were first framed.
+- `CRI_CBI_Bridging_Method_Note.md` and `CRI_CBI_method_reconstruction.md` – narrative descriptions of the CBI integration logic that this table will operationalise.
+- `output/notebooklm_capacity_dictionary_v2/` – NotebookLM extraction and synthesis workspace that may provide candidate mappings or clarifications.
 
-- **Type A** (Baseline proxy for existing v1 concepts):
-  - CP1, CP2, CP3, CP4
-  - AP1, AP2, AP3
-  - CA2, AA2
+## Table schema (initial populated subset)
 
-- **Type B** (new concept groups with no direct v1 parent):
-  - CA1, CA3, CA4
-  - AA1, AA4
-  - AP4
-  - TA1, TA2, TA3
-  - TP1, TP2, TP3
+The crosswalk is implemented as a markdown table with the following columns:
 
-- **Type C** (context-only):
-  - AA3
+- `cri_canonical_indicator_concept` – Reference to the v2 canonical concept label.
+- `cri_capacity_category` – Coping / Adaptive / Transformative.
+- `cri_governance_function` – Primary governance function tag from the v2 dictionary.
+- `cbi_indicator_code` – Code used for the corresponding CBI indicator (if any).
+- `cbi_indicator_label` – Short label or description of the CBI indicator.
+- `cbi_dimension` – Relevant CBI dimension or pillar.
+- `mapping_type` – Nature of the mapping (e.g. `direct`, `derived`, `composite`, `one_to_many`, `many_to_one`, `no_match`).
+- `mapping_confidence_0_3` – Qualitative confidence score (0–3) for the mapping itself (separate from data-richness of the indicator).
+- `notes` – Short free-text notes on assumptions, caveats, or decisions.
 
-This crosswalk ensures that CBI indicators are fitted into existing v1 concept categories wherever there is a clear conceptual match, and that indicators without a v1 parent are explicitly marked as new CBI-driven concept groups or as contextual only.
+### Header
 
+| cri_canonical_indicator_concept                   | cri_capacity_category | cri_governance_function     | cbi_indicator_code | cbi_indicator_label           | cbi_dimension            | mapping_type    | mapping_confidence_0_3 | notes                                                                                                                                                                                          |
+| ------------------------------------------------- | --------------------- | --------------------------- | ------------------ | ----------------------------- | ------------------------ | --------------- | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Financial mechanisms and resource allocation      | Adaptive              | finance                     | TA2                | Climate Resilience Investment | Transformative / Asset   | baseline_proxy  | 3                      | TA2 provides a direct budget-based baseline proxy for long-term climate resilience investment within this concept; alignment improves once climate budget tagging is formalised.               |
+| Financial mechanisms and resource allocation      | Adaptive              | finance                     | AA2                | Recovery Budget               | Adaptive / Asset         | baseline_proxy  | 2                      | AA2 complements TA2 by capturing post-disaster recovery budget per capita; together they approximate the broader financial mechanisms and resource allocation concept.                         |
+| Financial mechanisms and resource allocation      | Adaptive              | finance                     | CA2                | Emergency Disaster Fund       | Coping / Asset           | partial_overlap | 2                      | CA2 focuses on emergency response funds, covering only one slice of the wider financial mechanisms and resource allocation concept.                                                            |
+| Climate budget tagging coverage                   | Adaptive              | finance_accountability      | TA2                | Climate Resilience Investment | Transformative / Asset   | adjacency_only  | 1                      | TA2 uses a climate-related project classification that would typically be enabled by budget tagging, but it does not itself measure tagging coverage; treat this as an adjacency-only linkage. |
+| Emergency budget disbursement timeline            | Coping                | finance_response            | CA2                | Emergency Disaster Fund       | Coping / Asset           | partial_overlap | 2                      | CA2 measures emergency fund levels, which are a necessary but not sufficient condition for timely disbursement captured in this concept.                                                       |
+| Risk-informed and climate-integrated planning     | Adaptive              | planning                    | AP1                | Climate Adaptation Plan       | Adaptive / Process       | baseline_proxy  | 3                      | Existence of an approved provincial climate adaptation plan is treated as a strong baseline proxy for risk-informed and climate-integrated planning capacity.                                  |
+| Risk-informed and climate-integrated planning     | Adaptive              | planning                    | AP2                | Climate Data Integration      | Adaptive / Process       | composite       | 2                      | AP2’s 1–5 scale captures the quality of climate data integration into development plans and can be used as a composite proxy for this concept when interpreted alongside AP1.                  |
+| Policy integration score                          | Adaptive              | policy_integration          | AP2                | Climate Data Integration      | Adaptive / Process       | baseline_proxy  | 2                      | AP2 directly reflects the degree to which climate information is integrated into provincial development planning, aligning with policy integration under this concept.                         |
+| Community engagement and social support           | Transformative        | inclusion_legitimacy        | AP3                | Community Participation       | Adaptive / Process       | baseline_proxy  | 3                      | AP3’s participation ladder provides a strong process-quality proxy for community engagement and social support capacities.                                                                     |
+| Emergency and human resource capacity             | Coping                | human_resources_response    | CA4                | Emergency Medical Personnel   | Coping / Asset           | baseline_proxy  | 2                      | CA4 measures emergency health personnel per population and is used as a baseline proxy for broader emergency and human resource capacity.                                                      |
+| Climate innovation and communication technology   | Transformative        | digital_innovation          | CP4                | Risk Communication Channels   | Coping / Process         | partial_overlap | 2                      | CP4 captures diversity of risk communication channels and serves as a partial proxy for digital communication aspects of this concept.                                                         |
+| Climate innovation and communication technology   | Transformative        | digital_innovation          | TP3                | Climate Innovation Adoption   | Transformative / Process | baseline_proxy  | 2                      | TP3 counts climate-related innovation projects and is used as a baseline proxy for innovation and technology adoption capacities.                                                              |
+| Risk assessment and urban diagnostic capabilities | Adaptive              | risk_assessment             | AP2                | Climate Data Integration      | Adaptive / Process       | partial_overlap | 2                      | AP2 implies use of climate and risk information in planning; when supported by separate risk assessment evidence it can partially proxy diagnostic capabilities.                               |
+| Performance dashboard coverage                    | Transformative        | transparency_accountability | AP4                | Public Climate Literacy       | Adaptive / Process       | adjacency_only  | 1                      | AP4 reflects public awareness and literacy rather than dashboards; it is treated only as an adjacent signal for transparency and communication capacity.                                       |
+
+> **Note:** This is a first-pass, non-exhaustive crosswalk focusing on fiscal/budget, governance/institutional, and data/knowledge capacities. Mappings and confidence scores are expected to be refined and extended in later Track B subtasks.
+
+## Usage (once populated)
+
+When populated in later subtasks, this table will:
+
+- Provide a **machine- and human-readable bridge** between CRI v2 capacity indicators and CBI indicator codes.
+- Support filtering and aggregation of CRI-tagged indicators into CBI reporting structures.
+- Preserve traceability by keeping mapping decisions, confidence, and notes in one place.
+
+Until then, treat this file as a **design artefact** documenting the intended crosswalk schema.

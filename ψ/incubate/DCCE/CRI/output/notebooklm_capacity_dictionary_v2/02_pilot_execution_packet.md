@@ -196,6 +196,8 @@ For each **valid** batch (i.e. passes both shape and source-fidelity checks):
 
 The April 2026 M1, F1, and A1 batches have successfully validated the staged full-execution model. Methodological, framework, and adjacency core concepts are now integrated into [`synthesis/indicator_concept_register.md`](ψ/incubate/DCCE/CRI/output/notebooklm_capacity_dictionary_v2/synthesis/indicator_concept_register.md).
 
+For the **current CRI Phase 2 capacity-tagging deliverables**, treat the integrated M1/F1/A1 batches as a **sufficient extraction set**. Additional batches (M2, F2, A2) remain **optional future gap-filling runs** that can be scheduled later if specific coverage gaps are identified during dictionary v2 drafting.
+
 Immediate practical steps are:
 
 1. **Review register for M2/F2/A2 requirements**
@@ -205,4 +207,3 @@ Immediate practical steps are:
    - Identify specific data/knowledge system sources for Batch A2 if coverage gaps are found in the digital/innovation cluster.
 
 This packet is the **source-of-truth operational guide** for running the next NotebookLM cycle under the post-pilot, extraction-only, staged full-execution model.
-
