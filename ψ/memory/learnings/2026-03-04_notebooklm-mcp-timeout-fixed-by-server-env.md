@@ -1,12 +1,14 @@
----
 title: NotebookLM MCP timeouts fixed by increasing server env timeouts + disabling stealth
 tags:
   - notebooklm
   - mcp
   - troubleshooting
 created: 2026-03-04
-status: current
+status: superseded
+superseded_by: 2026-03-04_notebooklm-mcp-timeouts-fixed-by-increasing-serv.md
 ---
+
+> This troubleshooting note has been superseded by [`2026-03-04_notebooklm-mcp-timeouts-fixed-by-increasing-serv.md`](ψ/memory/learnings/2026-03-04_notebooklm-mcp-timeouts-fixed-by-increasing-serv.md); kept for earlier wording and additional notes.
 
 # NotebookLM MCP timeouts fixed by increasing server env timeouts + disabling stealth
 

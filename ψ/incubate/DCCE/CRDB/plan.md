@@ -2,17 +2,16 @@
 
 Operational plan for **CRDB-only** scope in this thread.
 
-Status (as of **2026-03-27**, ICT)
+Status (as of **2026-04-09**, ICT)
 
-- Latest sponsor/progress-meeting anchors:
-  - Decisions (structured): [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md)
-  - Human summary (verbatim): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md)
-- Interim report: edited version submitted; keep a compare/diff task on the backlog:
-  - Status note: [`ψ/memory/logs/info/2026-03-27_10-17_submitted-edited-interim-report-compare-with-draft.md`](ψ/memory/logs/info/2026-03-27_10-17_submitted-edited-interim-report-compare-with-draft.md)
-  - Submitted snapshot: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md)
-- Governance watchpoints from sponsor context:
-  - Org restructure alignment: [`ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md`](ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md)
-  - Digital Tech group / consultant scope unclear: [`ψ/memory/logs/info/2026-03-27_09-22_dcce-digital-tech-group-consultant-scope-unclear.md`](ψ/memory/logs/info/2026-03-27_09-22_dcce-digital-tech-group-consultant-scope-unclear.md)
+| Item | Summary | Key artifacts |
+| --- | --- | --- |
+| Sponsor / progress meetings | Latest internal synthesis and sponsor-facing summary are stable and form the main narrative anchor for scope, MVP focus, and workshop expectations. | Decisions: [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md); Summary: [`ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md) |
+| Interim report v3 | Edited interim report was submitted on 2026-03-27; interim-report drafting is closed for now. Any further work is optional, for style calibration and future revisions. | Status note: [`ψ/memory/logs/info/2026-03-27_10-17_submitted-edited-interim-report-compare-with-draft.md`](ψ/memory/logs/info/2026-03-27_10-17_submitted-edited-interim-report-compare-with-draft.md); Submitted snapshot: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md) |
+| Workshop stream (TOR 5.3.3) | Workshop plan v3, outputs pack skeleton, and Thai invitation package v1 exist; one revision pass remains to finalize outputs and invites for execution. | Plan v3: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Plan-v3_TOR533-aligned.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Plan-v3_TOR533-aligned.md); Outputs pack skeleton: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Outputs-Pack-Skeleton-v2_TOR533.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Outputs-Pack-Skeleton-v2_TOR533.md); Thai invite v1: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Invite-Letter_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Invite-Letter_TH_v1.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md) |
+| Three-stream execution spine (IT → workshop → FGD3) | A staged execution path has been adopted: 2026-04-29 DCCE IT discussion (platform and governance constraints), mid-May TOR 5.3.3 consultation workshop (ecosystem evidence), and late-May FGD3 (internal ownership and roadmap). This spine is now encoded in the PM ledgers and should guide April–May work. | Plan: [`ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Work-Streams-Implementation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Work-Streams-Implementation-Plan.md); Trigger T-015: [`ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md); Change CH-008: [`ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md); Deliverable D-020: [`ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md`](ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md); Claim C-011: [`ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md`](ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md) |
+| PM ledgers and history spine | Trigger, Deliverable, Submission, Claim, and Change ledgers are wired through a neutral history timeline and now include the three-stream execution decision. These should remain the authoritative PM surfaces. | History timeline: [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md); Ledgers: [`ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md), [`ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md`](ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md), [`ψ/incubate/DCCE/CRDB/CRDB-Submission-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Submission-Log.md), [`ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md`](ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md), [`ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md) |
+| Governance watchpoints | Org restructure and the Digital Tech consultant initiative remain key governance dependencies; CRDB’s catalog-first and governance work must stay aligned with these constraints. | Org restructure: [`ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md`](ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md); Digital Tech scope: [`ψ/memory/logs/info/2026-03-27_09-22_dcce-digital-tech-group-consultant-scope-unclear.md`](ψ/memory/logs/info/2026-03-27_09-22_dcce-digital-tech-group-consultant-scope-unclear.md) |
 
 Anchors:
 - Digest (onboarding): [`ψ/incubate/DCCE/CRDB/inbox_source/dcce-crdb_knowledge_digest.md`](ψ/incubate/DCCE/CRDB/inbox_source/dcce-crdb_knowledge_digest.md)
@@ -29,6 +28,7 @@ Recent (keep current):
 - Progress-meeting summary (human notes, Dir Toey, 2026-03-27): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md)
 - Workshop stream continuation plan (save-point): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
 - Workstreams index (orientation): [`ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md)
+- Work-streams execution spine (late April–May 2026): [`ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Work-Streams-Implementation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Work-Streams-Implementation-Plan.md)
 - Interim report submission status note (edited version submitted; compare later): [`ψ/memory/logs/info/2026-03-27_10-17_submitted-edited-interim-report-compare-with-draft.md`](ψ/memory/logs/info/2026-03-27_10-17_submitted-edited-interim-report-compare-with-draft.md)
 - Edited/submitted interim report snapshot (2026-03-27): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md)
 - DCCE org restructure context for CDM + data governance alignment: [`ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md`](ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md)
@@ -38,12 +38,14 @@ Recent (keep current):
 
 Now (this week)
 
-- [ ] Rewrite interim report v3 sections into **DCCE-facing prose** (paragraph-first; TOR headings only) and keep **internal traceability** in separate internal notes (do not mix internal “missing data” notes into public-facing prose).
-  - Workflow anchor/handoff: [`ψ/inbox/handoff/2026-03-26_08-30_crdb-interim-v3-style-mismatch-and-prose-rewrite.md`](ψ/inbox/handoff/2026-03-26_08-30_crdb-interim-v3-style-mismatch-and-prose-rewrite.md)
-- [ ] Create a short **management evidence pack** (1–2 pages) summarizing: progress, what changed after the meeting, and the next decisions needed.
-  - Decisions anchor: [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md)
-- [ ] Update governance role-mapping prompts to reflect the planned DCCE re-org (avoid locking roles to an outdated org chart).
-  - Org restructure context: [`ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md`](ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md)
+- [ ] CRDB workshop stream — run the **revision pass** on the workshop package and Thai invitation materials so they are TOR 5.3.3-aligned and ready for sponsor use.
+  - Handoff/plan: [`ψ/inbox/handoff/2026-03-31_23-00_crdb-workshop-package-thai-invite-revision.md`](ψ/inbox/handoff/2026-03-31_23-00_crdb-workshop-package-thai-invite-revision.md), [`plans/2026-04-01_crdb-workshop-outputs-and-thai-invite-revision-pass-plan.md`](plans/2026-04-01_crdb-workshop-outputs-and-thai-invite-revision-pass-plan.md)
+  - Outputs to revise: workshop v3 + outputs pack skeleton + Thai invite v1 files listed in Status
+- [ ] CRDB work-streams execution — use the **three-stream execution spine** (DCCE IT discussion → TOR 5.3.3 consultation workshop → FGD3) as the main organizing frame for late-April and May work.
+  - Anchor plan: [`ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Work-Streams-Implementation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Work-Streams-Implementation-Plan.md) (deliverable D-020)
+  - Related ledger entries: T-015 in [`CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md), CH-008 in [`CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md), C-011 in [`CRDB-Claim-Register.md`](ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md)
+- [ ] CRDB project-management ledgers — keep **Trigger/Deliverable/Submission/Claim/Change** current for all new events (meetings, submissions, workshop/FGD decisions), using the history spine and the three-stream execution spine as anchors.
+  - Anchors: history spine + ledgers listed in Status; follow update pattern from [`ψ/memory/retrospectives/2026-03/27/15.57_rrr_crdb-pm-history-spine-ledgers-and-compliance-gap.md`](ψ/memory/retrospectives/2026-03/27/15.57_rrr_crdb-pm-history-spine-ledgers-and-compliance-gap.md), [`ψ/memory/retrospectives/2026-03/30/11.59_rrr_crdb-pm-ledger-backfill-and-d006-workshop-package.md`](ψ/memory/retrospectives/2026-03/30/11.59_rrr_crdb-pm-ledger-backfill-and-d006-workshop-package.md), and [`ψ/memory/retrospectives/2026-04/08/22.57_rrr_crdb-three-stream-execution-spine.md`](ψ/memory/retrospectives/2026-04/08/22.57_rrr_crdb-three-stream-execution-spine.md)
 
 Next (1–2 weeks)
 
@@ -53,7 +55,6 @@ Next (1–2 weeks)
   - Submitted snapshot: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-CRDB-interim-report-v3-edited.md)
 
 ## Objectives
-
 1) Lock Phase 1 scope as **conceptual + logical architecture** (not a software build).
 2) Publish a coherent **NCAIF (EDM)** narrative: taxonomy + glossary + workflow entry points.
 3) Convert workflow patterns into a **Phase 1 MVP shortlist** with explicit “what ships” vs “documentation-only.”

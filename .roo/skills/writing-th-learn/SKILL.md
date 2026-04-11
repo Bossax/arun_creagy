@@ -1,32 +1,26 @@
 ---
 name: writing-th-learn
-description: Extracts Thai writing patterns by comparing draft vs edited versions. links learnings to the session writing plan + example report style reference.
+description: learn a writing style from any articles, edits, notes, writt-up. Use when the human says 'learn from this note, report, write-up', study writing style or pattern. 
 ---
 
 # /writing-th-learn
 
-> Learning-only companion for `/writing-th`. Compares a **Thai draft** and its **human-edited** version, then stores what changed as reusable patterns.
+> Learning-only companion for `/writing-th`. Compares a **Thai draft** and its **human-edited** version then stores the changed as reusable patterns. Or study a writing style of a writing sample. 
 
 ## When to use this skill
 
-- After you used `/writing-th` to produce a draft **and** you have an edited version (`...-edited.md`).
-- When closing a session with `/rrr` and you want to capture **Thai writing style learnings** separate from the general retrospective.
 - When you have any Thai draft/edited pair and want to update `writing-th`'s understanding of your word choice and phrasing.
+- When you have a writing sample you want to capture its style
 
-## When NOT to use this skill
-
-- If there is no edited version yet (only a draft exists) — use `/writing-th` first to draft and let the human edit.
-- If the change is not about Thai wording, phrasing, or narrative structure (for example pure data or numbers updates).
-- If you only need to generate a new Thai draft — use `/writing-th` instead.
 
 ## Inputs required
+1) a writing sample
 
-1) **Mode**: `report` or `article` (must match the mode originally used in `/writing-th`).
-2) **Writing plan path** (recommended): the anchor plan markdown file for the session.
-3) **Draft file path**: markdown file.
-4) **Edited file path**: markdown file.
-5) (Optional) **Example report path**: the style reference used in the session (if any).
-6) (Optional) **Context tags**: short tags for `oracle_learn` (e.g., `thai-tone`, `gov-report`, `interview-prep`).
+## Inputs optional
+1) **Draft file path**: markdown file.
+2) **Edited file path**: markdown file.
+3) (Optional) **Example report path**: the style reference used in the session (if any).
+4) (Optional) **Context tags**: short tags for `oracle_learn` (e.g., `thai-tone`, `gov-report`, `interview-prep`).
 
 ### Naming rule (recommended, but not mandatory)
 
@@ -35,40 +29,41 @@ description: Extracts Thai writing patterns by comparing draft vs edited version
   - Add a small mapping block in the writing plan (recommended template is in [`/writing-th`](.roo/skills/writing-th/SKILL.md:1)).
 
 ## Workflow
+To break down a writing style into a strict, rule-based system, you have to turn the writing into numbers, limits, and hard "yes/no" checks.
 
-1) **Validate inputs**
-   - Confirm that both files exist and are markdown.
-   - Prefer: they share the same base name and differ only by `-draft` vs `-edited`.
-   - If not: require explicit mapping (in the plan or user message) before continuing.
+Here are the specific building blocks and patterns you must measure to create your rules:
 
-2) **Read session context (Option C)**
+1. Word Rules (Vocabulary)
+Word Length: Count the syllables. Is the rule to stick mostly to 1-2 syllable words, or are longer words allowed?
 
-   - If a writing plan path is provided:
-     - Read it and find the latest “Session Style Pack Summary”.
-     - Capture:
-       - example report reference + permission line
-       - session terminology / flow constraints
-       - safety rails (citations/hedging/no hallucinations)
+Word Types: Do they rely on strong action verbs (e.g., "sprint," "crush") or do they pile on describing words (e.g., "very fast," "really bad")?
 
-3) **Read both files**
-   - Read the full content of the `draft` and `edited` files.
+Jargon and Slang: Make a strict list of phrases they use all the time.
 
-4) **Compare and extract patterns**
-   - Focus on **what the human changed**, not on line-by-line diffs.
-   - Identify and summarize:
-     - **Word choice and phrasing**:
-       - recurrent substitutions (e.g., more formal vs informal verbs, consistent noun choices);
-       - changes in tone (more/less formal, softer/stronger hedging);
-       - preference for certain connectors, transitions, or emphasis styles.
-     - **Semantic arrangement and structure**:
-       - reordering of sentences or paragraphs to improve flow;
-       - patterns in how the human introduces context, states key messages, and provides evidence;
-       - ways the human simplifies or elaborates concepts for clarity.
-   - Keep the summary concise and pattern-based (no full text copies).
+The "Never Use" List: Just as important as what they say is what they refuse to say. Make a list of banned words.
 
-5) **Write learning note to ψ/memory**
+2. Sentence Rules (Structure)
+Sentence Length Limits: Find the average word count per sentence. Set a hard rule (like "no sentence over 15 words" or "always follow a long sentence with a 3-word sentence").
 
-    - Compose a learning note in Thai (with English only where necessary) with sections:
+Sentence Openers: Track the first word of every sentence. Do they start with names? Do they start with words like "And," "But," or "Because"?
+
+Action vs. Happening: Does the writer use active voice ("The cat ate the mouse") or passive voice ("The mouse was eaten by the cat")? Set a rule for which one to use.
+
+3. Punctuation and Layout Rules
+Paragraph Size: Count the sentences per paragraph. Set a strict limit (e.g., "Maximum of three sentences per paragraph").
+
+Punctuation Quotas: Track the commas, dashes, and semicolons. A rule might be "Never use semicolons, but use dashes to interrupt thoughts."
+
+Questions vs. Statements: How often do they ask the reader a question? Set a ratio (e.g., "One question per page").
+
+4. Point of View Rules
+The Subject: Who is the focus? Set a rule on whether to use "I" (personal), "You" (talking to the reader), or "They/It" (distanced and objective).
+
+Certainty: Does the writer sound like an expert ("This is the only way") or a thinker ("It seems like this might work")?
+
+5. **Write learning note to ψ/memory**
+
+    - Compose a learning note in Thai (with English only where necessary) with sections (optional):
       - `## Word choice and phrasing`
       - `## Semantic and structure patterns`
       - `## Implications for future drafts`
@@ -126,15 +121,3 @@ description: Extracts Thai writing patterns by comparing draft vs edited version
 +  - ห้ามลบบรรทัดเก่าใน resonance (Nothing is Deleted)
 +  - ต้องมี “เหตุผล” ที่ชัดเจนว่าทำไม pattern นี้จึงควรใช้ข้ามโปรเจกต์ ไม่ใช่ข้อยกเว้นเฉพาะกรณี
 +  - การตัดสินใจโปรโมตยังคงต้องอาศัยการยืนยันของมนุษย์ ไม่ใช่ agent ตัดสินใจเองลำพัง
-
-
-
-## Notes for /rrr integration
-
-- `/rrr` should **not** recreate this logic; instead, it can:
-  - Detect when a Thai draft/edited pair was created in the session; then
-  - Invoke `/writing-th-learn` once per pair to record learnings.
-- Retrospective and Thai-writing learnings must stay in **separate files**:
-  - `/rrr` writes session retrospectives under `ψ/memory/retrospectives/...` and general learnings under `ψ/memory/learnings/...`.
-  - `/writing-th-learn` writes **Thai-writing-focused** learnings with the `writing-th-<mode>-learn` suffix so they are easy to query later.
-

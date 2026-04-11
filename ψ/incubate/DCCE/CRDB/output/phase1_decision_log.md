@@ -1,10 +1,17 @@
-# DCCE_CRDB — Phase 1 Decision Log (Confirmed)
+
+# DCCE_CRDB — Phase 1 Decision Log (Retired-Superseded)
 
 ## Purpose
 Capture **Phase 1 decisions** (MVPs, sitemap, governance gates) with recommended choices, rationale, and anchors.
 
+> [!status]
+> **Status: Retired (kept for history)** — This file is preserved as a historical snapshot of the Phase 1 locking conversation. Do **not** treat it as the live source of truth for current CRDB decisions. For ongoing work, prefer:
+> - Project change history → [`CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md)
+> - Trigger history → [`CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md)
+> - Thaiwater benchmark analysis → [`2026-04-09-Thaiwater-Data-Governance-Analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-04-09-Thaiwater-Data-Governance-Analysis.md)
+
 Confirmation: user confirmed Phase 1 decisions on **2026-03-10 14:03 ICT (07:03Z)**.
-Last Updated: **2026-03-24 16:03 GMT+7**
+Last Updated: **2026-04-09 15:28 GMT+7**
 ## Inputs (anchors)
 - [`CRDB - Implementation Plan.md`](ψ/writing/2025-11_DCCE-CRDB/output/CRDB%20-%20Implementation%20Plan.md:24)
 - [`National Climate Adaptation Information Framework.md`](ψ/writing/2025-11_DCCE-CRDB/output/National%20Climate%20Adaptation%20Information%20Framework.md:36)
@@ -12,6 +19,7 @@ Last Updated: **2026-03-24 16:03 GMT+7**
 - [`Feature-Driven Data Governance Strategy v3 (2026-03-05).md`](ψ/writing/2025-11_DCCE-CRDB/output/Feature-Driven%20Data%20Governance%20Strategy%20v3%20(2026-03-05).md:82)
 - [`NCAIF_Use_Cases.md`](ψ/writing/2025-11_DCCE-CRDB/output/NCAIF_Use_Cases.md:40)
 - [`FGD2_Slide_Deck_Guide.md`](ψ/writing/2025-11_DCCE-CRDB/output/FGD2_Slide_Deck_Guide.md:209)
+- [`2026-04-09-Thaiwater-Data-Governance-Analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-04-09-Thaiwater-Data-Governance-Analysis.md)
 
 ---
 
@@ -26,6 +34,7 @@ Last Updated: **2026-03-24 16:03 GMT+7**
 | Endorsement authority (recommended baselines) | **Interim endorsement panel**: DCCE central data team + source‑agency focal point (co‑signature) | Avoids full governance council dependency while preserving accountability. | Confirmed | DCCE central data team |
 | Publishing rails | **Open → data.go.th; Non‑open → GDX; Sensitive → internal‑only** | Matches DGA guidance and avoids redundant infrastructure. | Confirmed | DCCE + DGA |
 | Phase 1 governance gates | **G1–G5** (classification, metadata+preview, baseline endorsement, boundary+crosswalk, event schema with timeliness/flags) | Minimum set to ship safely and address FGD1 pain points (preview, QA/QC, staging). | Confirmed | DCCE governance lead |
+| Data standards and governance benchmark | **Thaiwater data governance framework adopted as the primary external pattern reference for CRDB data standards and governance. Phase 1 commits to design-level artifacts: a CRDB Reference Parameter Standard, dataset templates for key domains, a Data Quality Framework, and a governance spine, all aligned with Thaiwater patterns but scoped to TOR constraints.** | The discovery and analysis in [`2026-04-09-Thaiwater-Data-Governance-Analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-04-09-Thaiwater-Data-Governance-Analysis.md), your internal enhancement note on Thaiwater-based enhancements, and the concept note on Thaiwater governance lessons show that Thaiwater provides a mature national benchmark for reference codes, record structures, exchange posture, quality control levels/flags, and governance flows that can safely guide CRDB Phase 1 without over-building infrastructure. | Confirmed | DCCE data governance lead + project team |
 
 ---
 
@@ -36,6 +45,8 @@ Last Updated: **2026-03-24 16:03 GMT+7**
 4) Canonical boundary pattern: **admin** for primary reporting; **LAO/municipality** for budget/operations; **EA** where available for small‑area baselines (with explicit crosswalk governance).
 5) Endorsement authority pattern: **interim endorsement panel** (DCCE central data team + source‑agency focal point, co‑signature).
 6) MVP‑2 pipeline scope: **groundwork** (manual/batch ingestion + quarantine/validation flags + revision policy), not full automation in Phase 1.
+7) External data-governance benchmark: **Thaiwater data governance framework** is adopted as the primary external pattern reference for CRDB’s reference parameters, record structures, exchange posture, quality control, and governance flows.
+8) Phase 1 data-standards commitments: Phase 1 must produce **design-level artifacts** for a CRDB Reference Parameter Standard, dataset templates for key domains (including loss and damage and baseline indicators), a Data Quality Framework, and a governance spine, even if full technical implementations are deferred to later phases.
 
 ---
 

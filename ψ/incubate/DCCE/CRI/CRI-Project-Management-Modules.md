@@ -37,8 +37,8 @@ Unless otherwise stated, modules operate over the following CRI anchors:
 - [`CRI-Claim-Register.md`](ψ/incubate/DCCE/CRI/CRI-Claim-Register.md)
 - [`CRI-Submission-Log.md`](ψ/incubate/DCCE/CRI/CRI-Submission-Log.md)
 - [`CRI-Change-Log.md`](ψ/incubate/DCCE/CRI/CRI-Change-Log.md)
-- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md)
-- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md)
+- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md)
+- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md)
 
 If a CRI plan or navigation note is later introduced (e.g. `ψ/incubate/DCCE/CRI/plan.md`), modules may treat it as **advisory context**, not as a canonical ledger.
 
@@ -70,8 +70,8 @@ Provide a **read-only situational snapshot** of the CRI project that a human can
 - [`CRI-Claim-Register.md`](ψ/incubate/DCCE/CRI/CRI-Claim-Register.md)
 - [`CRI-Submission-Log.md`](ψ/incubate/DCCE/CRI/CRI-Submission-Log.md)
 - [`CRI-Change-Log.md`](ψ/incubate/DCCE/CRI/CRI-Change-Log.md)
-- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md)
-- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md)
+- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md)
+- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md)
 
 ### Writes to
 
@@ -155,8 +155,8 @@ Given a specific CRI deliverable (e.g. briefing decks, evidence summaries, heari
 - [`CRI-Trigger-Log.md`](ψ/incubate/DCCE/CRI/CRI-Trigger-Log.md)
 - [`CRI-Submission-Log.md`](ψ/incubate/DCCE/CRI/CRI-Submission-Log.md)
 - [`CRI-Claim-Register.md`](ψ/incubate/DCCE/CRI/CRI-Claim-Register.md)
-- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md)
-- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md)
+- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md)
+- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md)
 - [`CRI-Change-Log.md`](ψ/incubate/DCCE/CRI/CRI-Change-Log.md)
 
 ### Writes to
@@ -193,8 +193,8 @@ Support **disciplined linkage between CRI claims and the evidence base**, using 
 ### Reads from
 
 - [`CRI-Claim-Register.md`](ψ/incubate/DCCE/CRI/CRI-Claim-Register.md)
-- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md)
-- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md)
+- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md)
+- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md)
 - [`CRI-Deliverable-Map.md`](ψ/incubate/DCCE/CRI/CRI-Deliverable-Map.md)
 
 ### Writes to (proposed)
@@ -202,7 +202,7 @@ Support **disciplined linkage between CRI claims and the evidence base**, using 
 - Suggested updates to [`CRI-Claim-Register.md`](ψ/incubate/DCCE/CRI/CRI-Claim-Register.md) to:
   - add or refine evidence references,
   - clarify claim scope or status.
-- Suggested updates to [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md) where coverage gaps or mis-alignments are detected.
+- Suggested updates to [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md) where coverage gaps or mis-alignments are detected.
 
 All suggestions must:
 

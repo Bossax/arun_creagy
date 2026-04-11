@@ -1,3 +1,10 @@
+---
+title: NotebookLM extraction vs local harmonisation
+created: 2026-04-08
+related:
+  - 2026-04-09_treat-notebooklm-as-a-data-extraction-engine-not.md
+---
+
 # NotebookLM extraction vs local harmonisation
 
 NotebookLM should be used mainly for literature-grounded extraction and citation-bearing concept harvesting. It is useful for surfacing indicator concepts, candidate capacity categories, aspect labels, evidence snippets, and source-backed language from the notebook corpus.

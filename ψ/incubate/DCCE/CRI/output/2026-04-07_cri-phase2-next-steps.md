@@ -3,8 +3,8 @@
 ## 1. Immediate Blocks to Move Phase 2 Forward
 
 - **Evidence spine not fully wired**
-  - E-CRI-010..015 entries for Hearing 1 are only partially populated in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md).
-  - [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md) does not yet systematically reference those IDs across dimensions.
+  - E-CRI-010..015 entries for Hearing 1 are only partially populated in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md).
+  - [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md) does not yet systematically reference those IDs across dimensions.
 
 - **Capacity-tagging contract not fully locked in use**
   - Concept and rules are defined in [`ψ/incubate/DCCE/CRI/output/CRI_Capacity_Tagging_Dictionary.md`](ψ/incubate/DCCE/CRI/output/CRI_Capacity_Tagging_Dictionary.md), but:
@@ -62,8 +62,8 @@ From [`ψ/incubate/DCCE/CRI/output/CRI Phase 2 Methodology.md`](ψ/incubate/DCCE
 ## 3. Actionable Todo List (for implementation modes)
 
 - [x] **Wire Hearing 1 fully into the evidence spine**
-  - [x] Complete E-CRI-010..015 rows in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md) for all Hearing 1 artifacts.
-  - [x] Update [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md) so each dimension references these IDs and states their contribution.
+  - [x] Complete E-CRI-010..015 rows in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md) for all Hearing 1 artifacts.
+  - [x] Update [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md) so each dimension references these IDs and states their contribution.
 
 - [ ] **Lock and broadcast the capacity-tagging contract**
   - [ ] Add a short "current contract" section to [`ψ/incubate/DCCE/CRI/output/CRI_Capacity_Tagging_Dictionary.md`](ψ/incubate/DCCE/CRI/output/CRI_Capacity_Tagging_Dictionary.md) (Baseline/Target + data-richness + asset vs process grouping).

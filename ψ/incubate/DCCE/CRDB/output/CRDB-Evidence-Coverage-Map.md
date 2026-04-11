@@ -9,7 +9,7 @@ This note translates the current CRDB evidence base into an operational view of:
 - what remains weak or under-specified, and
 - what should be gathered next for meeting and workshop preparation.
 
-Use with [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md).
+Use with [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md).
 
 ## Summary table
 

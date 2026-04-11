@@ -7,7 +7,7 @@
 
 ## Core navigation
 - Plan: [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
-- Current evidence registry: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md)
+- Current evidence registry: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
 - Evidence coverage map: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
 - Interim report writing anchor: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md)
 - Workshop stream continuation plan (save-point): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
@@ -33,7 +33,7 @@
 
 Use the evidence system below as the working entry point for non-archived CRDB evidence.
 
-- Registry of active evidence artifacts: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md)
+- Registry of active evidence artifacts: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
 - Synthesis of strengths, gaps, and missing information: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
 - Cross-cutting execution-gap note: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
 

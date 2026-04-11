@@ -1,12 +1,15 @@
----
 created: 2026-03-02
 type: learning
+status: superseded
+superseded_by: 2026-02-27_notebooklm-atomic-note-template-must-follow-session-tasks.md
 tags:
   - notebooklm
   - skills
   - workflow
   - scope
 ---
+
+> This learning has been superseded by [`2026-02-27_notebooklm-atomic-note-template-must-follow-session-tasks.md`](ψ/memory/learnings/2026-02-27_notebooklm-atomic-note-template-must-follow-session-tasks.md); kept for detailed discussion of NotebookLM skill vs workflow responsibilities.
 
 # Keep NotebookLM skill scope minimal; keep research workflow in workflow docs / session plan
 

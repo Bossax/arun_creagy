@@ -26,7 +26,7 @@
 - [ ] Decide whether to split interim-report snapshots into distinct deliverables (e.g., create a separate `D-*` row for the 23-Mar snapshot currently logged as `S-002` with note referencing `D-002`).
 - [ ] Backfill [`ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md) from the trigger spine (major direction shifts).
 - [ ] Backfill [`ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md`](ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md) from triggers + decisions + evidence.
-- [ ] Reconcile triggers/deliverables with evidence IDs in [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md) and navigation in [`ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md)
+- [ ] Reconcile triggers/deliverables with evidence IDs in [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md) and navigation in [`ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md)
 - [ ] Create a reconstruction completeness checklist vs TOR milestones using [`ψ/incubate/DCCE/CRDB/inbox_source/CRDB - TOR.md`](ψ/incubate/DCCE/CRDB/inbox_source/CRDB%20-%20TOR.md)
 
 ## Next Session
@@ -43,6 +43,6 @@
 - Staging timeline: [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md)
 - Deliverables ledger: [`ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md`](ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md)
 - Submissions ledger: [`ψ/incubate/DCCE/CRDB/CRDB-Submission-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Submission-Log.md)
-- Evidence registry: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md)
+- Evidence registry: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
 - Project anchors: [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md), [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
 

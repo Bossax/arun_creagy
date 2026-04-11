@@ -1,7 +1,7 @@
 # CRDB — Director Toey Progress Meeting Agenda
 
 - **Meeting length**: 75 minutes (compressible to 60; compression notes under each section)
-- **Anchor artifacts**: [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md), [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md), [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
+- **Anchor artifacts**: [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md), [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md), [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
 - **Gap lenses**: product and content, data and method, governance and operating model, evidence-pack and translation
 
 Use this as a **working agenda**, not a slide deck. For each segment the intent is tagged as **Inform**, **Decision**, or **Workshop framing**.
@@ -17,7 +17,7 @@ Use this as a **working agenda**, not a slide deck. For each segment the intent 
 ### Objectives
 
 - Re-state **Phase 1 goal** and where this meeting sits between the interim report and the late-April workshop, grounded in [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md).
-- Align on how we are using the **evidence system** and **gap lenses** to frame today’s conversation, as summarized in [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md) and [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md).
+- Align on how we are using the **evidence system** and **gap lenses** to frame today’s conversation, as summarized in [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md) and [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md).
 - Set expectations on which topics are **already defensible**, which are **moderate or moderate to weak** and need direction, and which are earmarked for **workshop validation**.
 
 ### Key topics and evidence anchors
@@ -179,7 +179,7 @@ Use this as a **working agenda**, not a slide deck. For each segment the intent 
 
 - Summarise confirmed decisions and directions against the four lenses, ready to feed into:
   - [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
-  - [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md) and [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md) as needed.
+  - [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md) and [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md) as needed.
 - Identify which new or updated evidence packs should be prepared as **short, management-ready briefs** (eg refinements to Section 1 narrative, workshop briefing materials).
 - Clarify how the meeting output will be reflected in the interim report and in workshop design, consistent with [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md).
 

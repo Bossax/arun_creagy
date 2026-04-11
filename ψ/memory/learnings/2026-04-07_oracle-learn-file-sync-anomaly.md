@@ -1,3 +1,12 @@
+---
+title: Learning — Oracle oracle_learn File Sync Anomaly
+created: 2026-04-07
+status: superseded
+superseded_by: 2026-04-09_guardrail-after-every-oraclelearn-call-immedi.md
+---
+
+> This anomaly note has been superseded at the guardrail level by [`2026-04-09_guardrail-after-every-oraclelearn-call-immedi.md`](ψ/memory/learnings/2026-04-09_guardrail-after-every-oraclelearn-call-immedi.md), but is kept for detailed environment/context evidence.
+
 # Learning — Oracle `oracle_learn` File Sync Anomaly (2026-04-07)
 
 ## Context

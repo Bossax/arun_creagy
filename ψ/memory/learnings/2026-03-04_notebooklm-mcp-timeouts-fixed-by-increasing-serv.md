@@ -1,18 +1,19 @@
 ---
-title: # NotebookLM MCP timeouts fixed by increasing server env timeouts + disabling st
+title: NotebookLM MCP timeouts fixed by increasing server env timeouts + disabling stealth
 tags: [notebooklm, mcp, timeout, playwright, troubleshooting]
 created: 2026-03-04
 source: rrr: Knowledge_System
+status: current
 ---
-
-# # NotebookLM MCP timeouts fixed by increasing server env timeouts + disabling st
 
 # NotebookLM MCP timeouts fixed by increasing server env timeouts + disabling stealth
 
 ## Pattern
+
 If `mcp--notebooklm--ask_question` repeatedly fails with `MCP error -32001: Request timed out` while `mcp--notebooklm--get_health` shows `authenticated: true`, treat it as a latency-budget problem (Notebook load + UI automation slower than the client wait window).
 
 ## Fix
+
 - Set NotebookLM MCP server env in `/.roo/mcp.json` (example values):
   - `BROWSER_TIMEOUT=180000`
   - `STEALTH_ENABLED=false`
@@ -20,8 +21,8 @@ If `mcp--notebooklm--ask_question` repeatedly fails with `MCP error -32001: Requ
 - Restart VS Code or restart the `notebooklm` MCP server so the env is applied.
 
 ## Notes
+
 Disabling stealth reduces random delays and human-like typing overhead, improving reliability for time-sensitive automation flows.
 
-
 ---
-*Added via Oracle Learn*
+*Added via oracle_learn(); canonical troubleshooting note for NotebookLM MCP timeouts*

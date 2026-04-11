@@ -20,7 +20,7 @@
 ## Pending
 - [ ] Track B8: Minimal QC and evidence wiring for the v2 dictionary and CBI bridge:
   - [ ] Register v2, v2_CBI, and the crosswalk in [`ψ/incubate/DCCE/CRI/output/CRI_AI_sources_index.md`](ψ/incubate/DCCE/CRI/output/CRI_AI_sources_index.md).
-  - [ ] Add/update evidence entries in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md) and [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md) for the v2 dictionary, CBI crosswalk, and CBI-integrated variant.
+  - [ ] Add/update evidence entries in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md) and [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md) for the v2 dictionary, CBI crosswalk, and CBI-integrated variant.
 - [ ] Extend the CRI–CBI crosswalk beyond the initial subset (finance, planning, governance, communication, data/knowledge) to cover additional v2 concepts such as:
   - Governance readiness modifier
   - Formal coordination mechanism

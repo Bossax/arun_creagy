@@ -36,8 +36,8 @@ These ledgers are the canonical, append-first management surfaces for CRI. Use t
 
 ## Evidence & registries
 
-- Evidence registry (authoritative map of CRI evidence artifacts): [output/CRI-Evidence-Registry.md](output/CRI-Evidence-Registry.md)
-- Evidence coverage map (dimension-level view of evidence strength vs gaps): [output/CRI-Evidence-Coverage-Map.md](output/CRI-Evidence-Coverage-Map.md)
+- Evidence registry (authoritative map of CRI evidence artifacts): [output/CRI-Evidence-Registry.md](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md)
+- Evidence coverage map (dimension-level view of evidence strength vs gaps): [output/CRI-Evidence-Coverage-Map.md](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md)
 - Legacy implementation plan (evidence only; superseded as a management surface by this hub and plan): [output/CRI_Implementation Plan.md](output/CRI_Implementation Plan.md)
 - Working status brief (snapshot of early Phase 2 strategy; evidence only): [output/CRI_Working Status Brief.md](output/CRI_Working Status Brief.md)
 - AI evidence index (map of AI-assisted sources to methodology sections): [output/CRI_AI_sources_index.md](output/CRI_AI_sources_index.md)

@@ -1,4 +1,4 @@
-# CRDB Project-Manager Facade — Contract (Option B: Controlled facade)
+# CRDB Project-Manager Facade — Contract 
 
 ## Purpose
 

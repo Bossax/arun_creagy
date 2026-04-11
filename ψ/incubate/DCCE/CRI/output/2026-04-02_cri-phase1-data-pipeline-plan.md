@@ -31,7 +31,7 @@ The strategy of CRI Phase 1 is deliberately **minimal change**:
 
 - [ ] Start from the 7 pilot datasets described in [`ψ/incubate/DCCE/CRI/inbox_source/Climate Risk Index (CRI) Pilot Methodology.md`](ψ/incubate/DCCE/CRI/inbox_source/Climate Risk Index (CRI) Pilot Methodology.md) and the pilot Excel file referenced in [`ψ/incubate/DCCE/CRI/output/CRI Phase 1 Methodology.md`](ψ/incubate/DCCE/CRI/output/CRI%20Phase%201%20Methodology.md).
 - [ ] List all current and requested datasets in a small inventory table (source, owner, years, spatial unit, update status).
-- [ ] For each dataset, capture where the raw files live under `ψ/incubate/DCCE/CRI/inbox_source/` and assign or confirm an `E‑CRI‑###` ID in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md).
+- [ ] For each dataset, capture where the raw files live under `ψ/incubate/DCCE/CRI/inbox_source/` and assign or confirm an `E‑CRI‑###` ID in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md).
 - [ ] Confirm for each stream whether we have **final official** extracts, **pilot‑era TEI working tables**, or **new CRI 2 updates** from agencies.
 - [ ] Record any contractual / confidentiality constraints that may affect how fields can be transformed or published.
 
@@ -131,8 +131,8 @@ Output: enriched impact tables with gap and quality labels, plus a concise narra
 ## Stage 7 — Evidence Registration and Coverage Mapping
 
 - [ ] For each major step (cleaning, construction, redistribution, flagging):
-  - [ ] Ensure the underlying datasets and key scripts/notebooks are registered in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md) with `E‑CRI‑###` IDs.
-  - [ ] Update [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md) to show where Phase 1 is well‑supported vs thin.
+  - [ ] Ensure the underlying datasets and key scripts/notebooks are registered in [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md) with `E‑CRI‑###` IDs.
+  - [ ] Update [`ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md) to show where Phase 1 is well‑supported vs thin.
 
 - [ ] Link the completed pipeline description from this plan into the Phase 1 methodology as the canonical description of data processing steps.
 

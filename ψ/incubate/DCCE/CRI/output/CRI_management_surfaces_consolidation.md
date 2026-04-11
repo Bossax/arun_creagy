@@ -19,8 +19,8 @@ This note documents the consolidation of **CRI project management surfaces** as 
   - [ψ/incubate/DCCE/CRI/output/CRI Phase 1 Methodology.md](ψ/incubate/DCCE/CRI/output/CRI Phase 1 Methodology.md)
   - [ψ/incubate/DCCE/CRI/output/CRI Phase 2 Methodology.md](ψ/incubate/DCCE/CRI/output/CRI Phase 2 Methodology.md)
 - Evidence system:
-  - [ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md)
-  - [ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md)
+  - [ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md)
+  - [ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md)
 - Hearing notes (Phase 2 Public Hearing 1):
   - [ψ/incubate/DCCE/CRI/output/CRI_Phase2_Public_Hearing1_decisions_and_signals.md](ψ/incubate/DCCE/CRI/output/CRI_Phase2_Public_Hearing1_decisions_and_signals.md)
   - [ψ/incubate/DCCE/CRI/output/CRI_Public_Hearing1_Methodology_Implications.md](ψ/incubate/DCCE/CRI/output/CRI_Public_Hearing1_Methodology_Implications.md)

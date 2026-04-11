@@ -1,3 +1,10 @@
+---
+title: NotebookLM source fidelity and parameter discipline
+created: 2026-04-08
+related:
+  - 2026-04-09_treat-notebooklm-as-a-data-extraction-engine-not.md
+---
+
 # NotebookLM source fidelity and parameter discipline
 
 When using NotebookLM as part of a structured evidence workflow, the orchestration layer must make every execution parameter explicit. That includes the exact `notebook_id`, a concrete `session_id`, visible browser settings when required, and the exact source-binding assumption for the batch. These details cannot be left implicit or delegated to a subtask's judgment, because the quality of the evidence output depends on them.

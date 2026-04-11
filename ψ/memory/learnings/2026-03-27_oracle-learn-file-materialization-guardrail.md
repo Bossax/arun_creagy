@@ -1,3 +1,12 @@
+---
+title: Guardrail — Verify oracle_learn() materializes a repo-local learning file
+created: 2026-03-27
+status: superseded
+superseded_by: 2026-04-09_guardrail-after-every-oraclelearn-call-immedi.md
+---
+
+> This learning has been superseded by [`2026-04-09_guardrail-after-every-oraclelearn-call-immedi.md`](ψ/memory/learnings/2026-04-09_guardrail-after-every-oraclelearn-call-immedi.md); kept for historical context and example incidents.
+
 # Guardrail — Verify `oracle_learn()` materializes a repo-local learning file
 
 **Date**: 2026-03-27 (Asia/Bangkok)

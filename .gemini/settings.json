@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "oracle-v2": {
+      "command": "docker",
+      "args": [
+        "exec",
+        "-i",
+        "oracleworkspace-oracle-arun-creagy-1",
+        "bun",
+        "src/index.ts"
+      ],
+      "cwd": "C:/Users/sitth/OracleWorkspace/engine",
+      "env": {}
+    },
+    "notebooklm": {
+      "command": "npx",
+      "args": [
+        "notebooklm-mcp@latest"
+      ]
+    },
+    "perplexity": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@perplexity-ai/mcp-server"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}"
+      }
+    }
+  }
+}

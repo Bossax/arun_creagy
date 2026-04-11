@@ -1,3 +1,10 @@
+---
+title: NotebookLM title probe and guardrail implementation
+created: 2026-04-08
+related:
+  - 2026-04-09_treat-notebooklm-as-a-data-extraction-engine-not.md
+---
+
 # NotebookLM title probe and guardrail implementation
 
 On 2026-04-08 I implemented the `notebooklm-rules` guardrail skill and ran a minimal NotebookLM MCP probe against the CRI Urban Climate Resilience Frameworks & Indicators notebook.

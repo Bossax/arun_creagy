@@ -3,7 +3,11 @@ title: Guardrail: verify oracle_learn materializes a repo-local file (create-if-
 tags: [oracle, oracle_learn, guardrail, db-filesystem-mismatch, workflow-discipline]
 created: 2026-03-27
 source: Session debugging (Arun_Creagy)
+status: superseded
+superseded_by: 2026-04-09_guardrail-after-every-oraclelearn-call-immedi.md
 ---
+
+> This learning has been superseded by [`2026-04-09_guardrail-after-every-oraclelearn-call-immedi.md`](ψ/memory/learnings/2026-04-09_guardrail-after-every-oraclelearn-call-immedi.md); kept here for historical context and debugging detail.
 
 # Guardrail: verify oracle_learn materializes a repo-local file (create-if-missing)
 

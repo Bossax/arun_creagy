@@ -42,8 +42,8 @@ All behavior must be explainable in terms of the ledgers and modules defined in:
 - [`CRI-Claim-Register.md`](ψ/incubate/DCCE/CRI/CRI-Claim-Register.md)
 - [`CRI-Submission-Log.md`](ψ/incubate/DCCE/CRI/CRI-Submission-Log.md)
 - [`CRI-Change-Log.md`](ψ/incubate/DCCE/CRI/CRI-Change-Log.md)
-- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Registry.md)
-- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/output/CRI-Evidence-Coverage-Map.md)
+- [`CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md)
+- [`CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md)
 
 ## Contract: inputs
 

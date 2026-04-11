@@ -45,9 +45,9 @@ Provide a **read-only situational snapshot** of the CRDB project that a human ca
 - [`CRDB-Claim-Register.md`](ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md)
 - [`CRDB-Submission-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Submission-Log.md)
 - [`CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md)
-- [`CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md)
+- [`CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
 - [`CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
-- [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
+
 
 ### Writes to
 
@@ -86,7 +86,7 @@ Help the human convert messy project events (notes, emails, meetings, submission
 - Existing trigger entries in [`CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md) to avoid duplicates.
 - Decision and evidence anchors:
   - [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
-  - [`CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md)
+  - [`CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
   - [`CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
 
 ### Writes to (proposed)
@@ -127,7 +127,7 @@ Given a specific deliverable, produce a **traceability view** that shows which t
 - [`CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md)
 - [`CRDB-Submission-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Submission-Log.md)
 - [`CRDB-Claim-Register.md`](ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md)
-- [`CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md)
+- [`CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
 - [`CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md)
 - [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
 

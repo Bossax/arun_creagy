@@ -29,14 +29,14 @@ For day-to-day management and history, use these ledgers as the primary control 
    - Anchor: [CRI Phase 2 Methodology.md](CRI Phase 2 Methodology.md)
    - Dictionary: [CRI_Capacity_Tagging_Dictionary.md](CRI_Capacity_Tagging_Dictionary.md)
 3) **Gap diagnostics + confidence overlay:** “0 vs missing” treatment for impact data + “data richness/confidence (0–3)” for capacity proxies.
-   - Anchor: [output/CRI-Evidence-Registry.md](output/CRI-Evidence-Registry.md) and [output/CRI-Evidence-Coverage-Map.md](output/CRI-Evidence-Coverage-Map.md)
+   - Anchor: [output/CRI-Evidence-Registry.md](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md) and [output/CRI-Evidence-Coverage-Map.md](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md)
 4) **Consultation storyline & visuals:** profile-first communication; avoid “ranking trap”.
    - Anchor: [CRI_Urban_Resilience_Frameworks_Analysis.md](CRI_Urban_Resilience_Frameworks_Analysis.md)
 
 ### Evidence governance for key outputs
 
-- All key outputs above must be backed by entries in [`output/CRI-Evidence-Registry.md`](output/CRI-Evidence-Registry.md).
-- The strength and distribution of evidence across dimensions (impact, capacity, SES, governance, data_richness, etc.) should be reflected in [`output/CRI-Evidence-Coverage-Map.md`](output/CRI-Evidence-Coverage-Map.md).
+- All key outputs above must be backed by entries in [`output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md).
+- The strength and distribution of evidence across dimensions (impact, capacity, SES, governance, data_richness, etc.) should be reflected in [`output/CRI-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Coverage-Map.md).
 - Decisions in this section should be traceable via **E-CRI-###** identifiers shared between the plan, the registry, and the coverage map.
 
 ## Dependencies (inputs we must have or confirm)
@@ -81,14 +81,21 @@ Based on current CRI docs, treat these as the default baseline unless we explici
       - [output/notebooklm_capacity_dictionary_v2/00_query_plan.md](output/notebooklm_capacity_dictionary_v2/00_query_plan.md)
       - [output/notebooklm_capacity_dictionary_v2/02_pilot_execution_packet.md](output/notebooklm_capacity_dictionary_v2/02_pilot_execution_packet.md)
       - [output/notebooklm_capacity_dictionary_v2/synthesis/indicator_concept_register.md](output/notebooklm_capacity_dictionary_v2/synthesis/indicator_concept_register.md)
+    - v3 governance freeze and vetting surfaces:
+      - v3 canonical governance worksheet: [output/CRI_Capacity_Tagging_Dictionary_v3.md](output/CRI_Capacity_Tagging_Dictionary_v3.md)
+      - compact concept summary: [output/CRI_Capacity_Concept_Summary_v3.md](output/CRI_Capacity_Concept_Summary_v3.md)
+      - concept-definition evidence surface: [inbox_source/Urban_Resilience_Concept_Check.md](inbox_source/Urban_Resilience_Concept_Check.md)
   - Handoff + reflection for this track:
     - Handoff: [ψ/inbox/handoff/2026-04-08_16-22_cri-capacity-v2-cbi-trackB.md](ψ/inbox/handoff/2026-04-08_16-22_cri-capacity-v2-cbi-trackB.md)
+    - Handoff (v3 governance freeze): [ψ/inbox/handoff/2026-04-10_15-10_cri-v3-structure-locked.md](ψ/inbox/handoff/2026-04-10_15-10_cri-v3-structure-locked.md)
     - Retro: [ψ/memory/retrospectives/2026-04/08/16.19_rrr_cri-capacity-v2-cbi-crosswalk.md](ψ/memory/retrospectives/2026-04/08/16.19_rrr_cri-capacity-v2-cbi-crosswalk.md)
     - Learning: [ψ/memory/learnings/2026-04-08_cri-capacity-v2-cbi-crosswalk-subtasking.md](ψ/memory/learnings/2026-04-08_cri-capacity-v2-cbi-crosswalk-subtasking.md)
   - Near-term Track B priorities (see also [output/2026-04-07_cri-phase2-next-steps.md](output/2026-04-07_cri-phase2-next-steps.md)):
     - Implement Track B8 evidence wiring for the v2 dictionary + CBI bridge (update AI sources index, evidence registry, and coverage map).
     - Extend the CRI–CBI crosswalk and CBI-integrated dictionary to cover more v2 concepts, including CBI-only constructs that remain narrative/adjacency-only.
     - Sketch and then prototype at least one **profile-first provincial demonstrator** using the v2 dictionary + CBI bridge.
+    - Treat the v3 Institutional Readiness lens as the active governance contract for the next indicator-vetting pass, while retaining the v2 + CBI bridge as historical and methodological context.
+    - Begin the first evidence-backed mapping pass from v3 governance concepts to Thai administrative indicators (LPA, e-LAAS, Traffy Fondue, and related systems), with explicit evidence-registry links.
 
 ## Immediate priorities (next 1–2 weeks)
 

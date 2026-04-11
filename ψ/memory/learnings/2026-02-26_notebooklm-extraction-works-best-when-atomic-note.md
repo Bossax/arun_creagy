@@ -1,9 +1,12 @@
----
 title: NotebookLM extraction works best when atomic-note format is designed backward fr
 tags: [notebooklm, literature-review, extraction, koi, atomic-notes]
 created: 2026-02-26
 source: rrr: Knowledge_System
+status: superseded
+superseded_by: 2026-02-27_notebooklm-atomic-note-template-must-follow-session-tasks.md
 ---
+
+> This learning has been superseded by [`2026-02-27_notebooklm-atomic-note-template-must-follow-session-tasks.md`](ψ/memory/learnings/2026-02-27_notebooklm-atomic-note-template-must-follow-session-tasks.md); kept for the original phrasing of the atomic-note template rule.
 
 # NotebookLM extraction works best when atomic-note format is designed backward fr
 
