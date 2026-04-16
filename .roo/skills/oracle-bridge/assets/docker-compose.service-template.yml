@@ -1,0 +1,18 @@
+  {{ORACLE_CONTAINER}}:
+    image: oven/bun:latest
+    container_name: {{ORACLE_CONTAINER}}
+    ports:
+      - "47780:47778" # Default port, can be manually adjusted
+    depends_on:
+      oracle-archon:
+        condition: service_started
+    volumes:
+      - ./engine:/app
+      - ./{{PROJECT_NAME}}:/vault
+      - ./.oracle-data:/root/.arra-oracle-v3
+    working_dir: /app
+    environment:
+      - ORACLE_REPO_ROOT=/vault
+      - ORACLE_DATA_DIR=/root/.arra-oracle-v3
+      - ORACLE_PORT=47778
+    command: bun run server

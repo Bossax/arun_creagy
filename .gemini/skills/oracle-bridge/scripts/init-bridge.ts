@@ -1,129 +1,112 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
-import { join, dirname, resolve } from 'path';
+import { join, dirname } from 'path';
 
-// Resolve assets relative to the script's own location within the skill folder
+// Resolve assets
 const SKILL_ROOT = dirname(dirname(__filename));
-const MCP_ASSET = join(SKILL_ROOT, 'assets/mcp-fleet.json'); 
+const MCP_ASSET = join(SKILL_ROOT, 'assets/mcp-fleet.json');
 const MANDATE_ASSET = join(SKILL_ROOT, 'assets/SILICON_MANDATES.md');
+const DOCKER_TEMPLATE_ASSET = join(SKILL_ROOT, 'assets/docker-compose.service-template.yml');
 const BRAIN_ROOT = 'ψ';
 
-// Fleet Configuration Paths
-const WORKSPACE_ROOT = 'C:/Users/sitth/OracleWorkspace';
-const DOCKER_COMPOSE_PATH = join(WORKSPACE_ROOT, 'docker-compose.yml');
-
 const PILLARS = [
-  'inbox/signals',
-  'inbox/shipments',
-  'memory/resonance',
-  'memory/learnings',
-  'memory/retrospectives',
-  'memory/logs',
-  'writing',
-  'lab',
-  'active',
-  'archive/signals',
-  'outbox',
-  'learn'
+  'inbox/signals', 'inbox/shipments', 'memory/resonance', 'memory/learnings',
+  'memory/retrospectives', 'memory/logs', 'writing', 'lab', 'active',
+  'archive/signals', 'outbox', 'learn'
 ];
 
 /**
- * Anchors the Oracle's physical container in the fleet docker-compose.yml
+ * Surgical merge of MCP configuration
  */
-function provisionContainer(projectName: string, containerName: string) {
-  if (!existsSync(DOCKER_COMPOSE_PATH)) {
-    console.warn(`⚠️  docker-compose.yml not found at ${DOCKER_COMPOSE_PATH}. Skipping physical provisioning.`);
-    return;
+function mergeMcpConfig(targetPath: string, fleetConfig: any, containerName: string) {
+  let existing = { mcpServers: {} };
+  if (existsSync(targetPath)) {
+    try {
+      existing = JSON.parse(readFileSync(targetPath, 'utf8'));
+    } catch (e) {
+      console.warn(`⚠️  Could not parse ${targetPath}, starting fresh.`);
+    }
   }
 
-  console.log(`⚓ Provisioning Physical Anchor: ${containerName}...`);
-  const composeContent = readFileSync(DOCKER_COMPOSE_PATH, 'utf8');
-
-  // Check if service already exists
-  if (composeContent.includes(`container_name: ${containerName}`)) {
-    console.log(`✅ Physical anchor already exists for ${containerName}.`);
-    return;
+  const fleetServers = fleetConfig.servers;
+  for (const [name, config] of Object.entries(fleetServers) as [string, any][]) {
+    const serialized = JSON.stringify(config).replace(/{{ORACLE_CONTAINER}}/g, containerName);
+    existing.mcpServers[name] = JSON.parse(serialized);
   }
 
-  // Determine next available port (starting from 47780 for new oracles)
-  const portMatches = composeContent.match(/"(\d{5}):47778"/g) || [];
-  const usedPorts = portMatches.map(m => parseInt(m.match(/\d{5}/)![0]));
-  const nextPort = usedPorts.length > 0 ? Math.max(...usedPorts) + 1 : 47780;
-
-  const newServiceBlock = `
-  ${containerName}:
-    image: oven/bun:latest
-    container_name: ${containerName}
-    ports:
-      - "${nextPort}:47778"
-    depends_on:
-      oracle-archon:
-        condition: service_started
-    volumes:
-      - ./engine:/app
-      - ./${projectName}:/vault
-      - ./.oracle-data:/root/.arra-oracle-v3
-    working_dir: /app
-    environment:
-      - ORACLE_REPO_ROOT=/vault
-      - ORACLE_DATA_DIR=/root/.arra-oracle-v3
-      - ORACLE_PORT=47778
-    command: bun run server
-`;
-
-  // Safely append to services section
-  const updatedCompose = composeContent.replace(/services:/, `services:${newServiceBlock}`);
-  writeFileSync(DOCKER_COMPOSE_PATH, updatedCompose);
-  console.log(`🚀 Physical anchor deployed to port ${nextPort}. Run 'docker-compose up -d' to activate.`);
+  writeFileSync(targetPath, JSON.stringify(existing, null, 2));
+  console.log(`✅ MCP Fleet merged into ${targetPath}.`);
 }
 
+/**
+ * Verify docker-compose.yml for drift
+ */
+function checkDockerCompose(containerName: string, projectName: string) {
+    const DOCKER_COMPOSE_PATH = 'C:/Users/sitth/OracleWorkspace/docker-compose.yml';
+    if (!existsSync(DOCKER_COMPOSE_PATH) || !existsSync(DOCKER_TEMPLATE_ASSET)) {
+        console.warn('⚠️ docker-compose.yml or template not found. Skipping drift detection.');
+        return;
+    }
+
+    const composeContent = readFileSync(DOCKER_COMPOSE_PATH, 'utf8');
+    const templateContent = readFileSync(DOCKER_TEMPLATE_ASSET, 'utf8')
+        .replace(/{{ORACLE_CONTAINER}}/g, containerName)
+        .replace(/{{PROJECT_NAME}}/g, projectName);
+
+    if (!composeContent.includes(`container_name: ${containerName}`)) {
+        console.log(`🔎 Drift Detected: Service ${containerName} not found. Appending...`);
+        const updatedCompose = composeContent.replace(/services:/, `services:\n${templateContent}`);
+        writeFileSync(DOCKER_COMPOSE_PATH, updatedCompose);
+        console.log('✅ Service block appended.');
+    } else {
+        // Basic check for volume drift
+        if (!composeContent.includes(`./${projectName}:/vault`)) {
+            console.log(`❌ Drift Detected: Incorrect volume mounts for ${containerName}. Manual review needed.`);
+            // In a real scenario, you might patch this, but for safety, we'll just report.
+        } else {
+            console.log('✅ Docker service appears correct.');
+        }
+    }
+}
+
+
 async function anchorEnvironment() {
-  console.log('🌉 [Oracle] Initiating Anchoring Ritual...');
+  console.log('🌉 [Oracle] Initiating Idempotent Anchoring (v2.0.0)...');
 
-  // 1. Project Identity
-  const projectDir = process.cwd();
-  const projectName = projectDir.split(/[\\/]/).pop() || 'archon';
-  const projectSlug = projectName.toLowerCase();
+  // 1. Args & Identity
+  const args = process.argv.slice(2);
+  const cwd = args.find(a => a.startsWith('--cwd='))?.split('=')[1] || process.cwd();
   
-  let containerName = 'oracle-archon';
-  if (projectSlug.includes('arun')) containerName = 'oracle-arun-creagy';
-  else if (projectSlug.includes('susu')) containerName = 'oracle-susu-ocean';
-  else if (projectSlug !== 'archon') containerName = `oracle-${projectSlug}`;
+  const projectName = cwd.split(/[\\/]/).pop() || 'archon';
+  const containerName = projectName === 'archon' ? 'oracle-archon' : `oracle-${projectName.toLowerCase()}`;
 
-  // 2. Physical Provisioning (Host-side)
-  provisionContainer(projectName, containerName);
+  // 2. Physical Anchor Drift Detection
+  checkDockerCompose(containerName, projectName);
 
-  // 3. Brain Pillars (Registry-side)
+  // 3. Brain Integrity
   PILLARS.forEach(pillar => {
     const path = join(BRAIN_ROOT, pillar);
     if (!existsSync(path)) {
-      console.log(`✨ Creating pillar: ${pillar}`);
       mkdirSync(path, { recursive: true });
+      console.log(`✨ Restored pillar: ${pillar}`);
     }
   });
 
-  // 4. Mandate Injection (Agent-side)
+  // 4. Mandates
   if (existsSync(MANDATE_ASSET)) {
     const mandates = readFileSync(MANDATE_ASSET, 'utf8');
-    if (!existsSync('.gemini')) mkdirSync('.gemini', { recursive: true });
-    writeFileSync('.gemini/GEMINI.md', mandates);
-    if (!existsSync('.roo/rules')) mkdirSync('.roo/rules', { recursive: true });
-    writeFileSync('.roo/rules/00-rule.md', mandates);
+    const targetPaths = ['.gemini/GEMINI.md', '.roo/rules/00-rule.md', '.roo/rules/silicon-anchor.md'];
+    targetPaths.forEach(p => {
+      if (!existsSync(dirname(p))) mkdirSync(dirname(p), { recursive: true });
+      writeFileSync(p, mandates);
+});
     console.log(`✅ Mandates injected.`);
   }
 
-  // 5. MCP Fleet (Agent-side)
+  // 5. MCP Merge
   if (existsSync(MCP_ASSET)) {
-    const mcpConfig = JSON.parse(readFileSync(MCP_ASSET, 'utf8'));
-    console.log(`🤖 Detected Project: ${projectName} -> Local Oracle Container: ${containerName}`);
-    
-    let configStr = JSON.stringify({ mcpServers: mcpConfig.servers }, null, 2);
-    configStr = configStr.replace(/{{ORACLE_CONTAINER}}/g, containerName);
-
-    if (!existsSync('.gemini')) mkdirSync('.gemini', { recursive: true });
-    writeFileSync('.gemini/settings.json', configStr);
-    if (!existsSync('.roo')) mkdirSync('.roo', { recursive: true });
-    writeFileSync('.roo/mcp.json', configStr);
-    console.log(`✅ MCP Fleet registered.`);
+    const fleetConfig = JSON.parse(readFileSync(MCP_ASSET, 'utf8'));
+    mergeMcpConfig('.gemini/settings.json', fleetConfig, containerName);
+    mergeMcpConfig('.roo/mcp.json', fleetConfig, containerName);
   }
 
   console.log('✨ Anchoring Ritual Complete.');

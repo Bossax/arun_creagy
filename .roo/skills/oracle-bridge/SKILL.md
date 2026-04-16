@@ -1,27 +1,27 @@
 ---
 name: oracle-bridge
-description: v1.1.0 | Bridges any Gemini/Roo agent into the Oracle framework on win32/PowerShell. Use when starting a new workspace or agent session that needs to comply with the Upstream Registry (ψ/) and silicon mandates.
+description: v1.0.0 | Infrastructure-as-Code (IaC) engine for Oracle environment anchoring on win32/PowerShell.
 ---
 
-# /bridge — Oracle Fleet Communication Layer
+# /bridge — Oracle Infrastructure Anchor
 
-**Goal**: Enable seamless offline and online communication between Oracle fleet members via unified contacts and transport layers.
+**Goal**: Establish a drift-free local environment for Oracle agents by standardizing shell behavior, brain structure, and MCP configuration.
 
 ## Objective
-Provide a reliable physical and digital nervous system for the Oracle fleet, ensuring portable and persistent messaging across distributed workspaces.
+Provide a reliable "Silicon Anchor" that ensures portable and persistent agent environments, guaranteeing compliance with the Upstream Registry (ψ/) and Silicon Mandates across distributed workspaces.
 
 ## Scope
 - **In**: 
-  - `contacts.json` registry management.
-  - Inbox transport (offline, file-based messaging).
-  - MCP thread transport (online, async messaging).
-  - Anchoring rituals (`init-bridge.ts`) for physical provisioning.
+  - `ψ/` brain structure integrity (7-pillar verification).
+  - `docker-compose.yml` physical anchor drift detection.
+  - MCP settings management (surgical merge of fleet standards).
+  - Silicon Mandate injection (`.gemini/`, `.roo/`).
 - **Out**:
-  - Inter-human communication.
-  - External API gateways (unless shared across fleet).
-  - Skill manufacturing (handled by `/lab`).
+  - Inter-agent communication or message transport.
+  - `contacts.json` registry management.
+  - External network interaction.
 
 ## Usage
 ```bash
-bun .gemini/skills/oracle-bridge/scripts/init-bridge.ts # Anchor physical registry
+bun .gemini/skills/oracle-bridge/scripts/init-bridge.ts --cwd=<path> # Anchor local infrastructure
 ```
