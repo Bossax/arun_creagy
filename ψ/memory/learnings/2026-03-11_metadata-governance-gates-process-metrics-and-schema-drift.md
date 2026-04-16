@@ -28,3 +28,6 @@ Treat “metadata fields” as product requirements and map them directly to:
 - CRI process-metric critique: [`ψ/incubate/DCCE/CRI/inbox/writing_notes/Critique of CRI Phase 2.md`](../../incubate/DCCE/CRI/inbox/writing_notes/Critique%20of%20CRI%20Phase%202.md:25)
 - BTR DRS dependency / drift risk: [`ψ/incubate/UNDP/BTR/inbox/writing_notes/Data Reference Sheet dependency on ADPC database schema.md`](../../incubate/UNDP/BTR/inbox/writing_notes/Data%20Reference%20Sheet%20dependency%20on%20ADPC%20database%20schema.md:21)
 
+
+---
+*Added via Oracle Learn*

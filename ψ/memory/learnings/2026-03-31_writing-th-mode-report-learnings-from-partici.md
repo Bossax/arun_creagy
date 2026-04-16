@@ -30,3 +30,6 @@
 
 หมายเหตุ: ไฟล์นี้ materialized ตาม guardrail หลัง `oracle_learn()` รายงานสำเร็จแต่ยังไม่พบไฟล์บนดิสก์ทันที
 
+
+---
+*Added via Oracle Learn*

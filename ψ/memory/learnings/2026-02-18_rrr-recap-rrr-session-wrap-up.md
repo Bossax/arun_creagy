@@ -30,3 +30,6 @@ For future `/recap` and `/rrr` runs in this repository:
 - Expect pulse metrics to be accurate snapshots of actual retrospectives, and use them confidently in summaries (e.g., “Session #N of M (K-day streak)”).
 - Treat handoff files as optional guidance, not as the canonical record of the last session.
 
+
+---
+*Added via Oracle Learn*

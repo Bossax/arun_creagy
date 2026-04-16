@@ -35,3 +35,6 @@ If you blend these without guardrails, you can end up:
 ## Where applied
 
 - Analysis note: [`src/00_Inbox/land_sector_research_temp_note.md`](src/00_Inbox/land_sector_research_temp_note.md:1)
+
+---
+*Added via Oracle Learn*

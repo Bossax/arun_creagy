@@ -34,3 +34,6 @@ Relevant artifacts and plans:
 ## Takeaway
 
 In this repo, safe evidence work is not just about what claims are true. It is also about matching each file type to the right update strategy so that the repository stays more trustworthy after the edit than before it.
+
+---
+*Added via Oracle Learn*

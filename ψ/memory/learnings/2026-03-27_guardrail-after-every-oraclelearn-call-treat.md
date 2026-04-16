@@ -21,3 +21,6 @@ If a read returns `ENOENT`, immediately **create** the repo-local markdown file 
 
 This prevents Oracle DB/index entries from becoming “invisible” when the MCP server reports success but does not materialize the file in the repo (DB↔disk mismatch).
 
+
+---
+*Added via Oracle Learn*

@@ -27,3 +27,6 @@ Observed signals:
 - Guardrail note about `oracle_learn()` file materialization inconsistencies:
   - [`ψ/memory/learnings/2026-03-27_oracle-learn-file-materialization-guardrail.md`](ψ/memory/learnings/2026-03-27_oracle-learn-file-materialization-guardrail.md)
 
+
+---
+*Added via Oracle Learn*

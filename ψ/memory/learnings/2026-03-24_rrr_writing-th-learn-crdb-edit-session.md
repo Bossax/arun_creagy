@@ -11,3 +11,6 @@ superseded_by: 2026-03-28_lesson-writing-th-option-c-skill-redesign-oracle.md
 - **Standardize filenames for automation**: การกำหนด pattern ของชื่อไฟล์ (`-draft.md` / `-edited.md` และ `YYYY-MM-DD_writing-th-<mode>-learn.md`) ทำให้สกิลอย่าง `/writing-th-learn` และ `/rrr` สามารถสแกนหาและเชื่อมต่อ loop การเรียนรู้ได้อัตโนมัติมากขึ้น.
 - **Store only distilled rules in Oracle**: ข้อมูลที่ส่งเข้า `oracle_learn` ควรเป็น “กติกา/แนวโน้มการเขียน” ไม่ใช่ข้อความจากรายงานโดยตรง เพื่อให้ความรู้ที่เก็บไว้มีความยั่งยืนและไม่ผูกกับบริบทเดียว.
 
+
+---
+*Added via Oracle Learn*

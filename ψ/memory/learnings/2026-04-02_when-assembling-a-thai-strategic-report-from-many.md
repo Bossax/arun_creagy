@@ -31,3 +31,5 @@ When assembling a Thai strategic report from many subsection drafts, do not trea
 - reader-trust
 
 เรียนรู้จากการเปรียบเทียบฉบับร่างและฉบับแก้ไขสำหรับ writing-th (mode: report)
+
+*Added via Oracle Learn*

@@ -38,3 +38,6 @@ The `/writing_th` skill should retrieve `writing-style.md` and `citation-style.m
 ## Confidence
 High. This separation reduces tool thrash and keeps skills aligned with Oracle’s design.
 
+
+---
+*Added via Oracle Learn*

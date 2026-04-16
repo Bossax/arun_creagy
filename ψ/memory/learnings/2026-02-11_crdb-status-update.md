@@ -13,3 +13,5 @@ The `pulse` data (from `psi/data/pulse/project.json` and `psi/data/pulse/heartbe
 *   Week-over-week activity changes.
 
 Its absence during a retrospective generation noticeably limits the depth of the "AI Diary" and "Session Summary" sections, as it prevents a data-driven narrative about project momentum and personal engagement. For comprehensive self-reflection and performance tracking, ensuring the availability and integration of pulse data is highly beneficial.
+---
+*Added via Oracle Learn*

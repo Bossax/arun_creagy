@@ -35,3 +35,6 @@ The CRI project implicitly demonstrated a powerful pattern: AI_output research n
 
 Over time, this should make project knowledge more searchable, auditable, and easier to re‑use across sessions and projects.
 
+
+---
+*Added via Oracle Learn*

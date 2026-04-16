@@ -20,3 +20,6 @@ Operationally:
 - Info log (Dir Toey note): [`ψ/memory/logs/info/2026-03-27_09-22_dcce-digital-tech-group-consultant-scope-unclear.md`](ψ/memory/logs/info/2026-03-27_09-22_dcce-digital-tech-group-consultant-scope-unclear.md)
 - Progress meeting preserved notes: [`ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md)
 
+
+---
+*Added via Oracle Learn*

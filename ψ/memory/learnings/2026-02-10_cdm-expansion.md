@@ -18,3 +18,6 @@ Moving from a "Science-First" to a "Governance-First" data model is essential fo
 
 ## Oracle Tags
 `#data-modeling` `#climate-adaptation` `#crdb` `#ghg-synergy` `#governance`
+
+---
+*Added via Oracle Learn*

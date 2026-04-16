@@ -20,3 +20,6 @@ This discipline ensures that when it is time to rewrite the interim report, you 
 - tor-alignment
 - knowledge-governance
 
+
+---
+*Added via Oracle Learn*

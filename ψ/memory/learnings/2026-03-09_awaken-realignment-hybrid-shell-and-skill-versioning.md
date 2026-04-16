@@ -17,3 +17,6 @@ Evidence pattern: `bunx --bun oracle-skills@...#<tag> list -g` shows newer versi
 - Restart the agent after installing/updating skills to activate them.
 - In an existing Oracle repo, frame `/awaken` as a continuity audit: add constitution + traces + commits, avoid overwriting prior soul files.
 
+
+---
+*Added via Oracle Learn*

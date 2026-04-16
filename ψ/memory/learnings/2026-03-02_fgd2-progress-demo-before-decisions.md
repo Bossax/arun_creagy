@@ -32,3 +32,6 @@ When stakeholder discovery is still in progress, an FGD framed as “finalize de
 - Say explicitly: “**No decisions finalized today; we collect feedback to improve the pack**.”
 - Frame data governance as **data quality + publishing trust**, not bureaucracy.
 
+
+---
+*Added via Oracle Learn*

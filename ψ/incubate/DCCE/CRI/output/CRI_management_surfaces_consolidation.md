@@ -14,7 +14,7 @@ This note documents the consolidation of **CRI project management surfaces** as 
 ## Active management surfaces (current)
 
 - Plan: [ψ/incubate/DCCE/CRI/plan.md](ψ/incubate/DCCE/CRI/plan.md)
-- Hub: [ψ/incubate/DCCE/CRI/Hub.md](ψ/incubate/DCCE/CRI/Hub.md)
+- Hub: [ψ/incubate/DCCE/CRI/Hub.md](ψ/incubate/DCCE/CRI/archive/Hub.md)
 - Methodologies:
   - [ψ/incubate/DCCE/CRI/output/CRI Phase 1 Methodology.md](ψ/incubate/DCCE/CRI/output/CRI Phase 1 Methodology.md)
   - [ψ/incubate/DCCE/CRI/output/CRI Phase 2 Methodology.md](ψ/incubate/DCCE/CRI/output/CRI Phase 2 Methodology.md)

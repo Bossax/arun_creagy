@@ -9,3 +9,5 @@ When a TOR requires “at least N organizations,” interpret it as a **coverage
 
 This converts an ambiguous number into a decision-quality guardrail.
 
+*Added via Oracle Learn*
+

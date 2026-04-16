@@ -1,0 +1,40 @@
+---
+title: # Learning — writing-th (mode: report) — 2026-03-28
+tags: []
+created: 2026-04-15
+source: ψ/memory/learnings/2026-03-28_writing-th-report-learn.md
+---
+
+# # Learning — writing-th (mode: report) — 2026-03-28
+
+# Learning — writing-th (mode: report) — 2026-03-28
+
+เรียนรู้จากการเปรียบเทียบฉบับร่างและฉบับแก้ไขสำหรับ writing-th (mode: report) — **smoke test**
+
+## Word choice and phrasing
+
+- ปรับจากภาษาพูด/ประเมินเอง (เช่น “คิดว่า…เร็ว”, “โอเค”, “เร็ว ๆ นี้”) → เป็นภาษาเชิงรายงานที่ตรวจรับได้ (เช่น “อยู่ระหว่าง…”, “เพื่อให้…อย่างเป็นระบบ”, “ภายในระยะเวลาอันเหมาะสม”).
+- เพิ่มคำกริยาเชิงสถาบันและคำเชื่อมเหตุผล (เช่น “ดำเนินการ”, “ตรวจสอบ”, “ทั้งนี้”, “จึงเสนอให้”).
+
+## Semantic and structure patterns
+
+- ย่อหน้าเปิด: จาก “สถานะ + ความรู้สึกมั่นใจ” → เป็น “สถานะ + สิ่งที่กำลังทำ + เหตุผล/วัตถุประสงค์”.
+- ทำให้ข้อจำกัดชัดขึ้น: ระบุว่า “บางส่วนยังอยู่ระหว่างรวบรวม/ทบทวน” ก่อนเสนอขั้นตอน.
+- ขั้นตอน (1-2-3): เพิ่มความเฉพาะเจาะจง (เช่น “ระบุช่องว่างของข้อมูล” + “แผนรวบรวมข้อมูล”).
+- ปิดท้าย: จากการคาดการณ์ทั่วไป → เป็นเงื่อนไข “หาก…เป็นไปตามแผน” เพื่อคงความรอบคอบ.
+
+## Implications for future drafts
+
+1) เขียนให้เป็น “ข้อความในรายงานฉบับจริง” ตั้งแต่แรก ลดภาษาพูดและคำประเมินลอย ๆ
+2) ทำให้ตรรกะครบ: สถานะ → เหตุผล/วัตถุประสงค์ → ข้อจำกัด → แผนดำเนินงาน → เงื่อนไขเวลา
+3) ใช้คำเชื่อมและคำกริยาเชิงสถาบันเพื่อทำให้ภาษามีน้ำหนักและสอดคล้องกับผู้บริหาร
+
+## Session context (traceability)
+
+- Writing plan: ψ/lab/writing-th-smoketest/2026-03-28_writing-plan.md
+- Draft: ψ/lab/writing-th-smoketest/2026-03-28_smoketest-v1-draft.md
+- Edited: ψ/lab/writing-th-smoketest/2026-03-28_smoketest-v1-edited.md
+- Example style reference (session): ψ/incubate/DCCE/CRDB/output/2026-03-25_writing-th-style-pack_crdb-interim-report-v3.md
+
+---
+*Added via Oracle Learn*

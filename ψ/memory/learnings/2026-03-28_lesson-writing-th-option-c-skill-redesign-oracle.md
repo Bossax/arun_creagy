@@ -28,3 +28,6 @@ When the user wants Thai drafting that can closely mimic a specific “example r
 
 - Verify and materialize per: [`ψ/memory/learnings/2026-03-27_oracle-learn-file-materialization-guardrail.md`](ψ/memory/learnings/2026-03-27_oracle-learn-file-materialization-guardrail.md)
 
+
+---
+*Added via Oracle Learn*

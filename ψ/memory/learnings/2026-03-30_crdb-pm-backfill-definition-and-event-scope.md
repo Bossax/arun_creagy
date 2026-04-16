@@ -34,3 +34,5 @@ When a historical entry lacks transmission proof (email/cover note), log it as �
 
 This prevents semantic drift in the system’s operating language and preserves trust: the ledger set is not “done” until all ledgers that create narrative coherence (claims/changes) are also present.
 
+*Added via Oracle Learn*
+

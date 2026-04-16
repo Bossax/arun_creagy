@@ -31,3 +31,6 @@ References: [`../../.roo/skills/notebookLM-research/SKILL.md`](../../.roo/skills
 ---
 *Added via /rrr*
 
+
+---
+*Added via Oracle Learn*

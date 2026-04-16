@@ -9,3 +9,6 @@
 ## Impact
 Keeps the vault navigable across editors and prevents silent link rot.
 
+
+---
+*Added via Oracle Learn*

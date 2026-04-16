@@ -14,3 +14,6 @@
 ## Failure mode avoided
 Global inbox becomes a junk drawer and project plans lose anchors to real inputs.
 
+
+---
+*Added via Oracle Learn*

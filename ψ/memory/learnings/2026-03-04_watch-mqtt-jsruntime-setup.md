@@ -35,3 +35,6 @@ With:
 - Preflight: [`tools/watch/preflight.sh`](tools/watch/preflight.sh:1) → log: [`output/watch/_preflight.log`](output/watch/_preflight.log:1)
 - Captions diagnostics: [`tools/watch/cc_diag.sh`](tools/watch/cc_diag.sh:1) → logs: `output/watch/_cc_diag_*.log`
 
+
+---
+*Added via Oracle Learn*

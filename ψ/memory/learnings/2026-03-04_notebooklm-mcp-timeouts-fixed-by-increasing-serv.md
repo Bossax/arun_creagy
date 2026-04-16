@@ -26,3 +26,6 @@ Disabling stealth reduces random delays and human-like typing overhead, improvin
 
 ---
 *Added via oracle_learn(); canonical troubleshooting note for NotebookLM MCP timeouts*
+
+---
+*Added via Oracle Learn*

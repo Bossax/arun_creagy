@@ -13,3 +13,6 @@ This improves readability and discoverability (one-screen “where we are”), a
 - PM artifacts are used under time pressure; “find the right anchor fast” is the core function.
 - Explicit action lists reduce repeated re-derivation of next steps from scattered notes.
 
+
+---
+*Added via Oracle Learn*

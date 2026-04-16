@@ -55,3 +55,6 @@ Relation to mesh:
 - Use canonical model selectively for cross-domain or cross-system integration where reuse outweighs rigidity.
 - Use medallion layering to keep ingestion and transformation disciplined without losing raw provenance.
 
+
+---
+*Added via Oracle Learn*

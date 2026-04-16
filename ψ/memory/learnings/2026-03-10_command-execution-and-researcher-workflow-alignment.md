@@ -51,3 +51,6 @@ When operating in a hybrid Windows environment (Git Bash + Unicode paths + tools
 - High: inbox triage queues match capture-first workflow.
 - Medium: best “embed update” strategy depends on note system conventions (Obsidian paths vs markdown links).
 
+
+---
+*Added via Oracle Learn*

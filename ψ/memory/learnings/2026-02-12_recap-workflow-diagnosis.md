@@ -14,3 +14,5 @@ Implemented several changes to `recap-rich.ts`:
 2. Updated all relevant path references (`focusFile`, `scheduleFile`, `tracksDir`, `retroDir`, `handoffDir`) to use `resolvePsiPath`.
 3. Modified date derivation for `month` to use local time (`now.getFullYear()`, `now.getMonth()`, `now.getDate()`).
 4. Enhanced the 
+---
+*Added via Oracle Learn*

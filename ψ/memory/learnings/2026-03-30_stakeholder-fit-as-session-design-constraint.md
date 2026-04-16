@@ -13,3 +13,5 @@ Stakeholder analysis only changes outcomes when it is encoded into the workshop 
 - TOR requirements like “≥15 organizations” should be interpreted as a **coverage threshold** (aim for 15–20 across clusters), not a raw headcount target.
 - Devil’s-advocate objections are best resolved by turning mitigations into mechanics (scope gates, template columns, role separation, resourcing checks), not by adding text at the end.
 
+*Added via Oracle Learn*
+

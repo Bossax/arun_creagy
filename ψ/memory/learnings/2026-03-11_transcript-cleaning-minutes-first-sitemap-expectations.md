@@ -32,3 +32,6 @@ If participants ask whether sitemap topics can change later, capture a **sitemap
 - FGD2 action synthesis (minutes-first): [`ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_action_summary.md`](ψ/incubate/DCCE/CRDB/inbox/writing_notes/2026-03-11_FGD2_action_summary.md:1)
 - Logged via /rrr
 
+
+---
+*Added via Oracle Learn*

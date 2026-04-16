@@ -63,3 +63,6 @@
 - Draft participant prep/questions: [ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md)
 - Human-edited participant prep/questions: [ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1-edited.md](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1-edited.md)
 
+
+---
+*Added via Oracle Learn*

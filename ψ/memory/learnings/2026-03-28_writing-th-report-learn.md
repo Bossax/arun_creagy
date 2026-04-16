@@ -27,3 +27,6 @@
 - Edited: ψ/lab/writing-th-smoketest/2026-03-28_smoketest-v1-edited.md
 - Example style reference (session): ψ/incubate/DCCE/CRDB/output/2026-03-25_writing-th-style-pack_crdb-interim-report-v3.md
 
+
+---
+*Added via Oracle Learn*

@@ -69,3 +69,6 @@ When running `/rrr` in this repository:
 
 3. Treat this file and [`2026-02-18_shell-and-recap-discipline.md`](psi/memory/learnings/2026-02-18_shell-and-recap-discipline.md:1) as the canonical references for RRR utilities and environment assumptions in `Knowledge_System`.
 
+
+---
+*Added via Oracle Learn*

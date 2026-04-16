@@ -9,3 +9,6 @@ This prevents “index sprawl” and keeps trust: the user can ignore the index 
 
 Secondary lesson: semantic ambiguity in filenames (e.g. “meeting decisions” vs “meeting agenda”) must be corrected early because the project-management ledgers depend on clean “planned vs outcome” distinctions.
 
+
+---
+*Added via Oracle Learn*

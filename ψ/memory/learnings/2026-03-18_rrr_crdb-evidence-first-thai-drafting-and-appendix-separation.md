@@ -11,3 +11,6 @@ For Thai report prose, three patterns improved quality noticeably:
 For Chapter 1-style architecture writing, explain the CDM through its actual subject areas, sub-domains, and key entities rather than through generic architecture prose alone. For Chapter 2-style landscape writing, keep it descriptive and evidence-led, but group unmet needs and use cases clearly so it does not collapse into agency-by-agency note dumping.
 
 Appendix strategy matters: detailed CDM structure, full use cases, and sitemap drill-down should live in separate appendix sections so the main report can stay readable while still preserving traceability and technical completeness.
+
+---
+*Added via Oracle Learn*

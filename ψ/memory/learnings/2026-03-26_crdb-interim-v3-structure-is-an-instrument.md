@@ -17,3 +17,6 @@ Use structure only where it is the deliverable:
 ## Why it works
 It preserves v1-style readability while still making committee-reviewable artifacts (sitemaps, summaries, inventories) inspectable and auditable.
 
+
+---
+*Added via Oracle Learn*

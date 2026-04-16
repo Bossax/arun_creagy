@@ -1,0 +1,37 @@
+---
+title: ****# Lesson Learned — CCE Head Interview Prep TH Note & Opening Questions
+tags: []
+created: 2026-04-15
+source: ψ/memory/learnings/2026-03-23_cce-head-interview-prep-th-opening-questions-writing-th.md
+---
+
+# ****# Lesson Learned — CCE Head Interview Prep TH Note & Opening Questions
+
+****# Lesson Learned — CCE Head Interview Prep TH Note & Opening Questions
+
+## What changed this session
+
+- สร้างโน้ตเตรียมสัมภาษณ์ภาษาไทยสำหรับผู้อำนวยการ CCE ในรูปแบบรายงานที่ใช้งานได้จริง: [`ψ/incubate/DCCE/CRDB/output/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md)
+- ยืนยันกรอบบทบาทว่า **CCE เป็น partial custodian เฉพาะสำหรับ data products หรือ web services ที่ CCE ดูแลระบบเอง** และใช้สมมติฐานนี้เป็นฐานในการออกแบบคำถาม
+- แยก “ช่องว่างภาพรวมของโครงการ” ออกไปอยู่ในไฟล์เฉพาะที่ [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md) เพื่อให้ไฟล์เตรียมสัมภาษณ์โฟกัสเฉพาะบทสนทนากับ CCE
+- เพิ่มชุดคำถามเปิดการสนทนา (section 4.0) เป็นประโยคคำถามสั้น ๆ ที่ถามได้ทันทีในห้องประชุม โดยทุกคำถามผูกกับบทบาทจริงของ CCE
+
+## Key patterns
+
+1. **Interview prep note ต้องเป็นคู่มือบทสนทนา ไม่ใช่แค่แผนงาน**  
+   - การเปลี่ยนจาก bullet หัวข้อกว้าง ๆ ไปเป็นประโยคคำถามที่ใช้ได้จริง ทำให้ผู้สัมภาษณ์เห็นภาพ flow ของการสนทนาชัดเจนขึ้น และลดภาระการ “คิดประโยคสด” หน้าโต๊ะประชุม
+
+2. **การแยกไฟล์ช่องว่างระดับโครงการออกจากไฟล์สัมภาษณ์ ช่วยลด cognitive load**  
+   - เมื่อช่องว่างด้าน NCAIF, CDM, และ data governance ถูกเก็บในไฟล์แยก ไฟล์สัมภาษณ์สามารถพูดกับ CCE ในฐานะ “ผู้กำหนดบทบาทในเฟสแรก” ได้โดยไม่ต้องแบกรับทุกรายละเอียดของโครงการทั้งหมดในหน้าเดียว
+
+3. **การตั้งสมมติฐานบทบาท (partial custodian) ช่วยให้คำถามเฉียบขึ้น**  
+   - การเขียนชัดเจนว่า CCE เป็น partial custodian เฉพาะระบบที่ศูนย์ดูแลเอง บังคับให้คำถามทุกข้อถามในกรอบนั้น เช่น “ข้อมูล/บริการใดที่ CCE ดูแลระบบเอง” และ “CRDB จะช่วยเสริมตรงนี้อย่างไร” แทนที่จะถามกว้าง ๆ ว่า “อยากให้ CRDB ช่วยอะไรบ้าง” ซึ่งเสี่ยงจะเบลอขอบเขตบทบาท
+
+## How to reuse this next time
+
+- เวลาเขียนโน้ตสัมภาษณ์ภาษาไทยสำหรับผู้บริหารในบทบาทอื่น ให้เริ่มจากการเขียน **สมมติฐานบทบาท** ให้ชัดก่อน แล้วออกแบบคำถามโดยผูกกับสมมติฐานนั้นทั้งชุด
+- ใช้โครงสร้างเดียวกัน: บทนำ + เหตุผลที่การสัมภาษณ์สำคัญ + สมมติฐานบทบาท + กรอบคำถามรายหัวข้อ + ชุดคำถามเปิดการสนทนา + ผลลัพธ์ที่คาดหวัง
+- เก็บตัวอย่าง “คำถามเปิดการสนทนาที่ใช้ได้จริง” ไว้เป็น library ที่ `writing-th` สามารถดึงไปใช้ซ้ำและปรับตามบริบทได้ในอนาคต
+
+---
+*Added via Oracle Learn*

@@ -11,3 +11,6 @@ When refining a Conceptual Data Model (CDM), accuracy improves if the workflow i
 This session also reinforced a modeling principle for climate-risk systems:
 - **Attribution should be loss-driven**: keep attribution summaries attached to `LOSS_DAMAGE_RECORD` rather than linking events/drivers directly, to avoid encoding speculative causal claims without impact evidence.
 
+
+---
+*Added via Oracle Learn*

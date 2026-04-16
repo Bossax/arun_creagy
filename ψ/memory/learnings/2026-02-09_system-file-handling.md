@@ -16,3 +16,7 @@ const dirs = readdirSync(path).filter(f => statSync(join(path, f)).isDirectory()
 
 **Application**:
 Applied this fix to `recap-rich.ts` to prevent `ENOTDIR` errors on Windows environments. This ensures the agent's self-reflection tools are robust against environmental noise.
+
+
+---
+*Added via Oracle Learn*

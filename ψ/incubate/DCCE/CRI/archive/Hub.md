@@ -10,7 +10,7 @@ This hub is for **DCCE / CRI only**.
 Single navigation + execution entry point for CRI: project overview, canonical project-management ledgers, key methodology docs, and the local source inbox.
 
 ## Project navigation
-- Project plan (operating surface): [plan.md](plan.md)
+- Project plan (operating surface): [plan.md](ψ/incubate/DCCE/CRI/plan.md)
 
 ### Project management anchors (CRI canonical ledgers)
 These ledgers are the canonical, append-first management surfaces for CRI. Use them as the primary way to record why/what/when things changed, rather than updating prose checklists in this hub.
@@ -56,7 +56,7 @@ These ledgers are the canonical, append-first management surfaces for CRI. Use t
 ## Immediate priorities (reading order, not a task list)
 - Use the **Project management anchors** section above as the primary entry point for status and history (Triggers, Deliverables, Claims, Submissions, Changes).
 - Treat this hub as a navigation aid into:
-	- the plan: [plan.md](plan.md)
+	- the plan: [plan.md](ψ/incubate/DCCE/CRI/plan.md)
 	- methodology anchors (Phase 1 / Phase 2 / tagging / frameworks, including the v2 capacity + CBI pack)
 	- evidence registries.
 - When new events, decisions, or submissions occur, append rows to the relevant ledgers rather than updating this section.

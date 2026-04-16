@@ -24,3 +24,5 @@ When tasked with creating foundational documents for a data ecosystem, it is hig
 7.  **Adapt to the Environment:** Be prepared for minor technical frictions, such as shell command incompatibilities between operating systems. Quick adaptation and knowledge of platform-specific alternatives (e.g., PowerShell commands on Windows) are essential for maintaining workflow efficiency.
 
 By following these practices, the creation of data governance and architectural artifacts becomes a strategic exercise in building a robust, transparent, and user-centric data ecosystem, rather than just a documentation effort.
+---
+*Added via Oracle Learn*

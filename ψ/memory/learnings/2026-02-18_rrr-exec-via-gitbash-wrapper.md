@@ -43,3 +43,6 @@ When `/rrr` is invoked in this repo, the assistant must:
 
 This preserves SKILL.md compliance while remaining robust to Windows tool-runner shell ambiguity.
 
+
+---
+*Added via Oracle Learn*

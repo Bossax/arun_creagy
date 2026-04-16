@@ -13,3 +13,7 @@ Resilience is not a static attribute that can be fully captured by an index of a
 ## Application
 - **Action**: When designing the DCCE-CRI data model, prioritize "flux" metrics (rate of response, resource mobilization speed) over "stock" metrics (budget size, number of staff) where possible.
 - **Tag**: #ClimateResilience #HatYai #DataModeling #RealityGap #DCCE-CRI
+
+
+---
+*Added via Oracle Learn*

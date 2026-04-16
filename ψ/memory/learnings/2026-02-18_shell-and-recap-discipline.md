@@ -68,3 +68,6 @@ For any future work touching recap/rrr or shell commands in this repository:
 - Enforce the “two failures → stop and switch strategy” rule.
 - Default to a file-first recap / RRR workflow using the existing memory directories.
 
+
+---
+*Added via Oracle Learn*

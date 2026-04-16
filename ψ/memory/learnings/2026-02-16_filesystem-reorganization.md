@@ -11,3 +11,5 @@ Ensure absolute clarity when discussing powerful Git commands like `git reset --
 
 ## Proactive `.gitignore` Management
 After significant file system reorganizations or when new temporary file patterns emerge (like `.tmp.driveupload/`), proactively suggesting and applying updates to the `.gitignore` file is essential. This prevents accidental tracking of unwanted files and maintains a clean working directory, improving the overall Git workflow.
+---
+*Added via Oracle Learn*

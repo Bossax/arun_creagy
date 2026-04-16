@@ -17,3 +17,6 @@ If the user invokes `/rrr`, complete the chain end-to-end:
 
 This prevents “silent loss” of session meaning and aligns with “Nothing is Deleted”.
 
+
+---
+*Added via Oracle Learn*

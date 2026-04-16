@@ -46,3 +46,6 @@ For a writing skill that must mirror a specific human voice (Thai-first) and use
 ## Confidence
 High. This pattern aligns with how Oracle v2 is intended to access and evolve memory.
 
+
+---
+*Added via Oracle Learn*

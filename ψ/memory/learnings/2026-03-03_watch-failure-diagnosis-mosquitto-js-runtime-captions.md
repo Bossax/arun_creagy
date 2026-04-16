@@ -37,3 +37,6 @@ Add a structured diagnostic summary:
 
 This prevents spending time on caption flags when the actual failure is missing MQTT tooling.
 
+
+---
+*Added via Oracle Learn*

@@ -30,3 +30,5 @@ For a project like the foresight 2590 report:
 - Repository: Arun_Creagy (foresight 2590 report)
 - Session: 2026-04-02 — debugging `writing-th` style pack behavior and project brief content, with high user frustration around over-claimed condensation.
 
+*Added via Oracle Learn*
+

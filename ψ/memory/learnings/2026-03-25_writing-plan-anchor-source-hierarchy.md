@@ -22,3 +22,6 @@ This prevents contradictory interpretations by different writers.
   - include verifiable QA checks
 
 This makes the plan “just sufficient,” reduces drift, and improves usability under time pressure.
+
+---
+*Added via Oracle Learn*

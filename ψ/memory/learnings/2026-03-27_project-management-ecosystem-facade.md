@@ -21,3 +21,6 @@ Use this pattern whenever upgrading project management for a complex, evidence-h
 ## Tags
 project-management, crdb, ledgers, facade, governance, retrospective, option-b
 
+
+---
+*Added via Oracle Learn*

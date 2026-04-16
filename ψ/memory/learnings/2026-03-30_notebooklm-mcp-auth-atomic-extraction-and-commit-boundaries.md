@@ -28,3 +28,5 @@ When MCP services are flaky and the workspace is “multi-stream”, reliability
 - Extraction quality improves because you can keep iterating without fighting the tool.
 - Repo history stays legible, which is essential when narrative decisions must be justified later.
 
+*Added via Oracle Learn*
+

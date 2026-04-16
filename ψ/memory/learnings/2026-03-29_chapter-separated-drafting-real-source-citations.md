@@ -28,3 +28,6 @@ Instead:
 ## Applied in
 - Foresight report SBP youth futures 2590: chapter-separated Round 1 packages in [`ψ/lab/foresight-report-wrting/artifacts`](ψ/lab/foresight-report-wrting/artifacts:1)
 
+
+---
+*Added via Oracle Learn*

@@ -36,3 +36,5 @@ When starting any CRI Phase 1–related session:
 
 Logged via /rrr
 
+*Added via Oracle Learn*
+

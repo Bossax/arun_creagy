@@ -10,3 +10,5 @@ When bootstrapping a new project PM ecosystem (CRDB-style ledgers), enforce a sm
 
 Operationally, in a hybrid shell environment, prefer **small, atomic commands** with immediate verification (list destination) over large chained migrations.
 
+*Added via Oracle Learn*
+

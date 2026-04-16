@@ -26,3 +26,6 @@ To reconstruct CRDB project history in a way that remains maintainable:
 ## Why this matters
 Treating CRDB as a ledgered system prevents “project history drift” and makes later workstreams reconstructable without re-reading the entire repository.
 
+
+---
+*Added via Oracle Learn*

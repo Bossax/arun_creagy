@@ -33,3 +33,6 @@ Thai gov-style invitation drafting (CRDB workshop):
 - Agenda: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md)
 - Prep questions: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md)
 
+
+---
+*Added via Oracle Learn*

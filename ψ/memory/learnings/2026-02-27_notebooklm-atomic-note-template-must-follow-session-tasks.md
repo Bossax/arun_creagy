@@ -40,3 +40,6 @@ This separation keeps NotebookLM skills composable, reusable across session styl
 - [`2026-02-26_notebooklm-extraction-works-best-when-atomic-note.md`](ψ/memory/learnings/2026-02-26_notebooklm-extraction-works-best-when-atomic-note.md)
 - [`2026-03-02_notebooklm-skill-scope-separate-from-research-workflow.md`](ψ/memory/learnings/2026-03-02_notebooklm-skill-scope-separate-from-research-workflow.md)
 - [`2026-03-02_keep-notebooklm-mcp-skills-narrowly-scoped-feed-p.md`](ψ/memory/learnings/2026-03-02_keep-notebooklm-mcp-skills-narrowly-scoped-feed-p.md)
+
+---
+*Added via Oracle Learn*

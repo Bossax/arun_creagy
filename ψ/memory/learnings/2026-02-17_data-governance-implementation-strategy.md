@@ -7,3 +7,5 @@ This session underscored the critical importance of tailoring technical solution
 2.  **Value-Driven Phasing for Buy-In:** In environments where tangible outputs drive budget and motivation, a feature-driven approach that delivers early, visible value can be more effective than a compliance-first strategy. This builds political will and demonstrates the practical benefits of good data management.
 
 3.  **Incremental Governance through Embedding:** Rather than imposing a full governance framework upfront, integrating governance practices incrementally and directly within feature development phases can be more successful. This 
+---
+*Added via Oracle Learn*

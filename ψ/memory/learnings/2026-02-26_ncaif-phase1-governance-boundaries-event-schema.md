@@ -27,3 +27,6 @@ Package governance as project-fundable work packages:
 - Minimal quality checks (validation rules + limitations)
 - Legal/sharing readiness (classification + access pathway)
 
+
+---
+*Added via Oracle Learn*

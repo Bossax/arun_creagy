@@ -31,3 +31,6 @@ If [`mcp--notebooklm--ask_question`](mcp--notebooklm--ask_question:1) repeatedly
 - Disabling stealth reduces random delays and human-like typing overhead, improving reliability for time-sensitive flows.
 - If timeouts persist, check for profile locks / background `notebooklm-mcp` processes holding the automation profile directory.
 
+
+---
+*Added via Oracle Learn*

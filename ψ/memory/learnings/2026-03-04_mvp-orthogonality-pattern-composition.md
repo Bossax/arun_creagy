@@ -31,3 +31,6 @@
 
 - Workflow/MVP artifact: [`src/01_Projects/2025-11_DCCE-CRDB/output/NCAIF — Workflow patterns + MVP draft (from stakeholder use cases).md`](src/01_Projects/2025-11_DCCE-CRDB/output/NCAIF%20%E2%80%94%20Workflow%20patterns%20%2B%20MVP%20draft%20(from%20stakeholder%20use%20cases).md:1)
 
+
+---
+*Added via Oracle Learn*

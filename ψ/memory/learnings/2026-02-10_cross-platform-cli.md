@@ -27,3 +27,6 @@ powershell -Command "New-Item -ItemType Directory -Force -Path 'path/to/dir'"
 1. **Shell Awareness**: Always verify the active shell and OS before issuing CLI commands.
 2. **Explicit Fallbacks**: Skill instructions should ideally provide both POSIX and PowerShell variants of common operations.
 3. **Avoid Interactive Commands**: Avoid commands like `date` in `cmd.exe` that might hang the terminal session waiting for input.
+
+---
+*Added via Oracle Learn*

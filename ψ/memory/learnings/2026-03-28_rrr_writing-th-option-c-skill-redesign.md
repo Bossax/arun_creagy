@@ -27,3 +27,6 @@ If `oracle_learn()` reports success but no file appears on disk, immediately ver
 
 - [`ψ/memory/learnings/2026-03-27_oracle-learn-file-materialization-guardrail.md`](ψ/memory/learnings/2026-03-27_oracle-learn-file-materialization-guardrail.md)
 
+
+---
+*Added via Oracle Learn*

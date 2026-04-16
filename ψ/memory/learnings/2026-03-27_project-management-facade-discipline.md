@@ -26,3 +26,6 @@ It is very easy for a “nice” `/project-manager` to accumulate responsibiliti
 - Start implementation with ledgers and explicit modules, not facades.
 - When a facade is added, enforce guardrails: low-risk auto actions only, explicit human confirmation for strategic changes, and visible operation receipts.
 - Use retrospectives and handoff notes to freeze architectural decisions so that future work does not unconsciously re-centralize control in a singleton.
+
+---
+*Added via Oracle Learn*

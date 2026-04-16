@@ -17,3 +17,6 @@ When drafting a client/audience-facing report in Thai (e.g., DCCE), do not embed
   - True enumerated lists (e.g., List A / List B)
 - All “ข้อมูลที่ต้องยืนยัน/ยังขาด” items go into an internal QA log file.
 
+
+---
+*Added via Oracle Learn*

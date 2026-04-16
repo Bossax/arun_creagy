@@ -85,3 +85,6 @@ SRT file saved locally: `output/watch/ESkB4_8YClI.en.srt`
 
 ---
 *Added via /watch fallback: captions-only (Gemini automation not available on this machine).**Raw files saved under output/watch/*
+
+---
+*Added via Oracle Learn*

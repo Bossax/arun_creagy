@@ -17,3 +17,6 @@ Treat the org structure as an instrument for governance design:
 
 - Meeting report preserved in [`ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md`](ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md)
 
+
+---
+*Added via Oracle Learn*

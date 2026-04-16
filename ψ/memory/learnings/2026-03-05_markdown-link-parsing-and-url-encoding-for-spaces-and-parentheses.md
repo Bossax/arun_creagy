@@ -29,3 +29,6 @@ Simple regex checks (like `\]\(([^)]+)\)`) falsely “truncate” links at the f
 
 In this repo, many files follow “human title + date/version” naming that naturally includes parentheses. A small investment in encoding + robust checking prevents broken cross-navigation inside decision packs (FGD decks, governance strategies, NCAIF specs).
 
+
+---
+*Added via Oracle Learn*

@@ -11,3 +11,5 @@ During the execution of the `/rrr` skill, the primary goal was to generate a com
 1. **Refine `Files Modified` reporting**: Instead of directly including the raw `git diff --stat` output, consider a more curated approach. This could involve:
     - **Filtering for relevant file types**: Focus on code files, documentation, or other files directly related to the session's focus.
     - **Summarizing changes**: Provide a high-level summary of file changes (e.g., 
+---
+*Added via Oracle Learn*

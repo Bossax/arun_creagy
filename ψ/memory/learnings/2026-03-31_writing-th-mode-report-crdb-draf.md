@@ -18,3 +18,6 @@ This file was materialized manually after an `oracle_learn()` response returned 
 - ทำให้ชวนเข้าร่วมขึ้นด้วยการระบุสิ่งที่หน่วยงานจะได้รับ (ภาพรวมข้อมูลในห่วงโซ่คุณค่า, เงื่อนไข/ข้อจำกัดการเข้าถึง, ข้อเสนอแนะต่อทิศทาง NCAIF/การเชื่อมโยงข้อมูล) โดยไม่ใช้โทนประชาสัมพันธ์
 - ใช้กรอบคิดแบบ “ร่วมแลกเปลี่ยน/สังเคราะห์/ต่อยอด” (mutual learning) โดยไม่กล่าว blunt ว่า community building
 
+
+---
+*Added via Oracle Learn*

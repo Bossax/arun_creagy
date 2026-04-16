@@ -37,3 +37,6 @@ After every `oracle_learn()` call:
 - Repo-local learning created after a missing-file incident: [`ψ/memory/learnings/2026-03-27_director-toey-suggested-we-talk-to.md`](ψ/memory/learnings/2026-03-27_director-toey-suggested-we-talk-to.md)
 - Repo-local learning created after a missing-file incident: [`ψ/memory/learnings/2026-03-27_dcce-has-a-planned-internal-reorganization-march.md`](ψ/memory/learnings/2026-03-27_dcce-has-a-planned-internal-reorganization-march.md)
 
+
+---
+*Added via Oracle Learn*

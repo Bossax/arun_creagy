@@ -41,3 +41,6 @@ After reinstall, verify with:
 oracle-skills list -g | head -5
 ```
 
+
+---
+*Added via Oracle Learn*

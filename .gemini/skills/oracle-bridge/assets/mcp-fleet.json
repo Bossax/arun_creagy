@@ -1,0 +1,22 @@
+{
+  "servers": {
+    "oracle-v2": {
+      "command": "docker exec -i oracleworkspace-oracle-arun-creagy-1 bun src/index.ts",
+      "args": [],
+      "env": {},
+      "cwd": "C:/Users/sitth/OracleWorkspace/engine",
+      "description": "The Archon Upstream Registry (Arra Oracle v2)"
+    },
+    "notebooklm": {
+      "command": "npx",
+      "args": ["notebooklm-mcp@latest"],
+      "description": "Deep research and document extraction"
+    },
+    "perplexity": {
+      "command": "npx",
+      "args": ["-y", "@perplexity-ai/mcp-server"],
+      "env": { "PERPLEXITY_API_KEY": "REPLACE_ME" },
+      "description": "Real-time web search"
+    }
+  }
+}

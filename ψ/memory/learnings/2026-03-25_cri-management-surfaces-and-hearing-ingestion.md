@@ -28,3 +28,6 @@ During this session, I aligned the CRI project structure with the CRDB pattern (
 - management_surfaces
 - cri
 
+
+---
+*Added via Oracle Learn*

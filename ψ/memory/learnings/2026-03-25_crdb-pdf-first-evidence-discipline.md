@@ -19,3 +19,6 @@ In this session, I accidentally let a markdown outline of the interim report beh
 3. **Anchor all evidence artefacts to PDFs**, using page/section and appendix labels, even if the analysis work happens in markdown.
 4. **Design tasks one-TOR-subsection at a time**, so that each artefact can be checked against both the TOR text and the canonical PDFs.
 
+
+---
+*Added via Oracle Learn*
