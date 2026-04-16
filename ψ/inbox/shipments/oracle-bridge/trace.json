@@ -1,6 +1,0 @@
-{
-  "project": "oracle-bridge",
-  "timestamp": "2026-04-14T19:13:52.488Z",
-  "status": "Trace Request Logged",
-  "instruction": "Run `/trace [query] --oracle` manually to fill Dig Points."
-}

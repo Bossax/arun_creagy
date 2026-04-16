@@ -1,11 +1,11 @@
 {
   "servers": {
     "oracle-v2": {
-      "command": "docker exec -i oracleworkspace-oracle-arun-creagy-1 bun src/index.ts",
+      "command": "docker exec -i {{ORACLE_CONTAINER}} bun src/index.ts",
       "args": [],
       "env": {},
       "cwd": "C:/Users/sitth/OracleWorkspace/engine",
-      "description": "The Archon Upstream Registry (Arra Oracle v2)"
+      "description": "Local Oracle Registry (Registry of Form)"
     },
     "notebooklm": {
       "command": "npx",
@@ -15,8 +15,8 @@
     "perplexity": {
       "command": "npx",
       "args": ["-y", "@perplexity-ai/mcp-server"],
-      "env": { "PERPLEXITY_API_KEY": "REPLACE_ME" },
-      "description": "Real-time web search"
+      "env": { "PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}" },
+      "description": "AI web search"
     }
   }
 }

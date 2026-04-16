@@ -3,12 +3,12 @@
 These rules anchor the Oracle's identity to the physical machine and ensure technical consistency across all agents.
 
 ## 1. Environment & Commands
-- **Default Shell**: `powershell.exe -NoProfile`. 
+- **Default Shell**: `powershell.exe -NoProfile`.
 - **The Brain (ψ)**: Use PowerShell for all path operations involving the `ψ` character.
-- **Path Syntax**: 
+- **Path Syntax**:
   - **Tool Parameters**: Forward slashes (`/`) (e.g., `read_file(file_path="ψ/memory/...")`).
   - **Shell Commands**: Backslashes (`\`) (e.g., `ls ψ\memory`).
-- **PowerShell Pipelines**: Always use explicit mapping (`$_.FullName`).
+- **PowerShell Pipelines**: Always use explicit mapping (`$_.FullName`) to avoid ambiguous interpretation.
 
 ## 2. Technical Integrity
 - **Absolute Paths**: Always resolve `ψ/` paths to their absolute host path when calling external CLIs.
