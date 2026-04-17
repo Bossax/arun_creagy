@@ -23,7 +23,7 @@ In short, the meeting should not only collect information. It should clarify the
 
 Current project direction is already fairly stable in the CRDB work:
 
-- Phase 1 is locked around a catalog-first stance, recommended baseline registry, and disaster-ingestion groundwork in [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
+- Phase 1 is locked around a catalog-first stance, recommended baseline registry, and disaster-ingestion groundwork in [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
 - FGD2 already clarified that leadership sees the website as the visible platform while the backend logic must make it trustworthy in [`2026-03-11_FGD2_action_summary.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11_FGD2_action_summary.md)
 - the governance strategy already assumes minimum gates for classification, metadata, endorsement, boundaries, and event schema in [`2026-03-05-Feature-Driven Data Governance Strategy v3.md`](ψ/incubate/DCCE/CRDB/output/2026-03-05-Feature-Driven%20Data%20Governance%20Strategy%20v3.md)
 

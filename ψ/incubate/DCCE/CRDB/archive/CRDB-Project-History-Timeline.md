@@ -20,7 +20,7 @@ Canonical ledgers (targets):
 
 Orientation anchors:
 
-- [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md)
+- [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md)
 - [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
 
 ## How to use
@@ -95,7 +95,7 @@ Orientation anchors:
 | event_id | date | phase | event_type | workstreams | summary | primary_sources | ledger_refs | status | notes |
 |---|---|---|---|---|---|---|---|---|---|
 | H-002 | 2026-03-24 | 6 | decision | Governance, Architecture, Interim_Report | Internal progress-meeting decision synthesis produced (stance used to position sponsor meeting). | [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Progress-Meeting-Decisions.md), [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) | T-001, CH-001 | logged | Treat as “pre-meeting stance” artifact; distinct from sponsor outcomes. |
-| H-003 | 2026-03-27 | 6 | meeting | Governance, Workshop, Architecture | Sponsor progress meeting (Dir Toey) captured as verbatim/human summary; becomes canonical outcome anchor. | [`ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md), [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md) | T-004 | open | Later: extract explicit “decision candidates” into CH rows once confirmed. |
+| H-003 | 2026-03-27 | 6 | meeting | Governance, Workshop, Architecture | Sponsor progress meeting (Dir Toey) captured as verbatim/human summary; becomes canonical outcome anchor. | [`ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md), [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md) | T-004 | open | Later: extract explicit “decision candidates” into CH rows once confirmed. |
 | H-004 | 2026-03-27 | 6 | trigger_logged | Governance | Sponsor context watchpoints logged: DCCE org restructure + Digital Tech consultant scope uncertainty. | [`ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md`](ψ/memory/logs/info/2026-03-27_09-24_dcce-org-restructure-cdm-data-governance-must-align.md), [`ψ/memory/logs/info/2026-03-27_09-22_dcce-digital-tech-group-consultant-scope-unclear.md`](ψ/memory/logs/info/2026-03-27_09-22_dcce-digital-tech-group-consultant-scope-unclear.md) | T-002 | open | Later: translate into concrete governance role-mapping deliverable (D-004). |
 
 ### Phase 7 — Late-April workshop stream
@@ -129,4 +129,4 @@ These are known streams/milestones that should become timeline rows in later pas
 
 ### Phase 2 — CDM and NCAIF framing
 
-- CDM and NCAIF anchor artifacts (see [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md)).
+- CDM and NCAIF anchor artifacts (see [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md)).

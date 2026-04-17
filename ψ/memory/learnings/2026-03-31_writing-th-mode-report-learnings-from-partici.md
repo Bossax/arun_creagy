@@ -24,9 +24,9 @@
 
 ## Session context (traceability)
 
-- Writing plan: [ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Thai-Invite-Writing-Plan.md](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Thai-Invite-Writing-Plan.md)
-- Draft participant prep/questions: [ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md)
-- Human-edited participant prep/questions: [ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1-edited.md](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1-edited.md)
+- Writing plan: [ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Thai-Invite-Writing-Plan.md](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Thai-Invite-Writing-Plan.md)
+- Draft participant prep/questions: [ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md)
+- Human-edited participant prep/questions: [ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1-edited.md](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1-edited.md)
 
 หมายเหตุ: ไฟล์นี้ materialized ตาม guardrail หลัง `oracle_learn()` รายงานสำเร็จแต่ยังไม่พบไฟล์บนดิสก์ทันที
 

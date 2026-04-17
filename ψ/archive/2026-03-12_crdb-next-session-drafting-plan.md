@@ -5,7 +5,7 @@
 - report plan [[ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan|2026-03-12-Interim Report Writing Plan]]
 ## What We Accomplished This Session
 - Locked the interim-report baseline around a progress-first narrative in [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md).
-- Updated the CRDB project anchors in [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md).
+- Updated the CRDB project anchors in [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md).
 - Added the Section 1 synthesis anchor in [`ψ/incubate/DCCE/CRDB/output/2026-03-12_crdb-section1-cdm-mvp-evidence-analysis.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12_crdb-section1-cdm-mvp-evidence-analysis.md).
 - Drafted Chapter 1 Section 1 directly in [`ψ/incubate/DCCE/CRDB/inbox_note/CRDB interim report.md`](ψ/incubate/DCCE/CRDB/inbox_note/CRDB%20interim%20report.md).
 - Recorded reflection outputs in [`ψ/memory/retrospectives/2026-03/12/17.44_rrr_crdb-interim-report-section1-and-baseline.md`](ψ/memory/retrospectives/2026-03/12/17.44_rrr_crdb-interim-report-section1-and-baseline.md) and [`ψ/memory/learnings/2026-03-12_crdb-interim-report-progress-first-section1.md`](ψ/memory/learnings/2026-03-12_crdb-interim-report-progress-first-section1.md).
@@ -17,13 +17,13 @@
 - Prepare the FGD2 change insert and the bridge to Task 5.5 progress.
 
 ## Cleanup Needed
-- Review uncommitted CRDB writing changes before next drafting pass, especially in [`ψ/incubate/DCCE/CRDB/inbox_note/CRDB interim report.md`](ψ/incubate/DCCE/CRDB/inbox_note/CRDB%20interim%20report.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md), [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md), and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md).
+- Review uncommitted CRDB writing changes before next drafting pass, especially in [`ψ/incubate/DCCE/CRDB/inbox_note/CRDB interim report.md`](ψ/incubate/DCCE/CRDB/inbox_note/CRDB%20interim%20report.md), [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md), [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md), and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md).
 - Be aware of renamed or relocated evidence files showing as delete/add pairs in git status, especially the dated files under [`ψ/incubate/DCCE/CRDB/inbox_source/`](ψ/incubate/DCCE/CRDB/inbox_source/) and [`ψ/incubate/DCCE/CRDB/output/`](ψ/incubate/DCCE/CRDB/output/).
 - No non-main local branch was detected from the earlier branch check attempt.
 
 ## Next Session Goals and Scope
 1. Re-anchor on [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md) as the master drafting map.
-2. Re-open [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md) for project context and evidence navigation.
+2. Re-open [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md) for project context and evidence navigation.
 3. Keep the core evidence files open while drafting:
    - [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md)
    - [`ψ/incubate/DCCE/CRDB/output/Conceptual Data Model for climate risk and adaptation data system.md`](ψ/incubate/DCCE/CRDB/output/Conceptual%20Data%20Model%20for%20climate%20risk%20and%20adaptation%20data%20system.md)

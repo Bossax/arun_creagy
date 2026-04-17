@@ -6,7 +6,7 @@
 ## What We Did
 
 - Built a neutral staging timeline and wired it into the PM ledgers:
-  - Created [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md)
+  - Created [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md`](ψ/incubate/DCCE/CRDB/archive/CRDB-Project-History-Timeline.md)
 - Expanded and repaired the trigger spine:
   - Updated [`ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md)
     - Added early-phase triggers `T-006..T-014` (TOR/inception → NCAIF/CDM anchors → FGD2 → interim-report drafting cycle → MVP alignment)
@@ -40,9 +40,9 @@
 ## Key Files
 
 - Trigger spine: [`ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md)
-- Staging timeline: [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md)
+- Staging timeline: [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md`](ψ/incubate/DCCE/CRDB/archive/CRDB-Project-History-Timeline.md)
 - Deliverables ledger: [`ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md`](ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md)
 - Submissions ledger: [`ψ/incubate/DCCE/CRDB/CRDB-Submission-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Submission-Log.md)
 - Evidence registry: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
-- Project anchors: [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md), [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
+- Project anchors: [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md), [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
 

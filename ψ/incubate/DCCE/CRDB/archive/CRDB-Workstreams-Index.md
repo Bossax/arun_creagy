@@ -41,7 +41,7 @@ This index answers: **“What streams of work exist in CRDB, and where are the l
 
 **Key anchor**
 
-- Phase 1 confirmed decision log (MVPs, sitemap, rails, gates): [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
+- Phase 1 confirmed decision log (MVPs, sitemap, rails, gates): [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
 
 **Watchpoints (current constraints)**
 
@@ -56,7 +56,7 @@ This index answers: **“What streams of work exist in CRDB, and where are the l
 
 **Key anchors**
 
-- MVP choices and definitions (confirmed): [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
+- MVP choices and definitions (confirmed): [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
 - Workflow patterns + MVP mapping: [`ψ/incubate/DCCE/CRDB/output/NCAIF — Workflow patterns + MVP v3.md`](ψ/incubate/DCCE/CRDB/output/NCAIF%20%E2%80%94%20Workflow%20patterns%20%2B%20MVP%20v3.md)
 
 ---
@@ -79,10 +79,10 @@ This index answers: **“What streams of work exist in CRDB, and where are the l
 
 **Key anchors**
 
-- Workshop preliminary plan: [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md)
+- Workshop preliminary plan: [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-24_CRDB-Workshop-Preliminary-Plan.md)
 - Progress meeting logistics constraints: [`ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md)
 - Bridge / baton pass strategy note (TMD/WMO → CRDB → NFCS): [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-my-idea-about-April-workshop.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-my-idea-about-April-workshop.md)
-- Save-point continuation plan: [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
+- Save-point continuation plan: [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
 
 ---
 

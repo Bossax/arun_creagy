@@ -1,4 +1,3 @@
-`# CRDB Work Streams Implementation Plan
 
 ## 1. Locked decision
 
@@ -15,10 +14,10 @@ Grounding anchors:
 - Project plan: [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
 - **Thaiwater enhancement concept note:** [`2026-04-08_CRDB-Thaiwater-Enhancement-Concept-Note.md`](ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Thaiwater-Enhancement-Concept-Note.md)
 - DCCE IT integration note: [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-DCCE-IT-Integration-Note.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-DCCE-IT-Integration-Note.md)
-- Workshop plan v3: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Plan-v3_TOR533-aligned.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Plan-v3_TOR533-aligned.md)
+- Workshop plan v3: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Plan-v3_TOR533-aligned.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Workshop-Plan-v3_TOR533-aligned.md)
 - Internal FGD strategy: [`ψ/incubate/DCCE/CRDB/output/DCCE Focus Group Discussion Plan.md`](ψ/incubate/DCCE/CRDB/output/DCCE Focus Group Discussion Plan.md)
-- Confirmed Phase 1 decisions: [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
-- History spine: [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md)
+- Confirmed Phase 1 decisions: [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
+- History spine: [`ψ/incubate/DCCE/CRDB/output/CRDB-Project-History-Timeline.md`](ψ/incubate/DCCE/CRDB/archive/CRDB-Project-History-Timeline.md)
 
 ---
 

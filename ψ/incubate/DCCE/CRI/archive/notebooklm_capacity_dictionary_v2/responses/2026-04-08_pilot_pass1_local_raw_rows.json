@@ -1,0 +1,145 @@
+[
+  {
+    "row_kind": "indicator_concept_candidate",
+    "source_id_reference": "CRI Phase 2 Capacity Tagging Dictionary v1.1",
+    "quoted_or_close_paraphrase": "Plan revision cycle | Plan exists + last revised year (or last published version)",
+    "candidate_indicator_label": "Plan revision cycle",
+    "candidate_capacity_category": "Adaptive",
+    "candidate_aspect": "Planning",
+    "candidate_dimension_if_explicit": "not explicit",
+    "extraction_notes": "Local Pass 1 transformation from existing dictionary long-list. Category and governance function are explicit in the source row.",
+    "citation": "(CRI Phase 2 Capacity Tagging Dictionary v1.1, lines 64-68)"
+  },
+  {
+    "row_kind": "indicator_concept_candidate",
+    "source_id_reference": "CRI Phase 2 Capacity Tagging Dictionary v1.1",
+    "quoted_or_close_paraphrase": "Cross-department coordination meetings | Formal coordination body exists (committee/taskforce) + publicized meeting minutes (if available)",
+    "candidate_indicator_label": "Cross-department coordination meetings",
+    "candidate_capacity_category": "Adaptive",
+    "candidate_aspect": "Coordination",
+    "candidate_dimension_if_explicit": "not explicit",
+    "extraction_notes": "Local Pass 1 transformation from existing dictionary long-list. Source wording preserved at the indicator concept and baseline proxy level.",
+    "citation": "(CRI Phase 2 Capacity Tagging Dictionary v1.1, lines 68-69)"
+  },
+  {
+    "row_kind": "indicator_concept_candidate",
+    "source_id_reference": "CRI Phase 2 Capacity Tagging Dictionary v1.1",
+    "quoted_or_close_paraphrase": "Climate budget tagging coverage | Climate budget tagging policy exists; # items tagged (if counts exist)",
+    "candidate_indicator_label": "Climate budget tagging coverage",
+    "candidate_capacity_category": "Adaptive",
+    "candidate_aspect": "Finance / accountability",
+    "candidate_dimension_if_explicit": "not explicit",
+    "extraction_notes": "Local Pass 1 transformation from existing dictionary long-list. Retained as a source-near candidate row rather than normalized into a final taxonomy.",
+    "citation": "(CRI Phase 2 Capacity Tagging Dictionary v1.1, lines 71-72)"
+  },
+  {
+    "row_kind": "indicator_concept_candidate",
+    "source_id_reference": "CRI Phase 2 Capacity Tagging Dictionary v1.1",
+    "quoted_or_close_paraphrase": "Community engagement frequency | Participation mechanism exists; engagement activities documented in annual report",
+    "candidate_indicator_label": "Community engagement frequency",
+    "candidate_capacity_category": "Transformative",
+    "candidate_aspect": "Inclusion / legitimacy",
+    "candidate_dimension_if_explicit": "not explicit",
+    "extraction_notes": "Local Pass 1 transformation from existing dictionary long-list. Included to preserve broader non-governance-adjacent participation language in the pilot set.",
+    "citation": "(CRI Phase 2 Capacity Tagging Dictionary v1.1, lines 79-80)"
+  },
+  {
+    "row_kind": "capacity_category_statement",
+    "source_id_reference": "CBI Indicator Metadata (Tik)",
+    "quoted_or_close_paraphrase": "เสาหลักที่ 1: Coping Capacity --- ขีดความสามารถในการรับมือเฉพาะหน้า",
+    "candidate_indicator_label": "not explicit",
+    "candidate_capacity_category": "Coping Capacity",
+    "candidate_aspect": "not explicit",
+    "candidate_dimension_if_explicit": "not explicit",
+    "extraction_notes": "Local Pass 1 transformation from pasted CBI conceptual framing.",
+    "citation": "(CBI Indicator Metadata, lines 142-145)"
+  },
+  {
+    "row_kind": "capacity_category_statement",
+    "source_id_reference": "CBI Indicator Metadata (Tik)",
+    "quoted_or_close_paraphrase": "เสาหลักที่ 2: Adaptive Capacity --- ขีดความสามารถในการปรับตัว",
+    "candidate_indicator_label": "not explicit",
+    "candidate_capacity_category": "Adaptive Capacity",
+    "candidate_aspect": "not explicit",
+    "candidate_dimension_if_explicit": "not explicit",
+    "extraction_notes": "Local Pass 1 transformation from pasted CBI conceptual framing.",
+    "citation": "(CBI Indicator Metadata, lines 147-148)"
+  },
+  {
+    "row_kind": "capacity_category_statement",
+    "source_id_reference": "CBI Indicator Metadata (Tik)",
+    "quoted_or_close_paraphrase": "เสาหลักที่ 3: Transformative Capacity --- ขีดความสามารถในการเปลี่ยนผ่าน",
+    "candidate_indicator_label": "not explicit",
+    "candidate_capacity_category": "Transformative Capacity",
+    "candidate_aspect": "not explicit",
+    "candidate_dimension_if_explicit": "not explicit",
+    "extraction_notes": "Local Pass 1 transformation from pasted CBI conceptual framing.",
+    "citation": "(CBI Indicator Metadata, lines 150-151)"
+  },
+  {
+    "row_kind": "aspect_statement",
+    "source_id_reference": "CBI Indicator Metadata (Tik)",
+    "quoted_or_close_paraphrase": "มิติด้านสินทรัพย์ (Asset) ซึ่งวัดทรัพยากรที่มีอยู่",
+    "candidate_indicator_label": "not explicit",
+    "candidate_capacity_category": "not explicit",
+    "candidate_aspect": "Asset",
+    "candidate_dimension_if_explicit": "asset",
+    "extraction_notes": "Local Pass 1 transformation from pasted CBI dimension statement.",
+    "citation": "(CBI Indicator Metadata, lines 153-154)"
+  },
+  {
+    "row_kind": "aspect_statement",
+    "source_id_reference": "CBI Indicator Metadata (Tik)",
+    "quoted_or_close_paraphrase": "มิติด้านกระบวนการ (Process) ซึ่งวัดกลไกและการดำเนินงาน",
+    "candidate_indicator_label": "not explicit",
+    "candidate_capacity_category": "not explicit",
+    "candidate_aspect": "Process",
+    "candidate_dimension_if_explicit": "process",
+    "extraction_notes": "Local Pass 1 transformation from pasted CBI dimension statement.",
+    "citation": "(CBI Indicator Metadata, lines 154-155)"
+  },
+  {
+    "row_kind": "indicator_concept_candidate",
+    "source_id_reference": "CBI Indicator Metadata (Tik)",
+    "quoted_or_close_paraphrase": "CA4 | จำนวนบุคลากรด้านการแพทย์ฉุกเฉิน | Coping | Asset",
+    "candidate_indicator_label": "จำนวนบุคลากรด้านการแพทย์ฉุกเฉิน",
+    "candidate_capacity_category": "Coping Capacity",
+    "candidate_aspect": "not explicit",
+    "candidate_dimension_if_explicit": "asset",
+    "extraction_notes": "Local Pass 1 transformation from pasted CBI table. English gloss: emergency medical personnel.",
+    "citation": "(CBI Indicator Metadata, lines 172-179)"
+  },
+  {
+    "row_kind": "indicator_concept_candidate",
+    "source_id_reference": "CBI Indicator Metadata (Tik)",
+    "quoted_or_close_paraphrase": "AP2 | บูรณาการข้อมูลสภาพภูมิอากาศเข้าสู่แผนพัฒนา | Adaptive | Process",
+    "candidate_indicator_label": "บูรณาการข้อมูลสภาพภูมิอากาศเข้าสู่แผนพัฒนา",
+    "candidate_capacity_category": "Adaptive Capacity",
+    "candidate_aspect": "not explicit",
+    "candidate_dimension_if_explicit": "process",
+    "extraction_notes": "Local Pass 1 transformation from pasted CBI table. English gloss: integration of climate information into development plans.",
+    "citation": "(CBI Indicator Metadata, lines 185-187)"
+  },
+  {
+    "row_kind": "indicator_concept_candidate",
+    "source_id_reference": "CBI Indicator Metadata (Tik)",
+    "quoted_or_close_paraphrase": "AP3 | การมีส่วนร่วมของชุมชนในการจัดทำแผนรับมือภัย | Adaptive | Process",
+    "candidate_indicator_label": "การมีส่วนร่วมของชุมชนในการจัดทำแผนรับมือภัย",
+    "candidate_capacity_category": "Adaptive Capacity",
+    "candidate_aspect": "not explicit",
+    "candidate_dimension_if_explicit": "process",
+    "extraction_notes": "Local Pass 1 transformation from pasted CBI table. English gloss: community participation in preparedness / response planning.",
+    "citation": "(CBI Indicator Metadata, lines 186-188)"
+  },
+  {
+    "row_kind": "indicator_concept_candidate",
+    "source_id_reference": "CBI Indicator Metadata (Tik)",
+    "quoted_or_close_paraphrase": "TP3 | นวัตกรรม/เทคโนโลยีด้านภูมิอากาศ | Transformative | Process",
+    "candidate_indicator_label": "นวัตกรรม/เทคโนโลยีด้านภูมิอากาศ",
+    "candidate_capacity_category": "Transformative Capacity",
+    "candidate_aspect": "not explicit",
+    "candidate_dimension_if_explicit": "process",
+    "extraction_notes": "Local Pass 1 transformation from pasted CBI table. English gloss: climate innovation / technology.",
+    "citation": "(CBI Indicator Metadata, lines 193-195)"
+  }
+]

@@ -8,7 +8,7 @@
 - Updated [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md) so Section 1 now follows a clear methodology chain.
 - Repositioned CDM as hidden organizing logic and MVPs as bounded Phase 1 service expressions in the Section 1 framing.
 - Built and applied a subsection-level evidence map using interviews, standards/literature, T-PLAT review, DCCE website gap analysis, spatial risk-map constraints, and UX/UI principles.
-- Updated [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md) so the next session can find the correct plan and evidence anchors.
+- Updated [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md) so the next session can find the correct plan and evidence anchors.
 - Drafted Chapter 1 Section 1 directly in [`ψ/incubate/DCCE/CRDB/inbox_note/CRDB interim report.md`](ψ/incubate/DCCE/CRDB/inbox_note/CRDB%20interim%20report.md).
 - Completed retrospective capture in [`ψ/memory/retrospectives/2026-03/12/17.44_rrr_crdb-interim-report-section1-and-baseline.md`](ψ/memory/retrospectives/2026-03/12/17.44_rrr_crdb-interim-report-section1-and-baseline.md).
 
@@ -19,7 +19,7 @@
 
 ## Next Session
 - [ ] Start with [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md) as the primary drafting map.
-- [ ] Use [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md) to re-anchor scope, latest artifacts, and evidence links.
+- [ ] Use [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) and [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md) to re-anchor scope, latest artifacts, and evidence links.
 - [ ] Review drafted text in [`ψ/incubate/DCCE/CRDB/inbox_note/CRDB interim report.md`](ψ/incubate/DCCE/CRDB/inbox_note/CRDB%20interim%20report.md) and continue writing Chapter 2.
 - [ ] Keep these evidence files visible while drafting:
   - [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md)
@@ -32,5 +32,5 @@
 ## Key Files
 - [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md)
 - [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
-- [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md)
+- [`ψ/incubate/DCCE/CRDB/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md)
 - [`ψ/incubate/DCCE/CRDB/inbox_note/CRDB interim report.md`](ψ/incubate/DCCE/CRDB/inbox_note/CRDB%20interim%20report.md)

@@ -4,7 +4,7 @@
 
 - Narrative decision anchor: [plans/2026-03-30-crdb-workshop-narrative-approved-plan-note.md](plans/2026-03-30-crdb-workshop-narrative-approved-plan-note.md)
 - Narrative strategies and session mapping: [plans/2026-03-30-crdb-workshop-narrative-strategies.md](plans/2026-03-30-crdb-workshop-narrative-strategies.md)
-- Preliminary workshop structure and objectives: [ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md)
+- Preliminary workshop structure and objectives: [ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-24_CRDB-Workshop-Preliminary-Plan.md)
 - NFCS governance and UIP wording guardrails: [ψ/incubate/WMO-NFCS/output/WMO-NFCS_quote-bank_governance-uip-mel.md](ψ/incubate/WMO-NFCS/output/WMO-NFCS_quote-bank_governance-uip-mel.md)
 - Stakeholder needs synthesis: [ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md)
 - Interview ingestion traceability: [ψ/incubate/DCCE/CRDB/output/2026-03-23-CRDB-Interview-Ingestion-Traceability-Note.md](ψ/incubate/DCCE/CRDB/output/2026-03-23-CRDB-Interview-Ingestion-Traceability-Note.md)

@@ -109,7 +109,7 @@ Capture the **current working understanding** of DCCE’s IT and data environmen
 
 ### 2.3 Governance gates as integration constraints
 
-- Phase 1 governance gates (from [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)) define how data move into and through CRDB:
+- Phase 1 governance gates (from [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)) define how data move into and through CRDB:
   - G1: classification (internal/exchange/open).
   - G2: minimum metadata and preview.
   - G3: baseline endorsement (who endorses what, for which uses and scales).

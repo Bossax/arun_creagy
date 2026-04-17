@@ -85,7 +85,7 @@ Help the human convert messy project events (notes, emails, meetings, submission
 - Raw notes and logs in `ψ/memory/logs/info/`, `ψ/incubate/DCCE/CRDB/inbox_source/`, and `ψ/incubate/DCCE/CRDB/inbox_note/`.
 - Existing trigger entries in [`CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md) to avoid duplicates.
 - Decision and evidence anchors:
-  - [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
+  - [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
   - [`CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
   - [`CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
 
@@ -129,7 +129,7 @@ Given a specific deliverable, produce a **traceability view** that shows which t
 - [`CRDB-Claim-Register.md`](ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md)
 - [`CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
 - [`CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md)
-- [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
+- [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
 
 ### Writes to
 

@@ -10,9 +10,10 @@
 - Current evidence registry: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
 - Evidence coverage map: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
 - Interim report writing anchor: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md)
-- Workshop stream continuation plan (save-point): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
+- Workshop stream continuation plan (save-point): [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
 - Workshop invite + logistics package (D-006, v0): [`ψ/incubate/DCCE/CRDB/output/2026-03-30_CRDB-D-006_Workshop-Invite-and-Logistics-Package_v0.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-30_CRDB-D-006_Workshop-Invite-and-Logistics-Package_v0.md)
-- Workstreams index (NCAIF/CDM/Governance/MVP/Workshop/Report/PM ecosystem): [`ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Workstreams-Index.md)
+- Workstreams index (archived): [`ψ/incubate/DCCE/CRDB/archive/CRDB-Workstreams-Index.md`](ψ/incubate/DCCE/CRDB/archive/CRDB-Workstreams-Index.md)
+- Canonical execution index: [`ψ/incubate/DCCE/CRDB/output/CRDB-Execution-Architecture-Index.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Execution-Architecture-Index.md)
 
 ## Recent decision / meeting anchors (keep current)
 
@@ -57,7 +58,7 @@ Use the evidence system below as the working entry point for non-archived CRDB e
 
 ## Key current artifacts
 - Project plan: [`ψ/incubate/DCCE/CRDB/plan.md`](ψ/incubate/DCCE/CRDB/plan.md)
-- Phase 1 decision log: [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
+- Phase 1 decision log: [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
 - Website content gap inventory: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Inventory.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Inventory.md)
 - Website content gap matrix: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Matrix.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Matrix.md)
 - Website content gap summary: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md)

@@ -43,7 +43,7 @@ This rollout plan creates:
 
 Target projects should live under `ψ/incubate/<ORG>/<PROJECT>/` with:
 
-- [`ψ/incubate/<ORG>/<PROJECT>/Hub.md`](ψ/incubate/DCCE/CRDB/Hub.md) *(structure reference)*
+- [`ψ/incubate/<ORG>/<PROJECT>/Hub.md`](ψ/incubate/DCCE/CRDB/archive/Hub.md) *(structure reference)*
 - [`ψ/incubate/<ORG>/<PROJECT>/plan.md`](ψ/incubate/DCCE/CRDB/plan.md) *(structure reference)*
 
 Implementation note: the PM ecosystem is **project-local**. Do not attempt to create a global “one manager for everything.”

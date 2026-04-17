@@ -83,7 +83,7 @@ Supporting evidence (optional but high-value):
 
 Use as constraints (not re-decisions):
 
-- Phase 1 stance and governance rails: [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md)
+- Phase 1 stance and governance rails: [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
 
 ---
 

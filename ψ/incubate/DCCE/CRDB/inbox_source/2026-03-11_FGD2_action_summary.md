@@ -18,7 +18,7 @@ Phase 1 direction is already aligned and should remain stable:
 - **Publishing rails**: Open → data.go.th; Non-open → GDX; Sensitive → internal-only
 - **Governance gates**: G1–G5
 
-Reference: [`ψ/incubate/DCCE/CRDB/inbox/active/phase1_decision_log.md`](phase1_decision_log.md)
+Reference: [`ψ/incubate/DCCE/CRDB/inbox/active/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
 
 ---
 

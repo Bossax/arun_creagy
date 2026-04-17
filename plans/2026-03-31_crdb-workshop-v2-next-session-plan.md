@@ -6,7 +6,7 @@ Last session produced:
 - A stable narrative decision anchor: [plans/2026-03-30-crdb-workshop-narrative-approved-plan-note.md](plans/2026-03-30-crdb-workshop-narrative-approved-plan-note.md)
 - The full narrative strategies + session mapping: [plans/2026-03-30-crdb-workshop-narrative-strategies.md](plans/2026-03-30-crdb-workshop-narrative-strategies.md)
 - A WMO-aligned quote bank for steering-safe governance wording, UIP framing including website, and MEL/accountability: [ψ/incubate/WMO-NFCS/output/WMO-NFCS_quote-bank_governance-uip-mel.md](ψ/incubate/WMO-NFCS/output/WMO-NFCS_quote-bank_governance-uip-mel.md)
-- Existing CRDB workshop structure anchor: [ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md)
+- Existing CRDB workshop structure anchor: [ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-24_CRDB-Workshop-Preliminary-Plan.md)
 - Session handoff anchor: [ψ/inbox/handoff/2026-03-30_18-06_crdb-workshop-v2-plan-from-wmo-nfcs-evidence.md](ψ/inbox/handoff/2026-03-30_18-06_crdb-workshop-v2-plan-from-wmo-nfcs-evidence.md)
 
 Next session goal: turn the narrative and evidence into **CRDB workshop v2** artifacts that are executable, sponsor-safe, steering-consumable, and stakeholder-fit.

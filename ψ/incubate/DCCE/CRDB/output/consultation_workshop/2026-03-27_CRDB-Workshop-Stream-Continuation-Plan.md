@@ -18,7 +18,7 @@ It is intentionally operational: important dates, the next concrete deliverable,
 
 ### Current workshop plan hypothesis (structure + objectives)
 
-- Preliminary workshop plan: [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md)
+- Preliminary workshop plan: [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-24_CRDB-Workshop-Preliminary-Plan.md)
 
 ### Your new workshop strategy idea (bridge / baton pass)
 
@@ -86,7 +86,7 @@ Sources for this constraint:
 
 ## 4) Workshop objectives (do not re-open architecture)
 
-Keep the workshop as **validation + convergence** (not re-scoping), per [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md):
+Keep the workshop as **validation + convergence** (not re-scoping), per [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-24_CRDB-Workshop-Preliminary-Plan.md):
 
 1) Validate demand backbone and service tiers
 2) Test baseline rules and access rails

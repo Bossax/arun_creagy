@@ -29,9 +29,9 @@ Thai gov-style invitation drafting (CRDB workshop):
 
 ## Traceability
 
-- Draft letter: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Invite-Letter_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Invite-Letter_TH_v1.md)
-- Agenda: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md)
-- Prep questions: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md)
+- Draft letter: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Invite-Letter_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Invite-Letter_TH_v1.md)
+- Agenda: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md)
+- Prep questions: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md)
 
 
 ---

@@ -12,7 +12,7 @@ This package is an **operationalization** of the sponsor progress-meeting outcom
 
 Design constraints also referenced (workshop stream coherence):
 
-- [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
+- [`ψ/incubate/DCCE/CRDB/output/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-27_CRDB-Workshop-Stream-Continuation-Plan.md)
 - “Bridge / baton pass” workshop strategy note: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-my-idea-about-April-workshop.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-my-idea-about-April-workshop.md) (E-025)
 
 This artifact **does not** finalize content, claim new decisions, or invent agency lists. It packages the minimum execution surface needed to issue invitations and run logistics.

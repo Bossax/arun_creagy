@@ -36,7 +36,7 @@
   - There will be **another interim-report revision** after the upcoming progress report.
   - That revision will be **anchored** on:
     - the writing plan [`ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-Interim%20Report%20Writing%20Plan.md); and
-    - the latest chapter drafts listed in [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md).
+    - the latest chapter drafts listed in [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md).
 
 ---
 
@@ -101,7 +101,7 @@
 
 ### 4.1 Data governance
 
-- Reaffirmed that Phase 1 governance will follow the gates defined in [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md):
+- Reaffirmed that Phase 1 governance will follow the gates defined in [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md):
 	- classification (internal/exchange/open);
 	- minimum metadata;
 	- baseline endorsement;
@@ -140,12 +140,12 @@
   - Get management alignment on **model governance** being in scope alongside data governance.
   - Discuss how internal DCCE research data will be brought into CRDB as reference baselines.
 	- Clarify expectations for the **next interim-report revision** (what can change before the late-April workshop, and what must wait for later phases).
-	- Present and stress-test the **preliminary workshop design** in [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md), especially:
+	- Present and stress-test the **preliminary workshop design** in [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-24_CRDB-Workshop-Preliminary-Plan.md), especially:
 		- the morning vs afternoon split;
 		- breakout grouping hypotheses (by product/MVP, sector, and user tier/capacity);
 		- how the workshop adds value beyond the 10+ in-depth interviews.
 
 - These decisions should feed directly into:
-  - updates to the progress-meeting agenda: [`ψ/incubate/DCCE/CRDB/output/CRDB_Director_Toey_Progress_Meeting_Agenda.md`](ψ/incubate/DCCE/CRDB/output/CRDB_Director_Toey_Progress_Meeting_Agenda.md);
+  - updates to the progress-meeting agenda: [`ψ/incubate/DCCE/CRDB/output/CRDB_Director_Toey_Progress_Meeting_Agenda.md`](ψ/incubate/DCCE/CRDB/CRDB_Director_Toey_Progress_Meeting_Agenda-2026-03-26.md);
 	- the next revision of the interim report based on the 2026-03-12 writing plan and current chapter drafts; and
-	- refinement of the workshop plan and stakeholder list in [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md).
+	- refinement of the workshop plan and stakeholder list in [`ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-Workshop-Preliminary-Plan.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-24_CRDB-Workshop-Preliminary-Plan.md).

@@ -12,7 +12,7 @@ Key clauses from [`CRDB - TOR.md`](ψ/incubate/DCCE/CRDB/inbox_source/CRDB - TOR
 - **5.3 – Inventories & MVD**: build information product and baseline data inventories with rich metadata; design a Minimum Viable Dataset (MVD) and Loss & Damage reporting form, test on ≥3 events; perform gap analysis; provide policy and technical recommendations.
 - **5.5 – Knowledge sets**: review key studies (≥10) and synthesize into accessible formats and media.
 
-Phase 1 decisions in [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md) lock:
+Phase 1 decisions in [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md) lock:
 
 - MVP‑3 (recommended dataset registry) + MVP‑2 (disaster data ingestion + Loss & Damage groundwork) as Phase 1 core.
 - Hybrid sitemap (workflow‑pattern‑first) and **catalog‑first** architecture.

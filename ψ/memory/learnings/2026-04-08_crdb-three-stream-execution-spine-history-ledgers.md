@@ -5,7 +5,7 @@
 - Project: CRDB (DCCE climate risk database)
 - Date: 2026-04-08
 - Related artifacts:
-  - Work-streams plan: [`ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Work-Streams-Implementation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Work-Streams-Implementation-Plan.md)
+  - Work-streams plan: [`ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Work-Streams-Implementation-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-08_CRDB-Stakeholder-Engagement-Plan.md)
   - Interim report narrative: [`ψ/incubate/DCCE/CRDB/output/interim-report/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md`](ψ/incubate/DCCE/CRDB/output/interim-report/2026-03-17-CRDB-Interim-Report-Chapter-1-review-v4.md)
   - Ledgers updated: [`ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Trigger-Log.md), [`ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md), [`ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md`](ψ/incubate/DCCE/CRDB/CRDB-Deliverable-Map.md), [`ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md`](ψ/incubate/DCCE/CRDB/CRDB-Claim-Register.md)
 

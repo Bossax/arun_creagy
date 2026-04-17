@@ -37,11 +37,11 @@ source: C:\Users\sitth\OracleWorkspace\Arun_Creagy\ψ\memory\learnings\2026-03-3
 - Maintain a session writing plan and append learn-back links (Nothing is Deleted).
 
 ## Session context (traceability)
-- Draft letter: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Invite-Letter_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Invite-Letter_TH_v1.md)
+- Draft letter: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Invite-Letter_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Invite-Letter_TH_v1.md)
 - Human-edited letter reference: [`ψ/incubate/DCCE/CRDB/archive/2026-03-31_CRDB-Invite-Letter_TH_v1-edited.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-31_CRDB-Invite-Letter_TH_v1-edited.md)
-- Agenda: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md)
-- Prep questions: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md)
-- Writing plan: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Thai-Invite-Writing-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Thai-Invite-Writing-Plan.md)
+- Agenda: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Workshop-Agenda_TH_v1.md)
+- Prep questions: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Participant-Prep-and-Questions_TH_v1.md)
+- Writing plan: [`ψ/incubate/DCCE/CRDB/output/2026-03-31_CRDB-Thai-Invite-Writing-Plan.md`](ψ/incubate/DCCE/CRDB/output/consultation_workshop/2026-03-31_CRDB-Thai-Invite-Writing-Plan.md)
 
 เรียนรู้จากการเปรียบเทียบฉบับร่างและฉบับแก้ไขสำหรับ writing-th (mode: report)
 
