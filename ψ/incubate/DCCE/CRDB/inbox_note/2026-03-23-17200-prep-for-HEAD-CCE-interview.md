@@ -31,7 +31,7 @@ What is still missing is a practical answer to: who inside DCCE, and especially 
 
 ## Related execution-gap note
 
-The broader execution-gap analysis for NCAIF, CDM, and data governance has been separated into [`2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md).
+The broader execution-gap analysis for NCAIF, CDM, and data governance has been separated into [`2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md).
 
 For this interview note, treat that file as background context only. The interview itself should stay focused on clarifying CCE's role, decision rights, stewardship expectations, and the immediate questions needed to move CRDB execution forward.
 

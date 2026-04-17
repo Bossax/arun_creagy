@@ -14,6 +14,7 @@
       ]
     },
     "perplexity": {
+      "type": "stdio",
       "command": "npx",
       "args": [
         "-y",

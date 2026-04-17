@@ -4,7 +4,7 @@
 
 ## What We Accomplished This Session
 
-- Reframed CRDB execution gaps into a dedicated note at [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md) so that the CCE interview prep can stay focused on the conversation with the Head of CCE.
+- Reframed CRDB execution gaps into a dedicated note at [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md) so that the CCE interview prep can stay focused on the conversation with the Head of CCE.
 - Updated the English interview-prep note at [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-17200-prep-for-HEAD-CCE-interview.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-17200-prep-for-HEAD-CCE-interview.md) with assumption-aware topics and questions centered on CCE’s role.
 - Drafted a Thai report-style interview-prep note at [`ψ/incubate/DCCE/CRDB/output/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md), including:
   - explicit statement that CCE is most plausibly a **partial custodian only for data products or web services operated directly by CCE**;
@@ -32,7 +32,7 @@
    - Highlight or annotate the 3–5 opening questions you intend to use first.
 
 2. **Design the Progress-Report Bridge**  
-   - Using the gaps note at [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md), identify which gaps the CCE interview can realistically close or clarify.
+   - Using the gaps note at [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md), identify which gaps the CCE interview can realistically close or clarify.
    - Draft a short narrative (half to one page) connecting: (a) decisions sought from the Head of CCE; and (b) how those decisions will be reflected as progress in CRDB interim reporting (e.g., finalized governance roles, agreed baseline registry priorities, agreed responsibilities across units).
 
 3. **Plan Post-Interview Synthesis**  

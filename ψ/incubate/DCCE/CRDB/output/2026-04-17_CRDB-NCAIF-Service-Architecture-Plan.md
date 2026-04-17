@@ -15,17 +15,16 @@ Consolidate NCAIF service-facing structure for Phase 1 execution.
 1. Keep workflow-pattern-first navigation while preserving catalog-first execution.
 2. Separate user-facing service expressions from backend governance and standards.
 3. Tie each core NCAIF service node to:
-   - target user group,
-   - required datasets/products,
-   - baseline quality/limitations statement,
-   - publishing rail.
+	- target user group,
+	- required datasets/products,
+	- baseline quality/limitations statement,
+	- publishing rail.
 
 ## Required outputs
-
-- NCAIF service-node matrix with owner/steward placeholders
-- Workflow-to-service translation table
-- Service tier definitions for policy, technical, and internal audiences
-- Inputs required from CDM, governance standards, and MVD streams
+1. NCAIF service-node matrix with owner/steward placeholders
+2. Workflow-to-service translation table
+3. Service tier definitions for policy, technical, and internal audiences
+4. Inputs required from CDM, governance standards, and MVD streams
 
 ## Validation checkpoints
 

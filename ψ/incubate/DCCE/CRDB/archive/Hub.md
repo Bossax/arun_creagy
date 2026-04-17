@@ -36,7 +36,7 @@ Use the evidence system below as the working entry point for non-archived CRDB e
 
 - Registry of active evidence artifacts: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Registry.md`](ψ/incubate/DCCE/CRDB/CRDB-Evidence-Registry.md)
 - Synthesis of strengths, gaps, and missing information: [`ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Evidence-Coverage-Map.md)
-- Cross-cutting execution-gap note: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
+- Cross-cutting execution-gap note: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
 
 ### Current gap lenses
 - **Product and content gaps** — where the current public-facing information architecture, explainers, and service surfaces do not yet match user demand or workflow needs.
@@ -64,7 +64,7 @@ Use the evidence system below as the working entry point for non-archived CRDB e
 - Website content gap summary: [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md)
 - Stakeholder use cases: [`ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md`](ψ/incubate/DCCE/CRDB/output/NCAIF_Use_Cases.md)
 - Stakeholder needs synthesis v2: [`ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-Chapter2-stakeholder-needs-synthesis-v2.md)
-- Execution-gap note: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
+- Execution-gap note: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
 
 ### Interim report baseline
 

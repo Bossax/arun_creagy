@@ -43,7 +43,7 @@
   - [`ψ/incubate/DCCE/CRDB/output/2026-03-23_interim-report-1st-submission.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23_interim-report-1st-submission.md)
 - Section 1–2 artefacts (for reference while doing 5.5):
   - [`ψ/incubate/DCCE/CRDB/output/2026-03-25-5.2.5-Data-Management-Structure-Note.md`](ψ/incubate/DCCE/CRDB/output/2026-03-25-5.2.5-Data-Management-Structure-Note.md)
-  - [`ψ/incubate/DCCE/CRDB/output/2026-03-25-5.3.1-Status-and-Gaps-Note.md`](ψ/incubate/DCCE/CRDB/output/2026-03-25-5.3.1-Status-and-Gaps-Note.md)
+  - [`ψ/incubate/DCCE/CRDB/output/2026-03-25-5.3.1-Status-and-Gaps-Note.md`](ψ/incubate/DCCE/CRDB/output/interim-report/2026-03-25-5.3.1-Status-and-Gaps-Note.md)
   - [`ψ/incubate/DCCE/CRDB/output/2026-03-25-5.3.2-Needs-and-Use-Cases-Note.md`](ψ/incubate/DCCE/CRDB/output/2026-03-25-5.3.2-Needs-and-Use-Cases-Note.md)
 - Section 3 / TOR 5.5 artefact targets:
   - [`ψ/incubate/DCCE/CRDB/output/2026-03-25-5.5.1-Source-Inventory-Table.md`](ψ/incubate/DCCE/CRDB/output/2026-03-25-5.5.1-Source-Inventory-Table.md)

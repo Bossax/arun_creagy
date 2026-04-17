@@ -92,7 +92,7 @@ Use this as a **working agenda**, not a slide deck. For each segment the intent 
 ### Key topics and evidence anchors
 
 1. **Governance and operating-model gaps — Moderate to weak**
-   - Start from the execution-gap framing in [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md).
+   - Start from the execution-gap framing in [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md).
    - Ground in confirmed constraints and decisions from [`ψ/incubate/DCCE/CRDB/output/phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md) and sponsor directions from [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11_FGD2_action_summary.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11_FGD2_action_summary.md).
    - Highlight **Moderate to weak** status: strong description of the problem, but fewer named roles and operating rhythms.
 
@@ -149,7 +149,7 @@ Use this as a **working agenda**, not a slide deck. For each segment the intent 
    - Identify which of these decisions should be **pre-framed** with management and which are explicitly **open for workshop validation**.
 
 4. **Validation of governance roles and operating rhythm — Moderate to weak**
-   - Propose that the workshop test and validate candidate **role mappings** and **operating rhythms**, starting from the gaps in [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md).
+   - Propose that the workshop test and validate candidate **role mappings** and **operating rhythms**, starting from the gaps in [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md).
 
 ### Asks for Director Toey
 

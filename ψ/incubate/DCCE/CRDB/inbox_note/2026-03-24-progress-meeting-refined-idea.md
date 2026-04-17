@@ -35,7 +35,7 @@ Defensible talking points:
 ### 2.1 Governance and operating model
 
 Evidence base:
-- [`2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
+- [`2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
 - [`phase1_decision_log.md`](ψ/incubate/DCCE/CRDB/archive/phase1_decision_log.md)
 - [`2026-03-11_FGD2_action_summary.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-11_FGD2_action_summary.md)
 

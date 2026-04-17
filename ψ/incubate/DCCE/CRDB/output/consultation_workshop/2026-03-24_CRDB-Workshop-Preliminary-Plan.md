@@ -34,7 +34,7 @@ Implication: the workshop should focus on **validation and convergence**, not on
 
 3. **Shape governance roles and operating rhythm**
    - Use the execution-gap framing in:
-     - [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
+     - [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
    - Test candidate role mappings (owner, steward, custodian, reviewer, approver) and rhythms (update cycles, review points) against stakeholder expectations.
 
 4. **Align on CRDB’s role in data and model governance**

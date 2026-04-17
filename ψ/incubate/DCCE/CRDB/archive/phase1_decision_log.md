@@ -62,7 +62,7 @@ Last Updated: **2026-04-09 15:28 GMT+7**
 - **Historical artifacts for this branch (non-binding):**
   - Thai interview-prep draft: [`2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md)
   - Thai interview-prep draft (edited): [`2026-03-23-TH-prep-for-HEAD-CCE-interview-draft-edited.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft-edited.md)
-  - Project-wide execution gaps note used during planning: [`2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
+  - Project-wide execution gaps note used during planning: [`2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
   - Handoff capturing the planned interview linkage: [`2026-03-23_22-15_cce-interview-prep-and-progress-report.md`](ψ/inbox/handoff/2026-03-23_22-15_cce-interview-prep-and-progress-report.md)
 
 These artifacts remain valid as historical context on governance assumptions, NFCS-aligned roles, and execution gaps, but **do not represent confirmed Phase 1 decisions**.

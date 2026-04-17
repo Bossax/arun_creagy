@@ -4,7 +4,7 @@
 
 - สร้างโน้ตเตรียมสัมภาษณ์ภาษาไทยสำหรับผู้อำนวยการ CCE ในรูปแบบรายงานที่ใช้งานได้จริง: [`ψ/incubate/DCCE/CRDB/output/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md)
 - ยืนยันกรอบบทบาทว่า **CCE เป็น partial custodian เฉพาะสำหรับ data products หรือ web services ที่ CCE ดูแลระบบเอง** และใช้สมมติฐานนี้เป็นฐานในการออกแบบคำถาม
-- แยก “ช่องว่างภาพรวมของโครงการ” ออกไปอยู่ในไฟล์เฉพาะที่ [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md) เพื่อให้ไฟล์เตรียมสัมภาษณ์โฟกัสเฉพาะบทสนทนากับ CCE
+- แยก “ช่องว่างภาพรวมของโครงการ” ออกไปอยู่ในไฟล์เฉพาะที่ [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md) เพื่อให้ไฟล์เตรียมสัมภาษณ์โฟกัสเฉพาะบทสนทนากับ CCE
 - เพิ่มชุดคำถามเปิดการสนทนา (section 4.0) เป็นประโยคคำถามสั้น ๆ ที่ถามได้ทันทีในห้องประชุม โดยทุกคำถามผูกกับบทบาทจริงของ CCE
 
 ## Key patterns

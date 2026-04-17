@@ -16,13 +16,12 @@ Consolidate governance controls and data standards for Phase 1 execution.
 1. Publishing rails (open / G2G / internal) as explicit operational controls.
 2. Governance gates (classification, metadata, endorsement, boundary/crosswalk, event/revision controls).
 3. Reference standards posture:
-   - administrative boundaries,
-   - agency/entity codes,
-   - core variable/unit conventions.
+	- administrative boundaries,
+	- agency/entity codes,
+	- core variable/unit conventions.
 4. Minimum QC and flagging framework for dataset/product onboarding.
 
 ## Required outputs
-
 - Governance ownership matrix (owner/steward/custodian/reviewer/approver)
 - Rails and gates implementation checklist
 - Reference standards shortlist for immediate Phase 1 use

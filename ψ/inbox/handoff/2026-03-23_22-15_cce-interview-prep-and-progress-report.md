@@ -6,7 +6,7 @@
 **Context**: CRDB project — preparing for interview with Head of CCE and aligning expected interview results with interim-progress reporting.
 
 ## What We Did
-- Clarified the separation between **overall CRDB execution gaps** and **CCE-specific interview context**, and moved the general gaps into [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md).
+- Clarified the separation between **overall CRDB execution gaps** and **CCE-specific interview context**, and moved the general gaps into [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md).
 - Refined the English interview-prep note at [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-17200-prep-for-HEAD-CCE-interview.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-17200-prep-for-HEAD-CCE-interview.md) to focus strictly on the Head-of-CCE interview, including assumption-aware topics and questions.
 - Designed and drafted the Thai, report-style interview-prep note at [`ψ/incubate/DCCE/CRDB/output/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md), including:
   - clear statement that CCE is most plausibly a **partial custodian only for data products or web services physically operated by CCE**, with ownership/steward roles emphasized;
@@ -18,7 +18,7 @@
 ## Pending
 - [ ] Calibrate tone and detail in the Thai draft [`ψ/incubate/DCCE/CRDB/output/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md) against your own writing style and level of formality for the Head of CCE.
 - [ ] Decide which 3–5 opening questions from section 4.0 of the Thai draft you will actually use at the beginning of the meeting.
-- [ ] Map **expected interview outputs** (role clarifications, baseline priorities, governance splits) into a short **progress/update narrative** for CRDB interim reporting, using the gaps note in [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md) as the backbone.
+- [ ] Map **expected interview outputs** (role clarifications, baseline priorities, governance splits) into a short **progress/update narrative** for CRDB interim reporting, using the gaps note in [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md) as the backbone.
 - [ ] Review uncommitted changes flagged in git (notably the edited interview-prep files and recent CRDB chapter/output drafts) and decide what to stage/commit before or after the interview.
 
 ## Next Session
@@ -30,7 +30,7 @@
 ## Key Files
 - English interview prep: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-17200-prep-for-HEAD-CCE-interview.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-17200-prep-for-HEAD-CCE-interview.md)
 - Thai interview prep (draft): [`ψ/incubate/DCCE/CRDB/output/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md`](ψ/incubate/DCCE/CRDB/archive/2026-03-23-TH-prep-for-HEAD-CCE-interview-draft.md)
-- Project-wide execution gaps: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
+- Project-wide execution gaps: [`ψ/incubate/DCCE/CRDB/inbox_note/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md`](ψ/incubate/DCCE/CRDB/output/2026-03-23-general-execution-gaps-for-NCAIF-CDM-and-data-governance.md)
 - Session retrospective: [`ψ/memory/retrospectives/2026-03/23/22.05_rrr_cce-interview-prep-th-note.md`](ψ/memory/retrospectives/2026-03/23/22.05_rrr_cce-interview-prep-th-note.md)
 - Lesson learned (writing-th): [`ψ/memory/learnings/2026-03-23_cce-head-interview-prep-th-opening-questions-writing-th.md`](ψ/memory/learnings/2026-03-23_cce-head-interview-prep-th-opening-questions-writing-th.md)
 
