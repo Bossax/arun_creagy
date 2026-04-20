@@ -2,7 +2,7 @@
   "mcpServers": {
     "oracle-v2": {
       "command": "docker exec -i oracle-arun-creagy bun src/index.ts",
-      "args": [ ],
+      "args": [],
       "cwd": "C:/Users/sitth/OracleWorkspace/engine",
       "env": {},
       "description": "Oracle Tools (Arra Oracle v2)"
