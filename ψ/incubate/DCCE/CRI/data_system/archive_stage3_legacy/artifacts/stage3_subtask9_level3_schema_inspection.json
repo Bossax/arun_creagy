@@ -1,0 +1,156 @@
+{
+  "inputs": {
+    "worldpop_raster": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/0_bronze/worldpop/tha_pop_2020_CN_100m_R2025A_v1.tif",
+    "tambon_geometry_enriched": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/dopa/stage3_dopa_tambon_geometry_enriched.gpkg",
+    "tambon_crosswalk": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/dopa/stage3_dopa_tambon_boundary_code_crosswalk.csv",
+    "level2_impact": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_level2_impact_tambon_year_disaster.csv",
+    "level2_relief": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_level2_relief_tambon_year_sector.csv",
+    "subtask8_validation": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask8_level2_tambon_validation.json",
+    "subtask6_validation": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask6_relief_redistribution_validation.json"
+  },
+  "input_inspection": {
+    "raster": {
+      "path": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/0_bronze/worldpop/tha_pop_2020_CN_100m_R2025A_v1.tif",
+      "driver": "GTiff",
+      "width": 9953,
+      "height": 17824,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "EPSG:4326",
+      "nodata": -99999.0,
+      "bounds": {
+        "left": 97.34333222395999,
+        "bottom": 5.612500313549987,
+        "right": 105.63749885745,
+        "top": 20.465833587469987
+      },
+      "transform": [
+        0.00083333333,
+        0.0,
+        97.34333222395999,
+        0.0,
+        -0.00083333333,
+        20.465833587469987,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "tambon_geometry": {
+      "row_count": 8111,
+      "columns": [
+        "P_NAME_T",
+        "P_NAME_E",
+        "A_NAME_T",
+        "A_NAME_E",
+        "T_NAME_T",
+        "T_NAME_E",
+        "Area_km2",
+        "province_name_norm",
+        "district_name_norm",
+        "subdistrict_name_norm",
+        "province_code",
+        "province_name_th",
+        "district_code",
+        "district_name_th",
+        "subdistrict_code",
+        "subdistrict_name_th",
+        "tambon_match_count",
+        "match_status",
+        "geometry"
+      ],
+      "crs": "EPSG:32647",
+      "geom_types": [
+        "Polygon"
+      ]
+    },
+    "tambon_crosswalk": {
+      "row_count": 8111,
+      "columns": [
+        "P_NAME_T",
+        "P_NAME_E",
+        "A_NAME_T",
+        "A_NAME_E",
+        "T_NAME_T",
+        "T_NAME_E",
+        "Area_km2",
+        "province_name_norm",
+        "district_name_norm",
+        "subdistrict_name_norm",
+        "province_code",
+        "province_name_th",
+        "district_code",
+        "district_name_th",
+        "subdistrict_code",
+        "subdistrict_name_th",
+        "tambon_match_count",
+        "match_status"
+      ],
+      "match_status_counts": {
+        "matched": 7697,
+        "unmatched": 402,
+        "ambiguous": 12
+      }
+    },
+    "level2_impact": {
+      "row_count": 41133,
+      "columns": [
+        "year_be",
+        "disaster_type",
+        "province_code",
+        "province_name_th",
+        "district_code",
+        "district_name_th",
+        "subdistrict_code",
+        "subdistrict_name_th",
+        "village_event_row_count",
+        "unique_village_code_count",
+        "affected_people",
+        "affected_households",
+        "deaths",
+        "housing_damage",
+        "business_damage",
+        "agriculture_damage",
+        "livestock_damage",
+        "fishing_damage",
+        "transport_damage",
+        "health_damage",
+        "utilities_damage",
+        "numerator_source",
+        "module",
+        "bangkok_policy_applied",
+        "impact_source",
+        "level2_policy",
+        "geometry_match_status"
+      ]
+    },
+    "level2_relief": {
+      "row_count": 111489,
+      "columns": [
+        "year_be",
+        "province_code",
+        "district_code",
+        "subdistrict_code",
+        "district_name_th",
+        "subdistrict_name_th",
+        "relief_sector",
+        "redistribution_basis",
+        "redistributed_relief_baht",
+        "contributing_row_count",
+        "provincial_relief_baht_reference",
+        "module",
+        "relief_source",
+        "level2_policy",
+        "geometry_match_status"
+      ]
+    }
+  },
+  "derived_key_coverage": {
+    "impact_unique_tambon_keys": 6724,
+    "relief_unique_tambon_keys": 6697,
+    "crosswalk_matched_unique_tambon_keys": 2234,
+    "geometry_unique_tambon_keys": 7070,
+    "impact_bangkok_rows": 0,
+    "relief_bangkok_rows": 0
+  }
+}

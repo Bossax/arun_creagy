@@ -1,0 +1,60 @@
+
+    <!DOCTYPE html>
+    <html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRI Pillar 1: Human Impact Baseline</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <style>
+            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; background-color: #f8f9fa; }
+            .container { background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 1200px; margin: auto; }
+            h1 { color: #2c3e50; text-align: center; margin-bottom: 5px; }
+            p.subtitle { text-align: center; color: #7f8c8d; margin-bottom: 30px; font-style: italic; }
+            canvas { margin-top: 20px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Pillar 1: Top 20 Provinces by Human Impact</h1>
+            <p class="subtitle">Administrative Baseline (DDPM Silver Data 2557-2567)<br>
+            Note: Top 20 provinces account for 69.2% of all affected households.</p>
+            <canvas id="impactChart" height="120"></canvas>
+        </div>
+
+        <script>
+            const ctx = document.getElementById('impactChart').getContext('2d');
+            const impactChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['เชียงใหม่', 'นครศรีธรรมราช', 'นราธิวาส', 'เชียงราย', 'กาฬสินธุ์', 'สุราษฎร์ธานี', 'ลำปาง', 'สุโขทัย', 'ขอนแก่น', 'ปัตตานี', 'ยะลา', 'นครราชสีมา', 'นครสวรรค์', 'ประจวบคีรีขันธ์', 'พิษณุโลก', 'บุรีรัมย์', 'ชุมพร', 'อุบลราชธานี', 'กาญจนบุรี', 'แม่ฮ่องสอน'],
+                    datasets: [{
+                        label: 'Total Affected Households',
+                        data: [569028.0, 217331.0, 162336.0, 133097.0, 87609.0, 83723.0, 67492.0, 62031.0, 53182.0, 52877.0, 48058.0, 47977.0, 47443.0, 45471.0, 44394.0, 42383.0, 41850.0, 40841.0, 39935.0, 39130.0],
+                        backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'top' },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.parsed.y.toLocaleString() + ' Households';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: { beginAtZero: true, title: { display: true, text: 'Number of Affected Households' } },
+                        x: { title: { display: true, text: 'Province (จังหวัด)' } }
+                    }
+                }
+            });
+        </script>
+    </body>
+    </html>
+    

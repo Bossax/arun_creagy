@@ -1,0 +1,68 @@
+{
+  "status": "ok",
+  "inputs": {
+    "dim_location_master": "data\\2_gold\\dim_location_master.csv",
+    "province_shp": "data\\0_bronze\\dopa\\thailanda-administrative-boundary\\THA_Province.shp",
+    "tambon_shp": "data\\0_bronze\\dopa\\thailanda-administrative-boundary\\THA_Tambon.shp"
+  },
+  "observed_columns": {
+    "dim_location_master": [
+      "location_id",
+      "province_code",
+      "province_name_th",
+      "district_code",
+      "district_name_th",
+      "subdistrict_code",
+      "subdistrict_name_th",
+      "village_code",
+      "village_name_th",
+      "admin_level",
+      "source"
+    ],
+    "province_boundary": [
+      "P_NAME_T",
+      "P_NAME_E",
+      "Area_km2",
+      "geometry"
+    ],
+    "tambon_boundary": [
+      "P_NAME_T",
+      "P_NAME_E",
+      "A_NAME_T",
+      "A_NAME_E",
+      "T_NAME_T",
+      "T_NAME_E",
+      "Area_km2",
+      "geometry"
+    ]
+  },
+  "province_join": {
+    "total": 77,
+    "matched": 77,
+    "unmatched": 0,
+    "ambiguous": 0,
+    "match_rate": 1.0
+  },
+  "tambon_join": {
+    "total": 8111,
+    "matched": 7697,
+    "unmatched": 402,
+    "ambiguous": 12,
+    "match_rate": 0.948958
+  },
+  "outputs": {
+    "province_crosswalk_csv": "data\\1_silver\\dopa\\stage3_dopa_province_boundary_code_crosswalk.csv",
+    "tambon_crosswalk_csv": "data\\1_silver\\dopa\\stage3_dopa_tambon_boundary_code_crosswalk.csv",
+    "province_enriched_geometry_gpkg": "data\\1_silver\\dopa\\stage3_dopa_province_geometry_enriched.gpkg",
+    "tambon_enriched_geometry_gpkg": "data\\1_silver\\dopa\\stage3_dopa_tambon_geometry_enriched.gpkg",
+    "province_mismatch_csv": "artifacts\\reports\\stage3_subtask2_province_boundary_mismatch.csv",
+    "tambon_mismatch_csv": "artifacts\\reports\\stage3_subtask2_tambon_boundary_mismatch.csv",
+    "province_ambiguity_csv": "artifacts\\reports\\stage3_subtask2_province_spine_ambiguity.csv",
+    "tambon_ambiguity_csv": "artifacts\\reports\\stage3_subtask2_tambon_spine_ambiguity.csv",
+    "blocker_md": "artifacts\\reports\\stage3_subtask2_blockers.md"
+  },
+  "notes": {
+    "join_policy": "Province join on normalized Thai province name; Tambon join on normalized (province,district,subdistrict) Thai names",
+    "bangkok_blocker_policy": "Preserve unresolved Bangkok rows as explicit blockers; do not silently patch"
+  }
+}

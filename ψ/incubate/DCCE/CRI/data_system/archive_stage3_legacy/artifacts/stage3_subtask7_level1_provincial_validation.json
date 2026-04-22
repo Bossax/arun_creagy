@@ -1,0 +1,287 @@
+{
+  "status": "ok",
+  "generated_utc": "2026-04-21T02:27:36.041836+00:00",
+  "module": "Subtask 7 Level 1 Provincial Outputs",
+  "inputs": {
+    "denominator": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_dim_denominator_province_worldpop_2020.csv",
+    "impact_tambon_numerator": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_impact_tambon_numerator.csv",
+    "relief_tambon_redistributed": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_relief_tambon_redistributed_by_sector.csv",
+    "relief_source": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/ddpm/master_financial_relief_by_sector.csv",
+    "dim_location_master": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/dim_location_master.csv",
+    "bangkok_policy_resolution": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/CRI_Phase1_Stage3_Bangkok_Policy_Resolution.md",
+    "subtask4_validation": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask4_provincial_denominator_validation.json",
+    "subtask5_validation": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask5_tambon_numerator_validation.json",
+    "subtask6_validation": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask6_relief_redistribution_validation.json"
+  },
+  "input_inspection": {
+    "denominator_columns": [
+      "province_code",
+      "province_name_th",
+      "province_location_id",
+      "worldpop_population_2020",
+      "valid_pixel_count",
+      "nodata_pixel_count",
+      "match_status",
+      "denominator_source",
+      "processing_note",
+      "province_code_exists_in_dim_location_master"
+    ],
+    "impact_tambon_columns": [
+      "year_be",
+      "disaster_type",
+      "province_code",
+      "province_name_th",
+      "district_code",
+      "district_name_th",
+      "subdistrict_code",
+      "subdistrict_name_th",
+      "village_event_row_count",
+      "unique_village_code_count",
+      "affected_people",
+      "affected_households",
+      "deaths",
+      "housing_damage",
+      "business_damage",
+      "agriculture_damage",
+      "livestock_damage",
+      "fishing_damage",
+      "transport_damage",
+      "health_damage",
+      "utilities_damage",
+      "numerator_source",
+      "module",
+      "bangkok_policy_applied"
+    ],
+    "relief_redistributed_columns": [
+      "year_be",
+      "province_code",
+      "province_name_norm",
+      "district_code",
+      "district_name_th",
+      "subdistrict_code",
+      "subdistrict_name_th",
+      "relief_sector",
+      "provincial_relief_baht",
+      "redistributed_relief_baht",
+      "redistribution_basis",
+      "basis_value",
+      "basis_total",
+      "allocation_share",
+      "module",
+      "relief_source",
+      "basis_source",
+      "denominator_reference",
+      "redistribution_policy"
+    ],
+    "relief_source_columns": [
+      "จังหวัด",
+      "ปี",
+      "ด้านดำรงชีพ",
+      "ด้านสังคมสงเคราะห์",
+      "ด้านการแพทย์และสาธารณสุข",
+      "ด้านเกษตร_พืช",
+      "ด้านเกษตร_ประมง",
+      "ด้านเกษตร_ปศุสัตว์",
+      "ด้านเกษตร_อื่น",
+      "ด้านบรรเทาสาธารณภัย",
+      "ด้านการปฏิบัติงานบรรเทาทุกข์",
+      "เชิงป้องกันหรือยับยั้ง",
+      "รวมทั้งสิ้น",
+      "วงเงินเสนอ",
+      "วงเงินอนุมัติ",
+      "วงเงินไม่อนุมัติ"
+    ],
+    "dim_columns": [
+      "location_id",
+      "province_code",
+      "province_name_th",
+      "district_code",
+      "district_name_th",
+      "subdistrict_code",
+      "subdistrict_name_th",
+      "village_code",
+      "village_name_th",
+      "admin_level",
+      "source"
+    ],
+    "denominator_row_count": 77,
+    "impact_tambon_row_count": 41133,
+    "relief_redistributed_row_count": 111489,
+    "relief_source_row_count": 1872,
+    "dim_row_count": 69704
+  },
+  "output_schemas": {
+    "impact_level1_columns": [
+      "year_be",
+      "province_code",
+      "province_name_th",
+      "disaster_type",
+      "village_event_row_count",
+      "unique_village_code_count",
+      "affected_people",
+      "affected_households",
+      "deaths",
+      "housing_damage",
+      "business_damage",
+      "agriculture_damage",
+      "livestock_damage",
+      "fishing_damage",
+      "transport_damage",
+      "health_damage",
+      "utilities_damage",
+      "module",
+      "impact_source",
+      "bangkok_policy_note"
+    ],
+    "relief_level1_columns": [
+      "year_be",
+      "province_code",
+      "province_name_norm",
+      "relief_sector",
+      "provincial_relief_baht_source",
+      "redistributed_relief_baht_from_subtask6",
+      "unallocated_relief_gap_baht",
+      "redistribution_coverage_status",
+      "module",
+      "relief_source",
+      "redistribution_reference"
+    ]
+  },
+  "coverage_checks": {
+    "denominator_province_count": 77,
+    "impact_level1_province_count": 76,
+    "relief_level1_province_count": 77,
+    "impact_province_codes_missing_from_denominator": [],
+    "relief_province_codes_missing_from_denominator": [],
+    "denominator_province_codes_missing_from_impact": [
+      "10"
+    ],
+    "denominator_province_codes_missing_from_relief": [],
+    "relief_source_unmatched_province_rows": 24
+  },
+  "bangkok_policy_checks": {
+    "bangkok_present_in_denominator": true,
+    "bangkok_rows_in_impact_level1": 0,
+    "bangkok_rows_in_relief_level1": 27,
+    "bangkok_relief_source_total_baht": 3687372370.42,
+    "bangkok_relief_redistributed_total_baht": 0.0,
+    "bangkok_level1_policy_note": "Bangkok included at Level 1 via denominator and provincial relief source; shared lower-level redistributed stream remains zero by policy."
+  },
+  "denominator_integrity_checks": {
+    "denominator_unique_province_codes": 77,
+    "denominator_null_population_rows": 0,
+    "denominator_nonpositive_population_rows": 0,
+    "denominator_non_matched_rows": 0
+  },
+  "reconciliation_checks": {
+    "impact_from_subtask5_to_level1": {
+      "village_event_row_count": {
+        "source_total_from_subtask5": 168685.0,
+        "level1_output_total": 168685.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "unique_village_code_count": {
+        "source_total_from_subtask5": 136600.0,
+        "level1_output_total": 136600.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "affected_people": {
+        "source_total_from_subtask5": 1312523.0,
+        "level1_output_total": 1312523.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "affected_households": {
+        "source_total_from_subtask5": 2366545.0,
+        "level1_output_total": 2366545.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "deaths": {
+        "source_total_from_subtask5": 925.0,
+        "level1_output_total": 925.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "housing_damage": {
+        "source_total_from_subtask5": 830145.0,
+        "level1_output_total": 830145.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "business_damage": {
+        "source_total_from_subtask5": 35856.0,
+        "level1_output_total": 35856.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "agriculture_damage": {
+        "source_total_from_subtask5": 3510297.05,
+        "level1_output_total": 3510297.05,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "livestock_damage": {
+        "source_total_from_subtask5": 256238.0,
+        "level1_output_total": 256238.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "fishing_damage": {
+        "source_total_from_subtask5": 21619.7,
+        "level1_output_total": 21619.7,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "transport_damage": {
+        "source_total_from_subtask5": 17394.0,
+        "level1_output_total": 17394.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "health_damage": {
+        "source_total_from_subtask5": 47.0,
+        "level1_output_total": 47.0,
+        "difference": 0.0,
+        "reconciled": true
+      },
+      "utilities_damage": {
+        "source_total_from_subtask5": 3178.0,
+        "level1_output_total": 3178.0,
+        "difference": 0.0,
+        "reconciled": true
+      }
+    },
+    "relief_source_total_baht": 121959093674.35,
+    "relief_level1_source_total_baht": 121959093674.35,
+    "relief_level1_redistributed_total_baht": 14212058712.18,
+    "relief_level1_unallocated_gap_total_baht": 107747034962.17001,
+    "relief_source_to_level1_source_reconciled": true,
+    "relief_source_equals_redistributed_reconciled": false
+  },
+  "outputs": {
+    "impact_level1_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_level1_impact_province_year_disaster.csv",
+    "relief_level1_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_level1_relief_province_year_sector.csv",
+    "validation_json": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask7_level1_provincial_validation.json",
+    "report_md": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/CRI_Phase1_Stage3_Subtask7_Level1_Provincial_Outputs_Report.md",
+    "impact_level1_row_count": 2004,
+    "relief_level1_row_count": 7249
+  },
+  "blockers": [],
+  "unresolved_blockers": [
+    {
+      "code": "level1_impact_bangkok_not_observed_in_shared_input",
+      "message": "Bangkok impact rows are not present in stage3_fact_impact_tambon_numerator because shared Level 2 excludes Bangkok by policy; no Bangkok impact contribution is fabricated in Level 1 impact output."
+    },
+    {
+      "code": "relief_unallocated_gaps_from_subtask6_persist",
+      "message": "Subtask 6 unallocated province-year-sector gaps remain visible in Level 1 relief output via unallocated_relief_gap_baht and are not silently corrected."
+    },
+    {
+      "code": "non_spatial_relief_rows_unmatched",
+      "message": "Some relief source rows (e.g., non-spatial agency rows) remain unmatched to canonical province codes and are excluded from Level 1 province output."
+    }
+  ]
+}

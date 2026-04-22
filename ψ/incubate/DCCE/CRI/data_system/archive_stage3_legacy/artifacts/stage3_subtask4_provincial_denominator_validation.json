@@ -1,0 +1,98 @@
+{
+  "status": "ok",
+  "generated_utc": "2026-04-21T01:47:58.289432+00:00",
+  "module": "Subtask 4 Provincial Denominator",
+  "inputs": {
+    "raster": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/0_bronze/worldpop/tha_pop_2020_CN_100m_R2025A_v1.tif",
+    "province_enriched_geometry": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/dopa/stage3_dopa_province_geometry_enriched.gpkg",
+    "province_crosswalk": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/dopa/stage3_dopa_province_boundary_code_crosswalk.csv",
+    "dim_location_master": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/dim_location_master.csv"
+  },
+  "input_inspection": {
+    "gpkg_layers": [
+      "province_enriched"
+    ],
+    "gpkg_layer_used": "province_enriched",
+    "gpkg_columns": [
+      "P_NAME_T",
+      "P_NAME_E",
+      "Area_km2",
+      "province_name_norm",
+      "province_code",
+      "province_name_th",
+      "province_match_count",
+      "match_status",
+      "geometry"
+    ],
+    "gpkg_feature_count": 77,
+    "gpkg_crs": "EPSG:32647",
+    "crosswalk_columns": [
+      "P_NAME_T",
+      "P_NAME_E",
+      "Area_km2",
+      "province_name_norm",
+      "province_code",
+      "province_name_th",
+      "province_match_count",
+      "match_status"
+    ],
+    "crosswalk_row_count": 77,
+    "raster": {
+      "path": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/0_bronze/worldpop/tha_pop_2020_CN_100m_R2025A_v1.tif",
+      "driver": "GTiff",
+      "width": 9953,
+      "height": 17824,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "EPSG:4326",
+      "nodata": -99999.0,
+      "bounds": {
+        "left": 97.34333222395999,
+        "bottom": 5.612500313549987,
+        "right": 105.63749885745,
+        "top": 20.465833587469987
+      },
+      "transform": [
+        0.00083333333,
+        0.0,
+        97.34333222395999,
+        0.0,
+        -0.00083333333,
+        20.465833587469987,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "policy_checks": {
+    "bangkok_level1_included": true,
+    "bangkok_rows_in_denominator": 1,
+    "note": "Subtask 4 is Level 1 only. Shared Level 2 and Level 3 Bangkok exclusions are out-of-scope for this module."
+  },
+  "coverage_checks": {
+    "total_province_features": 77,
+    "matched_province_features": 77,
+    "denominator_rows": 77,
+    "missing_from_crosswalk": [],
+    "missing_from_denominator": []
+  },
+  "quality_checks": {
+    "null_population_rows": 0,
+    "zero_population_rows": 0,
+    "negative_population_rows": 0,
+    "null_valid_pixel_rows": 0,
+    "zero_valid_pixel_rows": 0,
+    "raster_read_error_rows": 0,
+    "all_province_codes_exist": true,
+    "missing_province_codes": [],
+    "raster_read_error_province_codes": []
+  },
+  "output": {
+    "denominator_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_dim_denominator_province_worldpop_2020.csv",
+    "validation_json": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask4_provincial_denominator_validation.json",
+    "report_md": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/CRI_Phase1_Stage3_Subtask4_Provincial_Denominator_Report.md",
+    "row_count": 77
+  },
+  "blockers": []
+}

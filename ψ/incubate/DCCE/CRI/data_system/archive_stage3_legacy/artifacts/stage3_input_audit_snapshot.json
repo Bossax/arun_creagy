@@ -1,0 +1,188 @@
+{
+  "generated_at_utc": "2026-04-20T16:41:51.314091+00:00",
+  "base": "ψ\\incubate\\DCCE\\CRI\\data_system",
+  "csv_audit": [
+    {
+      "rel_path": "data/2_gold/dim_location_master.csv",
+      "exists": true,
+      "columns": [
+        "location_id",
+        "province_code",
+        "province_name_th",
+        "district_code",
+        "district_name_th",
+        "subdistrict_code",
+        "subdistrict_name_th",
+        "village_code",
+        "village_name_th",
+        "admin_level",
+        "source"
+      ],
+      "row_count_estimate": 69704
+    },
+    {
+      "rel_path": "data/2_gold/dim_location.csv",
+      "exists": true,
+      "columns": [
+        "location_id",
+        "province_name_th",
+        "district_name_th",
+        "subdistrict_name_th",
+        "village_name_th",
+        "admin_level_note",
+        "location_nk",
+        "source",
+        "source_filename"
+      ],
+      "row_count_estimate": 86
+    },
+    {
+      "rel_path": "data/1_silver/ddpm/master_village_disaster_stat_2557_2567.csv",
+      "exists": true,
+      "columns": [
+        "Incident Name",
+        "ปี",
+        "Disaster Type",
+        "Disaster Date",
+        "Province Code",
+        "Province",
+        "District Code",
+        "District",
+        "Subdistrict Code",
+        "Subdistrict",
+        "Moo",
+        "Municipal Code",
+        "Municipality",
+        "Community",
+        "Village Code",
+        "Zone Center Name",
+        "Title",
+        "Cause",
+        "Status",
+        "Situation",
+        "Relief Declared Date",
+        "Disaster Area Date",
+        "Other Announce Date",
+        "End Disaster Date",
+        "Affected People",
+        "Affected Households",
+        "Evacuated People",
+        "Evacuated Households",
+        "Deaths",
+        "Missing",
+        "Injured",
+        "Housing Damage",
+        "Business Damage",
+        "Agriculture Damage",
+        "Livestock Damage",
+        "Fishing Damage",
+        "Transport Damage",
+        "Health Damage",
+        "Culture Damage",
+        "Education/Sports",
+        "Utilities Damage",
+        "Govt Property Damage",
+        "Other Public Benefits_1",
+        "Other Public Benefits_2"
+      ],
+      "row_count_estimate": 209935
+    },
+    {
+      "rel_path": "data/1_silver/ddpm/master_financial_relief_by_sector.csv",
+      "exists": true,
+      "columns": [
+        "จังหวัด",
+        "ปี",
+        "ด้านดำรงชีพ",
+        "ด้านสังคมสงเคราะห์",
+        "ด้านการแพทย์และสาธารณสุข",
+        "ด้านเกษตร_พืช",
+        "ด้านเกษตร_ประมง",
+        "ด้านเกษตร_ปศุสัตว์",
+        "ด้านเกษตร_อื่น",
+        "ด้านบรรเทาสาธารณภัย",
+        "ด้านการปฏิบัติงานบรรเทาทุกข์",
+        "เชิงป้องกันหรือยับยั้ง",
+        "รวมทั้งสิ้น",
+        "วงเงินเสนอ",
+        "วงเงินอนุมัติ",
+        "วงเงินไม่อนุมัติ"
+      ],
+      "row_count_estimate": 1872
+    },
+    {
+      "rel_path": "data/1_silver/bma/bkk_hazard_impact_yearly.csv",
+      "exists": true,
+      "columns": [
+        "impact_id",
+        "import_batch_id",
+        "report_year_be",
+        "report_year_ce",
+        "location_id",
+        "hazard_type_id",
+        "deaths_count",
+        "affected_people_count",
+        "relief_amount_baht",
+        "source_sheet_name",
+        "source_row_no",
+        "has_observation"
+      ],
+      "row_count_estimate": 9
+    }
+  ],
+  "shapefile_audit": {
+    "THA_Province": {
+      "shp_exists": true,
+      "dbf_exists": true,
+      "shx_exists": true,
+      "cpg_exists": true,
+      "dbf_fields": [
+        "P_NAME_T",
+        "P_NAME_E",
+        "Area_km2"
+      ],
+      "prj": "PROJCS[\"WGS_1984_UTM_Zone_47N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",99.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]"
+    },
+    "THA_Amphoe": {
+      "shp_exists": true,
+      "dbf_exists": true,
+      "shx_exists": true,
+      "cpg_exists": true,
+      "dbf_fields": [
+        "P_NAME_T",
+        "P_NAME_E",
+        "A_NAME_T",
+        "A_NAME_E",
+        "Area_km2"
+      ],
+      "prj": "PROJCS[\"WGS_1984_UTM_Zone_47N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",99.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]"
+    },
+    "THA_Tambon": {
+      "shp_exists": true,
+      "dbf_exists": true,
+      "shx_exists": true,
+      "cpg_exists": true,
+      "dbf_fields": [
+        "P_NAME_T",
+        "P_NAME_E",
+        "A_NAME_T",
+        "A_NAME_E",
+        "T_NAME_T",
+        "T_NAME_E",
+        "Area_km2"
+      ],
+      "prj": "PROJCS[\"WGS_1984_UTM_Zone_47N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.017453292519943295]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",99],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"Meter\",1]]"
+    }
+  },
+  "worldpop": {
+    "expected_tif_rel_path": "data/0_bronze/worldpop/tha_ppp_2020.tif",
+    "alt_tiff_rel_path": "data/0_bronze/worldpop/tha_ppp_2020.tiff",
+    "tif_exists": true,
+    "tiff_exists": false,
+    "raster_details": {
+      "exists": true,
+      "file_size_bytes": 177635328,
+      "rasterio_error": "ModuleNotFoundError: No module named 'rasterio'"
+    }
+  }
+}

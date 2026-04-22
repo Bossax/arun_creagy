@@ -1,0 +1,153 @@
+{
+  "status": "ok",
+  "generated_utc": "2026-04-21T02:16:44.502943+00:00",
+  "module": "Subtask 6 Relief Redistribution",
+  "inputs": {
+    "relief_sector": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/ddpm/master_financial_relief_by_sector.csv",
+    "tambon_numerator": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_impact_tambon_numerator.csv",
+    "provincial_denominator": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_dim_denominator_province_worldpop_2020.csv",
+    "dim_location_master": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/dim_location_master.csv",
+    "bangkok_policy_resolution": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/CRI_Phase1_Stage3_Bangkok_Policy_Resolution.md"
+  },
+  "input_inspection": {
+    "relief_columns": [
+      "จังหวัด",
+      "ปี",
+      "ด้านดำรงชีพ",
+      "ด้านสังคมสงเคราะห์",
+      "ด้านการแพทย์และสาธารณสุข",
+      "ด้านเกษตร_พืช",
+      "ด้านเกษตร_ประมง",
+      "ด้านเกษตร_ปศุสัตว์",
+      "ด้านเกษตร_อื่น",
+      "ด้านบรรเทาสาธารณภัย",
+      "ด้านการปฏิบัติงานบรรเทาทุกข์",
+      "เชิงป้องกันหรือยับยั้ง",
+      "รวมทั้งสิ้น",
+      "วงเงินเสนอ",
+      "วงเงินอนุมัติ",
+      "วงเงินไม่อนุมัติ"
+    ],
+    "numerator_columns": [
+      "year_be",
+      "disaster_type",
+      "province_code",
+      "province_name_th",
+      "district_code",
+      "district_name_th",
+      "subdistrict_code",
+      "subdistrict_name_th",
+      "village_event_row_count",
+      "unique_village_code_count",
+      "affected_people",
+      "affected_households",
+      "deaths",
+      "housing_damage",
+      "business_damage",
+      "agriculture_damage",
+      "livestock_damage",
+      "fishing_damage",
+      "transport_damage",
+      "health_damage",
+      "utilities_damage",
+      "numerator_source",
+      "module",
+      "bangkok_policy_applied"
+    ],
+    "denominator_columns": [
+      "province_code",
+      "province_name_th",
+      "province_location_id",
+      "worldpop_population_2020",
+      "valid_pixel_count",
+      "nodata_pixel_count",
+      "match_status",
+      "denominator_source",
+      "processing_note",
+      "province_code_exists_in_dim_location_master"
+    ],
+    "dim_columns": [
+      "location_id",
+      "province_code",
+      "province_name_th",
+      "district_code",
+      "district_name_th",
+      "subdistrict_code",
+      "subdistrict_name_th",
+      "village_code",
+      "village_name_th",
+      "admin_level",
+      "source"
+    ],
+    "relief_row_count": 1872,
+    "numerator_row_count": 41133,
+    "denominator_row_count": 77,
+    "dim_row_count": 69704,
+    "relief_sector_columns_used": [
+      "ด้านดำรงชีพ",
+      "ด้านสังคมสงเคราะห์",
+      "ด้านการแพทย์และสาธารณสุข",
+      "ด้านเกษตร_พืช",
+      "ด้านเกษตร_ประมง",
+      "ด้านเกษตร_ปศุสัตว์",
+      "ด้านเกษตร_อื่น",
+      "ด้านบรรเทาสาธารณภัย",
+      "ด้านการปฏิบัติงานบรรเทาทุกข์",
+      "เชิงป้องกันหรือยับยั้ง"
+    ],
+    "candidate_basis_metrics": [
+      "affected_households",
+      "affected_people",
+      "village_event_row_count"
+    ]
+  },
+  "policy_checks": {
+    "bangkok_relief_rows_excluded_from_shared_redistribution": 24,
+    "bangkok_rows_in_redistributed_output": 0,
+    "bangkok_policy_compliant": true,
+    "policy_note": "Bangkok excluded from shared lower-level redistribution per Stage 3 policy."
+  },
+  "coverage_checks": {
+    "matched_relief_rows": 1848,
+    "unmatched_province_rows": 24,
+    "matched_non_bangkok_relief_rows": 1824,
+    "positive_relief_province_year_sector_rows": 7222,
+    "allocated_province_year_sector_rows": 2249,
+    "unallocated_province_year_sector_rows": 4973,
+    "redistributed_output_rows": 111489,
+    "basis_groups": 630,
+    "basis_groups_with_metric_none": 0
+  },
+  "basis_selection_summary": {
+    "affected_households_groups": 614,
+    "affected_people_groups": 2,
+    "village_event_row_count_groups": 14,
+    "none_groups": 0
+  },
+  "reconciliation_checks": {
+    "group_count": 2249,
+    "reconciled_group_count": 2249,
+    "non_reconciled_group_count": 0,
+    "max_abs_difference": 2.9802322387695312e-08
+  },
+  "null_zero_checks": {
+    "null_allocation_share_rows": 0,
+    "zero_allocation_share_rows": 17896,
+    "null_redistributed_amount_rows": 0,
+    "negative_redistributed_amount_rows": 0
+  },
+  "denominator_linkage_check": {
+    "denominator_province_code_count": 77,
+    "redistribution_province_codes_missing_in_denominator": [],
+    "note": "Provincial denominator is inspected and linked by province code as a Stage 3 input dependency for downstream Level 1/Level 2 use."
+  },
+  "outputs": {
+    "redistributed_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_relief_tambon_redistributed_by_sector.csv",
+    "reconciliation_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask6_relief_redistribution_reconciliation.csv",
+    "unmatched_province_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask6_relief_redistribution_unmatched_province.csv",
+    "unallocated_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask6_relief_redistribution_unallocated_province_year.csv",
+    "validation_json": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask6_relief_redistribution_validation.json",
+    "report_md": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/CRI_Phase1_Stage3_Subtask6_Redistribution_Report.md"
+  },
+  "blockers": []
+}

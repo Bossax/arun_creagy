@@ -1,0 +1,99 @@
+{
+  "status": "ok",
+  "generated_utc": "2026-04-21T02:54:26.141374+00:00",
+  "module": "Subtask 9 Level 3 Spatial Outputs",
+  "inputs": {
+    "worldpop_raster": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/0_bronze/worldpop/tha_pop_2020_CN_100m_R2025A_v1.tif",
+    "tambon_geometry_enriched": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/dopa/stage3_dopa_tambon_geometry_enriched.gpkg",
+    "tambon_crosswalk": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/dopa/stage3_dopa_tambon_boundary_code_crosswalk.csv",
+    "level2_impact": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_level2_impact_tambon_year_disaster.csv",
+    "level2_relief": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_level2_relief_tambon_year_sector.csv",
+    "bangkok_policy": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/CRI_Phase1_Stage3_Bangkok_Policy_Resolution.md",
+    "subtask8_validation": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask8_level2_tambon_validation.json",
+    "subtask6_validation": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask6_relief_redistribution_validation.json"
+  },
+  "input_inspection": {
+    "raster": {
+      "path": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/0_bronze/worldpop/tha_pop_2020_CN_100m_R2025A_v1.tif",
+      "driver": "GTiff",
+      "width": 9953,
+      "height": 17824,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "EPSG:4326",
+      "nodata": -99999.0,
+      "bounds": {
+        "left": 97.34333222395999,
+        "bottom": 5.612500313549987,
+        "right": 105.63749885745,
+        "top": 20.465833587469987
+      },
+      "transform": [
+        0.00083333333,
+        0.0,
+        97.34333222395999,
+        0.0,
+        -0.00083333333,
+        20.465833587469987,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "tambon_geometry_crs": "EPSG:32647",
+    "tambon_geometry_row_count": 8111,
+    "tambon_crosswalk_row_count": 8111,
+    "crosswalk_match_status_counts": {
+      "matched": 7697,
+      "unmatched": 402,
+      "ambiguous": 12
+    },
+    "level2_impact_row_count": 41133,
+    "level2_relief_row_count": 111489
+  },
+  "policy_checks": {
+    "bangkok_rows_in_level2_impact_input": 0,
+    "bangkok_rows_in_level2_relief_input": 0,
+    "bangkok_rows_in_level3_eligible_geometry": 0,
+    "bangkok_exclusion_compliant": true,
+    "policy_note": "Shared Level 3 excludes Bangkok per Stage 3 Bangkok policy resolution."
+  },
+  "spatial_coverage_checks": {
+    "eligible_tambon_geometry_rows": 7539,
+    "eligible_unique_tambon_keys": 6904,
+    "level3_mask_eligible_pixel_count": 59117643,
+    "level3_population_valid_pixel_count": 19057722,
+    "eligible_keys_with_level2_impact": 6411,
+    "eligible_keys_without_level2_impact": 493,
+    "eligible_keys_with_level2_relief": 6385,
+    "eligible_keys_without_level2_relief": 519
+  },
+  "inherited_gap_checks": {
+    "subtask8_impact_rows_missing_matched_geometry": 2033,
+    "subtask8_relief_rows_missing_matched_geometry": 5627,
+    "subtask8_bangkok_subtask2_mismatch_rows": 2,
+    "subtask6_unallocated_province_year_sector_rows": 4973
+  },
+  "outputs": {
+    "level3_population_raster": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_level3_worldpop_2020_non_bangkok_matched_tambon.tif",
+    "level3_eligibility_mask_raster": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_level3_tambon_eligibility_mask_non_bangkok.tif",
+    "tambon_key_coverage_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask9_level3_tambon_key_coverage.csv",
+    "validation_json": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask9_level3_spatial_validation.json",
+    "report_md": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/CRI_Phase1_Stage3_Subtask9_Level3_Spatial_Outputs_Report.md"
+  },
+  "blockers": [],
+  "unresolved_blockers": [
+    {
+      "code": "inherited_level2_geometry_join_incomplete",
+      "message": "Some published Level 2 tambon keys are not present in matched tambon geometry crosswalk and remain in explicit join-failure artifacts."
+    },
+    {
+      "code": "inherited_bangkok_tambon_crosswalk_mismatch_persist",
+      "message": "Bangkok tambon mismatch rows from Subtask 2 remain unresolved and are preserved as policy evidence for lower-level exclusion."
+    },
+    {
+      "code": "inherited_subtask6_unallocated_groups",
+      "message": "Subtask 6 preserved 4973 unallocated province-year-sector groups; Level 3 shared outputs preserve this inherited allocation gap without silent correction."
+    }
+  ]
+}

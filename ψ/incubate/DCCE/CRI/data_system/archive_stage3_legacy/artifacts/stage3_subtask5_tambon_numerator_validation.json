@@ -1,0 +1,197 @@
+{
+  "status": "ok",
+  "generated_utc": "2026-04-21T02:01:28.375105+00:00",
+  "module": "Subtask 5 Tambon Numerator",
+  "inputs": {
+    "ddpm_village_impact": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/ddpm/master_village_disaster_stat_2557_2567.csv",
+    "dim_location_master": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/dim_location_master.csv",
+    "bangkok_policy_resolution": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/CRI_Phase1_Stage3_Bangkok_Policy_Resolution.md",
+    "subtask2_tambon_mismatch_log": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask2_tambon_boundary_mismatch.csv"
+  },
+  "input_inspection": {
+    "ddpm_columns": [
+      "Incident Name",
+      "ปี",
+      "Disaster Type",
+      "Disaster Date",
+      "Province Code",
+      "Province",
+      "District Code",
+      "District",
+      "Subdistrict Code",
+      "Subdistrict",
+      "Moo",
+      "Municipal Code",
+      "Municipality",
+      "Community",
+      "Village Code",
+      "Zone Center Name",
+      "Title",
+      "Cause",
+      "Status",
+      "Situation",
+      "Relief Declared Date",
+      "Disaster Area Date",
+      "Other Announce Date",
+      "End Disaster Date",
+      "Affected People",
+      "Affected Households",
+      "Evacuated People",
+      "Evacuated Households",
+      "Deaths",
+      "Missing",
+      "Injured",
+      "Housing Damage",
+      "Business Damage",
+      "Agriculture Damage",
+      "Livestock Damage",
+      "Fishing Damage",
+      "Transport Damage",
+      "Health Damage",
+      "Culture Damage",
+      "Education/Sports",
+      "Utilities Damage",
+      "Govt Property Damage",
+      "Other Public Benefits_1",
+      "Other Public Benefits_2"
+    ],
+    "dim_columns": [
+      "location_id",
+      "province_code",
+      "province_name_th",
+      "district_code",
+      "district_name_th",
+      "subdistrict_code",
+      "subdistrict_name_th",
+      "village_code",
+      "village_name_th",
+      "admin_level",
+      "source"
+    ],
+    "ddpm_row_count": 209935,
+    "dim_row_count": 69704,
+    "metric_columns_used": [
+      "Affected People",
+      "Affected Households",
+      "Deaths",
+      "Housing Damage",
+      "Business Damage",
+      "Agriculture Damage",
+      "Livestock Damage",
+      "Fishing Damage",
+      "Transport Damage",
+      "Health Damage",
+      "Utilities Damage"
+    ],
+    "canonical_key_columns_used": [
+      "village_code",
+      "province_code",
+      "district_code",
+      "subdistrict_code"
+    ],
+    "village_spine_rows": 62597,
+    "village_unique_key_count": 62597,
+    "village_conflict_count": 0
+  },
+  "coverage_checks": {
+    "total_ddpm_rows": 209935,
+    "matched_rows": 168685,
+    "matched_non_bangkok_rows": 168685,
+    "unmatched_village_code_rows": 41250,
+    "null_village_code_rows": 0,
+    "matched_rate": 0.803510610427037,
+    "unique_matched_village_codes": 51735
+  },
+  "bangkok_policy_checks": {
+    "policy_level2_shared": "exclude_bangkok",
+    "matched_bangkok_rows_excluded": 0,
+    "bangkok_rows_in_output": 0,
+    "subtask2_bangkok_boundary_mismatch_rows": 2,
+    "policy_compliant": true
+  },
+  "code_consistency_checks": {
+    "province_code_match_rows": 168679,
+    "province_code_mismatch_rows": 6,
+    "district_code_match_rows": 168677,
+    "district_code_mismatch_rows": 8,
+    "subdistrict_code_match_rows": 168604,
+    "subdistrict_code_mismatch_rows": 81
+  },
+  "reconciliation": {
+    "affected_people": {
+      "source_total_non_bangkok_matched": 1312523.0,
+      "output_total": 1312523.0,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "affected_households": {
+      "source_total_non_bangkok_matched": 2366545.0,
+      "output_total": 2366545.0,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "deaths": {
+      "source_total_non_bangkok_matched": 925.0,
+      "output_total": 925.0,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "housing_damage": {
+      "source_total_non_bangkok_matched": 830145.0,
+      "output_total": 830145.0,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "business_damage": {
+      "source_total_non_bangkok_matched": 35856.0,
+      "output_total": 35856.0,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "agriculture_damage": {
+      "source_total_non_bangkok_matched": 3510297.05,
+      "output_total": 3510297.05,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "livestock_damage": {
+      "source_total_non_bangkok_matched": 256238.0,
+      "output_total": 256238.0,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "fishing_damage": {
+      "source_total_non_bangkok_matched": 21619.7,
+      "output_total": 21619.7,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "transport_damage": {
+      "source_total_non_bangkok_matched": 17394.0,
+      "output_total": 17394.0,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "health_damage": {
+      "source_total_non_bangkok_matched": 47.0,
+      "output_total": 47.0,
+      "difference": 0.0,
+      "reconciled": true
+    },
+    "utilities_damage": {
+      "source_total_non_bangkok_matched": 3178.0,
+      "output_total": 3178.0,
+      "difference": 0.0,
+      "reconciled": true
+    }
+  },
+  "outputs": {
+    "tambon_numerator_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_impact_tambon_numerator.csv",
+    "unmatched_village_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask5_tambon_numerator_unmatched_village_code.csv",
+    "null_village_code_csv": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask5_tambon_numerator_null_village_code.csv",
+    "validation_json": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/stage3_subtask5_tambon_numerator_validation.json",
+    "report_md": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/artifacts/reports/CRI_Phase1_Stage3_Subtask5_Tambon_Numerator_Report.md",
+    "tambon_numerator_row_count": 41133
+  },
+  "blockers": []
+}

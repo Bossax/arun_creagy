@@ -1,0 +1,144 @@
+{
+  "generated_utc": "2026-04-21T01:47:07.373256+00:00",
+  "old_file": {
+    "path": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/0_bronze/worldpop/tha_ppp_2020.tif",
+    "exists": true,
+    "meta": {
+      "driver": "GTiff",
+      "width": 9952,
+      "height": 17816,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "EPSG:4326",
+      "nodata": -99999.0,
+      "bounds": {
+        "left": 97.345416292,
+        "bottom": 5.616250179,
+        "right": 105.638749592,
+        "top": 20.462916786
+      },
+      "block_shapes": [
+        [
+          1,
+          9952
+        ]
+      ]
+    },
+    "block_read_check": {
+      "total_blocks": 17816,
+      "failed_blocks": 11262,
+      "first_errors": [
+        {
+          "col_off": 0,
+          "row_off": 6554,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        },
+        {
+          "col_off": 0,
+          "row_off": 6555,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        },
+        {
+          "col_off": 0,
+          "row_off": 6556,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        },
+        {
+          "col_off": 0,
+          "row_off": 6557,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        },
+        {
+          "col_off": 0,
+          "row_off": 6558,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        },
+        {
+          "col_off": 0,
+          "row_off": 6559,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        },
+        {
+          "col_off": 0,
+          "row_off": 6560,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        },
+        {
+          "col_off": 0,
+          "row_off": 6561,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        },
+        {
+          "col_off": 0,
+          "row_off": 6562,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        },
+        {
+          "col_off": 0,
+          "row_off": 6563,
+          "width": 9952,
+          "height": 1,
+          "error_type": "RasterioIOError",
+          "error_message": "Read failed. See previous exception for details."
+        }
+      ]
+    }
+  },
+  "new_file": {
+    "path": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/0_bronze/worldpop/tha_pop_2020_CN_100m_R2025A_v1.tif",
+    "exists": true,
+    "meta": {
+      "driver": "GTiff",
+      "width": 9953,
+      "height": 17824,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "EPSG:4326",
+      "nodata": -99999.0,
+      "bounds": {
+        "left": 97.34333222395999,
+        "bottom": 5.612500313549987,
+        "right": 105.63749885745,
+        "top": 20.465833587469987
+      },
+      "block_shapes": [
+        [
+          512,
+          512
+        ]
+      ]
+    },
+    "block_read_check": {
+      "total_blocks": 700,
+      "failed_blocks": 0,
+      "first_errors": []
+    }
+  }
+}

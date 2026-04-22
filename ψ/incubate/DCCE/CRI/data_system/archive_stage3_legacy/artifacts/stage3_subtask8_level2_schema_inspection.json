@@ -1,0 +1,143 @@
+{
+  "inputs": {
+    "impact_tambon_numerator": {
+      "path": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_impact_tambon_numerator.csv",
+      "row_count": 41133,
+      "columns": [
+        "year_be",
+        "disaster_type",
+        "province_code",
+        "province_name_th",
+        "district_code",
+        "district_name_th",
+        "subdistrict_code",
+        "subdistrict_name_th",
+        "village_event_row_count",
+        "unique_village_code_count",
+        "affected_people",
+        "affected_households",
+        "deaths",
+        "housing_damage",
+        "business_damage",
+        "agriculture_damage",
+        "livestock_damage",
+        "fishing_damage",
+        "transport_damage",
+        "health_damage",
+        "utilities_damage",
+        "numerator_source",
+        "module",
+        "bangkok_policy_applied"
+      ]
+    },
+    "relief_tambon_redistributed": {
+      "path": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/2_gold/stage3_fact_relief_tambon_redistributed_by_sector.csv",
+      "row_count": 111489,
+      "columns": [
+        "year_be",
+        "province_code",
+        "province_name_norm",
+        "district_code",
+        "district_name_th",
+        "subdistrict_code",
+        "subdistrict_name_th",
+        "relief_sector",
+        "provincial_relief_baht",
+        "redistributed_relief_baht",
+        "redistribution_basis",
+        "basis_value",
+        "basis_total",
+        "allocation_share",
+        "module",
+        "relief_source",
+        "basis_source",
+        "denominator_reference",
+        "redistribution_policy"
+      ]
+    },
+    "tambon_boundary_crosswalk": {
+      "path": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/dopa/stage3_dopa_tambon_boundary_code_crosswalk.csv",
+      "row_count": 8111,
+      "columns": [
+        "P_NAME_T",
+        "P_NAME_E",
+        "A_NAME_T",
+        "A_NAME_E",
+        "T_NAME_T",
+        "T_NAME_E",
+        "Area_km2",
+        "province_name_norm",
+        "district_name_norm",
+        "subdistrict_name_norm",
+        "province_code",
+        "province_name_th",
+        "district_code",
+        "district_name_th",
+        "subdistrict_code",
+        "subdistrict_name_th",
+        "tambon_match_count",
+        "match_status"
+      ]
+    },
+    "tambon_geometry_enriched": {
+      "path": "C:/Users/sitth/OracleWorkspace/Arun_Creagy/ψ/incubate/DCCE/CRI/data_system/data/1_silver/dopa/stage3_dopa_tambon_geometry_enriched.gpkg",
+      "row_count": 8111,
+      "columns": [
+        "P_NAME_T",
+        "P_NAME_E",
+        "A_NAME_T",
+        "A_NAME_E",
+        "T_NAME_T",
+        "T_NAME_E",
+        "Area_km2",
+        "province_name_norm",
+        "district_name_norm",
+        "subdistrict_name_norm",
+        "province_code",
+        "province_name_th",
+        "district_code",
+        "district_name_th",
+        "subdistrict_code",
+        "subdistrict_name_th",
+        "tambon_match_count",
+        "match_status",
+        "geometry"
+      ],
+      "crs": "EPSG:32647",
+      "geom_type": [
+        "Polygon"
+      ]
+    }
+  },
+  "derived": {
+    "impact_code_columns": [
+      "province_code",
+      "district_code",
+      "subdistrict_code",
+      "unique_village_code_count"
+    ],
+    "relief_code_columns": [
+      "province_code",
+      "district_code",
+      "subdistrict_code"
+    ],
+    "crosswalk_code_columns": [
+      "province_code",
+      "district_code",
+      "subdistrict_code"
+    ],
+    "geometry_code_columns": [
+      "province_code",
+      "district_code",
+      "subdistrict_code"
+    ],
+    "crosswalk_match_status_counts": {
+      "matched": 7697,
+      "unmatched": 402,
+      "ambiguous": 12
+    },
+    "crosswalk_unique_subdistrict_code_count": 7069,
+    "impact_unique_subdistrict_code_count": 6724,
+    "relief_unique_subdistrict_code_count": 6697
+  }
+}

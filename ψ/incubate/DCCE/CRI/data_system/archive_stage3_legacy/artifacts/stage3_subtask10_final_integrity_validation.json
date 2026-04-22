@@ -1,0 +1,51 @@
+{
+  "fk_checks": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0
+  },
+  "reconciliation_checks": {
+    "total": 6,
+    "passed": 5,
+    "failed": 1
+  },
+  "artifact_readability": {
+    "total": 23,
+    "readable": 23,
+    "unreadable_or_missing": 0
+  },
+  "inherited_blockers": [
+    {
+      "blocker_code": "SUBTASK6_UNALLOCATED_GROUPS",
+      "source_artifact": "stage3_subtask6_relief_redistribution_validation.json",
+      "metric": "unallocated_province_year_sector_rows",
+      "value": 4973,
+      "classification": "inherited_limitation",
+      "description": "Redistribution groups with no eligible tambon basis remain unallocated by design and are not silently imputed."
+    },
+    {
+      "blocker_code": "SUBTASK8_GEOMETRY_JOIN_INCOMPLETENESS_IMPACT",
+      "source_artifact": "stage3_subtask8_level2_tambon_validation.json",
+      "metric": "impact_rows_missing_matched_geometry",
+      "value": 2033,
+      "classification": "inherited_limitation",
+      "description": "Level 2 impact rows missing matched geometry keys persist from Subtask 2/8 crosswalk constraints."
+    },
+    {
+      "blocker_code": "SUBTASK8_GEOMETRY_JOIN_INCOMPLETENESS_RELIEF",
+      "source_artifact": "stage3_subtask8_level2_tambon_validation.json",
+      "metric": "relief_rows_missing_matched_geometry",
+      "value": 5627,
+      "classification": "inherited_limitation",
+      "description": "Level 2 relief rows missing matched geometry keys persist from Subtask 2/8 crosswalk constraints."
+    },
+    {
+      "blocker_code": "SUBTASK2_BANGKOK_TAMBON_MISMATCH",
+      "source_artifact": "stage3_subtask8_level2_tambon_validation.json|stage3_subtask9_level3_spatial_validation.json",
+      "metric": "bangkok_crosswalk_nonmatched_rows",
+      "value": 2,
+      "classification": "inherited_limitation",
+      "description": "Bangkok tambon mismatch evidence remains unresolved and is explicitly preserved under Bangkok policy framing."
+    }
+  ]
+}
