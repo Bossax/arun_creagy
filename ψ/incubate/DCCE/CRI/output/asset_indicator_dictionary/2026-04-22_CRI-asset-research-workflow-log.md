@@ -122,9 +122,22 @@
 - **Audit outputs captured**:
     1. Candidate concept clusters emerging from the 57-row register (green ecological systems; stormwater/flood systems; coastal defense/adaptation forms; built-environment thermal/structural adaptation; energy-utility-mobility-communication networks; food systems; financial buffers; human/social capability stocks).
     2. Major duplicate/near-duplicate and competing-label consolidation needs with AIR-ID traceability.
-    3. Robust canonical-row candidates versus placeholder/weak-evidence/exclusion flags (including governance-category drift exclusion for `AIR-011`).
+    3. Robust canonical-row candidates versus placeholder/weak-evidence/exclusion flags (including governance-category drift exclusion for `AIR-011` ==infrastructure regulations and institutions==).
     4. Cross-reference hooks to mismatch groups (`M-001` to `M-022`) for next-step concept hardening.
 - **Scope control**: This execution performed only the Step 21 asset-source audit plus workflow-log update; no Phase 3/4 drafting and no creation of `CRI_Asset_Concept_Summary_v1.md` or `CRI_Asset_Tagging_Dictionary_v1.md`.
+-
+>[!note]
+>AIR-011 refers to "infrastructure regulations and institutions". However, it is a significant outlier in the asset indicator dataset. My audit of the synthesis logs
+  reveals the following forensic details:
+>    * Concept Name: Infrastructure regulations and institutions
+>    * Source: Kim et al., 2022 (from the AS1 raw extraction batch)
+>    * Forensic Status: Excluded from canonical asset rows.
+>    * Reason for Exclusion: It exhibits "governance-process drift." While it was extracted in the asset stream, the synthesis register (ψ/incubate/DCCE/CRI/output/asset_indicator_dictionary/synthesis/asset_indicator_register.md) and the mismatch crosswalk (M-009) identify it as a Social/Governance process rather than a physical or ecological stock.
+>    * Current Role: It is retained only as a governance-activation reference to maintain category purity between the Asset (Hardware) and Governance (Software) layers of the CRI framework.
+>    *   File Provenance:
+> 	   * Primary definition: ψ/incubate/DCCE/CRI/output/asset_indicator_dictionary/synthesis/asset_indicator_register.md (Line 20)
+> 	   * Exclusion logic: ψ/incubate/DCCE/CRI/output/asset_indicator_dictionary/synthesis/2026-04-22_asset-source-audit_canonical-concept-candidates.md (Line 112)
+
 
 ### **[2026-04-22 23:33] Asset Concept-Hardening + Taxonomy-Alignment Intermediate Synthesis Completion (Pending Step 22)**
 - **Step completed**: Created the intermediate concept-hardening / taxonomy-alignment synthesis surface for the asset corpus, clustering extracted rows into hardened canonical concepts with explicit traceability and governance-link logic.

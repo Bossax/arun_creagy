@@ -190,3 +190,33 @@ The third gap is **threshold estimation**. Theory shows that thresholds and hyst
 The fourth gap is the scarcity of **paired longitudinal datasets** that jointly track stock growth, institutional quality, and realized service. Wealth accounts, ecosystem accounts, governance indicators, service ladders, audit frameworks, and outage statistics all exist, but they remain fragmented across scales and sectors. A major frontier is to integrate them into mismatch-oriented dashboards capable of detecting when hardware is accumulating faster than software. citeturn38view0turn38view1turn35view0turn39search2turn39search13
 
 The broad conclusion is therefore firm even where precise thresholds remain uncertain: **asset stocks are best understood as potential energy for resilience, not resilience itself**. In systems with robust governance processes, assets widen option sets, absorb shocks, and support adaptation. In systems with weak governance, the same assets can sit idle, degrade into white elephants, lock societies into maladaptive pathways, or amplify collapse when stress arrives. The decisive variable is not hardware alone, but the nonlinear relationship between hardware and software. citeturn28search9turn36search9turn29view0turn37view0
+---
+
+# APPENDIX: CRI Methodological Standard: The Triple-M Taxonomy
+
+**Version**: 1.0 (2026-04-23)
+**Status**: Frozen Anchor
+**Objective**: To prevent "Expert Drift" by explicitly defining the three types of "mismatch" encountered in the CRI framework development.
+
+## 1. M1: Functional Mismatch (The Strategy Layer)
+- **Definition**: The gap between an identified system stock (Asset/Hardware) and the institutional capacity to manage it (Governance/Software).
+- **Equation**: M = A - G
+- **Usage**: Used in the Strategic Crosswalk to identify policy blindspots.
+- **Example**: A city has high-resolution flood maps (Asset), but no mandate to use them in building-permit enforcement (Governance Gap).
+
+## 2. M2: Anchoring Mismatch (The Empirical Layer)
+- **Definition**: The gap between a theoretical concept (derived from literature) and the actual administrative data available in Thailand.
+- **Equation**: M = Concept - Data
+- **Usage**: Used in the Tagging Dictionary to identify "Data Investment" needs.
+- **Example**: The literature requires "Community Reciprocity Scales," but the only Thai trace is "Village Fund Participation Rates" (Proxy Gap).
+
+## 3. M3: Fidelity Mismatch (The Forensic Layer)
+- **Definition**: A failure in the research or synthesis process where the output deviates from the source evidence or user instructions.
+- **Equation**: M = Synthesis - Source
+- **Usage**: Used in the Workflow Log to track AI errors and corrections.
+- **Example**: The AI cites an internal note as "Evidence" instead of the primary literature source (Research Error).
+
+---
+
+## Mandate for the Oracle
+Every mention of "mismatch" in CRI deliverables must be prefixed with the corresponding ID (M1, M2, or M3). Any statement failing this protocol is to be treated as a hypothesis until audited.

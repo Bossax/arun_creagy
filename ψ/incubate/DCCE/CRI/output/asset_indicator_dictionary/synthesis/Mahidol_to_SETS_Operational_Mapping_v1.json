@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "audit_id": "CRI-AUDIT-2026-04-23",
+    "mapping_standard": "SETS Hardware/Software Audit Framework",
+    "transformation": "Risk Determinants (E-S-AC) -> Operational Resilience Layers (A-G)"
+  },
+  "operational_mapping": [
+    {
+      "original_metric_id": "E1",
+      "original_determinant": "Exposure (Flood Area)",
+      "concept": "Flood Risk Areas",
+      "sets_domain": "Technological/Ecological",
+      "cri_structural_layer": "Boundary Condition",
+      "functional_activation_role": "Hazard Spatial Constraint",
+      "forensic_note": "Not an asset; defines where Hardware must be activated."
+    },
+    {
+      "original_metric_id": "E4",
+      "original_determinant": "Exposure (Population)",
+      "concept": "Population in risk zones",
+      "sets_domain": "Social",
+      "cri_structural_layer": "Social Hardware (Stock)",
+      "functional_activation_role": "Service Demand Base",
+      "forensic_note": "Human stock to be protected; determines G required."
+    },
+    {
+      "original_metric_id": "E7",
+      "original_determinant": "Exposure (Settlement)",
+      "concept": "Settlement area in risk zone",
+      "sets_domain": "Technological",
+      "cri_structural_layer": "Technological Hardware (Stock)",
+      "functional_activation_role": "Physical Resilience Potential",
+      "forensic_note": "Built-up stock; requires Software for maintenance/SOPs."
+    },
+    {
+      "original_metric_id": "E10",
+      "original_determinant": "Exposure (Natural Area)",
+      "concept": "Natural ecosystem in risk zone",
+      "sets_domain": "Ecological",
+      "cri_structural_layer": "Ecological Hardware (Stock)",
+      "functional_activation_role": "NbS Mitigation Potential",
+      "forensic_note": "Re-categorized from 'Risk' to 'Asset Stock' in our model."
+    },
+    {
+      "original_metric_id": "S1",
+      "original_determinant": "Sensitivity (Inequality)",
+      "concept": "Gini Coefficient",
+      "sets_domain": "Social",
+      "cri_structural_layer": "Social Constraint",
+      "functional_activation_role": "Activation Threshold Multiplier",
+      "forensic_note": "High S1 raises the 'Software' performance requirement."
+    },
+    {
+      "original_metric_id": "AC3",
+      "original_determinant": "Adaptive Capacity (Infrastructure)",
+      "concept": "Infrastructure readiness",
+      "sets_domain": "Technological",
+      "cri_structural_layer": "Technological Hardware (Stock)",
+      "functional_activation_role": "Potential Coping Capacity",
+      "forensic_note": "Dormant stock; depends on G for activation."
+    },
+    {
+      "original_metric_id": "AC8",
+      "original_determinant": "Adaptive Capacity (NbS)",
+      "concept": "Nature-based measures",
+      "sets_domain": "Ecological",
+      "cri_structural_layer": "Ecological Hardware (Stock)",
+      "functional_activation_role": "Active Mitigation Potential",
+      "forensic_note": "The physical NbS asset."
+    },
+    {
+      "original_metric_id": "AC9",
+      "original_determinant": "Adaptive Capacity (Gov)",
+      "concept": "Gov-Private-People Participation",
+      "sets_domain": "Institutional",
+      "cri_structural_layer": "Governance Software (Process)",
+      "functional_activation_role": "Primary Activation Lever (G)",
+      "forensic_note": "The Software that turns AC3/AC8 into realized service."
+    },
+    {
+      "original_metric_id": "AC11",
+      "original_determinant": "Adaptive Capacity (Finance)",
+      "concept": "Financial support",
+      "sets_domain": "Institutional",
+      "cri_structural_layer": "Governance Software (Process)",
+      "functional_activation_role": "Activation Energy (Fuel)",
+      "forensic_note": "Resource allocation process for O&M."
+    },
+    {
+      "original_metric_id": "AC12",
+      "original_determinant": "Adaptive Capacity (Data)",
+      "concept": "Data and Academic Support",
+      "sets_domain": "Institutional",
+      "cri_structural_layer": "Governance Software (Process)",
+      "functional_activation_role": "Information Feedback Loop",
+      "forensic_note": "Enables precise activation of Hardware stocks."
+    }
+  ],
+  "mismatch_analysis": {
+    "M1_Functional_Alert": "The Mahidol list allows high AC3 to mask low AC9. Our framework flags this as M1 (Hardware without Software).",
+    "M2_Anchoring_Observation": "Most E-layer indicators rely on spatial overlays which introduce M2 Scale Mismatches."
+  }
+}

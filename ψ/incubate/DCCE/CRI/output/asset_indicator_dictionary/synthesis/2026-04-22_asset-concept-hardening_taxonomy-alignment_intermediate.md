@@ -45,7 +45,7 @@
 ## 4) Coverage and traceability check
 
 - AIR coverage in hardened concept groups: **56/57** rows (AIR-001 to AIR-057 excluding AIR-011 by design).
-- Governance-process drift row retained as reference-only: **AIR-011**.
+- Governance-process drift row retained as reference-only: **AIR-011** - ==infrastructure regulations and institutions==.
 - Full corpus coverage preserved for decision traceability: **57/57** accounted for.
 
 ## 5) Ready-to-use drafting boundary
