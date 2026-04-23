@@ -1,5 +1,8 @@
 # Info Log Index
 
+- [2026-04-22 10:45] 💡 Meeting Insight: Asset-Based Indicators as Stakeholder Bridge — Introducing stock indicators to bridge static to dynamic resilience mindsets.
+  - File: ψ/memory/logs/info/2026-04-22_10-45_asset-indicators-bridge.md
+
 - [2026-04-21 12:30] 💡 Applying dasymetric mapping using population introduces bias toward densely populated areas; historical hazard maps are a better proxy.
   - File: ψ/memory/logs/info/2026-04-21_12-30_dasymetric-bias-hazard-proxy.md
 

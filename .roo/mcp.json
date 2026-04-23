@@ -1,0 +1,40 @@
+{
+	"mcpServers": {
+		"oracle-v2": {
+			"command": "docker exec -i oracle-arun-creagy bun src/index.ts",
+			"args": [],
+			"env": {},
+			"cwd": "C:/Users/sitth/OracleWorkspace/engine",
+			"description": "Local Oracle Registry (Registry of Form)",
+			"alwaysAllow": [
+				"arra_learn"
+			]
+		},
+		"notebooklm": {
+			"command": "npx",
+			"args": [
+				"notebooklm-mcp@latest"
+			],
+			"timeout": 3000,
+			"env": {
+				"STEALTH_ENABLED": "true",
+				"NOTEBOOK_PROFILE_STRATEGY": "single", 
+				"TYPING_WPM_MAX": "3500",
+				"MIN_DELAY_MS": "0",
+				"MAX_DELAY_MS": "1",
+				"BROWSER_TIMEOUT": "300000"
+			},
+			"description": "Deep research and document extraction"
+		},
+		"perplexity": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@perplexity-ai/mcp-server"
+			],
+			"env": {
+				"PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}"
+			}
+		}
+	}
+}

@@ -18,8 +18,6 @@ Icon?
 ._*
 
 # 4.1 Local secrets / MCP config (do not commit)
-.roo/mcp.json
-.gemini/settings.json
 .gemini/mandates
 .roo/rules
 .vscode/

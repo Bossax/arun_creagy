@@ -11,12 +11,18 @@
       "cwd": "C:/Users/sitth/OracleWorkspace/engine",
       "env": {},
       "description": "Oracle Tools (Arra Oracle v2)"
-    },
+    }
+  ,
     "notebooklm": {
       "command": "npx",
-      "args": [
-        "notebooklm-mcp@latest"
-      ]
+      "args": ["notebooklm-mcp@latest"],
+      "env": {
+        "STEALTH_ENABLED": "true",
+        "NOTEBOOK_PROFILE_STRATEGY": "single",  
+        "TYPING_WPM_MIN": "350",
+        "TYPING_WPM_MAX": "550",
+        "BROWSER_TIMEOUT": "240000"
+      }
     },
     "perplexity": {
       "type": "stdio",
@@ -30,4 +36,4 @@
       }
     }
   }
-}
+}   
