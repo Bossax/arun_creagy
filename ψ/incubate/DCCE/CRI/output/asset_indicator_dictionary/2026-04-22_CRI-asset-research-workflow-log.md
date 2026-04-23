@@ -102,7 +102,7 @@
     6. Nonlinearity and threshold behavior, including lock-in and hysteresis-aware caution.
     7. Safe-interpretation guardrails: wealth-bias mitigation, hazard-exposure normalization, accessibility/distribution checks, and ranking-trap avoidance.
     8. Practical implications for **Phase 3 concept hardening** and **Phase 4 Thai anchor scanning**.
-- **Scope control**: This execution performed only framing-rules distillation and workflow-log update; no template audit, concept clustering, or drafting of `CRI_Asset_Concept_Summary_v1.md` / `CRI_Asset_Tagging_Dictionary_v1.md`.
+- **Scope control**: This execution performed only framing-rules distillation and workflow-log update; no template audit, concept clustering, or drafting of [[CRI_Asset_Concept_Summary_v1]] / [[ψ/incubate/DCCE/CRI/output/asset_indicator_dictionary/CRI_Asset_Tagging_Dictionary_v1|CRI_Asset_Tagging_Dictionary_v1]].
 
 ### **[2026-04-22 23:25] Governance-Template Audit Completion (Pending Step 20)**
 - **Step completed**: Audited governance-side template structure and section logic for transfer into asset-side Phase 3/4 drafting templates.
@@ -199,3 +199,9 @@
     - `synthesis/2026-04-22_phase3-4_structural-alignment-verification_note.md`
 - **Closure statement**: Outputs are structurally aligned and traceable from intermediate synthesis through final Phase 3/4 artifacts.
 - **Next frontier**: The next step is to run downstream implementation prioritization using the verified concept-to-anchor rows as the controlled input surface.
+
+### **[2026-04-23 11:45] Evidence-Provenance Correction (Asset Worksheet)**
+- **Corrective action**: Updated the `evidence` column in `CRI_Asset_Tagging_Dictionary_v1.md` to replace internal synthesis/file references with concise literature/report anchors.
+- **Correction rationale**: Align asset worksheet evidence style with governance-side practical citation pattern and preserve direct provenance to source literature.
+- **Source basis used for replacement**: `asset_indicator_register.md` and underlying extraction packets (`responses/2026-04-22_batch_AS1_SETS_lockin_raw.md`, `responses/2026-04-22_batch_AS2a_IPCC_raw.md`, `responses/2026-04-22_batch_AS2b_Zeng_Feldmeyer_raw.md`, `responses/2026-04-22_batch_AS3_socioeconomic_raw.md`).
+- **Scope control**: Only `evidence` cells in the Phase 4 worksheet tables were corrected; no structural schema changes and no indicator-field rewrites were performed.

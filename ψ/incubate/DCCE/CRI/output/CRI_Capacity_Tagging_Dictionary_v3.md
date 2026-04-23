@@ -54,12 +54,12 @@ For the `governance_pillar` column, we adopt these 6 canonical functions:
 | **Policy Integration**     | Adaptive          | Cross-sectoral adaptation inclusion | Kauffman & Hill 2021; v1.1 row: Policy integration score                                  |                          |                    |
 
 ### 3.2 Finance & Procurement
-| indicator_concept | capacity_category | proposed_thai_anchor | evidence | candidate_indicator_code | selection_decision |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Emergency budget flow** | Coping | Provincial Emergency Fund balance | Goonesekera & Olazabal 2022; v1.1 row: Emergency budget disbursement | | |
-| **Climate budget tagging** | Adaptive | Climate-specific budget codes (e-LAAS) | NICCDIES (Expenditure Tagging); v1.1 row: Climate budget tagging | | |
-| **Asset Mobilization Velocity** | Coping | *[New]* Private sector asset registries | Consensus.ai (Resource flow velocity); Zeng et al. 2022 (Resource distribution) | | |
-| **Resource allocation scale** | Adaptive | % budget plausibly resilience-related | Strategy& (Financing); v2 cluster: Financial mechanisms and resource allocation | | |
+| indicator_concept               | capacity_category | proposed_thai_anchor                    | evidence                                                                        | candidate_indicator_code | selection_decision |
+| :------------------------------ | :---------------- | :-------------------------------------- | :------------------------------------------------------------------------------ | :----------------------- | :----------------- |
+| **Emergency budget flow**       | Coping            | Provincial Emergency Fund balance       | Goonesekera & Olazabal 2022; v1.1 row: Emergency budget disbursement            |                          |                    |
+| **Climate budget tagging**      | Adaptive          | Climate-specific budget codes (e-LAAS)  | NICCDIES (Expenditure Tagging); v1.1 row: Climate budget tagging                |                          |                    |
+| **Asset Mobilization Velocity** | Coping            | *[New]* Private sector asset registries | Consensus.ai (Resource flow velocity); Zeng et al. 2022 (Resource distribution) |                          |                    |
+| **Resource allocation scale**   | Adaptive          | % budget plausibly resilience-related   | Strategy& (Financing); v2 cluster: Financial mechanisms and resource allocation |                          |                    |
 
 ### 3.3 Coordination & Partnerships
 | indicator_concept | capacity_category | proposed_thai_anchor | evidence | candidate_indicator_code | selection_decision |
