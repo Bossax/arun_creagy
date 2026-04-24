@@ -1,5 +1,8 @@
 # Info Log Index
 
+- [2026-04-24 16:12] Oracle DB guardrail: verify `journal_mode` before interpreting `wal_checkpoint`; WAL counters are mode-dependent and can be misleading in `DELETE` mode
+  - File: ψ/memory/logs/info/2026-04-24_16-12_oracle-db-journal-mode-checkpoint-guardrail.md
+
 - [2026-04-22 10:45] 💡 Meeting Insight: Asset-Based Indicators as Stakeholder Bridge — Introducing stock indicators to bridge static to dynamic resilience mindsets.
   - File: ψ/memory/logs/info/2026-04-22_10-45_asset-indicators-bridge.md
 
