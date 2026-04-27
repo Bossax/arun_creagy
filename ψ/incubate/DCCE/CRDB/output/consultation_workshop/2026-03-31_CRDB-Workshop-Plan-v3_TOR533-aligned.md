@@ -200,7 +200,17 @@ The bridge between morning and afternoon is implemented via **bridge artifacts**
 - Service bundle shortlist (Phase 1 vs later).
 - One completed service blueprint canvas (v0.7–0.9) per journey (or per consolidation group).
 
----
+
+>[!comment] comment on the morning session
+>1. We are developing "baseline data inventory" which is a metadata database of datasets from existing obvious climate risk data platforms developed by DCCE and Thai researchers. We have a prototype now.
+>2. We are developing "information product inventory" that is also a metadata database of web app platforms that are relevant to climate risk. The platform's capacity and use cases range from hazard visualization to biodiversity risk assessment. The variety is wide.
+>3. We could use these prototypes to give the participants and overview of data landscape
+>4. How can we condense the information embedded in the lists of data and platforms to set the same ground for all participants? 
+>5. Dont forget we have only 2 hours of co creation workshop. We need to be precise what we need from the participants. The templates and facilitation questions must be as precise as possible
+>6. Overall feeling for me is 'boring'. People are gathered and then they are forced to talk about flood. And for sure, the conversation will be dominated by  prominent flood and water management organizations whose main job is to manage water. I am unsure if this is the value of this workshop as we intended. let's rethink and real the objectives and values added of this workshop to us as a project team and the participants. 
+
+
+
 
 ### Morning-to-afternoon bridge (mechanical; not rhetorical)
 

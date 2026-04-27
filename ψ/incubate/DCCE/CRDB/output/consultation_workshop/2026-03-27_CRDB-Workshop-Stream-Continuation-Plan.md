@@ -37,7 +37,7 @@ It is intentionally operational: important dates, the next concrete deliverable,
 1) **Invitation letter deadline**: “issue invitations **early next month**”
    - Source: workshop logistics section in [`ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md`](ψ/incubate/DCCE/CRDB/output/2026-03-27_progress-meeting-summary_dir-toey.md)
 
-2) **April 30**: CRDB Workshop (bridge)
+1) **May 12**: CRDB Workshop (bridge)
    - Source: [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-my-idea-about-April-workshop.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-27-my-idea-about-April-workshop.md)
 
 3) **Late May**: TMD Workshop (NFCS validation/finalization)
