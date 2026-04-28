@@ -24,7 +24,7 @@ This session is organized to fulfill the formal requirements of the **TOR 5.3.3 
 ## 3. The Stakeholder Ecosystem (WMO NFCS Roles)
 To ensure the entire climate service value chain is represented, participants are organized into groups reflecting the standard roles defined by the World Meteorological Organization’s National Framework for Climate Services (NFCS).
 
-*   **Data Providers**: Agencies responsible for raw environmental observations, such as weather, water, and land data. They provide the scientific foundation and clarify data availability.
+*   **Data Providers**: Agencies responsible for raw environmental observations, such as weather, water, and land data. They provide the scientific foundation and clarify data availability. Includes socio economic data necessary for understanding impacts and assess adaptation option
 *   **Co-producers**: Researchers and specialists who translate raw data into risk models, indicators, and sectoral reports. They bridge the gap between science and policy.
 *   **Intermediaries**: Organizations that repackage technical information for specific sectors like agriculture or health, ensuring the information is relevant to the user's daily work.
 *   **End-Users**: Decision-makers, such as national planners, city mayors, and business leaders, who define the final information needs and operational triggers.

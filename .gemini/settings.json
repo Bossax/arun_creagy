@@ -17,11 +17,11 @@
       "command": "npx",
       "args": ["notebooklm-mcp@latest"],
       "env": {
-        "STEALTH_ENABLED": "true",
+        
         "NOTEBOOK_PROFILE_STRATEGY": "single",  
-        "TYPING_WPM_MIN": "350",
-        "TYPING_WPM_MAX": "550",
-        "BROWSER_TIMEOUT": "240000"
+        "TYPING_WPM_MIN": "500",
+        "TYPING_WPM_MAX": "700",
+        "BROWSER_TIMEOUT": "300000"
       }
     },
     "perplexity": {

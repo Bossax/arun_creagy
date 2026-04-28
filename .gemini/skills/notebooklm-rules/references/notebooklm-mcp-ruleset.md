@@ -39,8 +39,7 @@ Every NotebookLM MCP call must make these parameters explicit in the orchestrati
    - Either reuse a known open session or create a new one and record it in project context.
 
 3. `browser_options`
-   - Set explicit timeouts and stealth options that match the MCP environment config (for example, extended timeouts and stealth disabled for reliability).
-   - Treat timeouts as a **latency-budget** problem: long page loads and complex prompts may require longer allowances.
+   - do not add variables to this parameters unless explicitly demanded by the human.
 
 4. Source-binding assumptions
    - For each batch, specify whether it is corpus-wide or tied to a specific packet of named sources.
@@ -80,10 +79,9 @@ Design prompts so that NotebookLM stays in its strongest mode: structured extrac
 
 1. Single objective per prompt
    - Each prompt should target one theme (e.g., methodological capacities, framework indicators, governance clauses).
-
-2. Extraction-only language
-   - Allowed: "extract", "list", "identify", "quote", "cite", "classify within X".
-   - Forbidden: "harmonise", "deduplicate", "merge outputs", "QC the register", "rewrite the dictionary".
+2. Extraction-only and targeted query language
+   - Allowed: "extract", "list", "identify", "quote", "cite", "classify within X". and general question sentences. 
+   - Forbidden: "harmonise", "deduplicate", "merge outputs", "QC the register", "rewrite".
 
 3. Length and latency
    - Keep prompts concise and avoid overloading NotebookLM with orchestration logic.
@@ -115,44 +113,4 @@ NotebookLM MCP is sensitive to environment and auth state.
    - Cross-platform CLI and shell differences (Windows vs Git Bash vs container) can affect MCP startup.
    - Capture such issues in [`NotebookLM-MCP-troubleshooting.md`](ψ/inbox/NotebookLM-MCP-troubleshooting.md) and treat them as additional constraints.
 
----
-
-## 6. Failure handling and logging
-
-When things go wrong, prefer **explicit logging + rule updates** over silent workarounds.
-
-1. On source-fidelity failure
-   - Mark the batch as invalid.
-   - Do not ingest rows into canonical registers.
-   - Fix titles or prompts, then rerun.
-
-2. On timeouts
-   - Shorten or split prompts.
-   - Check browser timeouts and environment configuration.
-
-3. On auth failures
-   - Run health checks.
-   - Apply the re-auth workflow.
-
-4. Logging
-   - For each incident, log a short note in:
-     - [`NotebookLM-MCP-troubleshooting.md`](ψ/inbox/NotebookLM-MCP-troubleshooting.md); and/or
-     - a dated learning note under [`ψ/memory/learnings`](ψ/memory/learnings).
-
----
-
-## 7. Relationship to project workflows
-
-1. This ruleset is **global to the repo**.
-   - It applies to CRI, CRDB, foresight, and other projects that use NotebookLM.
-
-2. Project-specific plans
-   - CRI v2: plans under [`notebooklm_capacity_dictionary_v2`](ψ/incubate/DCCE/CRI/output/notebooklm_capacity_dictionary_v2) must comply with these rules.
-   - Other projects should reference this ruleset in their own NotebookLM planning notes.
-
-3. Skills separation
-   - This ruleset + guardrail skill define **how** NotebookLM may be used.
-   - Domain-specific skills and session plans define **what to ask** for each project.
-
-Together, they keep NotebookLM extraction reliable, auditable, and aligned with evidence standards.
 

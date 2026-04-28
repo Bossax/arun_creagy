@@ -60,8 +60,7 @@ Before applying this skill, gather:
    - The specific extraction goal for this batch (e.g., “methodological capacity indicator concepts”, “framework evidence rows”, “governance quotes”).
    - Whether the batch is **source-bound** (tied to named titles) or general corpus extraction.
 
-4. **Operational environment**
-   - Basic awareness of the current MCP environment and any known issues, as logged in [`NotebookLM-MCP-troubleshooting.md`](ψ/inbox/NotebookLM-MCP-troubleshooting.md).
+
 
 ---
 
@@ -150,37 +149,9 @@ Before calling `mcp--notebooklm--ask_question` (or any wrapper skill):
 1. Ensure the payload has:
    - `notebook_id`: explicit, taken from the project config or human input.
    - `session_id`: explicit, either reused from an open session or newly created and recorded.
-   - `browser_options`: explicit timeout and stealth options that align with the MCP environment config.
-2. Do **not** rely on implicit “active notebook” or default sessions.
-3. Record `notebook_id`, `session_id`, and the batch label in a local session log when implemented.
 
-### 9) Execute the batch and save raw outputs
+2. Record `notebook_id`, `session_id`, and the batch label in a local session log when implemented.
 
-1. Delegate the constructed prompt and parameters to the appropriate NotebookLM skill or MCP tool.
-2. On success:
-   - Save the raw NotebookLM response **verbatim** to a dedicated file (one file per run).
-   - Do not clean or reshape the raw output before saving.
-3. On failure (timeout, auth error, source-fidelity violation):
-   - Capture a short note in the troubleshooting log and/or a learning note under `ψ/memory/learnings/`.
-   - Apply the relevant failure-handling pattern from the ruleset.
-
-### 10) Harmonise locally (outside NotebookLM)
-
-1. Flatten and harmonise raw outputs **only in local repo notes or scripts**, not inside NotebookLM.
-2. Update canonical registers (for example, indicator concept registers) only after local QC.
-3. Treat NotebookLM as an extraction engine; treat the repo as the place where synthesis and governance live.
-
----
-
-## Files in this skill
-
-- [`SKILL.md`](.roo/skills/notebooklm-rules/SKILL.md) — entrypoint and workflow for the guardrail.
-- [`notebooklm-mcp-ruleset.md`](references/notebooklm-mcp-ruleset.md) — condensed ruleset derived from existing learnings and retros.
-
-External but important:
-- [`2026-04-08_notebooklm-source-fidelity-and-parameter-discipline.md`](ψ/memory/learnings/2026-04-08_notebooklm-source-fidelity-and-parameter-discipline.md)
-- [`2026-04-08_notebooklm-extraction-vs-local-harmonisation.md`](ψ/memory/learnings/2026-04-08_notebooklm-extraction-vs-local-harmonisation.md)
-- [`NotebookLM-MCP-troubleshooting.md`](ψ/inbox/NotebookLM-MCP-troubleshooting.md)
 
 ---
 
