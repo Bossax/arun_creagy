@@ -1,6 +1,6 @@
 # Master Workshop Design: CRDB Consultation Workshop
 **Date**: 2026-04-28  
-**Scope**: Morning Session (09:00 – 12:00)  
+**Scope**: Morning Session (09:00 – 12:00) 12 May 2026 
 **Location**: DCCE Main Hall  
 **Status**: Final Operational Design  
 
@@ -20,6 +20,11 @@ The new design abandons these pre-baked templates in favor of a **Reality Audit*
 *   **From Meeting to Network**: The "Marketplace" and "System Repair" mechanics build **Shared Ownership**, creating a long-term "Resilience Network."
 
 This pivot anchors the workshop in **Strategic Peer Inventory** and **System Engineering**, using reality-based metadata to bridge the gap between scientific supply and operational demand.
+
+### Strategic Extraction Objectives
+To ensure the session produces high-fidelity evidence for the CRDB project, we focus on two primary extraction points:
+1.  **Point 1: The Institutional Friction Map (Governance)**: We do not ask about governance; we observe it. By capturing the **Red Stickers** placed during the "System Repair" round, we identify the specific MOUs, security rules, or format barriers that currently block the flow of information between agencies.
+2.  **Point 2: The Utility Gap & MVP Commitment (Data Strategy)**: We identify **User-Validated Needs**. By capturing the **Gold Cards** (Missing Pieces), we identify exactly which datasets or services DCCE must prioritize for the NCAIF MVP based on the specific "Triggers" defined by decision-makers.
 
 ---
 
@@ -42,16 +47,16 @@ Traditional workshops often devolve into passive "information gathering" session
 
 ## 3. MORNING SESSION TIMELINE
 
-| Time | Duration | Session Phase | Objective |
-| :--- | :--- | :--- | :--- |
-| **09:00 - 09:15** | 15m | **Opening Ceremony** | Formalizing the mission and administrative mandate. |
-| **09:15 - 09:45** | 30m | **Project Background & Knowledge Sharing** | Anchoring the CRDB within the NCAIF framework and CDM rationale. |
-| **09:45 - 10:00** | 15m | **Session 1 Briefing** | Narrative setup: Introducing the "Broken Chain" metaphor. |
-| **10:00 - 10:30** | 30m | **Session 1 Activity: Strategic Peer Inventory** | Mapping "Who has what?" and "Who needs what?" |
-| **10:30 - 10:45** | 15m | **Coffee Break** | Informal peer networking and "Poster Editing." |
-| **10:45 - 11:30** | 45m | **Session 2 Activity: System Engineering** | "Repairing the Chain": Constructing realistic data workflows. |
-| **11:30 - 11:45** | 15m | **Team Work Presentation** | Sharing the "Top Unlocks" discovered by each group. |
-| **11:45 - 12:00** | 15m | **Morning Synthesis** | Connecting the data "Reality Audit" to the afternoon NCAIF discussion. |
+| Time              | Duration | Session Phase                                    | Objective                                                              |
+| :---------------- | :------- | :----------------------------------------------- | :--------------------------------------------------------------------- |
+| **09:00 - 09:15** | 15m      | **Opening Ceremony**                             | Formalizing the mission and administrative mandate.                    |
+| **09:15 - 09:45** | 30m      | **Project Background & Knowledge Sharing**       | Anchoring the CRDB within the NCAIF framework and CDM rationale.       |
+| **09:45 - 10:00** | 15m      | **Session 1 Briefing**                           | Narrative setup: Introducing the "Broken Chain" metaphor.              |
+| **10:00 - 10:30** | 30m      | **Session 1 Activity: Strategic Peer Inventory** | Mapping "Who has what?" and "Who needs what?"                          |
+| **10:30 - 10:45** | 15m      | **Coffee Break**                                 | Informal peer networking and "Poster Editing."                         |
+| **10:45 - 11:30** | 45m      | **Session 2 Activity: System Engineering**       | "Repairing the Chain": Constructing realistic data workflows.          |
+| **11:30 - 11:45** | 15m      | **Team Work Presentation**                       | Sharing the "Top Unlocks" discovered by each group.                    |
+| **11:45 - 12:00** | 15m      | **Morning Synthesis**                            | Connecting the data "Reality Audit" to the afternoon NCAIF discussion. |
 
 ---
 
@@ -80,3 +85,9 @@ Traditional workshops often devolve into passive "information gathering" session
 
 ---
 *Document produced by Oracle Forensic Audit (ψ) - Anchored in project evidence.*
+
+
+# Keyword 🔑
+- Usability gap - I should describe from UI UX perspective the propagation of information and messages. Psychology and communication strategy. 
+- ***Domain Challenge*** vs ***Informational Challenge***
+	- Morning session focuses on informational challenge
