@@ -99,6 +99,25 @@ From a computational and theoretical perspective, the resilience index offers th
 In summary, while the ==Risk Index identifies _where_ a system is likely to fail, the Resilience Index quantifies the system's _capacity_ to reorganize and improve despite those threats==
 
 
+# Indicator selection
+
+The indicators in this research were selected through a comprehensive process that combined literature reviews, stakeholder participation, and statistical modeling. The selection process involved the following key steps:
+
+**1. Literature Review of Global Indices** Researchers first reviewed established global climate risk indices—such as the INFORM Risk Index, World Risk Index (WRI), ND-GAIN, and the Germanwatch Climate Risk Index (CRI)—to understand existing frameworks, metrics, and assessment methods. This formed the foundational framework for Thailand's specific context.
+
+**2. Participatory Screening via Multi-Criteria Analysis (MCA)** The project heavily relied on a participatory approach, organizing focus group meetings with experts, central policymakers (from the Department of Climate Change and Environment), and provincial practitioners. During a major screening meeting involving 33 different agencies, the proposed indicators were evaluated and filtered based on four specific criteria:
+
+- **Relevance (ความเกี่ยวข้อง):** How well the indicator reflects climate risks and impacts.
+- **Data availability (การมีข้อมูล):** Whether data can be reliably sourced, especially at the provincial level.
+- **Measurability (การวัดได้):** Whether the indicator can be quantitatively or qualitatively measured.
+- **Appropriateness (ความเหมาะสม):** How suitable the indicator is for Thailand's specific geographic and socio-economic context.
+
+**3. Weighting via Analytic Hierarchy Process (AHP)** After the initial screening, the indicators were weighted using the Analytic Hierarchy Process (AHP). This step gathered input from both policymakers and local practitioners to assign relative importance to each indicator. Interestingly, the AHP process revealed that policymakers placed the highest priority on "Exposure" to hazards, while local practitioners prioritized the "Climate Hazards" themselves.
+
+**4. Statistical Validation and Final Selection (PLS-SEM & CRITIC)** To finalize the selection and ensure scientific accuracy, the researchers applied statistical models to test the indicators against actual historical climate impact data (such as actual damages and losses from the past 10 years).
+
+- **Partial Least Squares Structural Equation Modeling (PLS-SEM):** This was used to verify that the selected indicators for Hazard, Exposure, Vulnerability, and Response had a statistically significant causal relationship with actual climate impacts.
+- **CRITIC Method (CRiteria Importance Through Intercriteria Correlation):** This statistical weighting method was applied to filter out redundant indicators that had high correlation with one another (for example, overlapping temperature and heat indices), ensuring that only the most distinct and impactful indicators were selected for the final index.
 
 
 
