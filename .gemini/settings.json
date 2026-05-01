@@ -18,10 +18,7 @@
       "args": ["notebooklm-mcp@latest"],
       "env": {
         
-        "NOTEBOOK_PROFILE_STRATEGY": "single",  
-        "TYPING_WPM_MIN": "500",
-        "TYPING_WPM_MAX": "700",
-        "BROWSER_TIMEOUT": "300000"
+        "NOTEBOOK_PROFILE_STRATEGY": "single"
       }
     },
     "perplexity": {

@@ -6,7 +6,7 @@ Do not use a command syntax starts with '$'
 
 ## 1. Environment & Commands
 - **Default Shell**: cmd.exe 
-- **The Brain (ψ)**: Use PowerShell for all path operations involving the `ψ` character.
+- **The Brain (ψ)**: Alwasy use PowerShell for all path operations involving the `ψ` character.
 - **Path Syntax**: 
   - **Tool Parameters**: Forward slashes (`/`) (e.g., `read_file(file_path="ψ/memory/...")`).
   - **Shell Commands**: Backslashes (`\`) (e.g., `ls ψ\memory`).

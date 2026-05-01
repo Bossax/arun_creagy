@@ -33,6 +33,9 @@ For day-to-day management and history, use these ledgers as the primary control 
 4) **Consultation storyline & visuals:** profile-first communication; avoid “ranking trap”.
    - Anchor: [CRI_Urban_Resilience_Frameworks_Analysis.md](CRI_Urban_Resilience_Frameworks_Analysis.md)
 
+5) **Scoring harmonization note (Phase 2):** rules for harmonizing mixed indicator types (binary / ordinal / counts / ratios), missingness handling, and cross-pillar consistency.
+   - Anchor: [`output/2026-05-01_harmonizing-mixed-indicators_scoring-note.md`](output/2026-05-01_harmonizing-mixed-indicators_scoring-note.md)
+
 ### Evidence governance for key outputs
 
 - All key outputs above must be backed by entries in [`output/CRI-Evidence-Registry.md`](ψ/incubate/DCCE/CRI/CRI-Evidence-Registry.md).
@@ -106,6 +109,7 @@ Based on current CRI docs, treat these as the default baseline unless we explici
    - Ensure indicators can be grouped as **asset vs process** consistently.
    - Define confidence/data-richness scoring consistently (0–3).
    - Anchor: [CRI_Capacity_Tagging_Dictionary.md](CRI_Capacity_Tagging_Dictionary.md)
+   - Scoring harmonization reference: [`output/2026-05-01_harmonizing-mixed-indicators_scoring-note.md`](output/2026-05-01_harmonizing-mixed-indicators_scoring-note.md)
 
 4) **Prototype the Phase 2 “profile-first” product**
    - One sample province: produce a capacity radar/profile + gap diagnostics + confidence overlay.

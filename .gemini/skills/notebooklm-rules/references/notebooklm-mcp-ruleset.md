@@ -41,7 +41,10 @@ Every NotebookLM MCP call must make these parameters explicit in the orchestrati
 3. `browser_options`
    - do not add variables to this parameters unless explicitly demanded by the human.
 
-4. Source-binding assumptions
+4. `stealth`
+   - do not set any variables to this parameters. 
+  
+5. Source-binding assumptions
    - For each batch, specify whether it is corpus-wide or tied to a specific packet of named sources.
    - Encode this assumption in the prompt itself.
 

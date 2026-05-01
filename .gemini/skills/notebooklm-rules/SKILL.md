@@ -13,7 +13,7 @@ It does **not** implement the low-level MCP client itself; instead, it tells the
 - enforce strict source-fidelity gates, and
 - log each batch in a traceable way.
 
-For detailed rules, see [`notebooklm-mcp-ruleset.md`](references/notebooklm-mcp-ruleset.md).
+For detailed rules, see [`notebooklm-mcp-ruleset.md`](../references/notebooklm-mcp-ruleset.md).
 
 ---
 
