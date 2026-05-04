@@ -60,7 +60,7 @@ This section should stay brief and factual: NCAIF is hosted inside the DCCE webs
 
 #### 1.7 Product-reality diagnosis: spatial risk map constraints
 
-The spatial risk-map report is the most mature product domain currently available. This subsection should remain factual about the three product layers (model/indices, user-facing maps, backend services) and the explicit boundary conditions (provincial scale, relative index, static socio-economic assumptions), using [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md) as the anchor. Applications to CDM, NCAIF, and MVPs should be deferred to later sections.
+The spatial risk-map report is the most mature product domain currently available. This subsection should remain factual about the three product layers (model/indices, user-facing maps, backend services) and the explicit boundary conditions (provincial scale, relative index, static socio-economic assumptions), using [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12-รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์-notebooklm%20extraction.md) as the anchor. Applications to CDM, NCAIF, and MVPs should be deferred to later sections.
 
 #### 1.8 UX/IA diagnosis: design principles that shape sitemap decisions
 

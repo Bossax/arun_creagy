@@ -4,7 +4,7 @@
 
 Reconcile the three evidence packs for NCAIF refinement into explicit design decisions before revising the sitemap and interim-report insert.
 
-- **Pack A** = product reality and constraints from [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md)
+- **Pack A** = product reality and constraints from [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12-รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์-notebooklm%20extraction.md)
 - **Pack B** = TOR and interim-report framing from [`ψ/incubate/DCCE/CRDB/CRDB - TOR.md`](ψ/incubate/DCCE/CRDB/CRDB%20-%20TOR.md), [`ψ/incubate/DCCE/CRDB/Task 5.5 Scope.md`](ψ/incubate/DCCE/CRDB/Task%205.5%20Scope.md), and [`ψ/incubate/DCCE/CRDB/Interim Report Writing Plan.md`](ψ/incubate/DCCE/CRDB/Interim%20Report%20Writing%20Plan.md)
 - **Pack C** = UI benchmark principles from [`ψ/incubate/DCCE/CRDB/inbox_source/2026-03-12 - User Experience Design Principles for National Climate Change Adaptation Information Services.md`](ψ/incubate/DCCE/CRDB/inbox_source/2026-03-12%20-%20User%20Experience%20Design%20Principles%20for%20National%20Climate%20Change%20Adaptation%20Information%20Services.md)
 

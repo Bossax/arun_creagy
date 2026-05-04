@@ -10,7 +10,7 @@ Create the analysis artifacts that will serve as the evidence base for drafting 
 - The **current data product landscape table** must explicitly include:
   - DCCE website content analysis from [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md)
   - risk-map product content and limitations currently carried in Chapter 1 related materials
-  - Pack A product evidence from [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md), especially its three-part product structure, scale and temporal coverage, index limitations, backend-service description, and usage caveats
+  - Pack A product evidence from [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12-รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์-notebooklm%20extraction.md), especially its three-part product structure, scale and temporal coverage, index limitations, backend-service description, and usage caveats
 - The **Chapter 1 → Chapter 2 handoff analysis** must compare:
   - [`ψ/incubate/DCCE/CRDB/output/2026-03-13-CRDB-Interim-Report-Section-1.6-1.12-Draft-th-v2.md`](ψ/incubate/DCCE/CRDB/output/2026-03-13-CRDB-Interim-Report-Section-1.6-1.12-Draft-th-v2.md)
   - [`ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-CRDB-Interim-Report-Chapter-1-Draft-v3.md)
@@ -34,7 +34,7 @@ Read and inventory the core source materials that will feed the evidence package
 - interview summaries in [`ψ/incubate/DCCE/CRDB/output/Interview summary notes`](ψ/incubate/DCCE/CRDB/output/Interview%20summary%20notes)
 - current product references in [`ψ/incubate/DCCE/CRDB/output/FGD 1 result.md`](ψ/incubate/DCCE/CRDB/output/FGD%201%20result.md)
 - DCCE website analysis in [`ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md`](ψ/incubate/DCCE/CRDB/output/2026-03-12-DCCE_Website_Content_Gap_Summary.md)
-- risk-map product evidence in [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12%20-%20รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์%20%20-notebooklm%20extraction.md)
+- risk-map product evidence in [`ψ/inbox/2026-03-12 - รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์  -notebooklm extraction.md`](ψ/inbox/2026-03-12-รายงานฐานข้อมูลความเสี่ยงเชิงพื้นที่จากการเปลี่ยนแปลงสภาพภูมิอากาศไทยฉบับสมบูรณ์-notebooklm%20extraction.md)
 - Chapter 2 framing in [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-reframed-writing-plan-and-outline.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter2-reframed-writing-plan-and-outline.md)
 - restructuring rules in [`ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-Chapter2-restructuring-decision-note.md`](ψ/incubate/DCCE/CRDB/output/2026-03-17-Chapter1-Chapter2-restructuring-decision-note.md)
 

@@ -1,9 +1,9 @@
 ---
 name: oracle-bridge
-description: v3.0.0 | Oracle Scaffolding Engine. Use to sync the Oracle fleet to the new operational paradigm. Trigger manually when detecting environment drift or when instructions (GEMINI.md, CLAUDE.md) require modularization.
+description: v3.5.2 | Scaffolding engine that transforms fleet mandates into agent-specific instruction systems while ensuring ultra-lean context and cross-agent tool stability.
 ---
 
-# /bridge — Oracle Scaffolding Engine
+# /bridge — Oracle Scaffolding Engine (v3.5.2)
 
 **Goal**: Transform neutral fleet mandates into agent-specific instruction systems while ensuring workspace stability.
 

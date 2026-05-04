@@ -1,22 +1,46 @@
 {
-  "servers": {
+  "general": {
+    "plan": {
+      "directory": "plans"
+    }
+  },
+  "mcpServers": {
     "oracle-v2": {
-      "command": "docker exec -i {{ORACLE_CONTAINER}} bun src/index.ts",
-      "args": [],
-      "env": {},
+      "command": "docker",
+      "args": ["exec", "-i", "{{ORACLE_CONTAINER}}", "bun", "src/index.ts"],
       "cwd": "C:/Users/sitth/OracleWorkspace/engine",
-      "description": "Local Oracle Registry (Registry of Form)"
+      "description": "Local Oracle Registry (Registry of Form)",
+      "alwaysAllow": ["arra_learn", "arra_threads", "arra_search", "arra_trace"]
     },
     "notebooklm": {
       "command": "npx",
       "args": ["notebooklm-mcp@latest"],
-      "description": "Deep research and document extraction"
+      "env": {
+        "NOTEBOOK_PROFILE_STRATEGY": "single"
+      },
+      "description": "Research from pre-uploaded sources on notebooklm",
+      "alwaysAllow": ["list_notebooks", "get_notebook", "select_notebook", "get_health", "setup_auth", "ask_question"]
     },
     "perplexity": {
+      "type": "stdio",
       "command": "npx",
       "args": ["-y", "@perplexity-ai/mcp-server"],
-      "env": { "PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}" },
-      "description": "AI web search"
+      "env": { 
+        "PERPLEXITY_API_KEY": "{{ENV:PERPLEXITY_API_KEY}}" 
+      },
+      "description": "AI web search",
+      "alwaysAllow": ["perplexity_ask"]
+    },
+    "brave-search": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-brave-search"
+			],
+			"env": {
+				"BRAVE_API_KEY": "{{ENV:BRAVE_API_KEY}}"
+			},
+      "description": "web search"
     }
   }
 }
