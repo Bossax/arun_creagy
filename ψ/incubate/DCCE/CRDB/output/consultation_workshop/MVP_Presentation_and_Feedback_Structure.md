@@ -1,3 +1,7 @@
+Superseded by [[ψ/incubate/DCCE/CRDB/output/consultation_workshop/mentimeter_and_breakout_questions_activity2|mentimeter_and_breakout_questions_activity2]]
+
+---
+
 # Workshop Guide: MVP Presentation & Feedback Structure
 **Project**: Climate Resilience Data Board (CRDB / NCAIF)
 **Goal**: Validate Phase 1 requirements, confirm institutional fit, and discover missing workflow links.
