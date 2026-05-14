@@ -1,46 +1,57 @@
-# CRDB Post-Workshop Delivery Strategy (May 13, 2026)
+# CRDB Post‑Workshop Delivery Strategy → July 6 Submission (2026‑05‑13)
 
-## 1. Context
-Following the **Consultation Workshop (May 12-13)**, the project transitions from "Design & Consultation" to **"Production & Ratification."** This document outlines the high-level workflow required to deliver the 10 mandated deliverables for the **July 6th deadline**.
+## Purpose
 
-## 2. The Delivery Workflow (May 13 – July 6)
+After the **Consultation Workshop (May 12–13)**, CRDB shifts from “design & consultation” to **production & ratification**. This note is the **execution framing** for delivering the 10 mandated deliverables by **July 6**.
 
-The path to July 6th follows a four-stage sequence where workshop outputs act as the primary fuel for all production streams.
+## Workflow stages (May 13 → July 6)
 
-### Stage 1: Ingestion & Synthesis (Evidence Base)
-*   **Action**: Process raw workshop outputs (Mentimeter, Table Notes, Marketplace rankings).
-*   **Objective**: Convert "Post-it notes" into structured technical requirements and demand signals.
-*   **Feeds**: All downstream deliverables.
+### Stage 1 — Ingestion & synthesis (evidence base)
 
-- send interview invitation letter to Dr. Pongsak per [[ψ/incubate/DCCE/CRDB/output/Interview summary notes/Interview Summary - NESDC|Interview Summary - NESDC]]
+- Convert raw workshop outputs (Mentimeter, table notes, rankings) into structured requirements and demand signals.
+- Feed: Design report, governance, technical assets, and content outputs.
 
-### Stage 2: Structural Consolidation (Design & Governance)
-*   **Action**: Integrate existing anchors (Sitemap v4, Governance Strategy v3) into the formal **Design Report**.
-*   **Objective**: Incorporate workshop feedback regarding simplicity, usability, and data liability into the final design narrative.
+### Stage 2 — Structural consolidation (design & governance)
 
-- create 2-3 alternative designs of the NCAIF
-- do content matching analysis to demonstrate the readiness level of creating the 1st version of the platform with groundwork
+- Consolidate anchors into the Design Report: NCAIF structure + governance posture.
+- Practical work:
+	- produce 2–3 alternative NCAIF designs;
+	- run content matching analysis (readiness + groundwork);
+	- interview Dr. Pongsak (pipeline + incorporation options).
 
-- Interview Dr. Pongsak to understand his work and potential incorporation of this framework and data pipeline in DCCE data system
-- The reporting form is basically ELT processes of ingesting the current disaster data formats to match LDM of disaster data
+>[!content]
+>NCAIF content matching analysis was done in [[ψ/incubate/DCCE/CRDB/inbox_note/2026-05-04-revise-NCAIF-lower-level-structures|2026-05-04-revise-NCAIF-lower-level-structures]] which was fed to [[ψ/incubate/DCCE/CRDB/output/NCAIF_Detailed_Sitemap_v4|NCAIF_Detailed_Sitemap_v4]] 
+>Revision is needed. 
 
 
-### Stage 3: Technical Specification (Data Assets)
-*   **Action**: Finalize the **Loss & Damage Logical Data Model (LDM)** and **Baseline Inventories**.
-*   **Objective**: Transition from conceptual models (CDM) to physical reporting templates and structured catalogs.
+### Stage 3 — Technical specification (data assets)
 
-### Stage 4: High-Volume Production (Content & Media)
-*   **Action**: Draft the **10 Foundation Articles** and design accompanying **Infographics/Print Media**.
-*   **Objective**: Transform the technical framework into policy-relevant knowledge sets for the 6 NAP sectors.
-- design the theme of these 10 articles
-- propose to Tik and Direct Toey
+- Finalize **Loss & Damage LDM** + baseline inventories.
+- Interpret reporting forms as an **ELT intake contract** (external disaster formats → staging → Loss & Damage tables).
 
-- from the latest NCAIF IA and content matching analysis, propose data ownership structure based on the content domains and mission + ongoing
-- need to find a way to leverage the IT team, internal data hub development project to go beyoing sharing machine-readable data to conver 'content' and other data assets/products (and of course treat the content webpage as a product)\.
-- 
-### Stage 5: Internal Ratification (Commitment)
-*   **Action**: Conduct **FGD3 (Internal DCCE)**.
-*   **Objective**: Present the consolidated "Ecosystem Consensus" to secure DCCE internal ownership of the roadmap.
+### Stage 4 — Content & media production (treated as governed assets)
+
+Stage‑4 outputs (10 foundation articles, infographics, print media) must be treated as **managed information assets** (owned, versioned, and linked to data/methods). Otherwise next‑FY platform work inherits a “messy portal‑of‑portals” failure mode.
+
+Stage‑4 therefore includes:
+
+- **Content domain ownership** proposal (mission‑based; includes ongoing maintenance responsibilities).
+- **CDM governance for content + datasets** (CDM is the semantic organizer; without it NCAIF degenerates into unstructured pages).
+- **Reality constraint**: CDM is intentionally hybrid (“half‑breed”) between existing analytical workflows/products (esp. risk & impact assessment) and academically rigorous knowledge domains. This is a governance problem (boundaries + ownership), not an error.
+
+> [!note] Interface with DCCE IT data catalog (metadata alignment)
+> Baseline inventory fields must be compatible with (mappable to) the IT catalog metadata standard (DGA‑aligned), without creating a competing schema.
+
+### Stage 5 — Internal ratification (commitment)
+
+- Conduct FGD3 (internal DCCE) to secure role/ownership commitments and operating rhythm.
+- Director Nid is required to **endorse data‑domain ownership for the CDM** (semantic governance within her supervised climate risk/adaptation system scope), not to “mandate” the IT team.
+
+Minimum decision asks to secure before FGD3:
+
+1) Endorse **CDM domain ownership** (domain owners/stewards; including content‑as‑asset governance).
+2) Authorize the **CDM→NCAIF translation rule** (all datasets/pages/packs map to CDM subject areas).
+3) Authorize the **catalog interface rule** (baseline inventories align to IT catalog metadata; mapping is documented).
 
 ## 3. Deliverable Grouping Map
 
@@ -62,6 +73,27 @@ The path to July 6th follows a four-stage sequence where workshop outputs act as
 *   **July 06**: Final Submission.
 
 ---
-**Reference Artifacts**:
-- [`ψ/incubate/DCCE/CRDB/inbox_note/2026-05-13-project-reorientation-after-workshop.md`](ψ/incubate/DCCE/CRDB/inbox_note/2026-05-13-project-reorientation-after-workshop.md)
-- [`ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md)
+## Context retrieval anchors (read these first next session)
+
+Canonical navigation:
+- [`CRDB-Execution-Architecture-Index.md`](ψ/incubate/DCCE/CRDB/output/CRDB-Execution-Architecture-Index.md:1)
+
+Execution spine + tracks:
+- [`2026-04-17_CRDB-Integrated-Execution-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-17_CRDB-Integrated-Execution-Plan.md:1)
+- Track A: [`2026-04-17_CRDB-CDM-Operationalization-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-17_CRDB-CDM-Operationalization-Plan.md:1)
+- Track B: [`2026-04-17_CRDB-NCAIF-Service-Architecture-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-17_CRDB-NCAIF-Service-Architecture-Plan.md:1)
+- Track C: [`2026-04-17_CRDB-Governance-and-Data-Standards-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-17_CRDB-Governance-and-Data-Standards-Plan.md:1)
+- Track D: [`2026-04-17_CRDB-MVD-and-Loss-Damage-Operational-Plan.md`](ψ/incubate/DCCE/CRDB/output/2026-04-17_CRDB-MVD-and-Loss-Damage-Operational-Plan.md:1)
+
+Key architecture/gov anchors:
+- CDM: [`Conceptual Data Model for climate risk and adaptation data system.md`](ψ/incubate/DCCE/CRDB/output/Conceptual%20Data%20Model%20for%20climate%20risk%20and%20adaptation%20data%20system.md:10)
+- Workflow/MVP: [`NCAIF — Workflow patterns + MVP v3.md`](ψ/incubate/DCCE/CRDB/output/NCAIF%20%E2%80%94%20Workflow%20patterns%20%2B%20MVP%20v3.md:151)
+- Governance stance: [`2026-03-05-Feature-Driven Data Governance Strategy v3.md`](ψ/incubate/DCCE/CRDB/output/2026-03-05-Feature-Driven%20Data%20Governance%20Strategy%20v3.md:58)
+- IT boundary: [`2026-03-24_CRDB-DCCE-IT-Integration-Note.md`](ψ/incubate/DCCE/CRDB/output/2026-03-24_CRDB-DCCE-IT-Integration-Note.md:44)
+
+Content‑as‑asset pivot:
+- Concept: [`2026-04-17_CRDB-Integrated-Concept-Proposal.md`](ψ/incubate/DCCE/CRDB/output/2026-04-17_CRDB-Integrated-Concept-Proposal.md:1)
+- Entities draft: [`2026-04-17_CRDB-CDM-Content-Entities-Draft.md`](ψ/incubate/DCCE/CRDB/output/2026-04-17_CRDB-CDM-Content-Entities-Draft.md:13)
+
+Project management history:
+- Change log: [`CRDB-Change-Log.md`](ψ/incubate/DCCE/CRDB/CRDB-Change-Log.md:1)
