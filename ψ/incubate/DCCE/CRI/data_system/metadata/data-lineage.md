@@ -21,6 +21,7 @@ This document provides a human-readable map of the transformation logic used to 
         *   **Aggregation**: Consolidates 1,872 provincial records for both Hazard and Sector-based relief.
 
 ## 3. DOPA Spatial Spine
+- **URL**: https://drive.google.com/drive/folders/1zi3Z0l7wvsGN1p5YIWVVL3LFs3WnS7VQ
 *   **Raw Source**: `0_bronze/dopa/thailanda-administrative-boundary/*.shp`
 *   **Processing Script**: `prep_dopa_boundaries.py`
     *   **Logic**:

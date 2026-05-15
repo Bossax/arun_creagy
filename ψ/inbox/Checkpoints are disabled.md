@@ -1,0 +1,1 @@
+Checkpoints are disabled because a nested git repository was detected at: ψ\learn\Soul-Brews-Studio\oracle-v2\origin. To use checkpoints, please remove or relocate this nested git repository.
