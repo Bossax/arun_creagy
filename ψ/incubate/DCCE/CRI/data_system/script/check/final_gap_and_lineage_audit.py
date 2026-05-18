@@ -2,10 +2,10 @@ import pandas as pd
 import os
 
 BASE_DIR = r"C:\Users\sitth\OracleWorkspace\Arun_Creagy\ψ\incubate\DCCE\CRI\data_system\data"
-GOLD_SPINE_PATH = os.path.join(BASE_DIR, '2_gold', 'dim_location_master.csv')
+SILVER_SPINE_PATH = os.path.join(BASE_DIR, '1_silver', 'dopa', 'dim_location_master.csv')
 
-def load_gold_spine():
-    df = pd.read_csv(GOLD_SPINE_PATH, dtype={'province_code': str})
+def load_silver_spine():
+    df = pd.read_csv(SILVER_SPINE_PATH, dtype={'province_code': str})
     return df[['province_name_th', 'province_code']].drop_duplicates()
 
 def audit_file(file_path, name, name_col, spine):
@@ -37,7 +37,7 @@ def audit_file(file_path, name, name_col, spine):
         print(f"Column '{col:25}': Zeros={zeros:5} | Nulls={nulls:5}")
 
 def main():
-    spine = load_gold_spine()
+    spine = load_silver_spine()
     
     # 1. TEI Pilot Files
     audit_file(os.path.join(BASE_DIR, '0_bronze', 'tei_pilot', 'casualties_by_hazard_2559_2566.csv'), "TEI Casualties", "province_name_th", spine)
